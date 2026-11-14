@@ -1,7 +1,7 @@
 {
   "name": "AICyberGuardian PS5 Catalogs Hub",
   "version": "1.0.0",
-  "generatedAt": "2026-11-14T22:37:55Z",
+  "generatedAt": "2026-11-14T22:48:03Z",
   "rawBase": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs",
   "sources": [
     {
@@ -81,7 +81,7 @@
       "name": "Jobee'sLair Homebrew (adapted)",
       "url": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs/jobeeslair-homebrew.json",
       "items": 362,
-      "sha256": "57bed1bb93852569c587f913ba218c544ee9d7c8947caabf5d274103721d54b2",
+      "sha256": "1b0d83d178daa98e057690473ef6473e6d7ee81d3705682f94ae82f7504950b8",
       "upstream": "https://raw.githubusercontent.com/JVK3R/JobeesLair-Homebrew/main/index.json"
     }
   ]

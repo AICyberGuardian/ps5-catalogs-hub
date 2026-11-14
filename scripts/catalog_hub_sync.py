@@ -212,7 +212,13 @@ def sync_jobee() -> dict[str, Any]:
 
     dest = CATALOGS / "jobeeslair-homebrew.json"
     try:
-        adapted = adapt(fetch_json(DEFAULT_URL))
+        existing_catalog = None
+        if dest.exists():
+            try:
+                existing_catalog = json.loads(dest.read_text(encoding="utf-8"))
+            except Exception:
+                existing_catalog = None
+        adapted = adapt(fetch_json(DEFAULT_URL), existing_catalog=existing_catalog)
         raw = (json.dumps(adapted, indent=2, ensure_ascii=False) + "\n").encode("utf-8")
         changed = write_if_changed(dest, raw)
         row = {
@@ -248,7 +254,7 @@ def sync_jobee() -> dict[str, Any]:
         }
 
 
-def write_manifest(rows: list[dict[str, Any]]) -> None:
+def write_manifest(rows: list[dict[str, Any]]) -> bool:
     sources = []
     for row in rows:
         if not row["ok"]:
@@ -263,19 +269,31 @@ def write_manifest(rows: list[dict[str, Any]]) -> None:
                 "upstream": row["upstream"],
             }
         )
+
+    existing_gen_at = None
+    if SOURCES_MANIFEST.exists():
+        try:
+            existing = json.loads(SOURCES_MANIFEST.read_text(encoding="utf-8"))
+            if existing.get("sources") == sources and existing.get("generatedAt"):
+                existing_gen_at = existing["generatedAt"]
+        except Exception:
+            pass
+
     manifest = {
         "name": "AICyberGuardian PS5 Catalogs Hub",
         "version": "1.0.0",
-        "generatedAt": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "generatedAt": existing_gen_at or datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "rawBase": RAW_BASE,
         "sources": sources,
     }
-    SOURCES_MANIFEST.write_text(
-        json.dumps(manifest, indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
-    )
+    raw = (json.dumps(manifest, indent=2, ensure_ascii=False) + "\n").encode("utf-8")
+    return write_if_changed(SOURCES_MANIFEST, raw)
 
 
-def write_report(rows: list[dict[str, Any]]) -> None:
+def write_report(rows: list[dict[str, Any]], force: bool = False) -> None:
+    if not force and REPORT.exists() and not any(r["changed"] for r in rows):
+        return
+
     ok = sum(1 for r in rows if r["ok"])
     lines = [
         "# Catalog Hub Sync Report",

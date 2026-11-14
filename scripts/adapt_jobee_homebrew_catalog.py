@@ -27,7 +27,7 @@ def slug_title_id(app_id: str, index: int) -> str:
     return f"HB{cleaned[:16]}"
 
 
-def adapt(index: dict[str, Any]) -> dict[str, Any]:
+def adapt(index: dict[str, Any], existing_catalog: dict[str, Any] | None = None) -> dict[str, Any]:
     packages: list[dict[str, Any]] = []
     apps = index.get("apps") or []
     for i, app in enumerate(apps):
@@ -69,10 +69,15 @@ def adapt(index: dict[str, Any]) -> dict[str, Any]:
             }
         )
 
+    generated_at = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    if existing_catalog and isinstance(existing_catalog, dict):
+        if existing_catalog.get("packages") == packages and existing_catalog.get("generatedAt"):
+            generated_at = existing_catalog["generatedAt"]
+
     return {
         "name": "Jobee'sLair Homebrew (adapted)",
         "version": "1.0.0",
-        "generatedAt": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "generatedAt": generated_at,
         "source": DEFAULT_URL,
         "packages": packages,
     }
