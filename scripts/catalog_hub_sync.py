@@ -153,8 +153,11 @@ def fetch_first(urls: tuple[str, ...]) -> tuple[str, bytes]:
 
 def write_if_changed(path: Path, data: bytes) -> bool:
     path.parent.mkdir(parents=True, exist_ok=True)
-    if path.exists() and path.read_bytes() == data:
-        return False
+    if path.exists():
+        existing = path.read_bytes().replace(b"\r\n", b"\n")
+        incoming = data.replace(b"\r\n", b"\n")
+        if existing == incoming:
+            return False
     tmp = path.with_suffix(path.suffix + ".tmp")
     tmp.write_bytes(data)
     tmp.replace(path)
