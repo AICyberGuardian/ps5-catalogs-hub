@@ -15,9 +15,17 @@ from typing import Any
 ROOT = Path(__file__).resolve().parents[1]
 CATALOGS = ROOT / "catalogs"
 SOURCES_MANIFEST = ROOT / "sources.json"
+SOURCES_GAMES = ROOT / "sources-games.json"
+SOURCES_HOMEBREW = ROOT / "sources-homebrew.json"
 REPORT = ROOT / "SYNC_REPORT.md"
 USER_AGENT = "ps5-catalogs-hub/1.0 (+https://github.com/AICyberGuardian/ps5-catalogs-hub)"
 RAW_BASE = "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs"
+
+HOMEBREW_CONSUMERS = {
+    "prosperostore": "prospero-native",
+    "homebrew-page": "prospero-native",
+    "jobeeslair-homebrew": "jobee-native",
+}
 
 
 @dataclass(frozen=True)
@@ -27,6 +35,7 @@ class Feed:
     name: str
     urls: tuple[str, ...]
     description: str
+    kind: str  # "game" | "homebrew"
 
 
 FEEDS: tuple[Feed, ...] = (
@@ -39,6 +48,7 @@ FEEDS: tuple[Feed, ...] = (
             "https://raw.githubusercontent.com/nexgen999/evoX-CoreOS/main/json/pegasus-dl/dlps.json",
         ),
         "Multi-host debrid mirrors",
+        "game",
     ),
     Feed(
         "zer0.json",
@@ -49,6 +59,7 @@ FEEDS: tuple[Feed, ...] = (
             "https://raw.githubusercontent.com/nexgen999/evoX-CoreOS/main/json/pegasus-dl/zer0.json",
         ),
         "Direct mirrors (Gofile / Fuckingfast)",
+        "game",
     ),
     Feed(
         "pippo.json",
@@ -59,6 +70,7 @@ FEEDS: tuple[Feed, ...] = (
             "https://raw.githubusercontent.com/nexgen999/evoX-CoreOS/main/json/pegasus-dl/pippo.json",
         ),
         "exFAT mountable folder dumps",
+        "game",
     ),
     Feed(
         "pfs.json",
@@ -69,6 +81,7 @@ FEEDS: tuple[Feed, ...] = (
             "https://raw.githubusercontent.com/nexgen999/evoX-CoreOS/main/json/pegasus-dl/pfs.json",
         ),
         "Native .ffpfsc ShadowMountPlus containers",
+        "game",
     ),
     Feed(
         "blackbox_catalog.json",
@@ -78,6 +91,7 @@ FEEDS: tuple[Feed, ...] = (
             "https://raw.githubusercontent.com/nexgen999/evoX-CoreOS/main/json/pegasus-dl/blackbox_catalog.json",
         ),
         "Archive.org / Vikingfile direct mirrors",
+        "game",
     ),
     Feed(
         "jamzi94-ps5.json",
@@ -85,6 +99,7 @@ FEEDS: tuple[Feed, ...] = (
         "Phoenix DL PS5 (Jamzi94)",
         ("https://raw.githubusercontent.com/Jamzi94/catalog-V2/main/ps5-catalog.json",),
         "Link-Vault / Rootz mirrors",
+        "game",
     ),
     Feed(
         "pegasus-ps4-catalog.json",
@@ -94,18 +109,20 @@ FEEDS: tuple[Feed, ...] = (
             "https://raw.githubusercontent.com/M3hmetSa1t/pegasus-ps4-collection-catalog/main/pegasus-ps4-catalog.json",
         ),
         "Internet Archive clean base + updates",
+        "game",
     ),
     Feed(
         "homebrew-page.json",
         "homebrew-page",
-        "PS5 Homebrew (homebrew.page)",
+        "PS5 Homebrew (homebrew.page alias)",
         (
             "https://homebrew.page/catalog/v1.json",
             # Host/router homebrew-isolation may sinkhole homebrew.page; ProsperoStore is the successor feed.
             "https://prosperostore.net/catalog/v1.json",
             "https://raw.githubusercontent.com/darkxex/ps5-homebrew-catalog/main/catalog/v1.json",
         ),
-        "Official GitHub Releases homebrew catalog",
+        "Alias mirror of ProsperoStore catalog (URL stability)",
+        "homebrew",
     ),
     Feed(
         "prosperostore.json",
@@ -116,6 +133,7 @@ FEEDS: tuple[Feed, ...] = (
             "https://homebrew.page/catalog/v1.json",
         ),
         "ProsperoStore homebrew catalog",
+        "homebrew",
     ),
 )
 
@@ -177,6 +195,7 @@ def sync_direct_feeds() -> list[dict[str, Any]]:
                     "id": feed.source_id,
                     "name": feed.name,
                     "filename": feed.filename,
+                    "kind": feed.kind,
                     "items": count_items(parsed),
                     "bytes": len(raw),
                     "sha256": sha256_hex(raw),
@@ -196,6 +215,7 @@ def sync_direct_feeds() -> list[dict[str, Any]]:
                     "id": feed.source_id,
                     "name": feed.name,
                     "filename": feed.filename,
+                    "kind": feed.kind,
                     "items": 0,
                     "bytes": 0,
                     "sha256": "",
@@ -228,6 +248,7 @@ def sync_jobee() -> dict[str, Any]:
             "id": "jobeeslair-homebrew",
             "name": "Jobee'sLair Homebrew (adapted)",
             "filename": "jobeeslair-homebrew.json",
+            "kind": "homebrew",
             "items": count_items(adapted),
             "bytes": len(raw),
             "sha256": sha256_hex(raw),
@@ -247,6 +268,7 @@ def sync_jobee() -> dict[str, Any]:
             "id": "jobeeslair-homebrew",
             "name": "Jobee'sLair Homebrew (adapted)",
             "filename": "jobeeslair-homebrew.json",
+            "kind": "homebrew",
             "items": 0,
             "bytes": 0,
             "sha256": "",
@@ -257,40 +279,119 @@ def sync_jobee() -> dict[str, Any]:
         }
 
 
-def write_manifest(rows: list[dict[str, Any]]) -> bool:
-    sources = []
-    for row in rows:
-        if not row["ok"]:
-            continue
-        sources.append(
-            {
-                "id": row["id"],
-                "name": row["name"],
-                "url": f"{RAW_BASE}/{row['filename']}",
-                "items": row["items"],
-                "sha256": row["sha256"],
-                "upstream": row["upstream"],
-            }
-        )
+def _entry_from_row(row: dict[str, Any], *, include_consumer: bool = False) -> dict[str, Any]:
+    entry: dict[str, Any] = {
+        "id": row["id"],
+        "name": row["name"],
+        "url": f"{RAW_BASE}/{row['filename']}",
+        "items": row["items"],
+        "sha256": row["sha256"],
+        "upstream": row["upstream"],
+    }
+    if include_consumer:
+        entry["consumer"] = HOMEBREW_CONSUMERS.get(row["id"], "unknown")
+    return entry
 
-    existing_gen_at = None
+
+def _preserve_generated_at(path: Path, payload_key: str, payload: Any) -> str | None:
+    if not path.exists():
+        return None
+    try:
+        existing = json.loads(path.read_text(encoding="utf-8"))
+        if existing.get(payload_key) == payload and existing.get("generatedAt"):
+            return str(existing["generatedAt"])
+    except Exception:
+        return None
+    return None
+
+
+def _homebrew_manifest_rows(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Prospero once (canonical) + Jobee; still sync homebrew-page.json to disk separately."""
+    by_id = {r["id"]: r for r in rows if r.get("ok")}
+    selected: list[dict[str, Any]] = []
+    if "prosperostore" in by_id:
+        selected.append(by_id["prosperostore"])
+    elif "homebrew-page" in by_id:
+        selected.append(by_id["homebrew-page"])
+    if "jobeeslair-homebrew" in by_id:
+        selected.append(by_id["jobeeslair-homebrew"])
+    return selected
+
+
+def write_manifests(rows: list[dict[str, Any]]) -> bool:
+    game_rows = [r for r in rows if r.get("ok") and r.get("kind") == "game"]
+    homebrew_rows = _homebrew_manifest_rows(rows)
+
+    game_sources = [_entry_from_row(r) for r in game_rows]
+    homebrew_sources = [_entry_from_row(r, include_consumer=True) for r in homebrew_rows]
+
+    now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    games_gen = _preserve_generated_at(SOURCES_GAMES, "sources", game_sources) or now
+    hb_gen = _preserve_generated_at(SOURCES_HOMEBREW, "sources", homebrew_sources) or now
+
+    games_manifest = {
+        "name": "AICyberGuardian PS5 Catalogs Hub — Games",
+        "version": "1.0.0",
+        "kind": "games",
+        "consumer": "ps5-library",
+        "generatedAt": games_gen,
+        "rawBase": RAW_BASE,
+        "sources": game_sources,
+    }
+    homebrew_manifest = {
+        "name": "AICyberGuardian PS5 Catalogs Hub — Homebrew Mirrors",
+        "version": "1.0.0",
+        "kind": "homebrew",
+        "generatedAt": hb_gen,
+        "rawBase": RAW_BASE,
+        "note": (
+            "Mirrors only. ProsperoStore app uses prosperostore.net live; "
+            "Jobee'sLair uses its native live.jlx. Do not add these to PS5 Library."
+        ),
+        "sources": homebrew_sources,
+    }
+
+    compat_sources = game_sources
+    compat_homebrew = homebrew_sources
+    compat_gen = None
     if SOURCES_MANIFEST.exists():
         try:
             existing = json.loads(SOURCES_MANIFEST.read_text(encoding="utf-8"))
-            if existing.get("sources") == sources and existing.get("generatedAt"):
-                existing_gen_at = existing["generatedAt"]
+            if (
+                existing.get("sources") == compat_sources
+                and existing.get("homebrewMirrors") == compat_homebrew
+                and existing.get("generatedAt")
+            ):
+                compat_gen = existing["generatedAt"]
         except Exception:
             pass
 
-    manifest = {
+    compat_manifest = {
         "name": "AICyberGuardian PS5 Catalogs Hub",
-        "version": "1.0.0",
-        "generatedAt": existing_gen_at or datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "version": "1.1.0",
+        "generatedAt": compat_gen or now,
         "rawBase": RAW_BASE,
-        "sources": sources,
+        "sources": compat_sources,
+        "homebrewMirrors": compat_homebrew,
+        "manifests": {
+            "games": "sources-games.json",
+            "homebrew": "sources-homebrew.json",
+        },
     }
-    raw = (json.dumps(manifest, indent=2, ensure_ascii=False) + "\n").encode("utf-8")
-    return write_if_changed(SOURCES_MANIFEST, raw)
+
+    changed = False
+    changed |= write_if_changed(
+        SOURCES_GAMES, (json.dumps(games_manifest, indent=2, ensure_ascii=False) + "\n").encode("utf-8")
+    )
+    changed |= write_if_changed(
+        SOURCES_HOMEBREW,
+        (json.dumps(homebrew_manifest, indent=2, ensure_ascii=False) + "\n").encode("utf-8"),
+    )
+    changed |= write_if_changed(
+        SOURCES_MANIFEST,
+        (json.dumps(compat_manifest, indent=2, ensure_ascii=False) + "\n").encode("utf-8"),
+    )
+    return changed
 
 
 def write_report(rows: list[dict[str, Any]], force: bool = False) -> None:
@@ -304,13 +405,14 @@ def write_report(rows: list[dict[str, Any]], force: bool = False) -> None:
         f"Generated: {datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')}",
         f"Sources OK: {ok}/{len(rows)}",
         "",
-        "| Source | Items | Changed | Status | Upstream |",
-        "| --- | ---: | --- | --- | --- |",
+        "| Source | Kind | Items | Changed | Status | Upstream |",
+        "| --- | --- | ---: | --- | --- | --- |",
     ]
     for r in rows:
         status = "OK" if r["ok"] else f"FAIL: {r['error'][:80]}"
         lines.append(
-            f"| `{r['id']}` | {r['items']} | {'yes' if r['changed'] else 'no'} | {status} | `{r['upstream']}` |"
+            f"| `{r['id']}` | {r.get('kind', '?')} | {r['items']} | "
+            f"{'yes' if r['changed'] else 'no'} | {status} | `{r['upstream']}` |"
         )
     REPORT.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
@@ -319,10 +421,13 @@ def main() -> int:
     CATALOGS.mkdir(parents=True, exist_ok=True)
     rows = sync_direct_feeds()
     rows.append(sync_jobee())
-    write_manifest(rows)
+    write_manifests(rows)
     write_report(rows)
     failures = sum(1 for r in rows if not r["ok"])
-    print(f"manifest={SOURCES_MANIFEST} failures={failures}")
+    print(
+        f"manifests={SOURCES_GAMES.name},{SOURCES_HOMEBREW.name},{SOURCES_MANIFEST.name} "
+        f"failures={failures}"
+    )
     return 1 if failures else 0
 
 

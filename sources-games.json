@@ -1,0 +1,66 @@
+{
+  "name": "AICyberGuardian PS5 Catalogs Hub — Games",
+  "version": "1.0.0",
+  "kind": "games",
+  "consumer": "ps5-library",
+  "generatedAt": "2026-11-15T00:55:35Z",
+  "rawBase": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs",
+  "sources": [
+    {
+      "id": "dlpsgame",
+      "name": "DLPSGame",
+      "url": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs/dlps.json",
+      "items": 1789,
+      "sha256": "9e018f89e7dd74dcb7e2393e96ca855cc2b85cb6611c3848a2d2636d899c88da",
+      "upstream": "https://pegasus-dl.dev/catalogs/dlps.json"
+    },
+    {
+      "id": "zer0game",
+      "name": "ZER0GAME",
+      "url": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs/zer0.json",
+      "items": 57,
+      "sha256": "f6ab4dd0fece3f7aa4a2707f4ec00ef0141888d3472c224d7719b02081927aed",
+      "upstream": "https://pegasus-dl.dev/catalogs/zer0.json"
+    },
+    {
+      "id": "pippo-exfat",
+      "name": "Pippo .exFAT",
+      "url": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs/pippo.json",
+      "items": 950,
+      "sha256": "0c9290227f80f11f2fc2631a64d9156cf7cc56e81f3f6121ae23ef30a7ecd53d",
+      "upstream": "https://pegasus-dl.dev/catalogs/pippo.json"
+    },
+    {
+      "id": "pfs-catalog",
+      "name": "PFS Direct Rips",
+      "url": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs/pfs.json",
+      "items": 970,
+      "sha256": "61184469b5bb9e7219da20cfc715bfc8a86e2713ea3a7ab7ab20e50f417859ff",
+      "upstream": "https://pegasus-dl.dev/catalogs/pfs.json"
+    },
+    {
+      "id": "evox-blackbox",
+      "name": "evoX BlackBox",
+      "url": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs/blackbox_catalog.json",
+      "items": 1940,
+      "sha256": "abbf5ad115e219ed84a01f5ad4bc7570638d4eed8b1b61c3002f1f5ee9c71f95",
+      "upstream": "https://raw.githubusercontent.com/nexgen999/evoX-CoreOS/main/json/pegasus-dl/blackbox_catalog.json"
+    },
+    {
+      "id": "phoenix-dl-ps5",
+      "name": "Phoenix DL PS5 (Jamzi94)",
+      "url": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs/jamzi94-ps5.json",
+      "items": 1454,
+      "sha256": "b68e0acc861b99fe43371d472157f5d0dba2c46361136761a7809f85096dac83",
+      "upstream": "https://raw.githubusercontent.com/Jamzi94/catalog-V2/main/ps5-catalog.json"
+    },
+    {
+      "id": "ps4-fpkg-collection-catalog",
+      "name": "PS4 FPKG Collection",
+      "url": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs/pegasus-ps4-catalog.json",
+      "items": 866,
+      "sha256": "ccdf3c06a76935f3fa2df6961a49b1760382792d61a3c563b39fc02618440ece",
+      "upstream": "https://raw.githubusercontent.com/M3hmetSa1t/pegasus-ps4-collection-catalog/main/pegasus-ps4-catalog.json"
+    }
+  ]
+}

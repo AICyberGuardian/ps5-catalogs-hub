@@ -1,7 +1,7 @@
 {
   "name": "AICyberGuardian PS5 Catalogs Hub",
-  "version": "1.0.0",
-  "generatedAt": "2026-11-14T22:48:03Z",
+  "version": "1.1.0",
+  "generatedAt": "2026-11-15T00:55:35Z",
   "rawBase": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs",
   "sources": [
     {
@@ -59,22 +59,17 @@
       "items": 866,
       "sha256": "ccdf3c06a76935f3fa2df6961a49b1760382792d61a3c563b39fc02618440ece",
       "upstream": "https://raw.githubusercontent.com/M3hmetSa1t/pegasus-ps4-collection-catalog/main/pegasus-ps4-catalog.json"
-    },
-    {
-      "id": "homebrew-page",
-      "name": "PS5 Homebrew (homebrew.page)",
-      "url": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs/homebrew-page.json",
-      "items": 206,
-      "sha256": "5f3f946debda3ddb41c70953f441cee04a70bbac4f9bd91504fdb26c414ce154",
-      "upstream": "https://homebrew.page/catalog/v1.json"
-    },
+    }
+  ],
+  "homebrewMirrors": [
     {
       "id": "prosperostore",
       "name": "ProsperoStore",
       "url": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs/prosperostore.json",
       "items": 206,
-      "sha256": "5f3f946debda3ddb41c70953f441cee04a70bbac4f9bd91504fdb26c414ce154",
-      "upstream": "https://prosperostore.net/catalog/v1.json"
+      "sha256": "0f6c7ebb4e1a4cd5219b1757fcc9727793e7f7332ce9dd7a007c06348202d7ff",
+      "upstream": "https://prosperostore.net/catalog/v1.json",
+      "consumer": "prospero-native"
     },
     {
       "id": "jobeeslair-homebrew",
@@ -82,7 +77,12 @@
       "url": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs/jobeeslair-homebrew.json",
       "items": 362,
       "sha256": "1b0d83d178daa98e057690473ef6473e6d7ee81d3705682f94ae82f7504950b8",
-      "upstream": "https://raw.githubusercontent.com/JVK3R/JobeesLair-Homebrew/main/index.json"
+      "upstream": "https://raw.githubusercontent.com/JVK3R/JobeesLair-Homebrew/main/index.json",
+      "consumer": "jobee-native"
     }
-  ]
+  ],
+  "manifests": {
+    "games": "sources-games.json",
+    "homebrew": "sources-homebrew.json"
+  }
 }
