@@ -3,15 +3,15 @@
   "version": "1.0.0",
   "kind": "games",
   "consumer": "ps5-library",
-  "generatedAt": "2026-11-15T17:36:07Z",
+  "generatedAt": "2026-11-15T22:34:19Z",
   "rawBase": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs",
   "sources": [
     {
       "id": "dlpsgame",
       "name": "DLPSGame",
       "url": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs/dlps.json",
-      "items": 1792,
-      "sha256": "376da6171e259c144433c4092cb876b154f4fda5b284d987cbf41e64833e2672",
+      "items": 1797,
+      "sha256": "115f1b9abc5d722cf32bc3acc059909677447a2472d665c65eecf379e6839bc9",
       "upstream": "https://pegasus-dl.dev/catalogs/dlps.json"
     },
     {
@@ -27,15 +27,15 @@
       "name": "Pippo .exFAT",
       "url": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs/pippo.json",
       "items": 954,
-      "sha256": "ae5f2705e6f3b1929aac3d8acf639d8d0517e3d38c44e4f83972a80d493c2c47",
+      "sha256": "6ab42bae48056370eed992d55df90f163c361f20f1dd23fab94cf1b3a1a7c31d",
       "upstream": "https://pegasus-dl.dev/catalogs/pippo.json"
     },
     {
       "id": "pfs-catalog",
       "name": "PFS Direct Rips",
       "url": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs/pfs.json",
-      "items": 970,
-      "sha256": "61184469b5bb9e7219da20cfc715bfc8a86e2713ea3a7ab7ab20e50f417859ff",
+      "items": 971,
+      "sha256": "f51235878d263674a19390288f3fa3d0b57aed6fda2cc7d40595a4c1e8f00d61",
       "upstream": "https://pegasus-dl.dev/catalogs/pfs.json"
     },
     {

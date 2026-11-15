@@ -1,7 +1,7 @@
 {
   "name": "Jobee'sLair Homebrew (adapted)",
   "version": "1.0.0",
-  "generatedAt": "2026-11-15T10:28:55Z",
+  "generatedAt": "2026-11-15T22:34:19Z",
   "source": "https://raw.githubusercontent.com/JVK3R/JobeesLair-Homebrew/main/index.json",
   "packages": [
     {
@@ -1629,7 +1629,7 @@
     {
       "titleId": "HBPHANTOMPTRPS5UPL",
       "title": "ps5upload",
-      "version": "v12.4.21",
+      "version": "v12.4.22",
       "category": "files",
       "posterUrl": "https://raw.githubusercontent.com/phantomptr/ps5upload/main/branding/png/icon-1024.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/phantomptr/ps5upload/main/logo.png",
@@ -1637,8 +1637,8 @@
       "downloadSource": "https://github.com/phantomptr/ps5upload",
       "downloadLinks": [
         {
-          "name": "ps5upload-12.4.21.elf (payload)",
-          "url": "https://github.com/phantomptr/ps5upload/releases/download/v12.4.21/ps5upload-12.4.21.elf"
+          "name": "ps5upload-12.4.22.elf (payload)",
+          "url": "https://github.com/phantomptr/ps5upload/releases/download/v12.4.22/ps5upload-12.4.22.elf"
         }
       ],
       "author": "phantomptr",
@@ -2233,7 +2233,7 @@
     {
       "titleId": "HBNOTMAJ0RPROSPERO",
       "title": "Prospero Manager",
-      "version": "v1.2",
+      "version": "v1.2.1",
       "category": "jailbreak",
       "posterUrl": "https://raw.githubusercontent.com/notmaj0r/ProsperoMgr/main/source/frontend/public/icon-180.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/notmaj0r/ProsperoMgr/main/source/frontend/public/icon-180.png",
@@ -2242,7 +2242,7 @@
       "downloadLinks": [
         {
           "name": "ProsperoMgr.elf (payload)",
-          "url": "https://github.com/notmaj0r/ProsperoMgr/releases/download/v1.2/ProsperoMgr.elf"
+          "url": "https://github.com/notmaj0r/ProsperoMgr/releases/download/v1.2.1/ProsperoMgr.elf"
         }
       ],
       "author": "notmaj0r",
@@ -2955,7 +2955,7 @@
     {
       "titleId": "HBXF1REBALLXHEARBR",
       "title": "HearBridge PS5",
-      "version": "v1.4.0",
+      "version": "v1.4.2",
       "category": "media",
       "posterUrl": "https://raw.githubusercontent.com/X-F1REBALL-X/HearBridge-PS5/main/assets/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/X-F1REBALL-X/HearBridge-PS5/main/docs/img/banner.png",
@@ -2963,8 +2963,8 @@
       "downloadSource": "https://github.com/X-F1REBALL-X/HearBridge-PS5",
       "downloadLinks": [
         {
-          "name": "HearBridge-1.4.0.elf (payload)",
-          "url": "https://github.com/X-F1REBALL-X/HearBridge-PS5/releases/download/v1.4.0/HearBridge-1.4.0.elf"
+          "name": "HearBridge-1.4.2.elf (payload)",
+          "url": "https://github.com/X-F1REBALL-X/HearBridge-PS5/releases/download/v1.4.2/HearBridge-1.4.2.elf"
         }
       ],
       "author": "X-F1REBALL-X",
@@ -4092,7 +4092,7 @@
     {
       "titleId": "HBSTRONGT1MEPS5COO",
       "title": "PS5 Cooling & System Center - Pro",
-      "version": "v1.84.0",
+      "version": "v1.85.1",
       "category": "system",
       "posterUrl": "https://raw.githubusercontent.com/strongt1me/ps5-cooling-system-center-pro/main/tile/sce_sys/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/strongt1me/ps5-cooling-system-center-pro/main/starter/sce_sys/pic0.png",
@@ -4101,15 +4101,15 @@
       "downloadLinks": [
         {
           "name": "FAKE86921.zip (app)",
-          "url": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases/download/v1.84.0/FAKE86921.zip"
+          "url": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases/download/v1.85.1/FAKE86921.zip"
         },
         {
           "name": "FAKE86922.zip (app)",
-          "url": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases/download/v1.84.0/FAKE86922.zip"
+          "url": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases/download/v1.85.1/FAKE86922.zip"
         },
         {
-          "name": "PS5_Cooling_System_Center_v1.84.0.elf (payload)",
-          "url": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases/download/v1.84.0/PS5_Cooling_System_Center_v1.84.0.elf"
+          "name": "PS5_Cooling_System_Center_v1.85.1.elf (payload)",
+          "url": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases/download/v1.85.1/PS5_Cooling_System_Center_v1.85.1.elf"
         }
       ],
       "author": "strongt1me",
@@ -4633,7 +4633,7 @@
     {
       "titleId": "HBFTHDGNGHALEMBIC",
       "title": "Alembic",
-      "version": "v0.6.4",
+      "version": "v0.7.0",
       "category": "dumps",
       "posterUrl": "https://raw.githubusercontent.com/fthdgn-gh/Alembic/main/app/sce_sys/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/fthdgn-gh/Alembic/main/docs/screenshots/app.png",
@@ -4641,20 +4641,20 @@
       "downloadSource": "https://github.com/fthdgn-gh/Alembic",
       "downloadLinks": [
         {
-          "name": "alembic-app-v0.6.4.ffpkg (image)",
-          "url": "https://github.com/fthdgn-gh/Alembic/releases/download/v0.6.4/alembic-app-v0.6.4.ffpkg"
+          "name": "alembic-app-v0.7.0.ffpkg (image)",
+          "url": "https://github.com/fthdgn-gh/Alembic/releases/download/v0.7.0/alembic-app-v0.7.0.ffpkg"
         },
         {
-          "name": "alembic-app-v0.6.4.zip (app)",
-          "url": "https://github.com/fthdgn-gh/Alembic/releases/download/v0.6.4/alembic-app-v0.6.4.zip"
+          "name": "alembic-app-v0.7.0.zip (app)",
+          "url": "https://github.com/fthdgn-gh/Alembic/releases/download/v0.7.0/alembic-app-v0.7.0.zip"
         },
         {
-          "name": "alembic-v0.6.4.zip (archive-image)",
-          "url": "https://github.com/fthdgn-gh/Alembic/releases/download/v0.6.4/alembic-v0.6.4.zip"
+          "name": "alembic-v0.7.0.zip (archive-image)",
+          "url": "https://github.com/fthdgn-gh/Alembic/releases/download/v0.7.0/alembic-v0.7.0.zip"
         },
         {
-          "name": "alembic-v0.6.4.elf (payload)",
-          "url": "https://github.com/fthdgn-gh/Alembic/releases/download/v0.6.4/alembic-v0.6.4.elf"
+          "name": "alembic-v0.7.0.elf (payload)",
+          "url": "https://github.com/fthdgn-gh/Alembic/releases/download/v0.7.0/alembic-v0.7.0.elf"
         }
       ],
       "author": "fthdgn-gh",
@@ -5201,7 +5201,7 @@
     {
       "titleId": "HBPRESS5ELECTPSFLY",
       "title": "PSFlyCast",
-      "version": "v1.3.5",
+      "version": "v1.3.9",
       "category": "emulators",
       "posterUrl": "https://raw.githubusercontent.com/Press5elect/PSFlycast/main/shell/ps5/sce_sys/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/Press5elect/PSFlycast/main/shell/ps5/screenshots/important-warning.png",
@@ -5209,8 +5209,8 @@
       "downloadSource": "https://github.com/Press5elect/PSFlycast",
       "downloadLinks": [
         {
-          "name": "PSFlyCast-v1.3.5.zip (app)",
-          "url": "https://github.com/Press5elect/PSFlycast/releases/download/v1.3.5/PSFlyCast-v1.3.5.zip"
+          "name": "PSFlyCast-v1.3.9.zip (app)",
+          "url": "https://github.com/Press5elect/PSFlycast/releases/download/v1.3.9/PSFlyCast-v1.3.9.zip"
         }
       ],
       "author": "Press5elect",
@@ -5407,7 +5407,7 @@
     {
       "titleId": "HBVIVALAVENTPS5BAZ",
       "title": "PS5 Bazzite Deck",
-      "version": "v2.15",
+      "version": "v2.16",
       "category": "linux",
       "posterUrl": "https://avatars.githubusercontent.com/u/62951130?s=256&v=4",
       "originalPosterUrl": "https://avatars.githubusercontent.com/u/62951130?s=256&v=4",
@@ -5415,8 +5415,8 @@
       "downloadSource": "https://github.com/VivaLaVent/ps5-bazzite-deck",
       "downloadLinks": [
         {
-          "name": "bazzite-bootc-loader-v2.15.elf (payload)",
-          "url": "https://github.com/VivaLaVent/ps5-bazzite-deck/releases/download/v2.15/bazzite-bootc-loader-v2.15.elf"
+          "name": "bazzite-bootc-loader-v2.16.elf (payload)",
+          "url": "https://github.com/VivaLaVent/ps5-bazzite-deck/releases/download/v2.16/bazzite-bootc-loader-v2.16.elf"
         }
       ],
       "author": "VivaLaVent",
@@ -5643,7 +5643,7 @@
     {
       "titleId": "HBHEXREAPER711HIXF",
       "title": "HixFlix",
-      "version": "v1.0.4",
+      "version": "v1.0.5",
       "category": "media",
       "posterUrl": "https://raw.githubusercontent.com/hexreaper711/HixFlix/main/ps5/sce_sys/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/hexreaper711/HixFlix/main/ps5/sce_sys/icon0.png",
@@ -5651,8 +5651,8 @@
       "downloadSource": "https://github.com/hexreaper711/HixFlix",
       "downloadLinks": [
         {
-          "name": "HixFlix-v1.0.4.zip (app)",
-          "url": "https://github.com/hexreaper711/HixFlix/releases/download/v1.0.4/HixFlix-v1.0.4.zip"
+          "name": "HixFlix-v1.0.5.zip (app)",
+          "url": "https://github.com/hexreaper711/HixFlix/releases/download/v1.0.5/HixFlix-v1.0.5.zip"
         }
       ],
       "author": "hexreaper711",
@@ -6242,7 +6242,7 @@
     {
       "titleId": "HBTHELINKIN3000SLI",
       "title": "SlipstreamCE",
-      "version": "build-142",
+      "version": "build-143",
       "category": "system",
       "posterUrl": "https://raw.githubusercontent.com/thelinkin3000/SlipstreamCE/main/port/ps5/sce_sys/icon0.png",
       "originalPosterUrl": "https://img.youtube.com/vi/imNdnKszCVI/maxresdefault.jpg",
@@ -6251,19 +6251,19 @@
       "downloadLinks": [
         {
           "name": "halo-ps5-debug.zip (app)",
-          "url": "https://github.com/thelinkin3000/SlipstreamCE/releases/download/build-142/halo-ps5-debug.zip"
+          "url": "https://github.com/thelinkin3000/SlipstreamCE/releases/download/build-143/halo-ps5-debug.zip"
         },
         {
           "name": "halo-ps5-release.zip (app)",
-          "url": "https://github.com/thelinkin3000/SlipstreamCE/releases/download/build-142/halo-ps5-release.zip"
+          "url": "https://github.com/thelinkin3000/SlipstreamCE/releases/download/build-143/halo-ps5-release.zip"
         },
         {
           "name": "halo-switch-debug.zip (archive-payload)",
-          "url": "https://github.com/thelinkin3000/SlipstreamCE/releases/download/build-142/halo-switch-debug.zip"
+          "url": "https://github.com/thelinkin3000/SlipstreamCE/releases/download/build-143/halo-switch-debug.zip"
         },
         {
           "name": "halo-switch-release.zip (archive-payload)",
-          "url": "https://github.com/thelinkin3000/SlipstreamCE/releases/download/build-142/halo-switch-release.zip"
+          "url": "https://github.com/thelinkin3000/SlipstreamCE/releases/download/build-143/halo-switch-release.zip"
         }
       ],
       "author": "thelinkin3000",
@@ -6547,7 +6547,7 @@
     {
       "titleId": "HBSECONDCOATSECOND",
       "title": "Second Coat: London",
-      "version": "v0.4.0",
+      "version": "v0.4.1",
       "category": "system",
       "posterUrl": "https://raw.githubusercontent.com/SecondCoat/second-coat-london/main/sce_sys/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/SecondCoat/second-coat-london/main/sce_sys/icon0.png",
@@ -6556,7 +6556,7 @@
       "downloadLinks": [
         {
           "name": "getaway-ps5-PPSA99020.zip (app)",
-          "url": "https://github.com/SecondCoat/second-coat-london/releases/download/v0.4.0/getaway-ps5-PPSA99020.zip"
+          "url": "https://github.com/SecondCoat/second-coat-london/releases/download/v0.4.1/getaway-ps5-PPSA99020.zip"
         }
       ],
       "author": "SecondCoat",
@@ -7011,7 +7011,7 @@
     {
       "titleId": "HBMATEOCOGEANUPROS",
       "title": "ProsperoCraft",
-      "version": "01.000.281",
+      "version": "01.000.285",
       "category": "system",
       "posterUrl": "https://raw.githubusercontent.com/mateo-cogeanu/ProsperoCraft/main/assets/branding/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/mateo-cogeanu/ProsperoCraft/main/assets/branding/icon0.png",
@@ -7020,7 +7020,7 @@
       "downloadLinks": [
         {
           "name": "PPSA99874.zip (app)",
-          "url": "https://github.com/mateo-cogeanu/ProsperoCraft/releases/download/01.000.281/PPSA99874.zip"
+          "url": "https://github.com/mateo-cogeanu/ProsperoCraft/releases/download/01.000.285/PPSA99874.zip"
         }
       ],
       "author": "mateo-cogeanu",
