@@ -3,6 +3,30 @@
   "version": 1,
   "packages": [
     {
+      "titleId": "PPSA07663",
+      "title": "Forest Grove",
+      "createdAt": "2026-11-15T06:20:38.255Z",
+      "category": "game",
+      "posterUrl": "https://pegasus-dl.dev/api/posters/bf3bc6ef61831be790b9215fc0c4da15bb255000876cdadb201faaefe59ce0b0",
+      "originalPosterUrl": "https://pegasus-dl.dev/api/posters/23eb5962ccf383b613e5efb1c7cac65114a46193e3f390d3bd30e708eba3ee1f",
+      "description": "Region: USA\nRelease note: Works on 7.xx and higher",
+      "downloadSource": "https://dlpsgame.com/forest-grove-ps5/",
+      "downloadLinks": [
+        {
+          "name": "USA 7.xx Base - Akirabox",
+          "url": "https://akirabox.to/l76mZvxa7man/file"
+        },
+        {
+          "name": "USA 7.xx Base - Rootz",
+          "url": "https://www.rootz.so/d/2JNwvI"
+        },
+        {
+          "name": "USA 7.xx Base - Vikingfile",
+          "url": "https://vikingfile.com/f/8sFaGmRLlT"
+        }
+      ]
+    },
+    {
       "titleId": "PPSA17775",
       "title": "Laika Aged Through Blood",
       "createdAt": "2026-11-14T21:11:33.517Z",

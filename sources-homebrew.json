@@ -2,7 +2,7 @@
   "name": "AICyberGuardian PS5 Catalogs Hub — Homebrew Mirrors",
   "version": "1.0.0",
   "kind": "homebrew",
-  "generatedAt": "2026-11-15T00:55:35Z",
+  "generatedAt": "2026-11-15T10:28:55Z",
   "rawBase": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs",
   "note": "Mirrors only. ProsperoStore app uses prosperostore.net live; Jobee'sLair uses its native live.jlx. Do not add these to PS5 Library.",
   "sources": [
@@ -11,7 +11,7 @@
       "name": "ProsperoStore",
       "url": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs/prosperostore.json",
       "items": 206,
-      "sha256": "0f6c7ebb4e1a4cd5219b1757fcc9727793e7f7332ce9dd7a007c06348202d7ff",
+      "sha256": "bb82d070a9d16e45c437bfc8a7a7993f74848e8be09826db1636a73810aff881",
       "upstream": "https://prosperostore.net/catalog/v1.json",
       "consumer": "prospero-native"
     },
@@ -20,7 +20,7 @@
       "name": "Jobee'sLair Homebrew (adapted)",
       "url": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs/jobeeslair-homebrew.json",
       "items": 362,
-      "sha256": "1b0d83d178daa98e057690473ef6473e6d7ee81d3705682f94ae82f7504950b8",
+      "sha256": "0c878f862b0d49a40bc2b83cafb77768707a4396f62bf9122ff0c3c85140fcb9",
       "upstream": "https://raw.githubusercontent.com/JVK3R/JobeesLair-Homebrew/main/index.json",
       "consumer": "jobee-native"
     }
