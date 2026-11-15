@@ -17,7 +17,7 @@
 - No timestamp-only commit churn; preserve `generatedAt` when content unchanged.
 - Do not add homebrew feeds back into PS5 Library.
 - ProsperoStore installs from live prosperostore.net; hub Prospero JSON is mirror/docs only.
-- Console IP: `192.168.99.75`. Hub: `E:\Projects\ps5-catalogs-hub`.
+- Console IP: `<console-lan-ip>`. Hub checkout: local clone of this repo.
 
 ## File Map
 
@@ -57,7 +57,7 @@ Each entry keeps: `id`, `name`, `url`, `items`, `sha256`, `upstream`. Homebrew e
 - [ ] **Step 3: Run sync locally**
 
 ```powershell
-cd E:\Projects\ps5-catalogs-hub
+cd <hub-checkout>
 python scripts/catalog_hub_sync.py
 python -c "import json; g=json.load(open('sources-games.json',encoding='utf-8')); h=json.load(open('sources-homebrew.json',encoding='utf-8')); print(len(g['sources']), [s['id'] for s in g['sources']]); print(len(h['sources']), [s['id'] for s in h['sources']])"
 ```
@@ -115,12 +115,12 @@ Expect latest sync workflow success.
 ### Task 4: Remove homebrew sources from PS5 Library
 
 **Files:**
-- Create/modify: `E:\Projects\PS5-JB\scripts\migrate_library_games_only.py` (or extend existing migrate script)
+- Create/modify: private PS5-JB workspace script `scripts/migrate_library_games_only.py` (console-side; not published in this hub)
 
 - [ ] **Step 1: Snapshot current sources**
 
 ```powershell
-python -c "import urllib.request,json; print(json.dumps(json.load(urllib.request.urlopen('http://192.168.99.75:9999/api/catalog-sources')),indent=2)[:4000])"
+python -c "import urllib.request,json; print(json.dumps(json.load(urllib.request.urlopen('http://<console-lan-ip>:9999/api/catalog-sources')),indent=2)[:4000])"
 ```
 
 Record ids that are homebrew / Jobee / prosperostore / homebrew-page.
@@ -146,8 +146,8 @@ Assert:
 ### Task 5: Deploy ProsperoStore `PPSA99000`
 
 **Files / assets:**
-- Prefer staged zip under `E:\Projects\PS5-JB\tools\ProsperoStore*` or GitHub release `darkxex/ProsperoStore` `PPSA99000.zip` v1.000.116
-- Use existing safe deploy patterns (`ps5_homebrew_safe_update.py` if supported; else FTP + SMP rescan)
+- Prefer verified `darkxex/ProsperoStore` release `PPSA99000.zip` v1.000.116 (or a locally staged copy outside this public repo)
+- Use private PS5-JB safe-deploy patterns (FTP + SMP rescan); do not commit console deploy tooling here
 
 - [ ] **Step 1: Verify package hash locally**
 

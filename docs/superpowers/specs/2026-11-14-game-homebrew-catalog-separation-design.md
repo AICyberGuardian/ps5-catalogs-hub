@@ -2,7 +2,7 @@
 
 **Date:** 2026-11-14  
 **Status:** Approved (user: approve #1)  
-**Repos:** `AICyberGuardian/ps5-catalogs-hub`, console `192.168.99.75`
+**Repos:** `AICyberGuardian/ps5-catalogs-hub`, console `<console-lan-ip>`
 
 ## Goal
 
@@ -42,7 +42,7 @@ flowchart TD
         Sync --> Legacy
     end
 
-    subgraph Console["PS5 192.168.99.75"]
+    subgraph Console["PS5 console LAN"]
         Lib["PS5 Library :9999"]
         Prospero["ProsperoStore PPSA99000"]
         Jobee["Jobee Lair PPSA99471"]
