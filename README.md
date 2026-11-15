@@ -1,30 +1,43 @@
 # ps5-catalogs-hub
 
-Stable, auto-updated PS5 Library catalog mirrors for AICyberGuardian's FW 13.42 console stack.
+Stable, auto-updated catalog mirrors for AICyberGuardian's FW 13.42 console stack.
 
 ## Purpose
 
 - Fetch canonical upstream catalogs hourly
 - Validate JSON before publish
-- Adapt non-standard feeds (Jobee'sLair Homebrew) into Pegasus / PS5 Library schema
-- Serve durable HTTPS URLs the console can poll with ETag / `If-None-Match`
+- Adapt non-standard feeds (Jobee'sLair Homebrew) into a Pegasus-compatible schema
+- Serve durable HTTPS URLs consumers can poll with ETag / `If-None-Match`
 
-PS5 Library on the console re-checks online sources about every 10 minutes. This hub only needs to refresh upstream mirrors about once per hour.
+## Consumers (approved split)
+
+| Consumer | Role | Manifest |
+|---|---|---|
+| **PS5 Library** (`:9999`) | Gigabit game dumps (AllDebrid / Rest Mode) | [`sources-games.json`](sources-games.json) |
+| **ProsperoStore** (`PPSA99000`) | Official signed homebrew install/update | Live [prosperostore.net](https://prosperostore.net/) (hub `prosperostore.json` is a mirror only) |
+| **Jobee'sLair** (`PPSA99471`) | Scene / extra homebrew Prospero does not ship | Native live.jlx (hub `jobeeslair-homebrew.json` is an adapted backup) |
+
+Do **not** add homebrew mirrors from `sources-homebrew.json` into PS5 Library.
 
 ## Layout
 
 ```text
-catalogs/           # Published JSON catalogs (raw GitHub URLs)
-sources.json        # Manifest of stable console source URLs
-scripts/            # Sync + adapter tooling
-.github/workflows/  # Hourly GitHub Actions sync
+catalogs/                 # Published JSON catalogs (stable flat raw GitHub URLs)
+sources-games.json        # PS5 Library — games only
+sources-homebrew.json     # Prospero + Jobee mirrors (not Library sources)
+sources.json              # Compatibility: games in sources + homebrewMirrors
+scripts/                  # Sync + adapter tooling
+docs/superpowers/         # Spec + implementation plan
+.github/workflows/        # Hourly GitHub Actions sync
 ```
 
 ## Console usage
 
-Add sources from `sources.json` in PS5 Library (`http://<console>:9999/` → Settings → Catalogs), or use the migration helper in the PS5-JB workspace.
+1. In PS5 Library (`http://<console>:9999/` → Settings → Catalogs), add **only** URLs from `sources-games.json`.
+2. Install/update official homebrew via the ProsperoStore app (not Library).
+3. Use Jobee'sLair for complementary scene homebrew.
 
-Prefer these hub URLs over ephemeral `file:` snapshots and over direct upstream raw links that can vanish.
+Prefer these hub game URLs over ephemeral `file:` snapshots and over direct upstream raw links that can vanish.
 
 ## Local sync
 
