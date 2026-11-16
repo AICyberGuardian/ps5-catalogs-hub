@@ -3,6 +3,66 @@
   "version": 1,
   "packages": [
     {
+      "titleId": "PPSA22948",
+      "title": "Mister Mosquito",
+      "createdAt": "2026-11-16T06:44:45.149Z",
+      "category": "game",
+      "posterUrl": "https://pegasus-dl.dev/api/posters/4c581bfa230ed4e615aefeac85d8797f14e25c9658db1c5f7ec5a247109187af",
+      "originalPosterUrl": "https://pegasus-dl.dev/api/posters/db000b27d55a9517181043d4e56861ac9d60891e772c0315e757e8dfed71ec1b",
+      "description": "Region: USA\nRelease note: Works on 9.xx and higher",
+      "downloadSource": "https://dlpsgame.com/mister-mosquito-ps5/",
+      "downloadLinks": [
+        {
+          "name": "USA 9.xx Base - Akirabox",
+          "url": "https://akirabox.to/vgKGxBrY638Q/file"
+        },
+        {
+          "name": "USA 9.xx Base - Rootz",
+          "url": "https://www.rootz.so/d/YPQTw"
+        },
+        {
+          "name": "USA 9.xx Base - Vikingfile",
+          "url": "https://vikingfile.com/f/3HypfOJ3X4"
+        }
+      ]
+    },
+    {
+      "titleId": "PPSA22947",
+      "title": "Siren",
+      "createdAt": "2026-11-16T06:44:45.149Z",
+      "category": "game",
+      "posterUrl": "https://pegasus-dl.dev/api/posters/75675726d3645867a2ef65f072fa26c032bba0ca1d92e339bc3989aacb2e38f9",
+      "originalPosterUrl": "https://pegasus-dl.dev/api/posters/ae324b00c2ad69e511467748cc7114b2a6fd2f72c1a44443f19ec6105b02d309",
+      "description": "Region: USA\nRelease note: Works on 10.xx and higher",
+      "downloadSource": "https://dlpsgame.com/siren-ps5/",
+      "downloadLinks": [
+        {
+          "name": "USA 10.xx Base - Akirabox part 1",
+          "url": "https://akirabox.to/2bJG8lDWdGOB/file"
+        },
+        {
+          "name": "USA 10.xx Base - Akirabox part 2",
+          "url": "https://akirabox.to/dkD3Y20g9zLQ/file"
+        },
+        {
+          "name": "USA 10.xx Base - Rootz part 1",
+          "url": "https://www.rootz.so/d/gT88u"
+        },
+        {
+          "name": "USA 10.xx Base - Rootz part 2",
+          "url": "https://www.rootz.so/d/1xBDlo"
+        },
+        {
+          "name": "USA 10.xx Base - Vikingfile part 1",
+          "url": "https://vikingfile.com/f/kycd9eEEbH"
+        },
+        {
+          "name": "USA 10.xx Base - Vikingfile part 2",
+          "url": "https://vikingfile.com/f/q7TaCL11RG"
+        }
+      ]
+    },
+    {
       "titleId": "PPSA26767",
       "title": "Deadzone Rogue",
       "createdAt": "2026-11-15T20:34:38.712Z",
