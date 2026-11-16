@@ -3,6 +3,376 @@
   "version": 1,
   "packages": [
     {
+      "titleId": "PPSA13427",
+      "title": "Horizon Zero Dawn Remastered",
+      "createdAt": "2026-10-16T21:48:35.923Z",
+      "version": "1.009",
+      "category": "game",
+      "posterUrl": "https://pegasus-dl.dev/api/posters/e6f341a05ed186d5d486382c6eb1277224ed6538ee0ff0b865d23bdfcb00e1d3",
+      "originalPosterUrl": "https://pegasus-dl.dev/api/posters/bda865153338a16c9698af47a8dee08a41c4495c5295f6feda6f5e634288f671",
+      "description": "Format: zstd\nExperience the critically acclaimed Horizon Zero Dawn™ with stunning new visuals and upgraded features. In a far future where colossal machines roam and rule the Earth, pockets of humanity survive in unique tribes among the lush, overgrown ruins of our long-lost civilization. Take up bow and spear as Aloy, a young machine hunter and outcast of her tribe, as she discovers her origins, the truth of this mysterious world, and her own destiny to save it from impending doom. On her journey, Aloy will come across unique tribes, lively settlements, and compelling characters and companions. But this open world is also teeming with wildlife and danger. Awe-inspiring yet deadly hostile machines patrol the majestic landscape, corrupted by an unknown force. In combat, you will unleash devastating, tactical attacks utilizing an exciting arsenal of weapons against fearsome machines and nefarious rival factions. Horizon Zero Dawn™ is a multi-award-winning action role-playing game and this Remastered Edition brings to life the beloved wilds of Aloy’s world in even higher fidelity with the power and potential of the PlayStation®5 console. PlayStation®5 Features • Breathtaking visuals with 4K and HDR support • Near-instant load times with Ultra High-Speed SSD • Fully immersive sound via PS5® Tempest 3D AudioTech1 • Feel every thrill with the DualSense® wireless controller’s adaptive triggers and haptic feedback Existing owners of Horizon Zero Dawn (PS4)* and/or Horizon Zero Dawn Complete Edition (PS4, PS5) can upgrade to the digital version of Horizon Zero Dawn Remastered on PlayStation 5 console. This includes fans who added the game to their libraries during PlayStation’s Play At Home initiative.**[1] *Owners of the Horizon Zero Dawn PS4 game disc can access this offer by inserting the game disc into their PS5 console (and will need to keep the disc inserted each time to play the game). PS4 game disc owners who buy the PS5 Digital Edition disc-free console will not be able to access the upgrade offer.[1][2] **Redemptions via PlayStation Plus are not eligible to upgrade.\nRegion: EUR\nFirmware: 9.xx+\nAPR: ampr-emu ng 0.4 (latest: apr-emu-v0.4.2.1)\nNotes: Remember to disable global fakelib and emu updates in shadowmount!\nUpdated: 2026-11-16T18:16:11.114Z",
+      "downloadSource": "https://catalog.gfs-dlps.workers.dev/api/packages",
+      "downloadLinks": [
+        {
+          "name": "zstd · Data - pt.1",
+          "url": "https://datanodes.to/77q6bl7wy8vz"
+        },
+        {
+          "name": "zstd · Data - pt.2",
+          "url": "https://datanodes.to/q7jlelxmy9ip"
+        },
+        {
+          "name": "zstd · Data - pt.3",
+          "url": "https://datanodes.to/2peyrnjffgqw"
+        },
+        {
+          "name": "zstd · Data - pt.4",
+          "url": "https://datanodes.to/juqm0if2af6y"
+        },
+        {
+          "name": "zstd · Data - pt.5",
+          "url": "https://datanodes.to/dkgj3ki0ve7r"
+        },
+        {
+          "name": "zstd · Data - pt.6",
+          "url": "https://datanodes.to/0ii6rk83n95o"
+        },
+        {
+          "name": "zstd · Data - pt.7",
+          "url": "https://datanodes.to/hyh61m2gj7f2"
+        },
+        {
+          "name": "zstd · Data - pt.8",
+          "url": "https://datanodes.to/sq609gnxk9wf"
+        },
+        {
+          "name": "zstd · Data - pt.9",
+          "url": "https://datanodes.to/jbx1mfpmojqk"
+        },
+        {
+          "name": "zstd · Data - pt.10",
+          "url": "https://datanodes.to/tzw564twl6wx"
+        },
+        {
+          "name": "zstd · Viki - pt.1",
+          "url": "https://vikingfile.com/f/ZqVlKkfzdk"
+        },
+        {
+          "name": "zstd · Viki - pt.2",
+          "url": "https://vikingfile.com/f/QCFxcKN9VF"
+        },
+        {
+          "name": "zstd · Viki - pt.3",
+          "url": "https://vikingfile.com/f/61AnLbOOfK"
+        },
+        {
+          "name": "zstd · Viki - pt.4",
+          "url": "https://vikingfile.com/f/bW99QPF1GO"
+        },
+        {
+          "name": "zstd · Viki - pt.5",
+          "url": "https://vikingfile.com/f/UMMEEoBD67"
+        },
+        {
+          "name": "zstd · Viki - pt.6",
+          "url": "https://vikingfile.com/f/Gk6pcPoEvY"
+        },
+        {
+          "name": "zstd · Viki - pt.7",
+          "url": "https://vikingfile.com/f/TGIg1V9YjH"
+        },
+        {
+          "name": "zstd · Viki - pt.8",
+          "url": "https://vikingfile.com/f/TfjBbmr9SD"
+        },
+        {
+          "name": "zstd · Viki - pt.9",
+          "url": "https://vikingfile.com/f/DfpLc7W9ra"
+        },
+        {
+          "name": "zstd · Viki - pt.10",
+          "url": "https://vikingfile.com/f/e2SIVY7cn9"
+        }
+      ],
+      "sizeBytes": 99106370355
+    },
+    {
+      "titleId": "PPSA31246",
+      "title": "Resident Evil Requiem",
+      "createdAt": "2026-11-16T17:31:42.953Z",
+      "version": "1.310",
+      "category": "game",
+      "posterUrl": "https://pegasus-dl.dev/api/posters/87f178b9f65cc49358d41980dc0fabeb6448cfea8d2a5ddc22e8cf6eb18018e7",
+      "originalPosterUrl": "https://pegasus-dl.dev/api/posters/676eb71886fbbc1f917ef4a4a1f10df2e8905b8f85932c00940de39120a55f1c",
+      "description": "Format: zstd\nA new era of survival horror arrives with Resident Evil Requiem, the latest and most immersive entry yet in the iconic Resident Evil series. Experience terrifying survival horror with FBI analyst Grace Ashcroft, and dive into pulse-pounding action with legendary agent Leon S. Kennedy. Both of their journeys and unique gameplay styles intertwine into a heart-stopping, emotional experience that will chill you to your core. *There are other bundles that include this product. Please be careful of duplicate purchases.\nRegion: EUR\nFirmware: 4.xx+\nAPR: ampr-emu ng 0.4 (latest: apr-emu-v0.4.2.1)\nNotes: Remember to disable global fakelib and emu updates in shadowmount!\nUpdated: 2026-11-16T17:00:49.798Z",
+      "downloadSource": "https://catalog.gfs-dlps.workers.dev/api/packages",
+      "downloadLinks": [
+        {
+          "name": "zstd · Data - pt.1",
+          "url": "https://datanodes.to/fclkyv53w9th"
+        },
+        {
+          "name": "zstd · Data - pt.2",
+          "url": "https://datanodes.to/5lqx7dm9ibmz"
+        },
+        {
+          "name": "zstd · Data - pt.3",
+          "url": "https://datanodes.to/85nx077od1ih"
+        },
+        {
+          "name": "zstd · Data - pt.4",
+          "url": "https://datanodes.to/gb2cuv39xmdc"
+        },
+        {
+          "name": "zstd · Data - pt.5",
+          "url": "https://datanodes.to/7ehbqejwr1gs"
+        },
+        {
+          "name": "zstd · Data - pt.6",
+          "url": "https://datanodes.to/rpwzam2d67za"
+        },
+        {
+          "name": "zstd · Data - pt.7",
+          "url": "https://datanodes.to/yuox1of18s3q"
+        },
+        {
+          "name": "zstd · Data - pt.8",
+          "url": "https://datanodes.to/6ba09t6lg3lu"
+        },
+        {
+          "name": "zstd · Viki - pt.1",
+          "url": "https://vikingfile.com/f/xQXifF6sjS"
+        },
+        {
+          "name": "zstd · Viki - pt.2",
+          "url": "https://vikingfile.com/f/vrCYv2cWoA"
+        },
+        {
+          "name": "zstd · Viki - pt.3",
+          "url": "https://vikingfile.com/f/X4u4H3kjdm"
+        },
+        {
+          "name": "zstd · Viki - pt.4",
+          "url": "https://vikingfile.com/f/Rt96a71u0k"
+        },
+        {
+          "name": "zstd · Viki - pt.5",
+          "url": "https://vikingfile.com/f/aRyzEY7AdI"
+        },
+        {
+          "name": "zstd · Viki - pt.6",
+          "url": "https://vikingfile.com/f/x5J8dftl4F"
+        },
+        {
+          "name": "zstd · Viki - pt.7",
+          "url": "https://vikingfile.com/f/fKpudPMTee"
+        },
+        {
+          "name": "zstd · Viki - pt.8",
+          "url": "https://vikingfile.com/f/BX0OkZHCAS"
+        }
+      ],
+      "sizeBytes": 82570746266
+    },
+    {
+      "titleId": "PPSA14364",
+      "title": "Metal Gear Solid Master Collection Version",
+      "createdAt": "2026-11-16T12:26:42.307Z",
+      "version": "1.500",
+      "category": "game",
+      "posterUrl": "https://pegasus-dl.dev/api/posters/1bc475430ec42593940042d3fd2242dca95a65bff9a525961f4aef487f4abfbe",
+      "originalPosterUrl": "https://pegasus-dl.dev/api/posters/1bc475430ec42593940042d3fd2242dca95a65bff9a525961f4aef487f4abfbe",
+      "description": "Format: zstd\nReleased in 1998, this was the first 3D title in the METAL GEAR series. The game pioneers 3D stealth action against the threat of war and global nuclear weapons, using live action footage, cinematic cut scenes, interwoven with innovative gameplay. The storyline, a whirlwind of intrigue and betrayal, has been hailed as the greatest story of the 20th century and was the third title in the METAL GEAR series to become a hit in subsequent years. Also included: an exclusive digital Screenplay Book and Master Book that details the story and characters in Metal Gear Solid and Metal Gear &amp; Metal Gear 2: Solid Snake. [Title lineup] Metal Gear Metal Gear 2: Solid Snake Metal Gear Solid (Including VR Missions/Special Missions) Regional versions of the titles are available as additional downloads. [Digital book] Metal Gear Solid: Screenplay Book Metal Gear Solid: Master Book Metal Gear &amp; Metal Gear 2: Screenplay Book Metal Gear &amp; Metal Gear 2: Master Book The digital books can be accessed from the game's main menu screen. If you already own the PS4™ version of this game, you can get the PS5® digital version at no extra cost and you do not need to purchase this product.\nRegion: EUR\nFirmware: 7.xx+\nAPR: ampr-emu ng 0.3 (latest: apr-emu-v0.4.2.1)\nNotes: Remember to disable global fakelib and emu updates in shadowmount!\nUpdated: 2026-11-16T12:00:37.083Z",
+      "downloadSource": "https://catalog.gfs-dlps.workers.dev/api/packages",
+      "downloadLinks": [
+        {
+          "name": "zstd · Data",
+          "url": "https://datanodes.to/7t0rqv4netcj"
+        },
+        {
+          "name": "zstd · Viki",
+          "url": "https://vikingfile.com/f/2UxMkUkX1f"
+        }
+      ],
+      "sizeBytes": 5905580032
+    },
+    {
+      "titleId": "PPSA07571",
+      "title": "Mortal Kombat 1 + DLCs",
+      "createdAt": "2026-11-16T12:26:42.307Z",
+      "version": "1.010.001",
+      "category": "game",
+      "posterUrl": "https://pegasus-dl.dev/api/posters/75a30c50c028ece0817d5c48c9a48f66f3c031e51f5ab6b2e04b35d5b3bb0694",
+      "originalPosterUrl": "https://pegasus-dl.dev/api/posters/5be8af239f09c28dd3f49034b1eb25e5517849da456c70388a073ddaad0d7eb9",
+      "description": "Format: zstd\nNew to Mortal Kombat 1? Get started with the Definitive Edition for the most extensive Mortal Kombat 1 Experience! Includes: Base Game Khaos Reigns Story Expansion Kombat Pack 2* Noob Saibot Cyrax Sektor Ghostface (Scream Franchise) T-1000 (Terminator 2) Conan the Barbarian Madam Bo Kameo Fighter Kombat Pack: Omni-Man (Invincible) Quan Chi Peacemaker (DC’s Peacemaker) Ermac Homelander (The Boys) Takeda Takahashi Kameo Fighters: Tremor Khameleon Janet Cage Mavado Ferra Jean-Claude Van Damme Skin for Johnny Cage 1250 Dragon Krystals Mortal Kombat Movie Skins for Johnny Cage, Shao Kahn, Kitana, Scorpion, and Sub-Zero Tournament Liu Kang Skin Havik Instant Unlock Kameo Unlock Pack Shang Tsung Fighter Khaos Reigns Pre-Order Skins (Wedding Scorpion, Ultimate MK3 Sub-Zero, Empress Mileena, Ultimate MK3 Noob Saibot) *Separate Kombat Pack 2 character bundle not available\nRegion: EUR\nFirmware: 4.xx+\nAPR: ampr-emu ng 0.4 (latest: apr-emu-v0.4.2.1)\nNotes: Remember to disable global fakelib and emu updates in shadowmount!\nUpdated: 2026-11-16T11:56:55.733Z",
+      "downloadSource": "https://catalog.gfs-dlps.workers.dev/api/packages",
+      "downloadLinks": [
+        {
+          "name": "zstd · Data - pt.1",
+          "url": "https://datanodes.to/ub77y8h7snuj"
+        },
+        {
+          "name": "zstd · Data - pt.2",
+          "url": "https://datanodes.to/iilrkxz6mua3"
+        },
+        {
+          "name": "zstd · Data - pt.3",
+          "url": "https://datanodes.to/82w3ka4g2bnh"
+        },
+        {
+          "name": "zstd · Data - pt.4",
+          "url": "https://datanodes.to/0tt2ixrvt7lx"
+        },
+        {
+          "name": "zstd · Data - pt.5",
+          "url": "https://datanodes.to/cmqfhong1ao7"
+        },
+        {
+          "name": "zstd · Data - pt.6",
+          "url": "https://datanodes.to/v9zdj03t3tpa"
+        },
+        {
+          "name": "zstd · Data - pt.7",
+          "url": "https://datanodes.to/qmr1o5db9x68"
+        },
+        {
+          "name": "zstd · Data - pt.8",
+          "url": "https://datanodes.to/7fnh2kggv17b"
+        },
+        {
+          "name": "zstd · Data - pt.9",
+          "url": "https://datanodes.to/111o3lkn1ygc"
+        },
+        {
+          "name": "zstd · Data - pt.10",
+          "url": "https://datanodes.to/r8xpfu02f88u"
+        },
+        {
+          "name": "zstd · Data - pt.11",
+          "url": "https://datanodes.to/buuwa7ycaclf"
+        },
+        {
+          "name": "zstd · Data - pt.12",
+          "url": "https://datanodes.to/2ggj8rvhc3q2"
+        },
+        {
+          "name": "zstd · Data - pt.13",
+          "url": "https://datanodes.to/qnu3ea3vcn1o"
+        },
+        {
+          "name": "zstd · Data - pt.14",
+          "url": "https://datanodes.to/rj5312nlgscj"
+        },
+        {
+          "name": "zstd · Viki - pt.1",
+          "url": "https://vikingfile.com/f/7E9gePiiN1"
+        },
+        {
+          "name": "zstd · Viki - pt.2",
+          "url": "https://vikingfile.com/f/LlmVZXnOy8"
+        },
+        {
+          "name": "zstd · Viki - pt.3",
+          "url": "https://vikingfile.com/f/FSJViPj62E"
+        },
+        {
+          "name": "zstd · Viki - pt.4",
+          "url": "https://vikingfile.com/f/F8adRO9CBp"
+        },
+        {
+          "name": "zstd · Viki - pt.5",
+          "url": "https://vikingfile.com/f/D1whgzw8KA"
+        },
+        {
+          "name": "zstd · Viki - pt.6",
+          "url": "https://vikingfile.com/f/mJ17niXebQ"
+        },
+        {
+          "name": "zstd · Viki - pt.7",
+          "url": "https://vikingfile.com/f/Q6eYnDs85S"
+        },
+        {
+          "name": "zstd · Viki - pt.8",
+          "url": "https://vikingfile.com/f/8WZtRZQ7nr"
+        },
+        {
+          "name": "zstd · Viki - pt.9",
+          "url": "https://vikingfile.com/f/zoX1Cq92pM"
+        },
+        {
+          "name": "zstd · Viki - pt.10",
+          "url": "https://vikingfile.com/f/x8f7O0ddIk"
+        },
+        {
+          "name": "zstd · Viki - pt.11",
+          "url": "https://vikingfile.com/f/nv3mIUXapu"
+        },
+        {
+          "name": "zstd · Viki - pt.12",
+          "url": "https://vikingfile.com/f/pNDAkBqQ3V"
+        },
+        {
+          "name": "zstd · Viki - pt.13",
+          "url": "https://vikingfile.com/f/gJCRqScTvf"
+        },
+        {
+          "name": "zstd · Viki - pt.14",
+          "url": "https://vikingfile.com/f/tGyyJaepr9"
+        },
+        {
+          "name": "zstd · Viki - DLC",
+          "url": "https://vikingfile.com/f/NtAT9u4CdM"
+        }
+      ],
+      "sizeBytes": 143344533504
+    },
+    {
+      "titleId": "PPSA15210",
+      "title": "Dragon Ball Sparking! Zero NEO + DLCs!",
+      "createdAt": "2026-11-16T11:25:42.463Z",
+      "version": "3.000.005",
+      "category": "game",
+      "posterUrl": "https://pegasus-dl.dev/api/posters/284cfef346aac826d65e0cea5b9b988fc6c0b4c125261253d5f9f41aafb18880",
+      "originalPosterUrl": "https://pegasus-dl.dev/api/posters/265e9fe8d1843b05eb2a684bb3f517500f8342c7096549d0ca3e4c2d18b0d20b",
+      "description": "Format: zstd\nDRAGON BALL: Sparking! ZERO takes the legendary gameplay of the Budokai Tenkaichi series and raises it to whole new levels. Become a super warrior and experience the earth-shaking, limit-breaking power of Dragon Ball battles! THE BIGGEST ROSTER IN HISTORY Unleash the strength of over 180 fighters from Dragon Ball Z, Dragon Ball Super, Dragon Ball GT, and selected Dragon Ball movies, all in the base game! Each character comes with their own signature abilities, transformations, and techniques. Make the destructive power of the strongest fighters ever to appear in Dragon Ball yours! BREATHTAKING 3D FIGHTS Engage in heart-pounding, high-speed 3D battles that stay true to the anime and video game series, with breathtaking visuals and authentic combat moves like beam clashes, rush attacks, movements too quick for the eyes to see, and planet-razing ultimate attacks. RIVALS MAKE YOU STRONGER Challenge other players online to test your skills, or sit down with friends offline to hone your skills! Fight your way to become a champion across various tournament modes and victory conditions. BLAZE A NEW PATH Conquer the action-packed battles from the beloved original story, or discover and unlock new encounters for your favorite Z-Fighters and more. Relive your favorite moments from the series through cutscenes you can experience from the perspectives of eight characters! CREATE, PLAY, AND SHARE Recreate your favorite battles from throughout the Dragon Ball story, or set up your dream story battle with your favorite characters! Share your creations with other fans and experience the battles brought to life by imaginations around the world. *In addition to this edition, Deluxe Edition and Ultimate Edition are also available. Please be careful not to purchase the same content twice.\nRegion: USA to EUR Langs\nFirmware: 9.xx+\nAPR: ampr-emu ng 0.4 (latest: apr-emu-v0.4.2.1)\nNotes: Remember to disable global fakelib and emu updates in shadowmount!\nUpdated: 2026-11-16T10:27:22.859Z",
+      "downloadSource": "https://catalog.gfs-dlps.workers.dev/api/packages",
+      "downloadLinks": [
+        {
+          "name": "zstd · Data - pt.1",
+          "url": "https://datanodes.to/ez0rxeqdcww0"
+        },
+        {
+          "name": "zstd · Data - pt.2",
+          "url": "https://datanodes.to/fr57lrkcdptc"
+        },
+        {
+          "name": "zstd · Data - pt.3",
+          "url": "https://datanodes.to/ll8ogtyiej9i"
+        },
+        {
+          "name": "zstd · Data - pt.4",
+          "url": "https://datanodes.to/6z8m4ujig6ea"
+        },
+        {
+          "name": "zstd · Viki - pt.1",
+          "url": "https://vikingfile.com/f/L7qYZEyOG9"
+        },
+        {
+          "name": "zstd · Viki - pt.2",
+          "url": "https://vikingfile.com/f/xUtsr0BPOu"
+        },
+        {
+          "name": "zstd · Viki - pt.3",
+          "url": "https://vikingfile.com/f/Uddw7GRqOn"
+        },
+        {
+          "name": "zstd · Viki - pt.4",
+          "url": "https://vikingfile.com/f/uP6jL60JdA"
+        }
+      ],
+      "sizeBytes": 37473589658
+    },
+    {
       "titleId": "PPSA09114",
       "title": "Green Hell VR",
       "createdAt": "2026-11-15T21:11:35.775Z",
