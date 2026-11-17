@@ -1,7 +1,7 @@
 {
   "name": "Jobee'sLair Homebrew (adapted)",
   "version": "1.0.0",
-  "generatedAt": "2026-11-17T12:51:19Z",
+  "generatedAt": "2026-11-17T21:31:36Z",
   "source": "https://raw.githubusercontent.com/JVK3R/JobeesLair-Homebrew/main/index.json",
   "packages": [
     {
@@ -443,7 +443,7 @@
     {
       "titleId": "HBEARTHONIONGARLIC",
       "title": "garlic-worker",
-      "version": "v1.6.0",
+      "version": "v1.6.2",
       "category": "dumps",
       "posterUrl": "https://avatars.githubusercontent.com/u/3332298?s=256&v=4",
       "originalPosterUrl": "https://avatars.githubusercontent.com/u/3332298?s=256&v=4",
@@ -452,7 +452,7 @@
       "downloadLinks": [
         {
           "name": "garlic-worker-ps5.elf (payload)",
-          "url": "https://github.com/earthonion/garlic-worker/releases/download/v1.6.0/garlic-worker-ps5.elf"
+          "url": "https://github.com/earthonion/garlic-worker/releases/download/v1.6.2/garlic-worker-ps5.elf"
         }
       ],
       "author": "earthonion",
@@ -1633,7 +1633,7 @@
     {
       "titleId": "HBPHANTOMPTRPS5UPL",
       "title": "ps5upload",
-      "version": "v12.6.2",
+      "version": "v12.6.4",
       "category": "files",
       "posterUrl": "https://raw.githubusercontent.com/phantomptr/ps5upload/main/branding/png/icon-1024.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/phantomptr/ps5upload/main/logo.png",
@@ -1641,8 +1641,8 @@
       "downloadSource": "https://github.com/phantomptr/ps5upload",
       "downloadLinks": [
         {
-          "name": "ps5upload-12.6.2.elf (payload)",
-          "url": "https://github.com/phantomptr/ps5upload/releases/download/v12.6.2/ps5upload-12.6.2.elf"
+          "name": "ps5upload-12.6.4.elf (payload)",
+          "url": "https://github.com/phantomptr/ps5upload/releases/download/v12.6.4/ps5upload-12.6.4.elf"
         }
       ],
       "author": "phantomptr",
@@ -2130,7 +2130,7 @@
     {
       "titleId": "HBITSPLKPS5WEBKITA",
       "title": "PS5 WebKit Autoloader",
-      "version": "v0.8.0-pre-627ba8c",
+      "version": "v0.8.0-pre-0850478",
       "category": "jailbreak",
       "posterUrl": "https://avatars.githubusercontent.com/u/209955039?s=256&v=4",
       "originalPosterUrl": "https://avatars.githubusercontent.com/u/209955039?s=256&v=4",
@@ -2138,8 +2138,8 @@
       "downloadSource": "https://github.com/itsPLK/ps5-webkit-autoloader",
       "downloadLinks": [
         {
-          "name": "webkit-autoloader-installer_v0.8.0-pre-627ba8c.elf (payload)",
-          "url": "https://github.com/itsPLK/ps5-webkit-autoloader/releases/download/v0.8.0-pre-627ba8c/webkit-autoloader-installer_v0.8.0-pre-627ba8c.elf"
+          "name": "webkit-autoloader-installer_v0.8.0-pre-0850478.elf (payload)",
+          "url": "https://github.com/itsPLK/ps5-webkit-autoloader/releases/download/v0.8.0-pre-0850478/webkit-autoloader-installer_v0.8.0-pre-0850478.elf"
         }
       ],
       "author": "itsPLK",
@@ -4275,7 +4275,7 @@
     {
       "titleId": "HBABASOWONIXHUB",
       "title": "ONIX HUB",
-      "version": "v14",
+      "version": "v15",
       "category": "dumps",
       "posterUrl": "https://avatars.githubusercontent.com/u/122549710?s=256&v=4",
       "originalPosterUrl": "https://raw.githubusercontent.com/abasow/onix-hub/main/screenshots/history.jpg",
@@ -4284,11 +4284,11 @@
       "downloadLinks": [
         {
           "name": "PPSA01959.zip (app)",
-          "url": "https://github.com/abasow/onix-hub/releases/download/v14/PPSA01959.zip"
+          "url": "https://github.com/abasow/onix-hub/releases/download/v15/PPSA01959.zip"
         },
         {
           "name": "onix-hub.elf (payload)",
-          "url": "https://github.com/abasow/onix-hub/releases/download/v14/onix-hub.elf"
+          "url": "https://github.com/abasow/onix-hub/releases/download/v15/onix-hub.elf"
         }
       ],
       "author": "abasow",
@@ -4858,7 +4858,7 @@
     {
       "titleId": "HBLEOLOBATOPLAYDEN",
       "title": "Playden for PS5",
-      "version": "v0.11.0",
+      "version": "v0.12.0-beta.1",
       "category": "emulators",
       "posterUrl": "https://raw.githubusercontent.com/leolobato/playden-ps5/main/sce_sys/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/leolobato/playden-ps5/main/docs/images/library.jpg",
@@ -4866,12 +4866,12 @@
       "downloadSource": "https://github.com/leolobato/playden-ps5",
       "downloadLinks": [
         {
-          "name": "playden-kit-0.28.zip (app)",
-          "url": "https://github.com/leolobato/playden-ps5/releases/download/v0.11.0/playden-kit-0.28.zip"
+          "name": "playden-kit-0.29.zip (app)",
+          "url": "https://github.com/leolobato/playden-ps5/releases/download/v0.12.0-beta.1/playden-kit-0.29.zip"
         },
         {
-          "name": "playden-ps5-0.11.0.zip (app)",
-          "url": "https://github.com/leolobato/playden-ps5/releases/download/v0.11.0/playden-ps5-0.11.0.zip"
+          "name": "playden-ps5-0.12.0-beta.1.zip (app)",
+          "url": "https://github.com/leolobato/playden-ps5/releases/download/v0.12.0-beta.1/playden-ps5-0.12.0-beta.1.zip"
         }
       ],
       "author": "leolobato",
@@ -5037,7 +5037,7 @@
     {
       "titleId": "HBMISTERTEMAKIMEDI",
       "title": "Media Player Classic PS5",
-      "version": "v1.6.2",
+      "version": "v1.6.3",
       "category": "media",
       "posterUrl": "https://raw.githubusercontent.com/MisterTemaki/MediaPlayerClassicPS5/main/ps5/app/sce_sys/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/MisterTemaki/MediaPlayerClassicPS5/main/docs/screenshots/window.png",
@@ -5045,12 +5045,12 @@
       "downloadSource": "https://github.com/MisterTemaki/MediaPlayerClassicPS5",
       "downloadLinks": [
         {
-          "name": "MediaPlayerClassicPS5-v1.6.2-PPSA99015.zip (app)",
-          "url": "https://github.com/MisterTemaki/MediaPlayerClassicPS5/releases/download/v1.6.2/MediaPlayerClassicPS5-v1.6.2-PPSA99015.zip"
+          "name": "MediaPlayerClassicPS5-v1.6.3-PPSA99015.zip (app)",
+          "url": "https://github.com/MisterTemaki/MediaPlayerClassicPS5/releases/download/v1.6.3/MediaPlayerClassicPS5-v1.6.3-PPSA99015.zip"
         },
         {
-          "name": "MediaPlayerClassicPS5-v1.6.2.elf (payload)",
-          "url": "https://github.com/MisterTemaki/MediaPlayerClassicPS5/releases/download/v1.6.2/MediaPlayerClassicPS5-v1.6.2.elf"
+          "name": "MediaPlayerClassicPS5-v1.6.3.elf (payload)",
+          "url": "https://github.com/MisterTemaki/MediaPlayerClassicPS5/releases/download/v1.6.3/MediaPlayerClassicPS5-v1.6.3.elf"
         }
       ],
       "author": "MisterTemaki",
@@ -5386,6 +5386,25 @@
       "upstreamId": "sunnyqeen/autokstuff"
     },
     {
+      "titleId": "HBTHEREALREXOPS5LI",
+      "title": "ps5-linux-loader (fork)",
+      "version": "v1.0.0",
+      "category": "linux",
+      "posterUrl": "https://avatars.githubusercontent.com/u/189953641?s=256&v=4",
+      "originalPosterUrl": "https://avatars.githubusercontent.com/u/189953641?s=256&v=4",
+      "description": "A ps5-linux-loader payload for Jailbroken PS5(s): Boots Linux on rest-mode resume, with a built-in WebUI server.",
+      "downloadSource": "https://github.com/TheRealRexo/PS5-Linux-Loader",
+      "downloadLinks": [
+        {
+          "name": "ps5-linux-loader.elf (payload)",
+          "url": "https://github.com/TheRealRexo/PS5-Linux-Loader/releases/download/v1.0.0/ps5-linux-loader.elf"
+        }
+      ],
+      "author": "TheRealRexo",
+      "repo": "TheRealRexo/PS5-Linux-Loader",
+      "upstreamId": "therealrexo/ps5-linux-loader"
+    },
+    {
       "titleId": "HBVENEZUELANBIGGIE",
       "title": "MacheteSaveGameManager",
       "version": "v1.3.17",
@@ -5411,7 +5430,7 @@
     {
       "titleId": "HBVIVALAVENTPS5BAZ",
       "title": "PS5 Bazzite Deck",
-      "version": "v2.16",
+      "version": "v2.16.1",
       "category": "linux",
       "posterUrl": "https://avatars.githubusercontent.com/u/62951130?s=256&v=4",
       "originalPosterUrl": "https://avatars.githubusercontent.com/u/62951130?s=256&v=4",
@@ -5419,8 +5438,8 @@
       "downloadSource": "https://github.com/VivaLaVent/ps5-bazzite-deck",
       "downloadLinks": [
         {
-          "name": "bazzite-bootc-loader-v2.16.elf (payload)",
-          "url": "https://github.com/VivaLaVent/ps5-bazzite-deck/releases/download/v2.16/bazzite-bootc-loader-v2.16.elf"
+          "name": "bazzite-bootc-loader-v2.16.1.elf (payload)",
+          "url": "https://github.com/VivaLaVent/ps5-bazzite-deck/releases/download/v2.16.1/bazzite-bootc-loader-v2.16.1.elf"
         }
       ],
       "author": "VivaLaVent",
@@ -5468,20 +5487,20 @@
     {
       "titleId": "HBXXBNEUTZERNAMEXX",
       "title": "PS5 Cleanup",
-      "version": "v1.0.10",
+      "version": "v1.1",
       "category": "system",
-      "posterUrl": "https://raw.githubusercontent.com/xXBneutzerNameXx/PS5-Cleanup/main/1.0.10/probelauf/sce_sys/icon0.png",
+      "posterUrl": "https://raw.githubusercontent.com/xXBneutzerNameXx/PS5-Cleanup/main/1.1/probelauf/sce_sys/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/xXBneutzerNameXx/PS5-Cleanup/main/bilder/1.0.10/banner.jpg",
       "description": "Clean up a jailbroken PS5 like new, no reinstall.",
       "downloadSource": "https://github.com/xXBneutzerNameXx/PS5-Cleanup",
       "downloadLinks": [
         {
-          "name": "ps5cleanup_v1.0.10.elf (payload)",
-          "url": "https://github.com/xXBneutzerNameXx/PS5-Cleanup/releases/download/v1.0.10/ps5cleanup_v1.0.10.elf"
+          "name": "ps5cleanup_v1.1.elf (payload)",
+          "url": "https://github.com/xXBneutzerNameXx/PS5-Cleanup/releases/download/v1.1/ps5cleanup_v1.1.elf"
         },
         {
-          "name": "PS5-Cleanup-1.0.10.zip (archive-payload)",
-          "url": "https://github.com/xXBneutzerNameXx/PS5-Cleanup/releases/download/v1.0.10/PS5-Cleanup-1.0.10.zip"
+          "name": "PS5-Cleanup-1.1.zip (archive-payload)",
+          "url": "https://github.com/xXBneutzerNameXx/PS5-Cleanup/releases/download/v1.1/PS5-Cleanup-1.1.zip"
         }
       ],
       "author": "xXBneutzerNameXx",
@@ -5907,7 +5926,7 @@
     {
       "titleId": "HBRAMALHOBOSSPLAYB",
       "title": "PlayBridge",
-      "version": "v1.8.0",
+      "version": "v1.9.0",
       "category": "system",
       "posterUrl": "https://raw.githubusercontent.com/ramalhoboss/PlayBridge/main/docs/images/playbridge-icon.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/ramalhoboss/PlayBridge/main/docs/images/banner.png",
@@ -5916,15 +5935,15 @@
       "downloadLinks": [
         {
           "name": "PlayBridge.elf (payload)",
-          "url": "https://github.com/ramalhoboss/PlayBridge/releases/download/v1.8.0/PlayBridge.elf"
+          "url": "https://github.com/ramalhoboss/PlayBridge/releases/download/v1.9.0/PlayBridge.elf"
         },
         {
-          "name": "PlayBridge-Complete-v1.8.0.zip (archive-payload)",
-          "url": "https://github.com/ramalhoboss/PlayBridge/releases/download/v1.8.0/PlayBridge-Complete-v1.8.0.zip"
+          "name": "PlayBridge-Complete-v1.9.0.zip (archive-payload)",
+          "url": "https://github.com/ramalhoboss/PlayBridge/releases/download/v1.9.0/PlayBridge-Complete-v1.9.0.zip"
         },
         {
-          "name": "PlayBridge-Payload-v1.8.0.zip (archive-payload)",
-          "url": "https://github.com/ramalhoboss/PlayBridge/releases/download/v1.8.0/PlayBridge-Payload-v1.8.0.zip"
+          "name": "PlayBridge-Payload-v1.9.0.zip (archive-payload)",
+          "url": "https://github.com/ramalhoboss/PlayBridge/releases/download/v1.9.0/PlayBridge-Payload-v1.9.0.zip"
         }
       ],
       "author": "ramalhoboss",
@@ -7377,7 +7396,7 @@
     {
       "titleId": "HBDARKATEK7PS5SD",
       "title": "PS5SD",
-      "version": "v1.2.1",
+      "version": "v1.3.0",
       "category": "system",
       "posterUrl": "https://raw.githubusercontent.com/Darkatek7/PS5SD/main/ps5/app/sce_sys/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/Darkatek7/PS5SD/main/docs/images/webui-pc-create.jpg",
@@ -7386,7 +7405,7 @@
       "downloadLinks": [
         {
           "name": "PPSA99576.zip (app)",
-          "url": "https://github.com/Darkatek7/PS5SD/releases/download/v1.2.1/PPSA99576.zip"
+          "url": "https://github.com/Darkatek7/PS5SD/releases/download/v1.3.0/PPSA99576.zip"
         }
       ],
       "author": "Darkatek7",

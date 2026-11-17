@@ -3,6 +3,132 @@
   "version": 1,
   "packages": [
     {
+      "titleId": "PPSA02225",
+      "title": "Ghost of Tsushima",
+      "createdAt": "2026-11-17T19:57:50.076Z",
+      "version": "02.024.000",
+      "category": "game",
+      "posterUrl": "https://pegasus-dl.dev/api/posters/33968a4d91024ee564853f2bf02588fa8ffc42999829cddde978cdfb33cb627a",
+      "originalPosterUrl": "https://pegasus-dl.dev/api/posters/c40f727027d3a7b3b608707f3ed795b6aef69c526696492fbd860df3045943fb",
+      "description": "Format: zstd\n99 from 20 August 2021. If you already own the Ghost of Tsushima DIRECTOR’S CUT on PS4, you can upgrade to the PS5 Ghost of Tsushima DIRECTOR’S CUT for $10.00 from 20 August 2021. Edition includes: - Iki Island expansion.* - Legends online co-op mode.** - Digital mini art book. - Director’s commentary. - One Technique Point.* - Charm of Hachiman’s Favour.* - Hero of Tsushima Skin Set.* PS5 features: - Dynamic 4K resolution targeting 60fps (requires compatible 4K TV or display). - DualSense™ wireless controller haptic feedback and adaptive trigger resistance. - 3D Audio with stereo headphones (analogue or USB). - Lip sync for Japanese voiceover. - Ability to transfer PS4 saved progress to PS5 game. Owners of a PS4 disc copy must insert it into the PS5 every time they want to download or play the PS5 digital version. PS4 game disc owners who buy the PS5 Digital Edition disc-free console will not be able to get the PS5 version for the discounted price.\nRegion: USA\nFirmware: 5.xx+\nAPR: apr-emu-v0.4.2.1\nNotes: Remember to disable global fakelib and emu updates in shadowmount! This version includes Brazilian Portuguese 🇧🇷 voice-overs.\nCredits: Thank you, Hdjackson!\nUpdated: 2026-11-17T19:18:58.541Z",
+      "downloadSource": "https://catalog.gfs-dlps.workers.dev/api/packages",
+      "downloadLinks": [
+        {
+          "name": "zstd · Viki",
+          "url": "https://vik1ngfile.site/f/dzEP5XlaB3"
+        },
+        {
+          "name": "zstd · Data",
+          "url": "https://datanodes.to/1z28xp9v84vu"
+        },
+        {
+          "name": "zstd · Viki",
+          "url": "https://vikingfile.com/f/Yj9uJIU91h"
+        }
+      ],
+      "sizeBytes": 69868380488
+    },
+    {
+      "titleId": "PPSA20246",
+      "title": "Sky Oceans: Wings For Hire",
+      "createdAt": "2026-11-17T18:56:49.402Z",
+      "version": "01.000.005",
+      "category": "game",
+      "posterUrl": "https://pegasus-dl.dev/api/posters/b3cf9685a473674a303a72438e947e1a6865ee8f03a617ab34f81b22165073bb",
+      "originalPosterUrl": "https://pegasus-dl.dev/api/posters/b3cf9685a473674a303a72438e947e1a6865ee8f03a617ab34f81b22165073bb",
+      "description": "Format: Folder\n\"The Age of Sky Pirates Returns!\" A Touching Narrative, A Heartfelt Message... Relive the charm of classic RPGs with a touching story about the search for purpose. Take the role of Glenn Windwalker as you assemble your team of pirates and fight against the Alliance. Thrilling Turn-Based Dog Fights Fight adversaries within the open blue skies in strategic turn-based dog fights. Tactically plan attacks and adapt your strategy to the ever-changing scenarios! Build your party and customise your airships Assemble a party of rag-tag air pirates and upgrade airships with new special abilities as you progress through a winding narrative! Manage resources and expand your airship departments strategically. Do you have what it takes to be captain?! A Beautiful World Filled With Wonder Stunning Studio Ghibli-inspired visuals make for diverse environments and memorable character design. Discover new towns, and cultures and help solve local problems to gain their support and loyalty Original Orchestral Soundtrack A beautifully orchestrated original soundtrack accompanies you along your journey.\nRegion: USA\nFirmware: 9.xx+\nAPR: apr-emu-v0.4.2.1\nNotes: RAR password: 20246\nCredits: Thank you, Rapunzel!\nUpdated: 2026-11-17T18:00:06.881Z",
+      "downloadSource": "https://catalog.gfs-dlps.workers.dev/api/packages",
+      "downloadLinks": [
+        {
+          "name": "Folder · Gofile",
+          "url": "https://gofile.io/d/TwoVIp26"
+        },
+        {
+          "name": "Folder · Data",
+          "url": "https://datanodes.to/xgkklk4kbuaa"
+        },
+        {
+          "name": "Folder · Viki",
+          "url": "https://vikingfile.com/f/IVUUbgClUg"
+        }
+      ],
+      "sizeBytes": 9792525435
+    },
+    {
+      "titleId": "PPSA34577",
+      "title": "Majogami",
+      "createdAt": "2026-11-17T17:55:49.710Z",
+      "version": "01.002.001",
+      "category": "game",
+      "posterUrl": "https://pegasus-dl.dev/api/posters/e5d98efd260183cd9b474662448c54425944b3a83dfe9206fccc66a642083c58",
+      "originalPosterUrl": "https://pegasus-dl.dev/api/posters/e5d98efd260183cd9b474662448c54425944b3a83dfe9206fccc66a642083c58",
+      "description": "Format: Folder\n『魔女ガミ』は記憶喪失の魔女「シロハ」が紙キレの姿となったシロハの父「シオリ」と共に、 その手に持つ刀「カミキリ」でカミの化け物たちを斬って 奇々怪々の世界を駆け抜けていく2D横スクロールアクションゲームです。 プレイヤーはシロハを操り、高速移動（スラッシュ）攻撃「セツナ」を駆使して敵やステージを攻略していきます。 その先々ではシロハの記憶が宿ったカード「追憶譜（レカルタ）」を持つ、 個性豊かなマジョガミたちが立ちはだかります。 彼女たちは狂った心と様々な能力を持ち、 その凶悪な攻撃によってシロハは苦戦を強いられますが「セツナ」によって活路を斬り開いたり、時にはシオリの「防御陣」や道中で出会う守護神「星神」の能力強化「色ナ星（いろなぼし）」など、仲間の力を借りてその窮地を乗り越えていきます。 マジョガミを倒すたびシロハはシオリに関する記憶を思い出してゆき、物語の進行と共に二人の交流も増えていきます。 狂った世界での心温まる家族との触れ合い、そして一人の少女の決断を見届けてください。 妖艶で魅力的な世界観を舞台に、激しい戦いを繰り広げよう！ シロハに襲い来る独特で魅惑的なデザインのマジョガミと呼ばれる少女たち。 インティ・クリエイツの数々の作品に参加しているアートディレクターの夏目裕司（代表作：『Bloodstained: Curse of the Moon』、『ブラスターマスター ゼロ』シリーズなど）が手がけた全く新しい世界観の『魔女ガミ』は、ペーパークラフト風のグラフィックとダークな雰囲気を融合させた独特で魅惑的な世界となっています。 本格的な2D横スクロールアクションの攻略に没頭しながら、美しく作り込まれた世界観とアートワークをお楽しみください。 迫力のフルスクリーンアニメーション、フルボイスで彩られる少女たちの物語の結末とは？ 【出演】 シロハ…富田美憂、シオリ…浜田賢二、語り部…野沢雅子 ファイルーズあい、杉山里穂、宮下早紀、愛原ありさ、上永紗也華、陶山恵実里、ブリドカットセーラ恵美、古木のぞみ、西川舞、秋谷啓斗、狩野翔、大西綺華、井澤詩織\nRegion: JPN to EUR Languages\nFirmware: 12.xx+\nAPR: apr-emu-v0.4.2.1\nNotes: RAR Password: 34577\nCredits: Thank you, Rapunzel!\nUpdated: 2026-11-17T17:55:17.868Z",
+      "downloadSource": "https://catalog.gfs-dlps.workers.dev/api/packages",
+      "downloadLinks": [
+        {
+          "name": "Folder · GoFile",
+          "url": "https://gofile.io/d/m9pQO20L"
+        },
+        {
+          "name": "Folder · Data",
+          "url": "https://datanodes.to/kb6a1lvuhme1"
+        },
+        {
+          "name": "Folder · Viki",
+          "url": "https://vikingfile.com/f/zLBLVf3uZN"
+        }
+      ],
+      "sizeBytes": 4498978243
+    },
+    {
+      "titleId": "PPSA21006",
+      "title": "Forward To The Sky",
+      "createdAt": "2026-11-17T17:55:49.710Z",
+      "version": "01.000.000",
+      "category": "game",
+      "posterUrl": "https://pegasus-dl.dev/api/posters/35082aff1ad8b8ba4ada7b674fd675584847793e08a343edb00e7ae3c34e2f27",
+      "originalPosterUrl": "https://pegasus-dl.dev/api/posters/35082aff1ad8b8ba4ada7b674fd675584847793e08a343edb00e7ae3c34e2f27",
+      "description": "Format: Folder\nThe second 3D action title brought to you by the Animu Game × COSEN team. Guide our princess knight as she races toward the top of the Tower of the Sky, collecting crystals that are said to reveal the whereabouts of the legendary witch. Dive in and enjoy this 3D action-adventure packed with engaging puzzle elements! [Story] Determined to defeat the legendary witch and become a true hero, the princess boards her hot-air balloon and sets foot into the Tower of the Sky. According to ancient lore, gathering the crystals hidden within will unveil the tower's history—and expose the witch's lair. Dismissed by those around her as a troublemaker, this tomboy princess grabs her massive sword and braves a tower crawling with monsters, ready to prove everyone wrong! [Voice Cast] The Princess: Tamako Miyazaki The Witch / Crystals: Tsugumi Sakuragi\nRegion: JPN\nFirmware: 11.xx+\nAPR: ampr-emu ng 0.4 (latest: apr-emu-v0.4.2.1)\nNotes: RAR Password: 21006\nCredits: Rapunzel\nUpdated: 2026-11-17T17:50:56.101Z",
+      "downloadSource": "https://catalog.gfs-dlps.workers.dev/api/packages",
+      "downloadLinks": [
+        {
+          "name": "Folder · Gofile",
+          "url": "https://gofile.io/d/CiEdEP60"
+        },
+        {
+          "name": "Folder · Data",
+          "url": "https://datanodes.to/byxk0fb32oha"
+        },
+        {
+          "name": "Folder · Viki",
+          "url": "https://vikingfile.com/f/sg6uG5xcfV"
+        }
+      ],
+      "sizeBytes": 1524713390
+    },
+    {
+      "titleId": "PPSA17221",
+      "title": "Minecraft",
+      "createdAt": "2026-10-16T21:48:35.923Z",
+      "version": "1.008",
+      "category": "game",
+      "posterUrl": "https://pegasus-dl.dev/api/posters/c3cb336b5f6e2007d22d3cccef02661bdb71fbc88bcbdd5b74eb09be6e75da2c",
+      "originalPosterUrl": "https://pegasus-dl.dev/api/posters/63f595500233834c2e362bbb38a1667f3465b2ef4c12d46ec136e7b6ff28c31e",
+      "description": "Format: zstd\nCREATE Build whatever you can imagine in your own infinite world that’s unique in every playthrough. EXPLORE Discover biomes, resources and mobs, and craft your way through a world filled with surprises in the ultimate sandbox game. SURVIVE Experience unforgettable adventures as you face mysterious foes, traverse exciting landscapes, and travel to perilous dimensions. PLAY TOGETHER Have a blast with friends, whether you’re sitting on the same couch in split screen or miles apart in cross-platform play for console, mobile and PC. Connect with millions of players on community servers or subscribe to Realms Plus to play with up to 10 friends on your own private server. VIBRANT VISUALS Vibrant Visuals is Minecraft’s biggest official visual enhancement – delivering a dazzling cosmetic upgrade with a new modern graphics pipeline and an array of visual improvements. Sunrises are more vivid, water reflects, forests become shaded, and more! EXPERIENCE MORE Get creator-made add-ons, thrilling worlds, and stylish cosmetics on the Minecraft Store. Subscribe to Marketplace Pass (or Realms Plus) to access 150+ worlds, skin &amp; textures packs, and more – refreshed monthly. Marketplace Add-Ons, Skins, and Persona items will work with Vibrant Visuals, however, Worlds and Texture Packs are not compatible with the new mode at this time. Splitscreen multiplayer is not supported with Vibrant Visuals and the game will switch to Fancy or Simple rendering if multiple players are joined locally.\nRegion: USA to EUR Langs\nFirmware: 8.xx+\nAPR: ampr-emu ng 0.4 (latest: apr-emu-v0.4.2.1)\nNotes: Remember to disable global fakelib and emu updates in shadowmount!\nCredits: Thank you, Cloud X, for submitting this one!\nUpdated: 2026-11-17T17:48:31.408Z",
+      "downloadSource": "https://catalog.gfs-dlps.workers.dev/api/packages",
+      "downloadLinks": [
+        {
+          "name": "zstd · Data",
+          "url": "https://datanodes.to/fdwxqgq9pjad"
+        },
+        {
+          "name": "zstd · Viki",
+          "url": "https://vikingfile.com/f/0XuBuebJz1"
+        }
+      ],
+      "sizeBytes": 955630223
+    },
+    {
       "titleId": "PPSA16439",
       "title": "Front Mission 1st Remake",
       "createdAt": "2026-11-17T01:39:44.884Z",
