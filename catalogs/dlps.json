@@ -3,6 +3,53 @@
   "version": 1,
   "packages": [
     {
+      "titleId": "PPSA26573",
+      "title": "Class of Heroes 3 Remaster",
+      "createdAt": "2026-11-17T07:09:00.118Z",
+      "category": "game",
+      "posterUrl": "https://pegasus-dl.dev/api/posters/430d223683fce46a0de49cb15b81762b68cc89fba344d26b47dcb4fb4f6de4e4",
+      "originalPosterUrl": "https://pegasus-dl.dev/api/posters/a120edfab5c32e665d8e8995b1e1bda98eeeaaf4b4e939a5b8bf1d05ef0fa6e1",
+      "description": "Region: EUR\nRelease note: Works on 12.xx and higher",
+      "downloadSource": "https://dlpsgame.com/class-of-heroes-3-remaster-ps5/",
+      "downloadLinks": [
+        {
+          "name": "EUR 12.xx Base - Akirabox",
+          "url": "https://akirabox.to/0JgG7AqRn3oY/file"
+        },
+        {
+          "name": "EUR 12.xx Base - Rootz",
+          "url": "https://www.rootz.so/d/2EEaY4"
+        },
+        {
+          "name": "EUR 12.xx Base - Vikingfile",
+          "url": "https://vikingfile.com/f/RZNTKakZoh"
+        }
+      ]
+    },
+    {
+      "titleId": "PPSA08202",
+      "title": "Shantae",
+      "createdAt": "2026-11-17T07:09:00.118Z",
+      "category": "game",
+      "posterUrl": "https://cdn.prosperopatches.com/titles/PPSA08202_064e7f3f860509092b97ec9365a89412e3ce608935f1efc66728f4395635d6dc/icon0.webp",
+      "description": "Region: USA\nRelease note: Works on 7.xx and higher",
+      "downloadSource": "https://dlpsgame.com/shantae-ps5/",
+      "downloadLinks": [
+        {
+          "name": "USA 7.xx Base - Akirabox",
+          "url": "https://akirabox.to/7d5GLWryLzxR/file"
+        },
+        {
+          "name": "USA 7.xx Base - Rootz",
+          "url": "https://www.rootz.so/d/2ACjke"
+        },
+        {
+          "name": "USA 7.xx Base - Vikingfile",
+          "url": "https://vikingfile.com/f/PEi8Rp12r2"
+        }
+      ]
+    },
+    {
       "titleId": "PPSA06246",
       "title": "QUBE 2 Ultimate Edition",
       "createdAt": "2026-11-16T20:58:47.843Z",
