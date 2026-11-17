@@ -1,7 +1,7 @@
 {
   "name": "Jobee'sLair Homebrew (adapted)",
   "version": "1.0.0",
-  "generatedAt": "2026-11-16T10:44:32Z",
+  "generatedAt": "2026-11-17T03:28:11Z",
   "source": "https://raw.githubusercontent.com/JVK3R/JobeesLair-Homebrew/main/index.json",
   "packages": [
     {
@@ -668,7 +668,7 @@
     {
       "titleId": "HBQUER3QPS5DUMPFOR",
       "title": "ps5 dump forge",
-      "version": "v0.5.5",
+      "version": "v0.5.6",
       "category": "dumps",
       "posterUrl": "https://raw.githubusercontent.com/quer3q/ps5-dump-forge/main/ps5/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/quer3q/ps5-dump-forge/main/ps5/icon0.png",
@@ -676,8 +676,8 @@
       "downloadSource": "https://github.com/quer3q/ps5-dump-forge",
       "downloadLinks": [
         {
-          "name": "ps5-dump-forge-0.5.5-ps5.elf (payload)",
-          "url": "https://github.com/quer3q/ps5-dump-forge/releases/download/v0.5.5/ps5-dump-forge-0.5.5-ps5.elf"
+          "name": "ps5-dump-forge-0.5.6-ps5.elf (payload)",
+          "url": "https://github.com/quer3q/ps5-dump-forge/releases/download/v0.5.6/ps5-dump-forge-0.5.6-ps5.elf"
         }
       ],
       "author": "quer3q",
@@ -1396,16 +1396,20 @@
     {
       "titleId": "HBZIZC3XPSEMU",
       "title": "XPSemu",
-      "version": "v3.5",
+      "version": "v3.6",
       "category": "emulators",
       "posterUrl": "https://raw.githubusercontent.com/ZiZc3/XPSemu/main/ps5/sce_sys/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/ZiZc3/XPSemu/main/ps5/sce_sys/icon0.png",
-      "description": "Original Xbox emulator (Xemu) port for the PS5",
+      "description": "Original Xbox emulator for the PS5",
       "downloadSource": "https://github.com/ZiZc3/XPSemu",
       "downloadLinks": [
         {
+          "name": "PPSA97358-EvoX.zip (app)",
+          "url": "https://github.com/ZiZc3/XPSemu/releases/download/v3.6/PPSA97358-EvoX.zip"
+        },
+        {
           "name": "PPSA97358.zip (app)",
-          "url": "https://github.com/ZiZc3/XPSemu/releases/download/v3.5/PPSA97358.zip"
+          "url": "https://github.com/ZiZc3/XPSemu/releases/download/v3.6/PPSA97358.zip"
         }
       ],
       "author": "ZiZc3",
@@ -1629,7 +1633,7 @@
     {
       "titleId": "HBPHANTOMPTRPS5UPL",
       "title": "ps5upload",
-      "version": "v12.4.23",
+      "version": "v12.6.0",
       "category": "files",
       "posterUrl": "https://raw.githubusercontent.com/phantomptr/ps5upload/main/branding/png/icon-1024.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/phantomptr/ps5upload/main/logo.png",
@@ -1637,8 +1641,8 @@
       "downloadSource": "https://github.com/phantomptr/ps5upload",
       "downloadLinks": [
         {
-          "name": "ps5upload-12.4.23.elf (payload)",
-          "url": "https://github.com/phantomptr/ps5upload/releases/download/v12.4.23/ps5upload-12.4.23.elf"
+          "name": "ps5upload-12.6.0.elf (payload)",
+          "url": "https://github.com/phantomptr/ps5upload/releases/download/v12.6.0/ps5upload-12.6.0.elf"
         }
       ],
       "author": "phantomptr",
@@ -2126,7 +2130,7 @@
     {
       "titleId": "HBITSPLKPS5WEBKITA",
       "title": "PS5 WebKit Autoloader",
-      "version": "v0.7.1",
+      "version": "v0.8.0-pre-627ba8c",
       "category": "jailbreak",
       "posterUrl": "https://avatars.githubusercontent.com/u/209955039?s=256&v=4",
       "originalPosterUrl": "https://avatars.githubusercontent.com/u/209955039?s=256&v=4",
@@ -2134,8 +2138,8 @@
       "downloadSource": "https://github.com/itsPLK/ps5-webkit-autoloader",
       "downloadLinks": [
         {
-          "name": "webkit-autoloader-installer_v0.7.1.elf (payload)",
-          "url": "https://github.com/itsPLK/ps5-webkit-autoloader/releases/download/v0.7.1/webkit-autoloader-installer_v0.7.1.elf"
+          "name": "webkit-autoloader-installer_v0.8.0-pre-627ba8c.elf (payload)",
+          "url": "https://github.com/itsPLK/ps5-webkit-autoloader/releases/download/v0.8.0-pre-627ba8c/webkit-autoloader-installer_v0.8.0-pre-627ba8c.elf"
         }
       ],
       "author": "itsPLK",
@@ -2470,7 +2474,7 @@
     {
       "titleId": "HBBORNARADUSINEMBY",
       "title": "Emby5",
-      "version": "1.3.2",
+      "version": "theme-videos-test",
       "category": "media",
       "posterUrl": "https://raw.githubusercontent.com/bornaradusin/Emby5/main/app/sce_sys/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/bornaradusin/Emby5/main/app/sce_sys/pic0.png",
@@ -2478,8 +2482,8 @@
       "downloadSource": "https://github.com/bornaradusin/Emby5",
       "downloadLinks": [
         {
-          "name": "Emby5-1.3.2.zip (app)",
-          "url": "https://github.com/bornaradusin/Emby5/releases/download/1.3.2/Emby5-1.3.2.zip"
+          "name": "Emby5-theme-videos-test.zip (app)",
+          "url": "https://github.com/bornaradusin/Emby5/releases/download/theme-videos-test/Emby5-theme-videos-test.zip"
         }
       ],
       "author": "bornaradusin",
@@ -3058,7 +3062,7 @@
     {
       "titleId": "HBDARKATEK7PROSPER",
       "title": "Prospero Themes",
-      "version": "01.000.042",
+      "version": "01.000.043",
       "category": "mods",
       "posterUrl": "https://raw.githubusercontent.com/Darkatek7/ProsperoThemes/main/ThemeApp/sce_sys/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/Darkatek7/ProsperoThemes/main/ThemeApp/sce_sys/icon0.png",
@@ -3067,7 +3071,7 @@
       "downloadLinks": [
         {
           "name": "PPSA90210.zip (app)",
-          "url": "https://github.com/Darkatek7/ProsperoThemes/releases/download/01.000.042/PPSA90210.zip"
+          "url": "https://github.com/Darkatek7/ProsperoThemes/releases/download/01.000.043/PPSA90210.zip"
         }
       ],
       "author": "Darkatek7",
@@ -3218,7 +3222,7 @@
     {
       "titleId": "HBDARKXEXPROSPEROS",
       "title": "ProsperoStore",
-      "version": "v1.000.116",
+      "version": "v1.000.119",
       "category": "stores",
       "posterUrl": "https://raw.githubusercontent.com/darkxex/ProsperoStore/main/sce_sys/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/darkxex/ProsperoStore/main/docs/media/home.jpg",
@@ -3227,7 +3231,7 @@
       "downloadLinks": [
         {
           "name": "PPSA99000.zip (app)",
-          "url": "https://github.com/darkxex/ProsperoStore/releases/download/v1.000.116/PPSA99000.zip"
+          "url": "https://github.com/darkxex/ProsperoStore/releases/download/v1.000.119/PPSA99000.zip"
         }
       ],
       "author": "darkxex",
@@ -3382,7 +3386,7 @@
     {
       "titleId": "HBSAAWANT12ORBITST",
       "title": "Orbit Store (Beta)",
-      "version": "v1.9.1",
+      "version": "v1.9.2",
       "category": "stores",
       "posterUrl": "",
       "originalPosterUrl": "https://raw.githubusercontent.com/saawant12/orbit-store-ps5/main/assets/1.5.0/native-crossbar-discover.jpg",
@@ -3391,11 +3395,11 @@
       "downloadLinks": [
         {
           "name": "PPSA99177.ffpkg (image)",
-          "url": "https://github.com/saawant12/orbit-store-ps5/releases/download/v1.9.1/PPSA99177.ffpkg"
+          "url": "https://github.com/saawant12/orbit-store-ps5/releases/download/v1.9.2/PPSA99177.ffpkg"
         },
         {
           "name": "orbit_store.elf (payload)",
-          "url": "https://github.com/saawant12/orbit-store-ps5/releases/download/v1.9.1/orbit_store.elf"
+          "url": "https://github.com/saawant12/orbit-store-ps5/releases/download/v1.9.2/orbit_store.elf"
         }
       ],
       "author": "saawant12",
@@ -4374,7 +4378,7 @@
     {
       "titleId": "HBBORNARADUSINPC5",
       "title": "PC5",
-      "version": "v2.3.13",
+      "version": "v2.4.2",
       "category": "emulators",
       "posterUrl": "https://raw.githubusercontent.com/bornaradusin/PC5/main/art/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/bornaradusin/PC5/main/art/pic0.png",
@@ -4383,11 +4387,11 @@
       "downloadLinks": [
         {
           "name": "PPSA11018-update.zip (app)",
-          "url": "https://github.com/bornaradusin/PC5/releases/download/v2.3.13/PPSA11018-update.zip"
+          "url": "https://github.com/bornaradusin/PC5/releases/download/v2.4.2/PPSA11018-update.zip"
         },
         {
           "name": "PPSA11018.zip (app)",
-          "url": "https://github.com/bornaradusin/PC5/releases/download/v2.3.13/PPSA11018.zip"
+          "url": "https://github.com/bornaradusin/PC5/releases/download/v2.4.2/PPSA11018.zip"
         }
       ],
       "author": "bornaradusin",
@@ -4664,7 +4668,7 @@
     {
       "titleId": "HBGASB07NEOENABLER",
       "title": "NeoEnabler",
-      "version": "v0.6.2",
+      "version": "0.7.0",
       "category": "dumps",
       "posterUrl": "https://raw.githubusercontent.com/gasb07/NeoEnabler/main/assets/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/gasb07/NeoEnabler/main/docs/panel-games.jpg",
@@ -4673,7 +4677,7 @@
       "downloadLinks": [
         {
           "name": "neo-manager.elf (payload)",
-          "url": "https://github.com/gasb07/NeoEnabler/releases/download/v0.6.2/neo-manager.elf"
+          "url": "https://github.com/gasb07/NeoEnabler/releases/download/0.7.0/neo-manager.elf"
         }
       ],
       "author": "gasb07",
@@ -4854,7 +4858,7 @@
     {
       "titleId": "HBLEOLOBATOPLAYDEN",
       "title": "Playden for PS5",
-      "version": "v0.11.0-beta.4",
+      "version": "v0.11.0",
       "category": "emulators",
       "posterUrl": "https://raw.githubusercontent.com/leolobato/playden-ps5/main/sce_sys/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/leolobato/playden-ps5/main/docs/images/library.jpg",
@@ -4862,12 +4866,12 @@
       "downloadSource": "https://github.com/leolobato/playden-ps5",
       "downloadLinks": [
         {
-          "name": "playden-kit-0.25.zip (app)",
-          "url": "https://github.com/leolobato/playden-ps5/releases/download/v0.11.0-beta.4/playden-kit-0.25.zip"
+          "name": "playden-kit-0.28.zip (app)",
+          "url": "https://github.com/leolobato/playden-ps5/releases/download/v0.11.0/playden-kit-0.28.zip"
         },
         {
-          "name": "playden-ps5-0.11.0-beta.4.zip (app)",
-          "url": "https://github.com/leolobato/playden-ps5/releases/download/v0.11.0-beta.4/playden-ps5-0.11.0-beta.4.zip"
+          "name": "playden-ps5-0.11.0.zip (app)",
+          "url": "https://github.com/leolobato/playden-ps5/releases/download/v0.11.0/playden-ps5-0.11.0.zip"
         }
       ],
       "author": "leolobato",
@@ -5182,7 +5186,7 @@
     {
       "titleId": "HBPRESS5ELECTCRUX2",
       "title": "Crux2",
-      "version": "v1.0.19",
+      "version": "v1.0.21",
       "category": "emulators",
       "posterUrl": "https://raw.githubusercontent.com/Press5elect/Crux2/main/ps5/sce_sys/icon0.png",
       "originalPosterUrl": "https://github.com/user-attachments/assets/25fe5dd6-4552-4993-bc68-d25dc65e510d",
@@ -5190,8 +5194,8 @@
       "downloadSource": "https://github.com/Press5elect/Crux2",
       "downloadLinks": [
         {
-          "name": "Crux2-v1.0.19.zip (app)",
-          "url": "https://github.com/Press5elect/Crux2/releases/download/v1.0.19/Crux2-v1.0.19.zip"
+          "name": "Crux2-v1.0.21.zip (app)",
+          "url": "https://github.com/Press5elect/Crux2/releases/download/v1.0.21/Crux2-v1.0.21.zip"
         }
       ],
       "author": "Press5elect",
@@ -5201,7 +5205,7 @@
     {
       "titleId": "HBPRESS5ELECTPSFLY",
       "title": "PSFlyCast",
-      "version": "v1.3.9",
+      "version": "v1.4.1",
       "category": "emulators",
       "posterUrl": "https://raw.githubusercontent.com/Press5elect/PSFlycast/main/shell/ps5/sce_sys/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/Press5elect/PSFlycast/main/shell/ps5/screenshots/important-warning.png",
@@ -5209,8 +5213,8 @@
       "downloadSource": "https://github.com/Press5elect/PSFlycast",
       "downloadLinks": [
         {
-          "name": "PSFlyCast-v1.3.9.zip (app)",
-          "url": "https://github.com/Press5elect/PSFlycast/releases/download/v1.3.9/PSFlyCast-v1.3.9.zip"
+          "name": "PSFlyCast-v1.4.1.zip (app)",
+          "url": "https://github.com/Press5elect/PSFlycast/releases/download/v1.4.1/PSFlyCast-v1.4.1.zip"
         }
       ],
       "author": "Press5elect",
@@ -5903,7 +5907,7 @@
     {
       "titleId": "HBRAMALHOBOSSPLAYB",
       "title": "PlayBridge",
-      "version": "v1.7.1",
+      "version": "v1.8.0",
       "category": "system",
       "posterUrl": "https://raw.githubusercontent.com/ramalhoboss/PlayBridge/main/docs/images/playbridge-icon.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/ramalhoboss/PlayBridge/main/docs/images/banner.png",
@@ -5912,15 +5916,15 @@
       "downloadLinks": [
         {
           "name": "PlayBridge.elf (payload)",
-          "url": "https://github.com/ramalhoboss/PlayBridge/releases/download/v1.7.1/PlayBridge.elf"
+          "url": "https://github.com/ramalhoboss/PlayBridge/releases/download/v1.8.0/PlayBridge.elf"
         },
         {
-          "name": "PlayBridge-Complete-v1.7.1.zip (archive-payload)",
-          "url": "https://github.com/ramalhoboss/PlayBridge/releases/download/v1.7.1/PlayBridge-Complete-v1.7.1.zip"
+          "name": "PlayBridge-Complete-v1.8.0.zip (archive-payload)",
+          "url": "https://github.com/ramalhoboss/PlayBridge/releases/download/v1.8.0/PlayBridge-Complete-v1.8.0.zip"
         },
         {
-          "name": "PlayBridge-Payload-v1.7.1.zip (archive-payload)",
-          "url": "https://github.com/ramalhoboss/PlayBridge/releases/download/v1.7.1/PlayBridge-Payload-v1.7.1.zip"
+          "name": "PlayBridge-Payload-v1.8.0.zip (archive-payload)",
+          "url": "https://github.com/ramalhoboss/PlayBridge/releases/download/v1.8.0/PlayBridge-Payload-v1.8.0.zip"
         }
       ],
       "author": "ramalhoboss",
@@ -7011,7 +7015,7 @@
     {
       "titleId": "HBMATEOCOGEANUPROS",
       "title": "ProsperoCraft",
-      "version": "01.000.285",
+      "version": "01.000.286",
       "category": "system",
       "posterUrl": "https://raw.githubusercontent.com/mateo-cogeanu/ProsperoCraft/main/assets/branding/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/mateo-cogeanu/ProsperoCraft/main/assets/branding/icon0.png",
@@ -7020,7 +7024,7 @@
       "downloadLinks": [
         {
           "name": "PPSA99874.zip (app)",
-          "url": "https://github.com/mateo-cogeanu/ProsperoCraft/releases/download/01.000.285/PPSA99874.zip"
+          "url": "https://github.com/mateo-cogeanu/ProsperoCraft/releases/download/01.000.286/PPSA99874.zip"
         }
       ],
       "author": "mateo-cogeanu",
@@ -7186,7 +7190,7 @@
     {
       "titleId": "HBSASCHB2BMEGAMANB",
       "title": "Cyberworld Endless",
-      "version": "v0.22.0",
+      "version": "v0.22.1",
       "category": "system",
       "posterUrl": "https://raw.githubusercontent.com/saschb2b/Mega-Man-Battle-Network-Cyberworld-Endless/main/ps4/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/saschb2b/Mega-Man-Battle-Network-Cyberworld-Endless/main/docs/clips/trailer-play.png",
@@ -7195,15 +7199,15 @@
       "downloadLinks": [
         {
           "name": "cyberworld-endless-ps5.zip (app)",
-          "url": "https://github.com/saschb2b/Mega-Man-Battle-Network-Cyberworld-Endless/releases/download/v0.22.0/cyberworld-endless-ps5.zip"
+          "url": "https://github.com/saschb2b/Mega-Man-Battle-Network-Cyberworld-Endless/releases/download/v0.22.1/cyberworld-endless-ps5.zip"
         },
         {
           "name": "update-pictures.bin (payload)",
-          "url": "https://github.com/saschb2b/Mega-Man-Battle-Network-Cyberworld-Endless/releases/download/v0.22.0/update-pictures.bin"
+          "url": "https://github.com/saschb2b/Mega-Man-Battle-Network-Cyberworld-Endless/releases/download/v0.22.1/update-pictures.bin"
         },
         {
           "name": "cyberworld-endless.pkg (pkg)",
-          "url": "https://github.com/saschb2b/Mega-Man-Battle-Network-Cyberworld-Endless/releases/download/v0.22.0/cyberworld-endless.pkg"
+          "url": "https://github.com/saschb2b/Mega-Man-Battle-Network-Cyberworld-Endless/releases/download/v0.22.1/cyberworld-endless.pkg"
         }
       ],
       "author": "saschb2b",
