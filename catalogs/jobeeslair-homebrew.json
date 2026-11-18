@@ -1,7 +1,7 @@
 {
   "name": "Jobee'sLair Homebrew (adapted)",
   "version": "1.0.0",
-  "generatedAt": "2026-11-18T12:44:27Z",
+  "generatedAt": "2026-11-18T21:08:30Z",
   "source": "https://raw.githubusercontent.com/JVK3R/JobeesLair-Homebrew/main/index.json",
   "packages": [
     {
@@ -443,7 +443,7 @@
     {
       "titleId": "HBEARTHONIONGARLIC",
       "title": "garlic-worker",
-      "version": "v1.6.5",
+      "version": "v1.6.6",
       "category": "dumps",
       "posterUrl": "https://avatars.githubusercontent.com/u/3332298?s=256&v=4",
       "originalPosterUrl": "https://avatars.githubusercontent.com/u/3332298?s=256&v=4",
@@ -452,7 +452,7 @@
       "downloadLinks": [
         {
           "name": "garlic-worker-ps5.elf (payload)",
-          "url": "https://github.com/earthonion/garlic-worker/releases/download/v1.6.5/garlic-worker-ps5.elf"
+          "url": "https://github.com/earthonion/garlic-worker/releases/download/v1.6.6/garlic-worker-ps5.elf"
         }
       ],
       "author": "earthonion",
@@ -1442,7 +1442,7 @@
     {
       "titleId": "HBCY33HCPS5EZREMOT",
       "title": "ezRemote Client",
-      "version": "2.21",
+      "version": "2.22",
       "category": "files",
       "posterUrl": "https://raw.githubusercontent.com/cy33hc/ps5-ezremote-client/master/data/sce_sys/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/cy33hc/ps5-ezremote-client/master/data/sce_sys/pic0.png",
@@ -1450,16 +1450,16 @@
       "downloadSource": "https://github.com/cy33hc/ps5-ezremote-client",
       "downloadLinks": [
         {
-          "name": "ezRemote-Loader-1.01.elf (payload)",
-          "url": "https://github.com/cy33hc/ps5-ezremote-client/releases/download/2.21/ezRemote-Loader-1.01.elf"
+          "name": "ezRemote-Loader-1.02.elf (payload)",
+          "url": "https://github.com/cy33hc/ps5-ezremote-client/releases/download/2.22/ezRemote-Loader-1.02.elf"
         },
         {
           "name": "ezremote-client.zip (archive-payload)",
-          "url": "https://github.com/cy33hc/ps5-ezremote-client/releases/download/2.21/ezremote-client.zip"
+          "url": "https://github.com/cy33hc/ps5-ezremote-client/releases/download/2.22/ezremote-client.zip"
         },
         {
           "name": "PS5_ezRemote_Client_4.00.pkg (pkg)",
-          "url": "https://github.com/cy33hc/ps5-ezremote-client/releases/download/2.21/PS5_ezRemote_Client_4.00.pkg"
+          "url": "https://github.com/cy33hc/ps5-ezremote-client/releases/download/2.22/PS5_ezRemote_Client_4.00.pkg"
         }
       ],
       "author": "cy33hc",
@@ -1633,7 +1633,7 @@
     {
       "titleId": "HBPHANTOMPTRPS5UPL",
       "title": "ps5upload",
-      "version": "v12.6.5",
+      "version": "v12.6.8",
       "category": "files",
       "posterUrl": "https://raw.githubusercontent.com/phantomptr/ps5upload/main/branding/png/icon-1024.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/phantomptr/ps5upload/main/logo.png",
@@ -1641,8 +1641,8 @@
       "downloadSource": "https://github.com/phantomptr/ps5upload",
       "downloadLinks": [
         {
-          "name": "ps5upload-12.6.5.elf (payload)",
-          "url": "https://github.com/phantomptr/ps5upload/releases/download/v12.6.5/ps5upload-12.6.5.elf"
+          "name": "ps5upload-12.6.8.elf (payload)",
+          "url": "https://github.com/phantomptr/ps5upload/releases/download/v12.6.8/ps5upload-12.6.8.elf"
         }
       ],
       "author": "phantomptr",
@@ -2328,8 +2328,8 @@
     },
     {
       "titleId": "HBXF1REBALLXWKSTOR",
-      "title": "wk store",
-      "version": "v1.2.3",
+      "title": "WK Store",
+      "version": "v1.2.4",
       "category": "jailbreak",
       "posterUrl": "https://raw.githubusercontent.com/X-F1REBALL-X/wk-store/main/store/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/X-F1REBALL-X/wk-store/main/assets/pic0.png",
@@ -2337,12 +2337,12 @@
       "downloadSource": "https://github.com/X-F1REBALL-X/wk-store",
       "downloadLinks": [
         {
-          "name": "WK_Store_V1.2.3.elf (payload)",
-          "url": "https://github.com/X-F1REBALL-X/wk-store/releases/download/v1.2.3/WK_Store_V1.2.3.elf"
+          "name": "WK_Store_V1.2.4.elf (payload)",
+          "url": "https://github.com/X-F1REBALL-X/wk-store/releases/download/v1.2.4/WK_Store_V1.2.4.elf"
         },
         {
-          "name": "WK_Store_Restore_V1.2.3.elf (payload)",
-          "url": "https://github.com/X-F1REBALL-X/wk-store/releases/download/v1.2.3/WK_Store_Restore_V1.2.3.elf"
+          "name": "WK_Store_Restore_V1.2.4.elf (payload)",
+          "url": "https://github.com/X-F1REBALL-X/wk-store/releases/download/v1.2.4/WK_Store_Restore_V1.2.4.elf"
         }
       ],
       "author": "X-F1REBALL-X",
@@ -4096,7 +4096,7 @@
     {
       "titleId": "HBSTRONGT1MEPS5COO",
       "title": "PS5 Cooling & System Center - Pro",
-      "version": "v1.86.4",
+      "version": "v1.86.5",
       "category": "system",
       "posterUrl": "https://raw.githubusercontent.com/strongt1me/ps5-cooling-system-center-pro/main/tile/sce_sys/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/strongt1me/ps5-cooling-system-center-pro/main/starter/sce_sys/pic0.png",
@@ -4105,15 +4105,15 @@
       "downloadLinks": [
         {
           "name": "FAKE86921.zip (app)",
-          "url": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases/download/v1.86.4/FAKE86921.zip"
+          "url": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases/download/v1.86.5/FAKE86921.zip"
         },
         {
           "name": "FAKE86922.zip (app)",
-          "url": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases/download/v1.86.4/FAKE86922.zip"
+          "url": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases/download/v1.86.5/FAKE86922.zip"
         },
         {
-          "name": "PS5_Cooling_System_Center_v1.86.4.elf (payload)",
-          "url": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases/download/v1.86.4/PS5_Cooling_System_Center_v1.86.4.elf"
+          "name": "PS5_Cooling_System_Center_v1.86.5.elf (payload)",
+          "url": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases/download/v1.86.5/PS5_Cooling_System_Center_v1.86.5.elf"
         }
       ],
       "author": "strongt1me",
@@ -5386,6 +5386,25 @@
       "upstreamId": "sunnyqeen/autokstuff"
     },
     {
+      "titleId": "HBTHEREALREXOPS5LI",
+      "title": "ps5-linux-loader (fork)",
+      "version": "v1.0.0",
+      "category": "linux",
+      "posterUrl": "https://avatars.githubusercontent.com/u/189953641?s=256&v=4",
+      "originalPosterUrl": "https://avatars.githubusercontent.com/u/189953641?s=256&v=4",
+      "description": "A ps5-linux-loader payload for Jailbroken PS5(s): Boots Linux on rest-mode resume, with a built-in WebUI server.",
+      "downloadSource": "https://github.com/TheRealRexo/PS5-Linux-Loader",
+      "downloadLinks": [
+        {
+          "name": "ps5-linux-loader.elf (payload)",
+          "url": "https://github.com/TheRealRexo/PS5-Linux-Loader/releases/download/v1.0.0/ps5-linux-loader.elf"
+        }
+      ],
+      "author": "TheRealRexo",
+      "repo": "TheRealRexo/PS5-Linux-Loader",
+      "upstreamId": "therealrexo/ps5-linux-loader"
+    },
+    {
       "titleId": "HBVENEZUELANBIGGIE",
       "title": "MacheteSaveGameManager",
       "version": "v1.3.17",
@@ -5468,7 +5487,7 @@
     {
       "titleId": "HBXXBNEUTZERNAMEXX",
       "title": "PS5 Cleanup",
-      "version": "wegdiagnose-13x",
+      "version": "v1.2",
       "category": "system",
       "posterUrl": "https://raw.githubusercontent.com/xXBneutzerNameXx/PS5-Cleanup/main/1.1/probelauf/sce_sys/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/xXBneutzerNameXx/PS5-Cleanup/main/bilder/1.0.10/banner.jpg",
@@ -5476,8 +5495,12 @@
       "downloadSource": "https://github.com/xXBneutzerNameXx/PS5-Cleanup",
       "downloadLinks": [
         {
-          "name": "ps5cleanup_diagnose_13x.elf (payload)",
-          "url": "https://github.com/xXBneutzerNameXx/PS5-Cleanup/releases/download/wegdiagnose-13x/ps5cleanup_diagnose_13x.elf"
+          "name": "ps5cleanup_v1.2.elf (payload)",
+          "url": "https://github.com/xXBneutzerNameXx/PS5-Cleanup/releases/download/v1.2/ps5cleanup_v1.2.elf"
+        },
+        {
+          "name": "PS5-Cleanup-1.2.zip (archive-payload)",
+          "url": "https://github.com/xXBneutzerNameXx/PS5-Cleanup/releases/download/v1.2/PS5-Cleanup-1.2.zip"
         }
       ],
       "author": "xXBneutzerNameXx",
@@ -5818,6 +5841,49 @@
       "author": "viejunerd",
       "repo": "viejunerd/Eglantine-PS5-",
       "upstreamId": "viejunerd/eglantine-ps5-"
+    },
+    {
+      "titleId": "HBWIGGLEZSUDO12XXL",
+      "title": "PS5 Pro 12.xx Linux Loader",
+      "version": "v1.0-pro",
+      "category": "linux",
+      "posterUrl": "https://avatars.githubusercontent.com/u/149416763?s=256&v=4",
+      "originalPosterUrl": "https://avatars.githubusercontent.com/u/149416763?s=256&v=4",
+      "description": "PS5 Pro 12.xx Linux loader — AIO and per-firmware builds with source",
+      "downloadSource": "https://github.com/Wigglez-sudo/12.xx-linux-loader-pro-beta",
+      "downloadLinks": [
+        {
+          "name": "Linux-loader-pro-aio.elf (payload)",
+          "url": "https://github.com/Wigglez-sudo/12.xx-linux-loader-pro-beta/releases/download/v1.0-pro/Linux-loader-pro-aio.elf"
+        },
+        {
+          "name": "ps5-linux-loader-1200-pro.elf (payload)",
+          "url": "https://github.com/Wigglez-sudo/12.xx-linux-loader-pro-beta/releases/download/v1.0-pro/ps5-linux-loader-1200-pro.elf"
+        },
+        {
+          "name": "ps5-linux-loader-1202-pro.elf (payload)",
+          "url": "https://github.com/Wigglez-sudo/12.xx-linux-loader-pro-beta/releases/download/v1.0-pro/ps5-linux-loader-1202-pro.elf"
+        },
+        {
+          "name": "ps5-linux-loader-1220-pro.elf (payload)",
+          "url": "https://github.com/Wigglez-sudo/12.xx-linux-loader-pro-beta/releases/download/v1.0-pro/ps5-linux-loader-1220-pro.elf"
+        },
+        {
+          "name": "ps5-linux-loader-1240-pro.elf (payload)",
+          "url": "https://github.com/Wigglez-sudo/12.xx-linux-loader-pro-beta/releases/download/v1.0-pro/ps5-linux-loader-1240-pro.elf"
+        },
+        {
+          "name": "ps5-linux-loader-1260-pro.elf (payload)",
+          "url": "https://github.com/Wigglez-sudo/12.xx-linux-loader-pro-beta/releases/download/v1.0-pro/ps5-linux-loader-1260-pro.elf"
+        },
+        {
+          "name": "ps5-linux-loader-1270-pro.elf (payload)",
+          "url": "https://github.com/Wigglez-sudo/12.xx-linux-loader-pro-beta/releases/download/v1.0-pro/ps5-linux-loader-1270-pro.elf"
+        }
+      ],
+      "author": "Wigglez-sudo",
+      "repo": "Wigglez-sudo/12.xx-linux-loader-pro-beta",
+      "upstreamId": "wigglez-sudo/12.xx-linux-loader-pro-beta"
     },
     {
       "titleId": "HBSONICISO1PS5LINU",
@@ -6968,7 +7034,7 @@
     {
       "titleId": "HBMATEOCOGEANUPROS",
       "title": "ProsperoCraft",
-      "version": "01.000.286",
+      "version": "01.000.287",
       "category": "system",
       "posterUrl": "https://raw.githubusercontent.com/mateo-cogeanu/ProsperoCraft/main/assets/branding/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/mateo-cogeanu/ProsperoCraft/main/assets/branding/icon0.png",
@@ -6977,7 +7043,7 @@
       "downloadLinks": [
         {
           "name": "PPSA99874.zip (app)",
-          "url": "https://github.com/mateo-cogeanu/ProsperoCraft/releases/download/01.000.286/PPSA99874.zip"
+          "url": "https://github.com/mateo-cogeanu/ProsperoCraft/releases/download/01.000.287/PPSA99874.zip"
         }
       ],
       "author": "mateo-cogeanu",
