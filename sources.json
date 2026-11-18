@@ -1,7 +1,7 @@
 {
   "name": "AICyberGuardian PS5 Catalogs Hub",
   "version": "1.1.0",
-  "generatedAt": "2026-11-18T03:22:21Z",
+  "generatedAt": "2026-11-18T12:44:27Z",
   "rawBase": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs",
   "sources": [
     {
@@ -24,8 +24,8 @@
       "id": "pippo-exfat",
       "name": "Pippo .exFAT",
       "url": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs/pippo.json",
-      "items": 959,
-      "sha256": "33cc437af670e843ebb549a38b2f0c24747b3d7bffeae99859935f185da02993",
+      "items": 963,
+      "sha256": "8d4244e687a53f63d65a82903aebbf9c1b095604b33c3c41f0696b6b1c971f7c",
       "upstream": "https://pegasus-dl.dev/catalogs/pippo.json"
     },
     {
@@ -67,7 +67,7 @@
       "name": "ProsperoStore",
       "url": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs/prosperostore.json",
       "items": 208,
-      "sha256": "75f19576c8f623aa465c0ee00f7fee24d05ba2d1028d80320ef97cf0c7bc35ce",
+      "sha256": "1f18311da924297190c5811317132b57111bcd1bce0cf30aade392561ceb1804",
       "upstream": "https://prosperostore.net/catalog/v1.json",
       "consumer": "prospero-native"
     },
@@ -75,8 +75,8 @@
       "id": "jobeeslair-homebrew",
       "name": "Jobee'sLair Homebrew (adapted)",
       "url": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs/jobeeslair-homebrew.json",
-      "items": 363,
-      "sha256": "caef78cd0d162089db1601638c2072a6e9641f07907993be4aba480f214e6a45",
+      "items": 361,
+      "sha256": "8bd9fc592cde14172432c6d72bd04bb4972aa96cbfd292b17390cd47e335aa13",
       "upstream": "https://raw.githubusercontent.com/JVK3R/JobeesLair-Homebrew/main/index.json",
       "consumer": "jobee-native"
     }

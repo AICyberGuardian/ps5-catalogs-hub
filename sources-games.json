@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "kind": "games",
   "consumer": "ps5-library",
-  "generatedAt": "2026-11-18T03:22:21Z",
+  "generatedAt": "2026-11-18T12:44:27Z",
   "rawBase": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs",
   "sources": [
     {
@@ -26,8 +26,8 @@
       "id": "pippo-exfat",
       "name": "Pippo .exFAT",
       "url": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs/pippo.json",
-      "items": 959,
-      "sha256": "33cc437af670e843ebb549a38b2f0c24747b3d7bffeae99859935f185da02993",
+      "items": 963,
+      "sha256": "8d4244e687a53f63d65a82903aebbf9c1b095604b33c3c41f0696b6b1c971f7c",
       "upstream": "https://pegasus-dl.dev/catalogs/pippo.json"
     },
     {
