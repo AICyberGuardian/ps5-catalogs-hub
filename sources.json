@@ -1,7 +1,7 @@
 {
   "name": "AICyberGuardian PS5 Catalogs Hub",
   "version": "1.1.0",
-  "generatedAt": "2026-11-19T02:57:17Z",
+  "generatedAt": "2026-11-19T11:25:20Z",
   "rawBase": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs",
   "sources": [
     {
@@ -24,8 +24,8 @@
       "id": "pippo-exfat",
       "name": "Pippo .exFAT",
       "url": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs/pippo.json",
-      "items": 963,
-      "sha256": "09b68681947b63ea8d575d9e49786596adf50b6b4ef3f76316720d5c54b1929b",
+      "items": 965,
+      "sha256": "325c29fc691ee2dd3dc786db895e20978722ae03b35078d786a71dcda24217df",
       "upstream": "https://pegasus-dl.dev/catalogs/pippo.json"
     },
     {
@@ -48,8 +48,8 @@
       "id": "phoenix-dl-ps5",
       "name": "Phoenix DL PS5 (Jamzi94)",
       "url": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs/jamzi94-ps5.json",
-      "items": 1463,
-      "sha256": "454276ea55c5d4e2f9aad10bf0c166951b61c1af508cfb9561637e11e4d6d5f6",
+      "items": 1469,
+      "sha256": "877a7b4a5c950a5b23734bc21cf81895d771578ae632b38ca70e7b4fe6d8ccf5",
       "upstream": "https://raw.githubusercontent.com/Jamzi94/catalog-V2/main/ps5-catalog.json"
     },
     {
@@ -76,7 +76,7 @@
       "name": "Jobee'sLair Homebrew (adapted)",
       "url": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs/jobeeslair-homebrew.json",
       "items": 363,
-      "sha256": "3afda1a95d8a1ccb652216b264861ef57f5a958bcc81f9a2b00b8ff277358214",
+      "sha256": "7212b7727dec302c0270f9bed17fba9c7b60721685420159584a23820da76d1a",
       "upstream": "https://raw.githubusercontent.com/JVK3R/JobeesLair-Homebrew/main/index.json",
       "consumer": "jobee-native"
     }

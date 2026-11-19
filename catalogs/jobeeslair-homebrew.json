@@ -1,7 +1,7 @@
 {
   "name": "Jobee'sLair Homebrew (adapted)",
   "version": "1.0.0",
-  "generatedAt": "2026-11-18T21:08:30Z",
+  "generatedAt": "2026-11-19T11:25:20Z",
   "source": "https://raw.githubusercontent.com/JVK3R/JobeesLair-Homebrew/main/index.json",
   "packages": [
     {
@@ -1633,7 +1633,7 @@
     {
       "titleId": "HBPHANTOMPTRPS5UPL",
       "title": "ps5upload",
-      "version": "v12.6.8",
+      "version": "v12.6.10",
       "category": "files",
       "posterUrl": "https://raw.githubusercontent.com/phantomptr/ps5upload/main/branding/png/icon-1024.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/phantomptr/ps5upload/main/logo.png",
@@ -1641,8 +1641,8 @@
       "downloadSource": "https://github.com/phantomptr/ps5upload",
       "downloadLinks": [
         {
-          "name": "ps5upload-12.6.8.elf (payload)",
-          "url": "https://github.com/phantomptr/ps5upload/releases/download/v12.6.8/ps5upload-12.6.8.elf"
+          "name": "ps5upload-12.6.10.elf (payload)",
+          "url": "https://github.com/phantomptr/ps5upload/releases/download/v12.6.10/ps5upload-12.6.10.elf"
         }
       ],
       "author": "phantomptr",
@@ -4096,7 +4096,7 @@
     {
       "titleId": "HBSTRONGT1MEPS5COO",
       "title": "PS5 Cooling & System Center - Pro",
-      "version": "v1.86.5",
+      "version": "v1.86.7",
       "category": "system",
       "posterUrl": "https://raw.githubusercontent.com/strongt1me/ps5-cooling-system-center-pro/main/tile/sce_sys/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/strongt1me/ps5-cooling-system-center-pro/main/starter/sce_sys/pic0.png",
@@ -4105,15 +4105,15 @@
       "downloadLinks": [
         {
           "name": "FAKE86921.zip (app)",
-          "url": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases/download/v1.86.5/FAKE86921.zip"
+          "url": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases/download/v1.86.7/FAKE86921.zip"
         },
         {
           "name": "FAKE86922.zip (app)",
-          "url": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases/download/v1.86.5/FAKE86922.zip"
+          "url": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases/download/v1.86.7/FAKE86922.zip"
         },
         {
-          "name": "PS5_Cooling_System_Center_v1.86.5.elf (payload)",
-          "url": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases/download/v1.86.5/PS5_Cooling_System_Center_v1.86.5.elf"
+          "name": "PS5_Cooling_System_Center_v1.86.7.elf (payload)",
+          "url": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases/download/v1.86.7/PS5_Cooling_System_Center_v1.86.7.elf"
         }
       ],
       "author": "strongt1me",
@@ -4858,7 +4858,7 @@
     {
       "titleId": "HBLEOLOBATOPLAYDEN",
       "title": "Playden for PS5",
-      "version": "v0.12.0-beta.1",
+      "version": "v0.12.0-beta.2",
       "category": "emulators",
       "posterUrl": "https://raw.githubusercontent.com/leolobato/playden-ps5/main/sce_sys/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/leolobato/playden-ps5/main/docs/images/library.jpg",
@@ -4866,12 +4866,12 @@
       "downloadSource": "https://github.com/leolobato/playden-ps5",
       "downloadLinks": [
         {
-          "name": "playden-kit-0.29.zip (app)",
-          "url": "https://github.com/leolobato/playden-ps5/releases/download/v0.12.0-beta.1/playden-kit-0.29.zip"
+          "name": "playden-kit-0.31.zip (app)",
+          "url": "https://github.com/leolobato/playden-ps5/releases/download/v0.12.0-beta.2/playden-kit-0.31.zip"
         },
         {
-          "name": "playden-ps5-0.12.0-beta.1.zip (app)",
-          "url": "https://github.com/leolobato/playden-ps5/releases/download/v0.12.0-beta.1/playden-ps5-0.12.0-beta.1.zip"
+          "name": "playden-ps5-0.12.0-beta.2.zip (app)",
+          "url": "https://github.com/leolobato/playden-ps5/releases/download/v0.12.0-beta.2/playden-ps5-0.12.0-beta.2.zip"
         }
       ],
       "author": "leolobato",
@@ -5346,7 +5346,7 @@
     {
       "titleId": "HBSTRONGT1MEPS5USB",
       "title": "USB-Formatierer",
-      "version": "v2.6.68",
+      "version": "v2.6.69",
       "category": "system",
       "posterUrl": "https://raw.githubusercontent.com/strongt1me/ps5-usb-formatierer/main/usb_format/app/sce_sys/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/strongt1me/ps5-usb-formatierer/main/usb_format/app/sce_sys/pic0.png",
@@ -5355,11 +5355,11 @@
       "downloadLinks": [
         {
           "name": "PPSA86920.zip (app)",
-          "url": "https://github.com/strongt1me/ps5-usb-formatierer/releases/download/v2.6.68/PPSA86920.zip"
+          "url": "https://github.com/strongt1me/ps5-usb-formatierer/releases/download/v2.6.69/PPSA86920.zip"
         },
         {
           "name": "usb_format.elf (payload)",
-          "url": "https://github.com/strongt1me/ps5-usb-formatierer/releases/download/v2.6.68/usb_format.elf"
+          "url": "https://github.com/strongt1me/ps5-usb-formatierer/releases/download/v2.6.69/usb_format.elf"
         }
       ],
       "author": "strongt1me",
@@ -6056,7 +6056,7 @@
     {
       "titleId": "HBDARKATEK7PROSPER",
       "title": "ProsperoSunshine",
-      "version": "test-0.6.6-i56-1",
+      "version": "v0.6.7-beta.1",
       "category": "streaming",
       "posterUrl": "https://raw.githubusercontent.com/Darkatek7/ProsperoSunshine/main/app/sce_sys/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/Darkatek7/ProsperoSunshine/main/app/sce_sys/pic0.png",
@@ -6064,8 +6064,20 @@
       "downloadSource": "https://github.com/Darkatek7/ProsperoSunshine",
       "downloadLinks": [
         {
-          "name": "prosperosunshine-0.6.6-i56-1-debug.tar.gz (archive-payload)",
-          "url": "https://github.com/Darkatek7/ProsperoSunshine/releases/download/test-0.6.6-i56-1/prosperosunshine-0.6.6-i56-1-debug.tar.gz"
+          "name": "PPSA47989-debug.zip (app)",
+          "url": "https://github.com/Darkatek7/ProsperoSunshine/releases/download/v0.6.7-beta.1/PPSA47989-debug.zip"
+        },
+        {
+          "name": "PPSA47989.zip (app)",
+          "url": "https://github.com/Darkatek7/ProsperoSunshine/releases/download/v0.6.7-beta.1/PPSA47989.zip"
+        },
+        {
+          "name": "prosperosunshine-0.6.7-beta.1-debug.tar.gz (archive-payload)",
+          "url": "https://github.com/Darkatek7/ProsperoSunshine/releases/download/v0.6.7-beta.1/prosperosunshine-0.6.7-beta.1-debug.tar.gz"
+        },
+        {
+          "name": "prosperosunshine-0.6.7-beta.1.tar.gz (archive-payload)",
+          "url": "https://github.com/Darkatek7/ProsperoSunshine/releases/download/v0.6.7-beta.1/prosperosunshine-0.6.7-beta.1.tar.gz"
         }
       ],
       "author": "Darkatek7",
