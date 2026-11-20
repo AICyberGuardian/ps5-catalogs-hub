@@ -1,13 +1,13 @@
 # Catalog Hub Sync Report
 
-Generated: 2026-11-20T02:03:51Z
+Generated: 2026-11-20T10:59:34Z
 Sources OK: 10/10
 
 | Source | Kind | Items | Changed | Status | Upstream |
 | --- | --- | ---: | --- | --- | --- |
-| `dlpsgame` | game | 1834 | yes | OK | `https://pegasus-dl.dev/catalogs/dlps.json` |
+| `dlpsgame` | game | 1835 | yes | OK | `https://pegasus-dl.dev/catalogs/dlps.json` |
 | `zer0game` | game | 57 | no | OK | `https://pegasus-dl.dev/catalogs/zer0.json` |
-| `pippo-exfat` | game | 965 | no | OK | `https://pegasus-dl.dev/catalogs/pippo.json` |
+| `pippo-exfat` | game | 967 | yes | OK | `https://pegasus-dl.dev/catalogs/pippo.json` |
 | `pfs-catalog` | game | 1037 | no | OK | `https://pegasus-dl.dev/catalogs/pfs.json` |
 | `evox-blackbox` | game | 1940 | no | OK | `https://raw.githubusercontent.com/nexgen999/evoX-CoreOS/main/json/pegasus-dl/blackbox_catalog.json` |
 | `phoenix-dl-ps5` | game | 1469 | no | OK | `https://raw.githubusercontent.com/Jamzi94/catalog-V2/main/ps5-catalog.json` |

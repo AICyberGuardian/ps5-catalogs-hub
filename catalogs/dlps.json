@@ -3,6 +3,30 @@
   "version": 1,
   "packages": [
     {
+      "titleId": "PPSA16004",
+      "title": "Rubberduck Wave Racer",
+      "createdAt": "2026-11-20T07:33:14.027Z",
+      "category": "game",
+      "posterUrl": "https://pegasus-dl.dev/api/posters/fb970cdba59abadbe59994ef45c2481b3d099c4510e530c7efd6cda3cce272e4",
+      "originalPosterUrl": "https://pegasus-dl.dev/api/posters/fb970cdba59abadbe59994ef45c2481b3d099c4510e530c7efd6cda3cce272e4",
+      "description": "Region: EUR\nRelease note: Works on 6.xx and higher\nContributor: @b0mba1992",
+      "downloadSource": "https://dlpsgame.com/rubberduck-wave-racer-ps5/",
+      "downloadLinks": [
+        {
+          "name": "EUR 6.xx Base - Akirabox",
+          "url": "https://akirabox.to/vgKGxBQNR38Q/file"
+        },
+        {
+          "name": "EUR 6.xx Base - Rootz",
+          "url": "https://www.rootz.so/d/21cTC4"
+        },
+        {
+          "name": "EUR 6.xx Base - Vikingfile",
+          "url": "https://vikingfile.com/f/WAB8y7C6zm"
+        }
+      ]
+    },
+    {
       "titleId": "PPSA26050",
       "title": "Gothic 2 Complete Classic",
       "createdAt": "2026-11-19T20:52:20.888Z",

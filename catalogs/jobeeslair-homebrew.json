@@ -1,7 +1,7 @@
 {
   "name": "Jobee'sLair Homebrew (adapted)",
   "version": "1.0.0",
-  "generatedAt": "2026-11-20T02:03:51Z",
+  "generatedAt": "2026-11-20T10:59:34Z",
   "source": "https://raw.githubusercontent.com/JVK3R/JobeesLair-Homebrew/main/index.json",
   "packages": [
     {
@@ -973,7 +973,7 @@
     {
       "titleId": "HBMISTERTEMAKIFCEU",
       "title": "NES FCEUmm PS5",
-      "version": "v1.1",
+      "version": "v1.2",
       "category": "emulators",
       "posterUrl": "https://raw.githubusercontent.com/MisterTemaki/fceummPS5/main/ps5/app/sce_sys/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/MisterTemaki/fceummPS5/main/ps5/app/sce_sys/icon0.png",
@@ -981,8 +981,12 @@
       "downloadSource": "https://github.com/MisterTemaki/fceummPS5",
       "downloadLinks": [
         {
-          "name": "NESFCEUmmPS5-v1.1.elf (payload)",
-          "url": "https://github.com/MisterTemaki/fceummPS5/releases/download/v1.1/NESFCEUmmPS5-v1.1.elf"
+          "name": "NESFCEUmmPS5-v1.2-PPSA99013.zip (app)",
+          "url": "https://github.com/MisterTemaki/fceummPS5/releases/download/v1.2/NESFCEUmmPS5-v1.2-PPSA99013.zip"
+        },
+        {
+          "name": "NESFCEUmmPS5-v1.2.elf (payload)",
+          "url": "https://github.com/MisterTemaki/fceummPS5/releases/download/v1.2/NESFCEUmmPS5-v1.2.elf"
         }
       ],
       "author": "MisterTemaki",
@@ -1633,7 +1637,7 @@
     {
       "titleId": "HBPHANTOMPTRPS5UPL",
       "title": "ps5upload",
-      "version": "v12.6.12",
+      "version": "v12.6.14",
       "category": "files",
       "posterUrl": "https://raw.githubusercontent.com/phantomptr/ps5upload/main/branding/png/icon-1024.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/phantomptr/ps5upload/main/logo.png",
@@ -1641,8 +1645,8 @@
       "downloadSource": "https://github.com/phantomptr/ps5upload",
       "downloadLinks": [
         {
-          "name": "ps5upload-12.6.12.elf (payload)",
-          "url": "https://github.com/phantomptr/ps5upload/releases/download/v12.6.12/ps5upload-12.6.12.elf"
+          "name": "ps5upload-12.6.14.elf (payload)",
+          "url": "https://github.com/phantomptr/ps5upload/releases/download/v12.6.14/ps5upload-12.6.14.elf"
         }
       ],
       "author": "phantomptr",
@@ -1652,7 +1656,7 @@
     {
       "titleId": "HBPS5PAYLOADDEVELF",
       "title": "ps5-payload-elfldr",
-      "version": "v0.27",
+      "version": "v0.28",
       "category": "files",
       "posterUrl": "https://avatars.githubusercontent.com/u/166182419?s=256&v=4",
       "originalPosterUrl": "https://avatars.githubusercontent.com/u/166182419?s=256&v=4",
@@ -1661,7 +1665,7 @@
       "downloadLinks": [
         {
           "name": "elfldr-ps5.elf (payload)",
-          "url": "https://github.com/ps5-payload-dev/elfldr/releases/download/v0.27/elfldr-ps5.elf"
+          "url": "https://github.com/ps5-payload-dev/elfldr/releases/download/v0.28/elfldr-ps5.elf"
         }
       ],
       "author": "ps5-payload-dev",
@@ -2130,7 +2134,7 @@
     {
       "titleId": "HBITSPLKPS5WEBKITA",
       "title": "PS5 WebKit Autoloader",
-      "version": "v0.8.0-pre-0850478",
+      "version": "v0.8.1",
       "category": "jailbreak",
       "posterUrl": "https://avatars.githubusercontent.com/u/209955039?s=256&v=4",
       "originalPosterUrl": "https://avatars.githubusercontent.com/u/209955039?s=256&v=4",
@@ -2138,8 +2142,8 @@
       "downloadSource": "https://github.com/itsPLK/ps5-webkit-autoloader",
       "downloadLinks": [
         {
-          "name": "webkit-autoloader-installer_v0.8.0-pre-0850478.elf (payload)",
-          "url": "https://github.com/itsPLK/ps5-webkit-autoloader/releases/download/v0.8.0-pre-0850478/webkit-autoloader-installer_v0.8.0-pre-0850478.elf"
+          "name": "webkit-autoloader-installer_v0.8.1.elf (payload)",
+          "url": "https://github.com/itsPLK/ps5-webkit-autoloader/releases/download/v0.8.1/webkit-autoloader-installer_v0.8.1.elf"
         }
       ],
       "author": "itsPLK",
@@ -3386,7 +3390,7 @@
     {
       "titleId": "HBSAAWANT12ORBITST",
       "title": "Orbit Store (Beta)",
-      "version": "v1.9.2",
+      "version": "v1.9.5",
       "category": "stores",
       "posterUrl": "",
       "originalPosterUrl": "https://raw.githubusercontent.com/saawant12/orbit-store-ps5/main/assets/1.5.0/native-crossbar-discover.jpg",
@@ -3395,11 +3399,11 @@
       "downloadLinks": [
         {
           "name": "PPSA99177.ffpkg (image)",
-          "url": "https://github.com/saawant12/orbit-store-ps5/releases/download/v1.9.2/PPSA99177.ffpkg"
+          "url": "https://github.com/saawant12/orbit-store-ps5/releases/download/v1.9.5/PPSA99177.ffpkg"
         },
         {
           "name": "orbit_store.elf (payload)",
-          "url": "https://github.com/saawant12/orbit-store-ps5/releases/download/v1.9.2/orbit_store.elf"
+          "url": "https://github.com/saawant12/orbit-store-ps5/releases/download/v1.9.5/orbit_store.elf"
         }
       ],
       "author": "saawant12",
@@ -4096,24 +4100,24 @@
     {
       "titleId": "HBSTRONGT1MEPS5COO",
       "title": "PS5 Cooling & System Center - Pro",
-      "version": "v1.88.1",
+      "version": "v1.89.0",
       "category": "system",
       "posterUrl": "https://raw.githubusercontent.com/strongt1me/ps5-cooling-system-center-pro/main/tile/sce_sys/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/strongt1me/ps5-cooling-system-center-pro/main/starter/sce_sys/pic0.png",
-      "description": "Fan control, temperature monitoring and system center for the jailbroken PS5 – payload with a browser app and a fullscreen controller app (DE · EN · IT · ES · FR · RU · SV) | Lüftersteuerung und Systemzentrale für die PS5, mit Browser- und Vollbild-App",
+      "description": "Fan control, temperature monitoring and system center for the jailbroken PS5 – payload with a browser app and a fullscreen controller app (DE · EN · IT · ES · FR · RU · SV)",
       "downloadSource": "https://github.com/strongt1me/ps5-cooling-system-center-pro",
       "downloadLinks": [
         {
           "name": "FAKE86921.zip (app)",
-          "url": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases/download/v1.88.1/FAKE86921.zip"
+          "url": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases/download/v1.89.0/FAKE86921.zip"
         },
         {
           "name": "FAKE86922.zip (app)",
-          "url": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases/download/v1.88.1/FAKE86922.zip"
+          "url": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases/download/v1.89.0/FAKE86922.zip"
         },
         {
-          "name": "PS5_Cooling_System_Center_v1.88.1.elf (payload)",
-          "url": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases/download/v1.88.1/PS5_Cooling_System_Center_v1.88.1.elf"
+          "name": "PS5_Cooling_System_Center_v1.89.0.elf (payload)",
+          "url": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases/download/v1.89.0/PS5_Cooling_System_Center_v1.89.0.elf"
         }
       ],
       "author": "strongt1me",
@@ -4378,7 +4382,7 @@
     {
       "titleId": "HBBORNARADUSINPC5",
       "title": "PC5",
-      "version": "v2.4.2",
+      "version": "v2.4.3",
       "category": "emulators",
       "posterUrl": "https://raw.githubusercontent.com/bornaradusin/PC5/main/art/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/bornaradusin/PC5/main/art/pic0.png",
@@ -4387,11 +4391,11 @@
       "downloadLinks": [
         {
           "name": "PPSA11018-update.zip (app)",
-          "url": "https://github.com/bornaradusin/PC5/releases/download/v2.4.2/PPSA11018-update.zip"
+          "url": "https://github.com/bornaradusin/PC5/releases/download/v2.4.3/PPSA11018-update.zip"
         },
         {
           "name": "PPSA11018.zip (app)",
-          "url": "https://github.com/bornaradusin/PC5/releases/download/v2.4.2/PPSA11018.zip"
+          "url": "https://github.com/bornaradusin/PC5/releases/download/v2.4.3/PPSA11018.zip"
         }
       ],
       "author": "bornaradusin",
@@ -5346,20 +5350,20 @@
     {
       "titleId": "HBSTRONGT1MEPS5USB",
       "title": "USB-Formatierer",
-      "version": "v2.6.70",
+      "version": "v2.6.72",
       "category": "system",
       "posterUrl": "https://raw.githubusercontent.com/strongt1me/ps5-usb-formatierer/main/usb_format/app/sce_sys/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/strongt1me/ps5-usb-formatierer/main/usb_format/app/sce_sys/pic0.png",
-      "description": "Format, check and manage USB sticks and drives directly on the PS5 – web UI, app tile and programs for Windows and Linux",
+      "description": "Format, check and manage USB sticks and drives directly on the PS5 (firmware 1.00–14.22) – web UI, app tile and programs for Windows and Linux",
       "downloadSource": "https://github.com/strongt1me/ps5-usb-formatierer",
       "downloadLinks": [
         {
           "name": "PPSA86920.zip (app)",
-          "url": "https://github.com/strongt1me/ps5-usb-formatierer/releases/download/v2.6.70/PPSA86920.zip"
+          "url": "https://github.com/strongt1me/ps5-usb-formatierer/releases/download/v2.6.72/PPSA86920.zip"
         },
         {
           "name": "usb_format.elf (payload)",
-          "url": "https://github.com/strongt1me/ps5-usb-formatierer/releases/download/v2.6.70/usb_format.elf"
+          "url": "https://github.com/strongt1me/ps5-usb-formatierer/releases/download/v2.6.72/usb_format.elf"
         }
       ],
       "author": "strongt1me",
@@ -7225,7 +7229,7 @@
       "category": "system",
       "posterUrl": "https://raw.githubusercontent.com/saschb2b/Mega-Man-Battle-Network-Cyberworld-Endless/main/ps4/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/saschb2b/Mega-Man-Battle-Network-Cyberworld-Endless/main/docs/clips/trailer-play.png",
-      "description": "A roguelike built on the real Mega Man Battle Network 6, from your own ROM: every run jacks MegaMan into a newly generated net of battles, loot and guardian Navis.",
+      "description": "A Battle Network roguelike: a new net every run, with viruses and Navis from BN4, BN5 and BN6 and their chips in one folder. NetBattle, trade and dive together in the online Net Square. It plays the original games from your own ROMs, on PC, phones, handhelds, consoles and the browser.",
       "downloadSource": "https://github.com/saschb2b/Mega-Man-Battle-Network-Cyberworld-Endless",
       "downloadLinks": [
         {
