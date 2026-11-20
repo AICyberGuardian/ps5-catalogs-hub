@@ -3,15 +3,15 @@
   "version": "1.0.0",
   "kind": "games",
   "consumer": "ps5-library",
-  "generatedAt": "2026-11-19T20:06:07Z",
+  "generatedAt": "2026-11-20T02:03:51Z",
   "rawBase": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs",
   "sources": [
     {
       "id": "dlpsgame",
       "name": "DLPSGame",
       "url": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs/dlps.json",
-      "items": 1833,
-      "sha256": "e57aa875a6f0866e5938f8a3963f0d78b7c8798c4d1bec19263155490f71b391",
+      "items": 1834,
+      "sha256": "0c1c8fe6b0267a13eebdb826f5a4a113a87cb317e8c248a1b916a8cc6930e88f",
       "upstream": "https://pegasus-dl.dev/catalogs/dlps.json"
     },
     {

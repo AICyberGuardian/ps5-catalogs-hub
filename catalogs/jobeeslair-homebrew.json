@@ -1,7 +1,7 @@
 {
   "name": "Jobee'sLair Homebrew (adapted)",
   "version": "1.0.0",
-  "generatedAt": "2026-11-19T11:25:20Z",
+  "generatedAt": "2026-11-20T02:03:51Z",
   "source": "https://raw.githubusercontent.com/JVK3R/JobeesLair-Homebrew/main/index.json",
   "packages": [
     {
@@ -1633,7 +1633,7 @@
     {
       "titleId": "HBPHANTOMPTRPS5UPL",
       "title": "ps5upload",
-      "version": "v12.6.10",
+      "version": "v12.6.12",
       "category": "files",
       "posterUrl": "https://raw.githubusercontent.com/phantomptr/ps5upload/main/branding/png/icon-1024.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/phantomptr/ps5upload/main/logo.png",
@@ -1641,8 +1641,8 @@
       "downloadSource": "https://github.com/phantomptr/ps5upload",
       "downloadLinks": [
         {
-          "name": "ps5upload-12.6.10.elf (payload)",
-          "url": "https://github.com/phantomptr/ps5upload/releases/download/v12.6.10/ps5upload-12.6.10.elf"
+          "name": "ps5upload-12.6.12.elf (payload)",
+          "url": "https://github.com/phantomptr/ps5upload/releases/download/v12.6.12/ps5upload-12.6.12.elf"
         }
       ],
       "author": "phantomptr",
@@ -2959,7 +2959,7 @@
     {
       "titleId": "HBXF1REBALLXHEARBR",
       "title": "HearBridge PS5",
-      "version": "v1.4.2",
+      "version": "v1.4.3",
       "category": "media",
       "posterUrl": "https://raw.githubusercontent.com/X-F1REBALL-X/HearBridge-PS5/main/assets/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/X-F1REBALL-X/HearBridge-PS5/main/docs/img/banner.png",
@@ -2967,8 +2967,8 @@
       "downloadSource": "https://github.com/X-F1REBALL-X/HearBridge-PS5",
       "downloadLinks": [
         {
-          "name": "HearBridge-1.4.2.elf (payload)",
-          "url": "https://github.com/X-F1REBALL-X/HearBridge-PS5/releases/download/v1.4.2/HearBridge-1.4.2.elf"
+          "name": "HearBridge-1.4.3.elf (payload)",
+          "url": "https://github.com/X-F1REBALL-X/HearBridge-PS5/releases/download/v1.4.3/HearBridge-1.4.3.elf"
         }
       ],
       "author": "X-F1REBALL-X",
@@ -4096,7 +4096,7 @@
     {
       "titleId": "HBSTRONGT1MEPS5COO",
       "title": "PS5 Cooling & System Center - Pro",
-      "version": "v1.86.7",
+      "version": "v1.88.1",
       "category": "system",
       "posterUrl": "https://raw.githubusercontent.com/strongt1me/ps5-cooling-system-center-pro/main/tile/sce_sys/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/strongt1me/ps5-cooling-system-center-pro/main/starter/sce_sys/pic0.png",
@@ -4105,15 +4105,15 @@
       "downloadLinks": [
         {
           "name": "FAKE86921.zip (app)",
-          "url": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases/download/v1.86.7/FAKE86921.zip"
+          "url": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases/download/v1.88.1/FAKE86921.zip"
         },
         {
           "name": "FAKE86922.zip (app)",
-          "url": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases/download/v1.86.7/FAKE86922.zip"
+          "url": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases/download/v1.88.1/FAKE86922.zip"
         },
         {
-          "name": "PS5_Cooling_System_Center_v1.86.7.elf (payload)",
-          "url": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases/download/v1.86.7/PS5_Cooling_System_Center_v1.86.7.elf"
+          "name": "PS5_Cooling_System_Center_v1.88.1.elf (payload)",
+          "url": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases/download/v1.88.1/PS5_Cooling_System_Center_v1.88.1.elf"
         }
       ],
       "author": "strongt1me",
@@ -4466,7 +4466,7 @@
     {
       "titleId": "HBDANTAIPANPS64",
       "title": "PS64",
-      "version": "01.000.006",
+      "version": "01.000.007",
       "category": "emulators",
       "posterUrl": "https://raw.githubusercontent.com/dantaipan/PS64/main/ps5/native/sce_sys/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/dantaipan/PS64/main/ps5/native/sce_sys/icon0.png",
@@ -4475,7 +4475,7 @@
       "downloadLinks": [
         {
           "name": "PPSA06464.zip (app)",
-          "url": "https://github.com/dantaipan/PS64/releases/download/01.000.006/PPSA06464.zip"
+          "url": "https://github.com/dantaipan/PS64/releases/download/01.000.007/PPSA06464.zip"
         }
       ],
       "author": "dantaipan",
@@ -5346,7 +5346,7 @@
     {
       "titleId": "HBSTRONGT1MEPS5USB",
       "title": "USB-Formatierer",
-      "version": "v2.6.69",
+      "version": "v2.6.70",
       "category": "system",
       "posterUrl": "https://raw.githubusercontent.com/strongt1me/ps5-usb-formatierer/main/usb_format/app/sce_sys/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/strongt1me/ps5-usb-formatierer/main/usb_format/app/sce_sys/pic0.png",
@@ -5355,11 +5355,11 @@
       "downloadLinks": [
         {
           "name": "PPSA86920.zip (app)",
-          "url": "https://github.com/strongt1me/ps5-usb-formatierer/releases/download/v2.6.69/PPSA86920.zip"
+          "url": "https://github.com/strongt1me/ps5-usb-formatierer/releases/download/v2.6.70/PPSA86920.zip"
         },
         {
           "name": "usb_format.elf (payload)",
-          "url": "https://github.com/strongt1me/ps5-usb-formatierer/releases/download/v2.6.69/usb_format.elf"
+          "url": "https://github.com/strongt1me/ps5-usb-formatierer/releases/download/v2.6.70/usb_format.elf"
         }
       ],
       "author": "strongt1me",
@@ -5430,7 +5430,7 @@
     {
       "titleId": "HBVIVALAVENTPS5BAZ",
       "title": "PS5 Bazzite Deck",
-      "version": "v2.16.1",
+      "version": "v3.0",
       "category": "linux",
       "posterUrl": "https://avatars.githubusercontent.com/u/62951130?s=256&v=4",
       "originalPosterUrl": "https://avatars.githubusercontent.com/u/62951130?s=256&v=4",
@@ -5438,8 +5438,8 @@
       "downloadSource": "https://github.com/VivaLaVent/ps5-bazzite-deck",
       "downloadLinks": [
         {
-          "name": "bazzite-bootc-loader-v2.16.1.elf (payload)",
-          "url": "https://github.com/VivaLaVent/ps5-bazzite-deck/releases/download/v2.16.1/bazzite-bootc-loader-v2.16.1.elf"
+          "name": "bazzite-bootc-loader-v3.0.elf (payload)",
+          "url": "https://github.com/VivaLaVent/ps5-bazzite-deck/releases/download/v3.0/bazzite-bootc-loader-v3.0.elf"
         }
       ],
       "author": "VivaLaVent",
@@ -7046,7 +7046,7 @@
     {
       "titleId": "HBMATEOCOGEANUPROS",
       "title": "ProsperoCraft",
-      "version": "01.000.287",
+      "version": "01.000.288",
       "category": "system",
       "posterUrl": "https://raw.githubusercontent.com/mateo-cogeanu/ProsperoCraft/main/assets/branding/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/mateo-cogeanu/ProsperoCraft/main/assets/branding/icon0.png",
@@ -7055,7 +7055,7 @@
       "downloadLinks": [
         {
           "name": "PPSA99874.zip (app)",
-          "url": "https://github.com/mateo-cogeanu/ProsperoCraft/releases/download/01.000.287/PPSA99874.zip"
+          "url": "https://github.com/mateo-cogeanu/ProsperoCraft/releases/download/01.000.288/PPSA99874.zip"
         }
       ],
       "author": "mateo-cogeanu",
@@ -7221,7 +7221,7 @@
     {
       "titleId": "HBSASCHB2BMEGAMANB",
       "title": "Cyberworld Endless",
-      "version": "v0.22.2",
+      "version": "v0.23.0",
       "category": "system",
       "posterUrl": "https://raw.githubusercontent.com/saschb2b/Mega-Man-Battle-Network-Cyberworld-Endless/main/ps4/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/saschb2b/Mega-Man-Battle-Network-Cyberworld-Endless/main/docs/clips/trailer-play.png",
@@ -7230,15 +7230,15 @@
       "downloadLinks": [
         {
           "name": "cyberworld-endless-ps5.zip (app)",
-          "url": "https://github.com/saschb2b/Mega-Man-Battle-Network-Cyberworld-Endless/releases/download/v0.22.2/cyberworld-endless-ps5.zip"
+          "url": "https://github.com/saschb2b/Mega-Man-Battle-Network-Cyberworld-Endless/releases/download/v0.23.0/cyberworld-endless-ps5.zip"
         },
         {
           "name": "update-pictures.bin (payload)",
-          "url": "https://github.com/saschb2b/Mega-Man-Battle-Network-Cyberworld-Endless/releases/download/v0.22.2/update-pictures.bin"
+          "url": "https://github.com/saschb2b/Mega-Man-Battle-Network-Cyberworld-Endless/releases/download/v0.23.0/update-pictures.bin"
         },
         {
           "name": "cyberworld-endless.pkg (pkg)",
-          "url": "https://github.com/saschb2b/Mega-Man-Battle-Network-Cyberworld-Endless/releases/download/v0.22.2/cyberworld-endless.pkg"
+          "url": "https://github.com/saschb2b/Mega-Man-Battle-Network-Cyberworld-Endless/releases/download/v0.23.0/cyberworld-endless.pkg"
         }
       ],
       "author": "saschb2b",
@@ -7408,7 +7408,7 @@
     {
       "titleId": "HBDARKATEK7PS5SD",
       "title": "PS5SD",
-      "version": "v1.3.1",
+      "version": "v1.7.0",
       "category": "system",
       "posterUrl": "https://raw.githubusercontent.com/Darkatek7/PS5SD/main/ps5/app/sce_sys/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/Darkatek7/PS5SD/main/docs/images/webui-pc-create.jpg",
@@ -7417,7 +7417,7 @@
       "downloadLinks": [
         {
           "name": "PPSA99576.zip (app)",
-          "url": "https://github.com/Darkatek7/PS5SD/releases/download/v1.3.1/PPSA99576.zip"
+          "url": "https://github.com/Darkatek7/PS5SD/releases/download/v1.7.0/PPSA99576.zip"
         }
       ],
       "author": "Darkatek7",
