@@ -1,15 +1,15 @@
 {
   "name": "AICyberGuardian PS5 Catalogs Hub",
   "version": "1.1.0",
-  "generatedAt": "2026-11-20T10:59:34Z",
+  "generatedAt": "2026-11-20T19:03:10Z",
   "rawBase": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs",
   "sources": [
     {
       "id": "dlpsgame",
       "name": "DLPSGame",
       "url": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs/dlps.json",
-      "items": 1835,
-      "sha256": "98d1c837baeb8a58c755517ca7a642a56a56d4842729c64abadf8c8a9c03bf7a",
+      "items": 1836,
+      "sha256": "fc2b72f07d176b05a50693db09df6905d0dfed2fe34821d85f3395da7b5b68af",
       "upstream": "https://pegasus-dl.dev/catalogs/dlps.json"
     },
     {
@@ -32,8 +32,8 @@
       "id": "pfs-catalog",
       "name": "PFS Direct Rips",
       "url": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs/pfs.json",
-      "items": 1037,
-      "sha256": "e18661c1e1af8810da0919f1ce7ebcb7d8bc18a3509d15db79f41be3f32735c9",
+      "items": 1043,
+      "sha256": "b81c5c577cffaa5961d38a096fbfd42c01deeaf9903bb5b8eb5b650badc80a2c",
       "upstream": "https://pegasus-dl.dev/catalogs/pfs.json"
     },
     {
@@ -67,7 +67,7 @@
       "name": "ProsperoStore",
       "url": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs/prosperostore.json",
       "items": 209,
-      "sha256": "d399da75796f679b3d3d2c7d6431a7755291bbfa004cd69a9e8fa409b61f735c",
+      "sha256": "07e44b1312ef765c70f2a63173ae5efd5a38e6531668a0c6e87c96cda96c0a56",
       "upstream": "https://prosperostore.net/catalog/v1.json",
       "consumer": "prospero-native"
     },
