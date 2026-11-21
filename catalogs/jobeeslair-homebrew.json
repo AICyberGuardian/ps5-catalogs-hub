@@ -1,7 +1,7 @@
 {
   "name": "Jobee'sLair Homebrew (adapted)",
   "version": "1.0.0",
-  "generatedAt": "2026-11-20T10:59:34Z",
+  "generatedAt": "2026-11-21T01:08:24Z",
   "source": "https://raw.githubusercontent.com/JVK3R/JobeesLair-Homebrew/main/index.json",
   "packages": [
     {
@@ -424,7 +424,7 @@
     {
       "titleId": "HBEARTHONIONGARLIC",
       "title": "Garlic SaveMgr for PS5",
-      "version": "v1.15-beta23",
+      "version": "v2.0",
       "category": "dumps",
       "posterUrl": "https://avatars.githubusercontent.com/u/3332298?s=256&v=4",
       "originalPosterUrl": "https://avatars.githubusercontent.com/u/3332298?s=256&v=4",
@@ -433,7 +433,7 @@
       "downloadLinks": [
         {
           "name": "garlic-savemgr.elf (payload)",
-          "url": "https://github.com/earthonion/garlic-savemgr/releases/download/v1.15-beta23/garlic-savemgr.elf"
+          "url": "https://github.com/earthonion/garlic-savemgr/releases/download/v2.0/garlic-savemgr.elf"
         }
       ],
       "author": "earthonion",
@@ -1637,7 +1637,7 @@
     {
       "titleId": "HBPHANTOMPTRPS5UPL",
       "title": "ps5upload",
-      "version": "v12.6.14",
+      "version": "v12.6.17",
       "category": "files",
       "posterUrl": "https://raw.githubusercontent.com/phantomptr/ps5upload/main/branding/png/icon-1024.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/phantomptr/ps5upload/main/logo.png",
@@ -1645,8 +1645,8 @@
       "downloadSource": "https://github.com/phantomptr/ps5upload",
       "downloadLinks": [
         {
-          "name": "ps5upload-12.6.14.elf (payload)",
-          "url": "https://github.com/phantomptr/ps5upload/releases/download/v12.6.14/ps5upload-12.6.14.elf"
+          "name": "ps5upload-12.6.17.elf (payload)",
+          "url": "https://github.com/phantomptr/ps5upload/releases/download/v12.6.17/ps5upload-12.6.17.elf"
         }
       ],
       "author": "phantomptr",
@@ -2134,7 +2134,7 @@
     {
       "titleId": "HBITSPLKPS5WEBKITA",
       "title": "PS5 WebKit Autoloader",
-      "version": "v0.8.1",
+      "version": "v0.8.2",
       "category": "jailbreak",
       "posterUrl": "https://avatars.githubusercontent.com/u/209955039?s=256&v=4",
       "originalPosterUrl": "https://avatars.githubusercontent.com/u/209955039?s=256&v=4",
@@ -2142,8 +2142,8 @@
       "downloadSource": "https://github.com/itsPLK/ps5-webkit-autoloader",
       "downloadLinks": [
         {
-          "name": "webkit-autoloader-installer_v0.8.1.elf (payload)",
-          "url": "https://github.com/itsPLK/ps5-webkit-autoloader/releases/download/v0.8.1/webkit-autoloader-installer_v0.8.1.elf"
+          "name": "webkit-autoloader-installer_v0.8.2.elf (payload)",
+          "url": "https://github.com/itsPLK/ps5-webkit-autoloader/releases/download/v0.8.2/webkit-autoloader-installer_v0.8.2.elf"
         }
       ],
       "author": "itsPLK",
@@ -3141,8 +3141,8 @@
     },
     {
       "titleId": "HBPORHE911COMMONFP",
-      "title": "Common FPS for PS5 v1.2.3",
-      "version": "v1.2.3",
+      "title": "Common FPS for PS5 v1.2.4",
+      "version": "v1.2.4",
       "category": "mods",
       "posterUrl": "https://avatars.githubusercontent.com/u/114869553?s=256&v=4",
       "originalPosterUrl": "https://avatars.githubusercontent.com/u/114869553?s=256&v=4",
@@ -3150,8 +3150,8 @@
       "downloadSource": "https://github.com/porhe911/Common-FPS-for-PS5",
       "downloadLinks": [
         {
-          "name": "Common_FPS_PS5_v1.2.3.elf (payload)",
-          "url": "https://github.com/porhe911/Common-FPS-for-PS5/releases/download/v1.2.3/Common_FPS_PS5_v1.2.3.elf"
+          "name": "Common_FPS_PS5_v1.2.4.elf (payload)",
+          "url": "https://github.com/porhe911/Common-FPS-for-PS5/releases/download/v1.2.4/Common_FPS_PS5_v1.2.4.elf"
         }
       ],
       "author": "porhe911",
@@ -4382,7 +4382,7 @@
     {
       "titleId": "HBBORNARADUSINPC5",
       "title": "PC5",
-      "version": "v2.4.3",
+      "version": "v2.4.5",
       "category": "emulators",
       "posterUrl": "https://raw.githubusercontent.com/bornaradusin/PC5/main/art/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/bornaradusin/PC5/main/art/pic0.png",
@@ -4391,11 +4391,11 @@
       "downloadLinks": [
         {
           "name": "PPSA11018-update.zip (app)",
-          "url": "https://github.com/bornaradusin/PC5/releases/download/v2.4.3/PPSA11018-update.zip"
+          "url": "https://github.com/bornaradusin/PC5/releases/download/v2.4.5/PPSA11018-update.zip"
         },
         {
           "name": "PPSA11018.zip (app)",
-          "url": "https://github.com/bornaradusin/PC5/releases/download/v2.4.3/PPSA11018.zip"
+          "url": "https://github.com/bornaradusin/PC5/releases/download/v2.4.5/PPSA11018.zip"
         }
       ],
       "author": "bornaradusin",
@@ -4862,7 +4862,7 @@
     {
       "titleId": "HBLEOLOBATOPLAYDEN",
       "title": "Playden for PS5",
-      "version": "v0.12.0-beta.2",
+      "version": "v0.12.0-beta.3",
       "category": "emulators",
       "posterUrl": "https://raw.githubusercontent.com/leolobato/playden-ps5/main/sce_sys/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/leolobato/playden-ps5/main/docs/images/library.jpg",
@@ -4870,12 +4870,12 @@
       "downloadSource": "https://github.com/leolobato/playden-ps5",
       "downloadLinks": [
         {
-          "name": "playden-kit-0.31.zip (app)",
-          "url": "https://github.com/leolobato/playden-ps5/releases/download/v0.12.0-beta.2/playden-kit-0.31.zip"
+          "name": "playden-kit-0.32.zip (app)",
+          "url": "https://github.com/leolobato/playden-ps5/releases/download/v0.12.0-beta.3/playden-kit-0.32.zip"
         },
         {
-          "name": "playden-ps5-0.12.0-beta.2.zip (app)",
-          "url": "https://github.com/leolobato/playden-ps5/releases/download/v0.12.0-beta.2/playden-ps5-0.12.0-beta.2.zip"
+          "name": "playden-ps5-0.12.0-beta.3.zip (app)",
+          "url": "https://github.com/leolobato/playden-ps5/releases/download/v0.12.0-beta.3/playden-ps5-0.12.0-beta.3.zip"
         }
       ],
       "author": "leolobato",
@@ -4904,7 +4904,7 @@
     {
       "titleId": "HBM0S4YSH3LL0MEDIA",
       "title": "Mediathek",
-      "version": "01.000.100",
+      "version": "01.000.110",
       "category": "media",
       "posterUrl": "https://raw.githubusercontent.com/M0S4YSH3LL0/mediathek-ps5/main/sce_sys/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/M0S4YSH3LL0/mediathek-ps5/main/sce_sys/background-source.png",
@@ -4912,8 +4912,8 @@
       "downloadSource": "https://github.com/M0S4YSH3LL0/mediathek-ps5",
       "downloadLinks": [
         {
-          "name": "Mediathek-PPSA66120-01.000.100.zip (app)",
-          "url": "https://github.com/M0S4YSH3LL0/mediathek-ps5/releases/download/01.000.100/Mediathek-PPSA66120-01.000.100.zip"
+          "name": "Mediathek-PPSA66120-01.000.110.zip (app)",
+          "url": "https://github.com/M0S4YSH3LL0/mediathek-ps5/releases/download/01.000.110/Mediathek-PPSA66120-01.000.110.zip"
         }
       ],
       "author": "M0S4YSH3LL0",
@@ -5647,7 +5647,7 @@
     {
       "titleId": "HBKVAPSPROSPEROWEB",
       "title": "ProsperoWeb",
-      "version": "v0.2.1",
+      "version": "v0.3.0",
       "category": "system",
       "posterUrl": "https://raw.githubusercontent.com/kvaps/ProsperoWeb/main/assets/sce_sys/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/kvaps/ProsperoWeb/main/assets/sce_sys/pic0.png",
@@ -5656,11 +5656,15 @@
       "downloadLinks": [
         {
           "name": "PRWB00001.zip (app)",
-          "url": "https://github.com/kvaps/ProsperoWeb/releases/download/v0.2.1/PRWB00001.zip"
+          "url": "https://github.com/kvaps/ProsperoWeb/releases/download/v0.3.0/PRWB00001.zip"
         },
         {
-          "name": "ProsperoWeb-0.2.1-data.zip (archive-payload)",
-          "url": "https://github.com/kvaps/ProsperoWeb/releases/download/v0.2.1/ProsperoWeb-0.2.1-data.zip"
+          "name": "ProsperoWeb-0.3.0-data.zip (archive-payload)",
+          "url": "https://github.com/kvaps/ProsperoWeb/releases/download/v0.3.0/ProsperoWeb-0.3.0-data.zip"
+        },
+        {
+          "name": "ProsperoWeb-v0.3.0-data.zip (archive-payload)",
+          "url": "https://github.com/kvaps/ProsperoWeb/releases/download/v0.3.0/ProsperoWeb-v0.3.0-data.zip"
         }
       ],
       "author": "kvaps",
@@ -5773,7 +5777,7 @@
     {
       "titleId": "HBHEYDEMOURAEGLANT",
       "title": "EglantinePS5",
-      "version": "v1.000.002",
+      "version": "v1.000.003",
       "category": "emulators",
       "posterUrl": "https://raw.githubusercontent.com/heydemoura/EglantinePS5/main/sce_sys/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/heydemoura/EglantinePS5/main/sce_sys/icon0.png",
@@ -5781,8 +5785,8 @@
       "downloadSource": "https://github.com/heydemoura/EglantinePS5",
       "downloadLinks": [
         {
-          "name": "EglantinePS5-v1.000.002.zip (app)",
-          "url": "https://github.com/heydemoura/EglantinePS5/releases/download/v1.000.002/EglantinePS5-v1.000.002.zip"
+          "name": "EglantinePS5-v1.000.003.zip (app)",
+          "url": "https://github.com/heydemoura/EglantinePS5/releases/download/v1.000.003/EglantinePS5-v1.000.003.zip"
         }
       ],
       "author": "heydemoura",
