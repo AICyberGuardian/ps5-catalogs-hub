@@ -1,7 +1,7 @@
 {
   "name": "Jobee'sLair Homebrew (adapted)",
   "version": "1.0.0",
-  "generatedAt": "2026-11-21T01:08:24Z",
+  "generatedAt": "2026-11-21T09:19:07Z",
   "source": "https://raw.githubusercontent.com/JVK3R/JobeesLair-Homebrew/main/index.json",
   "packages": [
     {
@@ -908,7 +908,7 @@
     {
       "titleId": "HBMIHAWK99PS5RETRO",
       "title": "RetroArch",
-      "version": "v4.0.0-beta-4",
+      "version": "v4.1.0-beta-4",
       "category": "emulators",
       "posterUrl": "https://raw.githubusercontent.com/mihawk-99/PS5_RetroArch/main/sce_sys/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/mihawk-99/PS5_RetroArch/main/assets/readme/important-warning.png",
@@ -916,8 +916,8 @@
       "downloadSource": "https://github.com/mihawk-99/PS5_RetroArch",
       "downloadLinks": [
         {
-          "name": "PS5_RetroArch-v4.0.0-beta-4.zip (app)",
-          "url": "https://github.com/mihawk-99/PS5_RetroArch/releases/download/v4.0.0-beta-4/PS5_RetroArch-v4.0.0-beta-4.zip"
+          "name": "PS5_RetroArch-v4.1.0-beta-4.zip (app)",
+          "url": "https://github.com/mihawk-99/PS5_RetroArch/releases/download/v4.1.0-beta-4/PS5_RetroArch-v4.1.0-beta-4.zip"
         }
       ],
       "author": "mihawk-99",
@@ -2218,7 +2218,7 @@
     {
       "titleId": "HBNOOKIEAIKURA",
       "title": "Kura",
-      "version": "v1.6.51",
+      "version": "v1.6.53",
       "category": "jailbreak",
       "posterUrl": "https://avatars.githubusercontent.com/u/188130079?s=256&v=4",
       "originalPosterUrl": "https://github.com/user-attachments/assets/c968fd95-c186-406b-ab30-50a64275a304",
@@ -2227,11 +2227,11 @@
       "downloadLinks": [
         {
           "name": "kura-loader.elf (payload)",
-          "url": "https://github.com/NookieAI/kura/releases/download/v1.6.51/kura-loader.elf"
+          "url": "https://github.com/NookieAI/kura/releases/download/v1.6.53/kura-loader.elf"
         },
         {
           "name": "kura-loader-ps5.elf (payload)",
-          "url": "https://github.com/NookieAI/kura/releases/download/v1.6.51/kura-loader-ps5.elf"
+          "url": "https://github.com/NookieAI/kura/releases/download/v1.6.53/kura-loader-ps5.elf"
         }
       ],
       "author": "NookieAI",
@@ -3141,8 +3141,8 @@
     },
     {
       "titleId": "HBPORHE911COMMONFP",
-      "title": "Common FPS for PS5 v1.2.4",
-      "version": "v1.2.4",
+      "title": "Common FPS for PS5 v1.2.5",
+      "version": "v1.2.5",
       "category": "mods",
       "posterUrl": "https://avatars.githubusercontent.com/u/114869553?s=256&v=4",
       "originalPosterUrl": "https://avatars.githubusercontent.com/u/114869553?s=256&v=4",
@@ -3150,8 +3150,8 @@
       "downloadSource": "https://github.com/porhe911/Common-FPS-for-PS5",
       "downloadLinks": [
         {
-          "name": "Common_FPS_PS5_v1.2.4.elf (payload)",
-          "url": "https://github.com/porhe911/Common-FPS-for-PS5/releases/download/v1.2.4/Common_FPS_PS5_v1.2.4.elf"
+          "name": "Common_FPS_PS5_v1.2.5.elf (payload)",
+          "url": "https://github.com/porhe911/Common-FPS-for-PS5/releases/download/v1.2.5/Common_FPS_PS5_v1.2.5.elf"
         }
       ],
       "author": "porhe911",
@@ -4424,7 +4424,7 @@
     {
       "titleId": "HBBRINZA666MOVIANP",
       "title": "Movian",
-      "version": "v0.7.0",
+      "version": "playback-test-v12",
       "category": "media",
       "posterUrl": "https://raw.githubusercontent.com/brinza666/movian_ps5/main/app/sce_sys/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/brinza666/movian_ps5/main/app/sce_sys/icon0.png",
@@ -4432,8 +4432,8 @@
       "downloadSource": "https://github.com/brinza666/movian_ps5",
       "downloadLinks": [
         {
-          "name": "MovianPS5-v0.7.0.zip (app)",
-          "url": "https://github.com/brinza666/movian_ps5/releases/download/v0.7.0/MovianPS5-v0.7.0.zip"
+          "name": "PPSA99456.zip (app)",
+          "url": "https://github.com/brinza666/movian_ps5/releases/download/playback-test-v12/PPSA99456.zip"
         }
       ],
       "author": "brinza666",

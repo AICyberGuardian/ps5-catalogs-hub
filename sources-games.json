@@ -3,15 +3,15 @@
   "version": "1.0.0",
   "kind": "games",
   "consumer": "ps5-library",
-  "generatedAt": "2026-11-21T01:08:24Z",
+  "generatedAt": "2026-11-21T09:19:07Z",
   "rawBase": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs",
   "sources": [
     {
       "id": "dlpsgame",
       "name": "DLPSGame",
       "url": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs/dlps.json",
-      "items": 1857,
-      "sha256": "2180fb5ea052a8adbfd79ff76d381da02658044991b12933f928102cbd92030e",
+      "items": 1978,
+      "sha256": "69f44814cc3575ac726e77afd8c5b77ca9c84011f22fb9e00e6afe15602c7fde",
       "upstream": "https://pegasus-dl.dev/catalogs/dlps.json"
     },
     {
@@ -50,8 +50,8 @@
       "id": "phoenix-dl-ps5",
       "name": "Phoenix DL PS5 (Jamzi94)",
       "url": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs/jamzi94-ps5.json",
-      "items": 1469,
-      "sha256": "877a7b4a5c950a5b23734bc21cf81895d771578ae632b38ca70e7b4fe6d8ccf5",
+      "items": 1472,
+      "sha256": "efb2d2934858d2673d628ed6eb9789c50118d823a43e05ed5b8c64d28b7678cc",
       "upstream": "https://raw.githubusercontent.com/Jamzi94/catalog-V2/main/ps5-catalog.json"
     },
     {
