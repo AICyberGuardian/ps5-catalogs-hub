@@ -8619,6 +8619,29 @@
       ]
     },
     {
+      "titleId": "PPSA04605",
+      "title": "Lucid Cycle",
+      "createdAt": "2026-11-21T13:35:22.016Z",
+      "category": "game",
+      "posterUrl": "https://cdn.prosperopatches.com/titles/PPSA04605_701b15578ead66b8a6c6173624c7788166ef3478b439f4f02bd070fae0fe67e2/icon0.webp",
+      "description": "Region: USA\nRelease note: Works on 4.xx and higher",
+      "downloadSource": "https://dlpsgame.com/lucid-cycle-ps5/",
+      "downloadLinks": [
+        {
+          "name": "USA 4.xx Base - Akirabox",
+          "url": "https://akirabox.to/RMKGJW4pVm1o/file"
+        },
+        {
+          "name": "USA 4.xx Base - Rootz",
+          "url": "https://www.rootz.so/d/SJl8i"
+        },
+        {
+          "name": "USA 4.xx Base - Vikingfile",
+          "url": "https://vikingfile.com/f/u8SCLTI4t9"
+        }
+      ]
+    },
+    {
       "titleId": "PPSA07053",
       "title": "Coffee Talk Episode 2 Hibiscus and Butterfly",
       "createdAt": "2026-10-16T21:48:35.923Z",
@@ -18238,6 +18261,30 @@
       ]
     },
     {
+      "titleId": "PPSA07001",
+      "title": "Charlie The Roach",
+      "createdAt": "2026-11-21T13:35:22.016Z",
+      "category": "game",
+      "posterUrl": "https://pegasus-dl.dev/api/posters/fad51a78dad38f03843c45350d48e963b152428e3f8f3e0a80c0a48c07f2680a",
+      "originalPosterUrl": "https://pegasus-dl.dev/api/posters/15479f9e67acf66fc1269a558cb569822eee983d416a6403ff66a129e47c895c",
+      "description": "Region: USA\nRelease note: Works on 6.xx and higher",
+      "downloadSource": "https://dlpsgame.com/charlie-the-roach-ps5/",
+      "downloadLinks": [
+        {
+          "name": "USA 6.xx Base - Akirabox",
+          "url": "https://akirabox.to/dkD3YDybomLQ/file"
+        },
+        {
+          "name": "USA 6.xx Base - Rootz",
+          "url": "https://www.rootz.so/d/1EfzRA"
+        },
+        {
+          "name": "USA 6.xx Base - Vikingfile",
+          "url": "https://vikingfile.com/f/SHJHCmlMqS"
+        }
+      ]
+    },
+    {
       "titleId": "PPSA04439",
       "title": "Freddy Spaghetti 2",
       "createdAt": "2026-11-21T08:31:05.063Z",
@@ -22922,6 +22969,30 @@
         {
           "name": "USA 9.xx Base - Vikingfile",
           "url": "https://vikingfile.com/f/DiB66c56hR"
+        }
+      ]
+    },
+    {
+      "titleId": "PPSA22283",
+      "title": "Rewind or Die",
+      "createdAt": "2026-11-21T13:35:22.016Z",
+      "category": "game",
+      "posterUrl": "https://pegasus-dl.dev/api/posters/ba8258c2a49b7461c9a3589c9b74248919adc6a54ab00f68f12dfe862a5aa63e",
+      "originalPosterUrl": "https://pegasus-dl.dev/api/posters/b1ba26c2ca0b69e413dcae4bc1a8ea7dae1d5fc1dd799a557e544e9b8e36b1f9",
+      "description": "Region: USA\nRelease note: Works on 9.xx and higher",
+      "downloadSource": "https://dlpsgame.com/rewind-or-die-ps5/",
+      "downloadLinks": [
+        {
+          "name": "USA 9.xx Base - Akirabox",
+          "url": "https://akirabox.to/M2BGwxgq5mj4/file"
+        },
+        {
+          "name": "USA 9.xx Base - Rootz",
+          "url": "https://www.rootz.so/d/1Gjnqi"
+        },
+        {
+          "name": "USA 9.xx Base - Vikingfile",
+          "url": "https://vikingfile.com/f/AOOSeHs26f"
         }
       ]
     },
@@ -32149,7 +32220,8 @@
       "title": "Amber Alert",
       "createdAt": "2026-11-21T08:31:05.063Z",
       "category": "game",
-      "posterUrl": "https://dlpsgame.com/wp-content/uploads/2026/11/3-jfd.jpg",
+      "posterUrl": "https://pegasus-dl.dev/api/posters/2e9ea615ae61f190d3609001ca99b300388a79389e56d195d7392f18e72d607c",
+      "originalPosterUrl": "https://pegasus-dl.dev/api/posters/0d57a6776819edb02e26fa912387c65e8ff3083abf3ba281513685d2aa52d9c1",
       "description": "Region: USA\nRelease note: Works on 11.xx and higher",
       "downloadSource": "https://dlpsgame.com/amber-alert-ps5/",
       "downloadLinks": [
@@ -32212,6 +32284,29 @@
         {
           "name": "EUR 10.xx Base - Vikingfile",
           "url": "https://vikingfile.com/f/HAN9pQY0ke"
+        }
+      ]
+    },
+    {
+      "titleId": "PPSA21885",
+      "title": "Cursed Feed",
+      "createdAt": "2026-11-21T13:35:22.016Z",
+      "category": "game",
+      "posterUrl": "https://cdn.prosperopatches.com/titles/PPSA21885_4a98d258894d1ef305fffe63b746b798176be43b6136452c73c704090d96302c/icon0.webp",
+      "description": "Region: USA\nRelease note: Works on 10.xx and higher",
+      "downloadSource": "https://dlpsgame.com/cursed-feed-ps5/",
+      "downloadLinks": [
+        {
+          "name": "USA 10.xx Base - Akirabox",
+          "url": "https://akirabox.to/jar3XbWZ7G2d/file"
+        },
+        {
+          "name": "USA 10.xx Base - Rootz",
+          "url": "https://www.rootz.so/d/1ZVyKW"
+        },
+        {
+          "name": "USA 10.xx Base - Vikingfile",
+          "url": "https://vikingfile.com/f/w4qpraxpfW"
         }
       ]
     },
@@ -33212,6 +33307,605 @@
         {
           "name": "EUR 2.xx Game (v01.040) (DLC) - 1fichier part 2",
           "url": "https://1fichier.com/?v59v5hsv6l4jx6kwg7mq"
+        }
+      ]
+    },
+    {
+      "titleId": "PPSA02053",
+      "title": "Call of Duty Black Ops Cold War",
+      "createdAt": "2026-11-21T13:35:22.016Z",
+      "category": "game",
+      "posterUrl": "https://cdn.prosperopatches.com/titles/PPSA02053_278ce89a64ed587f60fa25c707c918c7f0b3d986906ffc26b9c18b3f07bb4e4b/icon0.webp",
+      "description": "Region: ASIA\nRelease note: Works on 4.xx and higher",
+      "downloadSource": "https://dlpsgame.com/call-of-duty-black-ops-cold-war-ps5/",
+      "downloadLinks": [
+        {
+          "name": "ASIA 4.xx Base - Akirabox part 1",
+          "url": "https://akirabox.to/obj3jkEE1zDx/file"
+        },
+        {
+          "name": "ASIA 4.xx Base - Akirabox part 2",
+          "url": "https://akirabox.to/Pbe3PebbLzlX/file"
+        },
+        {
+          "name": "ASIA 4.xx Base - Akirabox part 3",
+          "url": "https://akirabox.to/9QWmpWJJXGEB/file"
+        },
+        {
+          "name": "ASIA 4.xx Base - Akirabox part 4",
+          "url": "https://akirabox.to/E1x3Ax66rmyk/file"
+        },
+        {
+          "name": "ASIA 4.xx Base - Akirabox part 5",
+          "url": "https://akirabox.to/qPez4yooeGOY/file"
+        },
+        {
+          "name": "ASIA 4.xx Base - Akirabox part 6",
+          "url": "https://akirabox.to/qw1zeVaa4GXy/file"
+        },
+        {
+          "name": "ASIA 4.xx Base - Akirabox part 7",
+          "url": "https://akirabox.to/Y2xm0XKKnmRO/file"
+        },
+        {
+          "name": "ASIA 4.xx Base - Akirabox part 8",
+          "url": "https://akirabox.to/E9Qz96YYKGOL/file"
+        },
+        {
+          "name": "ASIA 4.xx Base - Akirabox part 9",
+          "url": "https://akirabox.to/LK0G1XAAwz91/file"
+        },
+        {
+          "name": "ASIA 4.xx Base - Akirabox part 10",
+          "url": "https://akirabox.to/dZxG5X00NzVj/file"
+        },
+        {
+          "name": "ASIA 4.xx Base - Akirabox part 11",
+          "url": "https://akirabox.to/jar3XO44Qm2d/file"
+        },
+        {
+          "name": "ASIA 4.xx Base - Akirabox part 12",
+          "url": "https://akirabox.to/7d5GLoddQzxR/file"
+        },
+        {
+          "name": "ASIA 4.xx Base - Akirabox part 13",
+          "url": "https://akirabox.to/BnkmW6eeaGR0/file"
+        },
+        {
+          "name": "ASIA 4.xx Base - Akirabox part 14",
+          "url": "https://akirabox.to/jJD3VeAAOma5/file"
+        },
+        {
+          "name": "ASIA 4.xx Base - Akirabox part 15",
+          "url": "https://akirabox.to/ex5z2Xee8mKq/file"
+        },
+        {
+          "name": "ASIA 4.xx Base - Akirabox part 16",
+          "url": "https://akirabox.to/9QWmpWJPXGEB/file"
+        },
+        {
+          "name": "ASIA 4.xx Base - Akirabox part 17",
+          "url": "https://akirabox.to/Pbe3PebKLzlX/file"
+        },
+        {
+          "name": "ASIA 4.xx Base - Akirabox part 18",
+          "url": "https://akirabox.to/k0embkN6W3Vb/file"
+        },
+        {
+          "name": "ASIA 4.xx Base - Akirabox part 19",
+          "url": "https://akirabox.to/E9Qz96Y2KGOL/file"
+        },
+        {
+          "name": "ASIA 4.xx Base - Akirabox part 20",
+          "url": "https://akirabox.to/LK0G1XA2wz91/file"
+        },
+        {
+          "name": "ASIA 4.xx Base - Akirabox part 21",
+          "url": "https://akirabox.to/0rpmv1kDJGRg/file"
+        },
+        {
+          "name": "ASIA 4.xx Base - Akirabox part 22",
+          "url": "https://akirabox.to/QN9mEdE57G6d/file"
+        },
+        {
+          "name": "ASIA 4.xx Base - Rootz part 1",
+          "url": "https://www.rootz.so/d/1Mn6sS"
+        },
+        {
+          "name": "ASIA 4.xx Base - Rootz part 2",
+          "url": "https://www.rootz.so/d/A6sBE"
+        },
+        {
+          "name": "ASIA 4.xx Base - Rootz part 3",
+          "url": "https://www.rootz.so/d/1b1Yoq"
+        },
+        {
+          "name": "ASIA 4.xx Base - Rootz part 4",
+          "url": "https://www.rootz.so/d/1WzhxI"
+        },
+        {
+          "name": "ASIA 4.xx Base - Rootz part 5",
+          "url": "https://www.rootz.so/d/OLK7c"
+        },
+        {
+          "name": "ASIA 4.xx Base - Rootz part 6",
+          "url": "https://www.rootz.so/d/1f3PgO"
+        },
+        {
+          "name": "ASIA 4.xx Base - Rootz part 7",
+          "url": "https://www.rootz.so/d/SNAzA"
+        },
+        {
+          "name": "ASIA 4.xx Base - Rootz part 8",
+          "url": "https://www.rootz.so/d/1j5GXw"
+        },
+        {
+          "name": "ASIA 4.xx Base - Rootz part 9",
+          "url": "https://www.rootz.so/d/WP1ma"
+        },
+        {
+          "name": "ASIA 4.xx Base - Rootz part 10",
+          "url": "https://www.rootz.so/d/aQse8"
+        },
+        {
+          "name": "ASIA 4.xx Base - Rootz part 11",
+          "url": "https://www.rootz.so/d/fPO3U"
+        },
+        {
+          "name": "ASIA 4.xx Base - Rootz part 12",
+          "url": "https://www.rootz.so/d/nT5ma"
+        },
+        {
+          "name": "ASIA 4.xx Base - Rootz part 13",
+          "url": "https://www.rootz.so/d/1s5cki"
+        },
+        {
+          "name": "ASIA 4.xx Base - Rootz part 14",
+          "url": "https://www.rootz.so/d/1o3ltA"
+        },
+        {
+          "name": "ASIA 4.xx Base - Rootz part 15",
+          "url": "https://www.rootz.so/d/jREv2"
+        },
+        {
+          "name": "ASIA 4.xx Base - Rootz part 16",
+          "url": "https://www.rootz.so/d/1e76iO"
+        },
+        {
+          "name": "ASIA 4.xx Base - Rootz part 17",
+          "url": "https://www.rootz.so/d/DCQ4m"
+        },
+        {
+          "name": "ASIA 4.xx Base - Rootz part 18",
+          "url": "https://www.rootz.so/d/HEGwK"
+        },
+        {
+          "name": "ASIA 4.xx Base - Rootz part 19",
+          "url": "https://www.rootz.so/d/RQs1A"
+        },
+        {
+          "name": "ASIA 4.xx Base - Rootz part 20",
+          "url": "https://www.rootz.so/d/1Psem0"
+        },
+        {
+          "name": "ASIA 4.xx Base - Rootz part 21",
+          "url": "https://www.rootz.so/d/rF0k4"
+        },
+        {
+          "name": "ASIA 4.xx Base - Rootz part 22",
+          "url": "https://www.rootz.so/d/1ztOds"
+        },
+        {
+          "name": "ASIA 4.xx Base - Vikingfile part 1",
+          "url": "https://vikingfile.com/f/SqTbcUImtS"
+        },
+        {
+          "name": "ASIA 4.xx Base - Vikingfile part 2",
+          "url": "https://vikingfile.com/f/oknFA6MLqG"
+        },
+        {
+          "name": "ASIA 4.xx Base - Vikingfile part 3",
+          "url": "https://vikingfile.com/f/1mA51WK0xO"
+        },
+        {
+          "name": "ASIA 4.xx Base - Vikingfile part 4",
+          "url": "https://vikingfile.com/f/YXAkD485MJ"
+        },
+        {
+          "name": "ASIA 4.xx Base - Vikingfile part 5",
+          "url": "https://vikingfile.com/f/pIuGQX4HUw"
+        },
+        {
+          "name": "ASIA 4.xx Base - Vikingfile part 6",
+          "url": "https://vikingfile.com/f/aYIeuOylyl"
+        },
+        {
+          "name": "ASIA 4.xx Base - Vikingfile part 7",
+          "url": "https://vikingfile.com/f/FhthOMrPlU"
+        },
+        {
+          "name": "ASIA 4.xx Base - Vikingfile part 8",
+          "url": "https://vikingfile.com/f/1HWOIj4wvp"
+        },
+        {
+          "name": "ASIA 4.xx Base - Vikingfile part 9",
+          "url": "https://vikingfile.com/f/kBH8KHNAzB"
+        },
+        {
+          "name": "ASIA 4.xx Base - Vikingfile part 10",
+          "url": "https://vikingfile.com/f/6kXRrbw4Az"
+        },
+        {
+          "name": "ASIA 4.xx Base - Vikingfile part 11",
+          "url": "https://vikingfile.com/f/ecTveVRkOD"
+        },
+        {
+          "name": "ASIA 4.xx Base - Vikingfile part 12",
+          "url": "https://vikingfile.com/f/RdJhjgDi9N"
+        },
+        {
+          "name": "ASIA 4.xx Base - Vikingfile part 13",
+          "url": "https://vikingfile.com/f/jrwXe3fmnx"
+        },
+        {
+          "name": "ASIA 4.xx Base - Vikingfile part 14",
+          "url": "https://vikingfile.com/f/hoPp5dDG8B"
+        },
+        {
+          "name": "ASIA 4.xx Base - Vikingfile part 15",
+          "url": "https://vikingfile.com/f/XalAVOkb2F"
+        },
+        {
+          "name": "ASIA 4.xx Base - Vikingfile part 16",
+          "url": "https://vikingfile.com/f/pT4LKpI22I"
+        },
+        {
+          "name": "ASIA 4.xx Base - Vikingfile part 17",
+          "url": "https://vikingfile.com/f/iMGDjNZJyo"
+        },
+        {
+          "name": "ASIA 4.xx Base - Vikingfile part 18",
+          "url": "https://vikingfile.com/f/nUaXu9gnEV"
+        },
+        {
+          "name": "ASIA 4.xx Base - Vikingfile part 19",
+          "url": "https://vikingfile.com/f/4H6xERLktU"
+        },
+        {
+          "name": "ASIA 4.xx Base - Vikingfile part 20",
+          "url": "https://vikingfile.com/f/nf97Aj3EDA"
+        },
+        {
+          "name": "ASIA 4.xx Base - Vikingfile part 21",
+          "url": "https://vikingfile.com/f/vFONAWCe7F"
+        },
+        {
+          "name": "ASIA 4.xx Base - Vikingfile part 22",
+          "url": "https://vikingfile.com/f/94ka6fhsAA"
+        },
+        {
+          "name": "ASIA 4.xx Base - Akirabox part 23",
+          "url": "https://akirabox.to/M2BGwLRKPmj4/file"
+        },
+        {
+          "name": "ASIA 4.xx Base - Akirabox part 24",
+          "url": "https://akirabox.to/Z9dzBBOpqzk1/file"
+        },
+        {
+          "name": "ASIA 4.xx Base - Akirabox part 25",
+          "url": "https://akirabox.to/2WVGrWjbWmkx/file"
+        },
+        {
+          "name": "ASIA 4.xx Base - Akirabox part 26",
+          "url": "https://akirabox.to/EL73gkOEK39B/file"
+        },
+        {
+          "name": "ASIA 4.xx Base - Akirabox part 27",
+          "url": "https://akirabox.to/vgKGx7MAnz8Q/file"
+        },
+        {
+          "name": "ASIA 4.xx Base - Akirabox part 28",
+          "url": "https://akirabox.to/rk9zKdJePG0l/file"
+        },
+        {
+          "name": "ASIA 4.xx Base - Akirabox part 29",
+          "url": "https://akirabox.to/l5YzMejnOzyO/file"
+        },
+        {
+          "name": "ASIA 4.xx Base - Akirabox part 30",
+          "url": "https://akirabox.to/E1x3Ax6j6myk/file"
+        },
+        {
+          "name": "ASIA 4.xx Base - Akirabox part 31",
+          "url": "https://akirabox.to/qPez4yoePGOY/file"
+        },
+        {
+          "name": "ASIA 4.xx Base - Akirabox part 32",
+          "url": "https://akirabox.to/qw1zeVaDvGXy/file"
+        },
+        {
+          "name": "ASIA 4.xx Base - Akirabox part 33",
+          "url": "https://akirabox.to/jJD3VeAZlma5/file"
+        },
+        {
+          "name": "ASIA 4.xx Base - Akirabox part 34",
+          "url": "https://akirabox.to/0PdzyMZEMzeA/file"
+        },
+        {
+          "name": "ASIA 4.xx Base - Akirabox part 35",
+          "url": "https://akirabox.to/0JgG7a1n53oY/file"
+        },
+        {
+          "name": "ASIA 4.xx Base - Akirabox part 36",
+          "url": "https://akirabox.to/APVmaMLy0mXo/file"
+        },
+        {
+          "name": "ASIA 4.xx Base - Akirabox part 37",
+          "url": "https://akirabox.to/9AqGQekP8GMn/file"
+        },
+        {
+          "name": "ASIA 4.xx Base - Akirabox part 38",
+          "url": "https://akirabox.to/EL73gkOLY39B/file"
+        },
+        {
+          "name": "ASIA 4.xx Base - Akirabox part 39",
+          "url": "https://akirabox.to/Z9dzBBOnOzk1/file"
+        },
+        {
+          "name": "ASIA 4.xx Base - Akirabox part 40",
+          "url": "https://akirabox.to/b5OzdkqN43B8/file"
+        },
+        {
+          "name": "ASIA 4.xx Base - Akirabox part 41",
+          "url": "https://akirabox.to/RMKGJWBgPm1o/file"
+        },
+        {
+          "name": "ASIA 4.xx Base - Akirabox part 42",
+          "url": "https://akirabox.to/obj3jkEqAzDx/file"
+        },
+        {
+          "name": "ASIA 4.xx Base - Akirabox part 43",
+          "url": "https://akirabox.to/qPez4yobaGOY/file"
+        },
+        {
+          "name": "ASIA 4.xx Base - Rootz part 23",
+          "url": "https://www.rootz.so/d/2KT67U"
+        },
+        {
+          "name": "ASIA 4.xx Base - Rootz part 24",
+          "url": "https://www.rootz.so/d/2GRFFw"
+        },
+        {
+          "name": "ASIA 4.xx Base - Rootz part 25",
+          "url": "https://www.rootz.so/d/7CBFY"
+        },
+        {
+          "name": "ASIA 4.xx Base - Rootz part 26",
+          "url": "https://www.rootz.so/d/1BoiHo"
+        },
+        {
+          "name": "ASIA 4.xx Base - Rootz part 27",
+          "url": "https://www.rootz.so/d/3AKO0"
+        },
+        {
+          "name": "ASIA 4.xx Base - Rootz part 28",
+          "url": "https://www.rootz.so/d/17mrQG"
+        },
+        {
+          "name": "ASIA 4.xx Base - Rootz part 29",
+          "url": "https://www.rootz.so/d/13l0Yi"
+        },
+        {
+          "name": "ASIA 4.xx Base - Rootz part 30",
+          "url": "https://www.rootz.so/d/1yAwW8"
+        },
+        {
+          "name": "ASIA 4.xx Base - Rootz part 31",
+          "url": "https://www.rootz.so/d/zj9hA"
+        },
+        {
+          "name": "ASIA 4.xx Base - Rootz part 32",
+          "url": "https://www.rootz.so/d/2CPOOO"
+        },
+        {
+          "name": "ASIA 4.xx Base - Rootz part 33",
+          "url": "https://www.rootz.so/d/1ceaUi"
+        },
+        {
+          "name": "ASIA 4.xx Base - Rootz part 34",
+          "url": "https://www.rootz.so/d/iEeXI"
+        },
+        {
+          "name": "ASIA 4.xx Base - Rootz part 35",
+          "url": "https://www.rootz.so/d/mGVKi"
+        },
+        {
+          "name": "ASIA 4.xx Base - Rootz part 36",
+          "url": "https://www.rootz.so/d/Hue0G"
+        },
+        {
+          "name": "ASIA 4.xx Base - Rootz part 37",
+          "url": "https://www.rootz.so/d/1YcjdA"
+        },
+        {
+          "name": "ASIA 4.xx Base - Rootz part 38",
+          "url": "https://www.rootz.so/d/1uutEW"
+        },
+        {
+          "name": "ASIA 4.xx Base - Rootz part 39",
+          "url": "https://www.rootz.so/d/LwUro"
+        },
+        {
+          "name": "ASIA 4.xx Base - Rootz part 40",
+          "url": "https://www.rootz.so/d/1mrBVQ"
+        },
+        {
+          "name": "ASIA 4.xx Base - Rootz part 41",
+          "url": "https://www.rootz.so/d/eCnfk"
+        },
+        {
+          "name": "ASIA 4.xx Base - Rootz part 42",
+          "url": "https://www.rootz.so/d/1qt2My"
+        },
+        {
+          "name": "ASIA 4.xx Base - Rootz part 43",
+          "url": "https://www.rootz.so/d/O5ODY"
+        },
+        {
+          "name": "ASIA 4.xx Base - Vikingfile part 23",
+          "url": "https://vikingfile.com/f/Ib9cccxj5g"
+        },
+        {
+          "name": "ASIA 4.xx Base - Vikingfile part 24",
+          "url": "https://vikingfile.com/f/7h1KiQrxW4"
+        },
+        {
+          "name": "ASIA 4.xx Base - Vikingfile part 25",
+          "url": "https://vikingfile.com/f/4VlCNR9oT2"
+        },
+        {
+          "name": "ASIA 4.xx Base - Vikingfile part 26",
+          "url": "https://vikingfile.com/f/GnX3yaCkzy"
+        },
+        {
+          "name": "ASIA 4.xx Base - Vikingfile part 27",
+          "url": "https://vikingfile.com/f/jbCgGFdCKu"
+        },
+        {
+          "name": "ASIA 4.xx Base - Vikingfile part 28",
+          "url": "https://vikingfile.com/f/cywP8TfVTW"
+        },
+        {
+          "name": "ASIA 4.xx Base - Vikingfile part 29",
+          "url": "https://vikingfile.com/f/T1nBi4xbDb"
+        },
+        {
+          "name": "ASIA 4.xx Base - Vikingfile part 30",
+          "url": "https://vikingfile.com/f/uteaFUv63e"
+        },
+        {
+          "name": "ASIA 4.xx Base - Vikingfile part 31",
+          "url": "https://vikingfile.com/f/eLNUFYHOUz"
+        },
+        {
+          "name": "ASIA 4.xx Base - Vikingfile part 32",
+          "url": "https://vikingfile.com/f/MX7ca5BMEf"
+        },
+        {
+          "name": "ASIA 4.xx Base - Vikingfile part 33",
+          "url": "https://vikingfile.com/f/FrupbtE95Y"
+        },
+        {
+          "name": "ASIA 4.xx Base - Vikingfile part 34",
+          "url": "https://vikingfile.com/f/IlXnlJCbLz"
+        },
+        {
+          "name": "ASIA 4.xx Base - Vikingfile part 35",
+          "url": "https://vikingfile.com/f/ZFq3GjEtTz"
+        },
+        {
+          "name": "ASIA 4.xx Base - Vikingfile part 36",
+          "url": "https://vikingfile.com/f/b6wQQLjPcc"
+        },
+        {
+          "name": "ASIA 4.xx Base - Vikingfile part 37",
+          "url": "https://vikingfile.com/f/fmNcEAIRLn"
+        },
+        {
+          "name": "ASIA 4.xx Base - Vikingfile part 38",
+          "url": "https://vikingfile.com/f/dc4GeOCGut"
+        },
+        {
+          "name": "ASIA 4.xx Base - Vikingfile part 39",
+          "url": "https://vikingfile.com/f/Njx7bQc93M"
+        },
+        {
+          "name": "ASIA 4.xx Base - Vikingfile part 40",
+          "url": "https://vikingfile.com/f/QZkZWNL0FE"
+        },
+        {
+          "name": "ASIA 4.xx Base - Vikingfile part 41",
+          "url": "https://vikingfile.com/f/KRn1dn1coI"
+        },
+        {
+          "name": "ASIA 4.xx Base - Vikingfile part 42",
+          "url": "https://vikingfile.com/f/nSxOL7jixl"
+        },
+        {
+          "name": "ASIA 4.xx Base - Vikingfile part 43",
+          "url": "https://vikingfile.com/f/UNLiZ1KVwx"
+        },
+        {
+          "name": "ASIA 4.xx Only DLC - Akirabox part 1",
+          "url": "https://akirabox.to/0JgG7a1bg3oY/file"
+        },
+        {
+          "name": "ASIA 4.xx Only DLC - Akirabox part 2",
+          "url": "https://akirabox.to/0PdzyMZOPzeA/file"
+        },
+        {
+          "name": "ASIA 4.xx Only DLC - Akirabox part 3",
+          "url": "https://akirabox.to/9AqGQekLbGMn/file"
+        },
+        {
+          "name": "ASIA 4.xx Only DLC - Akirabox part 4",
+          "url": "https://akirabox.to/ex5z2XeRlmKq/file"
+        },
+        {
+          "name": "ASIA 4.xx Only DLC - Akirabox part 5",
+          "url": "https://akirabox.to/9AqGQekoNGMn/file"
+        },
+        {
+          "name": "ASIA 4.xx Only DLC - Akirabox part 6",
+          "url": "https://akirabox.to/jJD3VeAYEma5/file"
+        },
+        {
+          "name": "ASIA 4.xx Only DLC - Rootz part 1",
+          "url": "https://www.rootz.so/d/rvNs8"
+        },
+        {
+          "name": "ASIA 4.xx Only DLC - Rootz part 2",
+          "url": "https://www.rootz.so/d/vxEjg"
+        },
+        {
+          "name": "ASIA 4.xx Only DLC - Rootz part 3",
+          "url": "https://www.rootz.so/d/28dTQu"
+        },
+        {
+          "name": "ASIA 4.xx Only DLC - Rootz part 4",
+          "url": "https://www.rootz.so/d/2GhBA0"
+        },
+        {
+          "name": "ASIA 4.xx Only DLC - Rootz part 5",
+          "url": "https://www.rootz.so/d/2CfKIS"
+        },
+        {
+          "name": "ASIA 4.xx Only DLC - Rootz part 6",
+          "url": "https://www.rootz.so/d/zz5X6"
+        },
+        {
+          "name": "ASIA 4.xx Only DLC - Vikingfile part 1",
+          "url": "https://vikingfile.com/f/fuVxYQIiKT"
+        },
+        {
+          "name": "ASIA 4.xx Only DLC - Vikingfile part 2",
+          "url": "https://vikingfile.com/f/d9i5K59nlz"
+        },
+        {
+          "name": "ASIA 4.xx Only DLC - Vikingfile part 3",
+          "url": "https://vikingfile.com/f/AdU5CI8Cd1"
+        },
+        {
+          "name": "ASIA 4.xx Only DLC - Vikingfile part 4",
+          "url": "https://vikingfile.com/f/S2INFbuoXz"
+        },
+        {
+          "name": "ASIA 4.xx Only DLC - Vikingfile part 5",
+          "url": "https://vikingfile.com/f/mhpDRxzdFC"
+        },
+        {
+          "name": "ASIA 4.xx Only DLC - Vikingfile part 6",
+          "url": "https://vikingfile.com/f/B2Ag2OVR2K"
         }
       ]
     },
@@ -149532,6 +150226,64 @@
         {
           "name": "USA exFAT 01.004 Base - Vault (exFAT)",
           "url": "https://datavaults.co/6qmhde3tm198"
+        }
+      ]
+    },
+    {
+      "titleId": "PPSA18986",
+      "title": "[exFAT] The Legend of Heroes Trails through Daybreak Ultimate Edition",
+      "createdAt": "2026-11-21T13:35:22.016Z",
+      "version": "01.002",
+      "category": "game",
+      "posterUrl": "https://pegasus-dl.dev/api/posters/aab78ef77463d9a6c03f7a52e45d93923c0bfed4e436159fc9c6dd22cb3b6538",
+      "originalPosterUrl": "https://pegasus-dl.dev/api/posters/e1600d6273da5754ff705b8a805b0088821075cafe5377112181f3c0aa76c750",
+      "description": "Region: USA\nRelease note: exFAT format — FW 01.002 — 4.xx and beyond\nContributor: pippo",
+      "downloadSource": "https://pub-d5f4def955404492b20262ad2a0dc12a.r2.dev/games_ps5_cache.json",
+      "downloadLinks": [
+        {
+          "name": "USA exFAT 01.002 Base - DATA (exFAT)",
+          "url": "https://link-vault.org/c/oUUxNHk4#DataNodes"
+        },
+        {
+          "name": "USA exFAT 01.002 Base - FileK (exFAT)",
+          "url": "https://link-vault.org/c/oUUxNHk4#FileKeeper"
+        },
+        {
+          "name": "USA exFAT 01.002 Base - AKIA (exFAT)",
+          "url": "https://link-vault.org/c/oUUxNHk4#AkiraBox"
+        },
+        {
+          "name": "USA exFAT 01.002 Base - VIKI (exFAT)",
+          "url": "https://link-vault.org/c/oUUxNHk4#VikingFile"
+        }
+      ]
+    },
+    {
+      "titleId": "PPSA07528",
+      "title": "[exFAT] Ys IX Monstrum Nox Deluxe Edition",
+      "createdAt": "2026-11-21T13:35:22.016Z",
+      "version": "01.001",
+      "category": "game",
+      "posterUrl": "https://pegasus-dl.dev/api/posters/5c1f58a4f426451694d37c13db5729c10d8ee1ca88ddec66f2d41a958ede11f3",
+      "originalPosterUrl": "https://pegasus-dl.dev/api/posters/5c1f58a4f426451694d37c13db5729c10d8ee1ca88ddec66f2d41a958ede11f3",
+      "description": "Region: EUR\nRelease note: exFAT format — FW 01.001 — 4.xx BackPort\nContributor: pippo",
+      "downloadSource": "https://pub-d5f4def955404492b20262ad2a0dc12a.r2.dev/games_ps5_cache.json",
+      "downloadLinks": [
+        {
+          "name": "EUR exFAT 01.001 Base - DATA (exFAT)",
+          "url": "https://link-vault.org/c/vVv081KP#DataNodes"
+        },
+        {
+          "name": "EUR exFAT 01.001 Base - FileK (exFAT)",
+          "url": "https://link-vault.org/c/vVv081KP#FileKeeper"
+        },
+        {
+          "name": "EUR exFAT 01.001 Base - AKIA (exFAT)",
+          "url": "https://link-vault.org/c/vVv081KP#AkiraBox"
+        },
+        {
+          "name": "EUR exFAT 01.001 Base - VIKI (exFAT)",
+          "url": "https://link-vault.org/c/vVv081KP#VikingFile"
         }
       ]
     },

@@ -1,15 +1,15 @@
 {
   "name": "AICyberGuardian PS5 Catalogs Hub",
   "version": "1.1.0",
-  "generatedAt": "2026-11-21T09:19:07Z",
+  "generatedAt": "2026-11-21T17:10:12Z",
   "rawBase": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs",
   "sources": [
     {
       "id": "dlpsgame",
       "name": "DLPSGame",
       "url": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs/dlps.json",
-      "items": 1978,
-      "sha256": "69f44814cc3575ac726e77afd8c5b77ca9c84011f22fb9e00e6afe15602c7fde",
+      "items": 1985,
+      "sha256": "e977c027f89d06761b7db3b5b1476dfb8d3eeb6e05ea81572cc8d213a096f24a",
       "upstream": "https://pegasus-dl.dev/catalogs/dlps.json"
     },
     {
@@ -24,16 +24,16 @@
       "id": "pippo-exfat",
       "name": "Pippo .exFAT",
       "url": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs/pippo.json",
-      "items": 967,
-      "sha256": "96706b01fe701436116500525904459e061bf8382b62e3ed6c6d9c921e16de23",
+      "items": 969,
+      "sha256": "9474d4d13863ce8e0a25d956221863026179834a4e59795b147bf6a8565481f1",
       "upstream": "https://pegasus-dl.dev/catalogs/pippo.json"
     },
     {
       "id": "pfs-catalog",
       "name": "PFS Direct Rips",
       "url": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs/pfs.json",
-      "items": 1043,
-      "sha256": "b81c5c577cffaa5961d38a096fbfd42c01deeaf9903bb5b8eb5b650badc80a2c",
+      "items": 1047,
+      "sha256": "117b7176961dea2114ff4d80dfdfdf488f5577fd16fba507151c0034a11b527c",
       "upstream": "https://pegasus-dl.dev/catalogs/pfs.json"
     },
     {
@@ -67,7 +67,7 @@
       "name": "ProsperoStore",
       "url": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs/prosperostore.json",
       "items": 210,
-      "sha256": "e53b56a1c1ecfe6cbe8d0779a3e0926a77ec22a2cb2ce17c6482d17e00587481",
+      "sha256": "95af3392c96fe6d23549522c492887241142e273045b530d53e9db8bef01d374",
       "upstream": "https://prosperostore.net/catalog/v1.json",
       "consumer": "prospero-native"
     },
