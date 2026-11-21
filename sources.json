@@ -1,15 +1,15 @@
 {
   "name": "AICyberGuardian PS5 Catalogs Hub",
   "version": "1.1.0",
-  "generatedAt": "2026-11-21T17:10:12Z",
+  "generatedAt": "2026-11-21T22:52:02Z",
   "rawBase": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs",
   "sources": [
     {
       "id": "dlpsgame",
       "name": "DLPSGame",
       "url": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs/dlps.json",
-      "items": 1985,
-      "sha256": "e977c027f89d06761b7db3b5b1476dfb8d3eeb6e05ea81572cc8d213a096f24a",
+      "items": 1990,
+      "sha256": "3bc25d79b07c1d29b5e1af9bf4efdfd7c80302b82ea7916794c3571b07d9340e",
       "upstream": "https://pegasus-dl.dev/catalogs/dlps.json"
     },
     {
@@ -32,8 +32,8 @@
       "id": "pfs-catalog",
       "name": "PFS Direct Rips",
       "url": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs/pfs.json",
-      "items": 1047,
-      "sha256": "117b7176961dea2114ff4d80dfdfdf488f5577fd16fba507151c0034a11b527c",
+      "items": 1057,
+      "sha256": "424b0ad2fce540646bce15d1239e59b5c28011616b98c12a2ead1d3f92c4d8d1",
       "upstream": "https://pegasus-dl.dev/catalogs/pfs.json"
     },
     {
@@ -67,7 +67,7 @@
       "name": "ProsperoStore",
       "url": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs/prosperostore.json",
       "items": 210,
-      "sha256": "95af3392c96fe6d23549522c492887241142e273045b530d53e9db8bef01d374",
+      "sha256": "c916bc68e10ced4d3c3e008c9ec6ac66a6f1cbc5f2e345b775587567d7a13c55",
       "upstream": "https://prosperostore.net/catalog/v1.json",
       "consumer": "prospero-native"
     },
@@ -75,8 +75,8 @@
       "id": "jobeeslair-homebrew",
       "name": "Jobee'sLair Homebrew (adapted)",
       "url": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs/jobeeslair-homebrew.json",
-      "items": 363,
-      "sha256": "05399315cf6dd09ecc99d030b2fe55d8bbf8fde8d3319ca1904dc06395aed20f",
+      "items": 364,
+      "sha256": "93ca4baac7a1d7a0551ae605b6fb0a95c571dffbf91966f5943c98f412a13a23",
       "upstream": "https://raw.githubusercontent.com/JVK3R/JobeesLair-Homebrew/main/index.json",
       "consumer": "jobee-native"
     }

@@ -1,7 +1,7 @@
 {
   "name": "Jobee'sLair Homebrew (adapted)",
   "version": "1.0.0",
-  "generatedAt": "2026-11-21T09:19:07Z",
+  "generatedAt": "2026-11-21T22:52:02Z",
   "source": "https://raw.githubusercontent.com/JVK3R/JobeesLair-Homebrew/main/index.json",
   "packages": [
     {
@@ -908,7 +908,7 @@
     {
       "titleId": "HBMIHAWK99PS5RETRO",
       "title": "RetroArch",
-      "version": "v4.1.0-beta-4",
+      "version": "v4.4.0-beta-4",
       "category": "emulators",
       "posterUrl": "https://raw.githubusercontent.com/mihawk-99/PS5_RetroArch/main/sce_sys/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/mihawk-99/PS5_RetroArch/main/assets/readme/important-warning.png",
@@ -916,8 +916,8 @@
       "downloadSource": "https://github.com/mihawk-99/PS5_RetroArch",
       "downloadLinks": [
         {
-          "name": "PS5_RetroArch-v4.1.0-beta-4.zip (app)",
-          "url": "https://github.com/mihawk-99/PS5_RetroArch/releases/download/v4.1.0-beta-4/PS5_RetroArch-v4.1.0-beta-4.zip"
+          "name": "PS5_RetroArch-v4.4.0-beta-4.zip (app)",
+          "url": "https://github.com/mihawk-99/PS5_RetroArch/releases/download/v4.4.0-beta-4/PS5_RetroArch-v4.4.0-beta-4.zip"
         }
       ],
       "author": "mihawk-99",
@@ -2134,7 +2134,7 @@
     {
       "titleId": "HBITSPLKPS5WEBKITA",
       "title": "PS5 WebKit Autoloader",
-      "version": "v0.8.2",
+      "version": "v0.8.3",
       "category": "jailbreak",
       "posterUrl": "https://avatars.githubusercontent.com/u/209955039?s=256&v=4",
       "originalPosterUrl": "https://avatars.githubusercontent.com/u/209955039?s=256&v=4",
@@ -2142,8 +2142,8 @@
       "downloadSource": "https://github.com/itsPLK/ps5-webkit-autoloader",
       "downloadLinks": [
         {
-          "name": "webkit-autoloader-installer_v0.8.2.elf (payload)",
-          "url": "https://github.com/itsPLK/ps5-webkit-autoloader/releases/download/v0.8.2/webkit-autoloader-installer_v0.8.2.elf"
+          "name": "webkit-autoloader-installer_v0.8.3.elf (payload)",
+          "url": "https://github.com/itsPLK/ps5-webkit-autoloader/releases/download/v0.8.3/webkit-autoloader-installer_v0.8.3.elf"
         }
       ],
       "author": "itsPLK",
@@ -2218,7 +2218,7 @@
     {
       "titleId": "HBNOOKIEAIKURA",
       "title": "Kura",
-      "version": "v1.6.53",
+      "version": "v1.6.55",
       "category": "jailbreak",
       "posterUrl": "https://avatars.githubusercontent.com/u/188130079?s=256&v=4",
       "originalPosterUrl": "https://github.com/user-attachments/assets/c968fd95-c186-406b-ab30-50a64275a304",
@@ -2227,11 +2227,11 @@
       "downloadLinks": [
         {
           "name": "kura-loader.elf (payload)",
-          "url": "https://github.com/NookieAI/kura/releases/download/v1.6.53/kura-loader.elf"
+          "url": "https://github.com/NookieAI/kura/releases/download/v1.6.55/kura-loader.elf"
         },
         {
           "name": "kura-loader-ps5.elf (payload)",
-          "url": "https://github.com/NookieAI/kura/releases/download/v1.6.53/kura-loader-ps5.elf"
+          "url": "https://github.com/NookieAI/kura/releases/download/v1.6.55/kura-loader-ps5.elf"
         }
       ],
       "author": "NookieAI",
@@ -4323,6 +4323,25 @@
       "upstreamId": "abcde6543/ps5-ntfs-browser"
     },
     {
+      "titleId": "HBABROCOMAPS5CACHY",
+      "title": "CachyOS on PS5",
+      "version": "image-2026-11-20",
+      "category": "linux",
+      "posterUrl": "",
+      "originalPosterUrl": "https://raw.githubusercontent.com/abrocoma/PS5-CachyOS/main/images/gaming-mode.jpg",
+      "description": "Ready-to-flash CachyOS image for jailbroken PS5: SteamOS-style Gaming Mode, 1440p 144 Hz, HDR, FreeSync",
+      "downloadSource": "https://github.com/abrocoma/PS5-CachyOS",
+      "downloadLinks": [
+        {
+          "name": "ps5-linux-loader-sonic-18e3757.elf (payload)",
+          "url": "https://github.com/abrocoma/PS5-CachyOS/releases/download/image-2026-11-20/ps5-linux-loader-sonic-18e3757.elf"
+        }
+      ],
+      "author": "abrocoma",
+      "repo": "abrocoma/PS5-CachyOS",
+      "upstreamId": "abrocoma/ps5-cachyos"
+    },
+    {
       "titleId": "HBANIME0T4KUPROSPE",
       "title": "Prospero Hi-Fi",
       "version": "v2.2.0",
@@ -4424,7 +4443,7 @@
     {
       "titleId": "HBBRINZA666MOVIANP",
       "title": "Movian",
-      "version": "playback-test-v12",
+      "version": "playback-test-v15",
       "category": "media",
       "posterUrl": "https://raw.githubusercontent.com/brinza666/movian_ps5/main/app/sce_sys/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/brinza666/movian_ps5/main/app/sce_sys/icon0.png",
@@ -4433,7 +4452,7 @@
       "downloadLinks": [
         {
           "name": "PPSA99456.zip (app)",
-          "url": "https://github.com/brinza666/movian_ps5/releases/download/playback-test-v12/PPSA99456.zip"
+          "url": "https://github.com/brinza666/movian_ps5/releases/download/playback-test-v15/PPSA99456.zip"
         }
       ],
       "author": "brinza666",
@@ -5434,7 +5453,7 @@
     {
       "titleId": "HBVIVALAVENTPS5BAZ",
       "title": "PS5 Bazzite Deck",
-      "version": "v3.0",
+      "version": "v3.0.1",
       "category": "linux",
       "posterUrl": "https://avatars.githubusercontent.com/u/62951130?s=256&v=4",
       "originalPosterUrl": "https://avatars.githubusercontent.com/u/62951130?s=256&v=4",
@@ -5442,8 +5461,8 @@
       "downloadSource": "https://github.com/VivaLaVent/ps5-bazzite-deck",
       "downloadLinks": [
         {
-          "name": "bazzite-bootc-loader-v3.0.elf (payload)",
-          "url": "https://github.com/VivaLaVent/ps5-bazzite-deck/releases/download/v3.0/bazzite-bootc-loader-v3.0.elf"
+          "name": "bazzite-bootc-loader-v3.0.1.elf (payload)",
+          "url": "https://github.com/VivaLaVent/ps5-bazzite-deck/releases/download/v3.0.1/bazzite-bootc-loader-v3.0.1.elf"
         }
       ],
       "author": "VivaLaVent",
