@@ -1,7 +1,7 @@
 {
   "name": "Jobee'sLair Homebrew (adapted)",
   "version": "1.0.0",
-  "generatedAt": "2026-11-21T22:52:02Z",
+  "generatedAt": "2026-11-22T10:49:12Z",
   "source": "https://raw.githubusercontent.com/JVK3R/JobeesLair-Homebrew/main/index.json",
   "packages": [
     {
@@ -908,7 +908,7 @@
     {
       "titleId": "HBMIHAWK99PS5RETRO",
       "title": "RetroArch",
-      "version": "v4.4.0-beta-4",
+      "version": "v4.7.0-beta-4",
       "category": "emulators",
       "posterUrl": "https://raw.githubusercontent.com/mihawk-99/PS5_RetroArch/main/sce_sys/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/mihawk-99/PS5_RetroArch/main/assets/readme/important-warning.png",
@@ -916,8 +916,8 @@
       "downloadSource": "https://github.com/mihawk-99/PS5_RetroArch",
       "downloadLinks": [
         {
-          "name": "PS5_RetroArch-v4.4.0-beta-4.zip (app)",
-          "url": "https://github.com/mihawk-99/PS5_RetroArch/releases/download/v4.4.0-beta-4/PS5_RetroArch-v4.4.0-beta-4.zip"
+          "name": "PS5_RetroArch-v4.7.0-beta-4.zip (app)",
+          "url": "https://github.com/mihawk-99/PS5_RetroArch/releases/download/v4.7.0-beta-4/PS5_RetroArch-v4.7.0-beta-4.zip"
         }
       ],
       "author": "mihawk-99",
@@ -1637,7 +1637,7 @@
     {
       "titleId": "HBPHANTOMPTRPS5UPL",
       "title": "ps5upload",
-      "version": "v12.6.17",
+      "version": "v12.6.21",
       "category": "files",
       "posterUrl": "https://raw.githubusercontent.com/phantomptr/ps5upload/main/branding/png/icon-1024.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/phantomptr/ps5upload/main/logo.png",
@@ -1645,8 +1645,8 @@
       "downloadSource": "https://github.com/phantomptr/ps5upload",
       "downloadLinks": [
         {
-          "name": "ps5upload-12.6.17.elf (payload)",
-          "url": "https://github.com/phantomptr/ps5upload/releases/download/v12.6.17/ps5upload-12.6.17.elf"
+          "name": "ps5upload-12.6.21.elf (payload)",
+          "url": "https://github.com/phantomptr/ps5upload/releases/download/v12.6.21/ps5upload-12.6.21.elf"
         }
       ],
       "author": "phantomptr",
@@ -2218,7 +2218,7 @@
     {
       "titleId": "HBNOOKIEAIKURA",
       "title": "Kura",
-      "version": "v1.6.55",
+      "version": "v1.6.59",
       "category": "jailbreak",
       "posterUrl": "https://avatars.githubusercontent.com/u/188130079?s=256&v=4",
       "originalPosterUrl": "https://github.com/user-attachments/assets/c968fd95-c186-406b-ab30-50a64275a304",
@@ -2227,11 +2227,11 @@
       "downloadLinks": [
         {
           "name": "kura-loader.elf (payload)",
-          "url": "https://github.com/NookieAI/kura/releases/download/v1.6.55/kura-loader.elf"
+          "url": "https://github.com/NookieAI/kura/releases/download/v1.6.59/kura-loader.elf"
         },
         {
           "name": "kura-loader-ps5.elf (payload)",
-          "url": "https://github.com/NookieAI/kura/releases/download/v1.6.55/kura-loader-ps5.elf"
+          "url": "https://github.com/NookieAI/kura/releases/download/v1.6.59/kura-loader-ps5.elf"
         }
       ],
       "author": "NookieAI",
@@ -2478,7 +2478,7 @@
     {
       "titleId": "HBBORNARADUSINEMBY",
       "title": "Emby5",
-      "version": "1.3.3",
+      "version": "1.3.4",
       "category": "media",
       "posterUrl": "https://raw.githubusercontent.com/bornaradusin/Emby5/main/app/sce_sys/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/bornaradusin/Emby5/main/app/sce_sys/pic0.png",
@@ -2486,8 +2486,8 @@
       "downloadSource": "https://github.com/bornaradusin/Emby5",
       "downloadLinks": [
         {
-          "name": "Emby5-1.3.3.zip (app)",
-          "url": "https://github.com/bornaradusin/Emby5/releases/download/1.3.3/Emby5-1.3.3.zip"
+          "name": "Emby5-1.3.4.zip (app)",
+          "url": "https://github.com/bornaradusin/Emby5/releases/download/1.3.4/Emby5-1.3.4.zip"
         }
       ],
       "author": "bornaradusin",
@@ -3390,7 +3390,7 @@
     {
       "titleId": "HBSAAWANT12ORBITST",
       "title": "Orbit Store (Beta)",
-      "version": "v1.9.5",
+      "version": "v1.9.6",
       "category": "stores",
       "posterUrl": "",
       "originalPosterUrl": "https://raw.githubusercontent.com/saawant12/orbit-store-ps5/main/assets/1.5.0/native-crossbar-discover.jpg",
@@ -3399,11 +3399,11 @@
       "downloadLinks": [
         {
           "name": "PPSA99177.ffpkg (image)",
-          "url": "https://github.com/saawant12/orbit-store-ps5/releases/download/v1.9.5/PPSA99177.ffpkg"
+          "url": "https://github.com/saawant12/orbit-store-ps5/releases/download/v1.9.6/PPSA99177.ffpkg"
         },
         {
           "name": "orbit_store.elf (payload)",
-          "url": "https://github.com/saawant12/orbit-store-ps5/releases/download/v1.9.5/orbit_store.elf"
+          "url": "https://github.com/saawant12/orbit-store-ps5/releases/download/v1.9.6/orbit_store.elf"
         }
       ],
       "author": "saawant12",
@@ -4100,7 +4100,7 @@
     {
       "titleId": "HBSTRONGT1MEPS5COO",
       "title": "PS5 Cooling & System Center - Pro",
-      "version": "v1.89.0",
+      "version": "v1.90.0",
       "category": "system",
       "posterUrl": "https://raw.githubusercontent.com/strongt1me/ps5-cooling-system-center-pro/main/tile/sce_sys/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/strongt1me/ps5-cooling-system-center-pro/main/starter/sce_sys/pic0.png",
@@ -4109,15 +4109,15 @@
       "downloadLinks": [
         {
           "name": "FAKE86921.zip (app)",
-          "url": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases/download/v1.89.0/FAKE86921.zip"
+          "url": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases/download/v1.90.0/FAKE86921.zip"
         },
         {
           "name": "FAKE86922.zip (app)",
-          "url": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases/download/v1.89.0/FAKE86922.zip"
+          "url": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases/download/v1.90.0/FAKE86922.zip"
         },
         {
-          "name": "PS5_Cooling_System_Center_v1.89.0.elf (payload)",
-          "url": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases/download/v1.89.0/PS5_Cooling_System_Center_v1.89.0.elf"
+          "name": "PS5_Cooling_System_Center_v1.90.0.elf (payload)",
+          "url": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases/download/v1.90.0/PS5_Cooling_System_Center_v1.90.0.elf"
         }
       ],
       "author": "strongt1me",
@@ -4260,7 +4260,7 @@
     {
       "titleId": "HBAARVSNPS5DROID",
       "title": "PS5Droid",
-      "version": "v1.0.5",
+      "version": "v1.0.6",
       "category": "emulators",
       "posterUrl": "https://avatars.githubusercontent.com/u/234900867?s=256&v=4",
       "originalPosterUrl": "https://avatars.githubusercontent.com/u/234900867?s=256&v=4",
@@ -4269,7 +4269,7 @@
       "downloadLinks": [
         {
           "name": "ps5droid-elf-payload.zip (archive-payload)",
-          "url": "https://github.com/aarvsn/PS5Droid/releases/download/v1.0.5/ps5droid-elf-payload.zip"
+          "url": "https://github.com/aarvsn/PS5Droid/releases/download/v1.0.6/ps5droid-elf-payload.zip"
         }
       ],
       "author": "aarvsn",
@@ -4302,7 +4302,7 @@
     {
       "titleId": "HBABCDE6543PS5NTFS",
       "title": "NTFS Browser for PS5",
-      "version": "v1.1.0",
+      "version": "v1.3.0",
       "category": "files",
       "posterUrl": "https://avatars.githubusercontent.com/u/347891874?s=256&v=4",
       "originalPosterUrl": "https://raw.githubusercontent.com/abcde6543/PS5-NTFS-BROWSER/main/docs/browser.png",
@@ -4311,11 +4311,11 @@
       "downloadLinks": [
         {
           "name": "ntfs-browser.elf (payload)",
-          "url": "https://github.com/abcde6543/PS5-NTFS-BROWSER/releases/download/v1.1.0/ntfs-browser.elf"
+          "url": "https://github.com/abcde6543/PS5-NTFS-BROWSER/releases/download/v1.3.0/ntfs-browser.elf"
         },
         {
-          "name": "ntfs-browser-v1.1.0.zip (archive-payload)",
-          "url": "https://github.com/abcde6543/PS5-NTFS-BROWSER/releases/download/v1.1.0/ntfs-browser-v1.1.0.zip"
+          "name": "ntfs-browser-v1.3.0.zip (archive-payload)",
+          "url": "https://github.com/abcde6543/PS5-NTFS-BROWSER/releases/download/v1.3.0/ntfs-browser-v1.3.0.zip"
         }
       ],
       "author": "abcde6543",
@@ -4401,7 +4401,7 @@
     {
       "titleId": "HBBORNARADUSINPC5",
       "title": "PC5",
-      "version": "v2.4.5",
+      "version": "v2.4.6",
       "category": "emulators",
       "posterUrl": "https://raw.githubusercontent.com/bornaradusin/PC5/main/art/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/bornaradusin/PC5/main/art/pic0.png",
@@ -4410,11 +4410,11 @@
       "downloadLinks": [
         {
           "name": "PPSA11018-update.zip (app)",
-          "url": "https://github.com/bornaradusin/PC5/releases/download/v2.4.5/PPSA11018-update.zip"
+          "url": "https://github.com/bornaradusin/PC5/releases/download/v2.4.6/PPSA11018-update.zip"
         },
         {
           "name": "PPSA11018.zip (app)",
-          "url": "https://github.com/bornaradusin/PC5/releases/download/v2.4.5/PPSA11018.zip"
+          "url": "https://github.com/bornaradusin/PC5/releases/download/v2.4.6/PPSA11018.zip"
         }
       ],
       "author": "bornaradusin",
@@ -4881,7 +4881,7 @@
     {
       "titleId": "HBLEOLOBATOPLAYDEN",
       "title": "Playden for PS5",
-      "version": "v0.12.0-beta.3",
+      "version": "v0.12.0-beta.4",
       "category": "emulators",
       "posterUrl": "https://raw.githubusercontent.com/leolobato/playden-ps5/main/sce_sys/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/leolobato/playden-ps5/main/docs/images/library.jpg",
@@ -4889,12 +4889,12 @@
       "downloadSource": "https://github.com/leolobato/playden-ps5",
       "downloadLinks": [
         {
-          "name": "playden-kit-0.32.zip (app)",
-          "url": "https://github.com/leolobato/playden-ps5/releases/download/v0.12.0-beta.3/playden-kit-0.32.zip"
+          "name": "playden-kit-0.35.zip (app)",
+          "url": "https://github.com/leolobato/playden-ps5/releases/download/v0.12.0-beta.4/playden-kit-0.35.zip"
         },
         {
-          "name": "playden-ps5-0.12.0-beta.3.zip (app)",
-          "url": "https://github.com/leolobato/playden-ps5/releases/download/v0.12.0-beta.3/playden-ps5-0.12.0-beta.3.zip"
+          "name": "playden-ps5-0.12.0-beta.4.zip (app)",
+          "url": "https://github.com/leolobato/playden-ps5/releases/download/v0.12.0-beta.4/playden-ps5-0.12.0-beta.4.zip"
         }
       ],
       "author": "leolobato",
@@ -7435,7 +7435,7 @@
     {
       "titleId": "HBDARKATEK7PS5SD",
       "title": "PS5SD",
-      "version": "v1.7.0",
+      "version": "v1.8.2",
       "category": "system",
       "posterUrl": "https://raw.githubusercontent.com/Darkatek7/PS5SD/main/ps5/app/sce_sys/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/Darkatek7/PS5SD/main/docs/images/webui-pc-create.jpg",
@@ -7444,7 +7444,7 @@
       "downloadLinks": [
         {
           "name": "PPSA99576.zip (app)",
-          "url": "https://github.com/Darkatek7/PS5SD/releases/download/v1.7.0/PPSA99576.zip"
+          "url": "https://github.com/Darkatek7/PS5SD/releases/download/v1.8.2/PPSA99576.zip"
         }
       ],
       "author": "Darkatek7",
