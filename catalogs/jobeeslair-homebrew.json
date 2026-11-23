@@ -1,7 +1,7 @@
 {
   "name": "Jobee'sLair Homebrew (adapted)",
   "version": "1.0.0",
-  "generatedAt": "2026-11-22T10:49:12Z",
+  "generatedAt": "2026-11-23T00:00:39Z",
   "source": "https://raw.githubusercontent.com/JVK3R/JobeesLair-Homebrew/main/index.json",
   "packages": [
     {
@@ -668,7 +668,7 @@
     {
       "titleId": "HBQUER3QPS5DUMPFOR",
       "title": "ps5 dump forge",
-      "version": "v0.5.6",
+      "version": "v0.5.7",
       "category": "dumps",
       "posterUrl": "https://raw.githubusercontent.com/quer3q/ps5-dump-forge/main/ps5/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/quer3q/ps5-dump-forge/main/ps5/icon0.png",
@@ -676,8 +676,8 @@
       "downloadSource": "https://github.com/quer3q/ps5-dump-forge",
       "downloadLinks": [
         {
-          "name": "ps5-dump-forge-0.5.6-ps5.elf (payload)",
-          "url": "https://github.com/quer3q/ps5-dump-forge/releases/download/v0.5.6/ps5-dump-forge-0.5.6-ps5.elf"
+          "name": "ps5-dump-forge-0.5.7-ps5.elf (payload)",
+          "url": "https://github.com/quer3q/ps5-dump-forge/releases/download/v0.5.7/ps5-dump-forge-0.5.7-ps5.elf"
         }
       ],
       "author": "quer3q",
@@ -2218,7 +2218,7 @@
     {
       "titleId": "HBNOOKIEAIKURA",
       "title": "Kura",
-      "version": "v1.6.59",
+      "version": "v1.6.60",
       "category": "jailbreak",
       "posterUrl": "https://avatars.githubusercontent.com/u/188130079?s=256&v=4",
       "originalPosterUrl": "https://github.com/user-attachments/assets/c968fd95-c186-406b-ab30-50a64275a304",
@@ -2227,11 +2227,11 @@
       "downloadLinks": [
         {
           "name": "kura-loader.elf (payload)",
-          "url": "https://github.com/NookieAI/kura/releases/download/v1.6.59/kura-loader.elf"
+          "url": "https://github.com/NookieAI/kura/releases/download/v1.6.60/kura-loader.elf"
         },
         {
           "name": "kura-loader-ps5.elf (payload)",
-          "url": "https://github.com/NookieAI/kura/releases/download/v1.6.59/kura-loader-ps5.elf"
+          "url": "https://github.com/NookieAI/kura/releases/download/v1.6.60/kura-loader-ps5.elf"
         }
       ],
       "author": "NookieAI",
@@ -4100,7 +4100,7 @@
     {
       "titleId": "HBSTRONGT1MEPS5COO",
       "title": "PS5 Cooling & System Center - Pro",
-      "version": "v1.90.0",
+      "version": "v1.91.0",
       "category": "system",
       "posterUrl": "https://raw.githubusercontent.com/strongt1me/ps5-cooling-system-center-pro/main/tile/sce_sys/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/strongt1me/ps5-cooling-system-center-pro/main/starter/sce_sys/pic0.png",
@@ -4109,15 +4109,15 @@
       "downloadLinks": [
         {
           "name": "FAKE86921.zip (app)",
-          "url": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases/download/v1.90.0/FAKE86921.zip"
+          "url": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases/download/v1.91.0/FAKE86921.zip"
         },
         {
           "name": "FAKE86922.zip (app)",
-          "url": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases/download/v1.90.0/FAKE86922.zip"
+          "url": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases/download/v1.91.0/FAKE86922.zip"
         },
         {
-          "name": "PS5_Cooling_System_Center_v1.90.0.elf (payload)",
-          "url": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases/download/v1.90.0/PS5_Cooling_System_Center_v1.90.0.elf"
+          "name": "PS5_Cooling_System_Center_v1.91.0.elf (payload)",
+          "url": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases/download/v1.91.0/PS5_Cooling_System_Center_v1.91.0.elf"
         }
       ],
       "author": "strongt1me",
@@ -4401,7 +4401,7 @@
     {
       "titleId": "HBBORNARADUSINPC5",
       "title": "PC5",
-      "version": "v2.4.6",
+      "version": "v2.4.7",
       "category": "emulators",
       "posterUrl": "https://raw.githubusercontent.com/bornaradusin/PC5/main/art/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/bornaradusin/PC5/main/art/pic0.png",
@@ -4410,11 +4410,11 @@
       "downloadLinks": [
         {
           "name": "PPSA11018-update.zip (app)",
-          "url": "https://github.com/bornaradusin/PC5/releases/download/v2.4.6/PPSA11018-update.zip"
+          "url": "https://github.com/bornaradusin/PC5/releases/download/v2.4.7/PPSA11018-update.zip"
         },
         {
           "name": "PPSA11018.zip (app)",
-          "url": "https://github.com/bornaradusin/PC5/releases/download/v2.4.6/PPSA11018.zip"
+          "url": "https://github.com/bornaradusin/PC5/releases/download/v2.4.7/PPSA11018.zip"
         }
       ],
       "author": "bornaradusin",
@@ -4443,7 +4443,7 @@
     {
       "titleId": "HBBRINZA666MOVIANP",
       "title": "Movian",
-      "version": "playback-test-v15",
+      "version": "playback-test-v53",
       "category": "media",
       "posterUrl": "https://raw.githubusercontent.com/brinza666/movian_ps5/main/app/sce_sys/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/brinza666/movian_ps5/main/app/sce_sys/icon0.png",
@@ -4451,8 +4451,8 @@
       "downloadSource": "https://github.com/brinza666/movian_ps5",
       "downloadLinks": [
         {
-          "name": "PPSA99456.zip (app)",
-          "url": "https://github.com/brinza666/movian_ps5/releases/download/playback-test-v15/PPSA99456.zip"
+          "name": "PPSA99456-v53.zip (app)",
+          "url": "https://github.com/brinza666/movian_ps5/releases/download/playback-test-v53/PPSA99456-v53.zip"
         }
       ],
       "author": "brinza666",
@@ -4660,7 +4660,7 @@
     {
       "titleId": "HBFTHDGNGHALEMBIC",
       "title": "Alembic",
-      "version": "v0.7.0",
+      "version": "v0.7.1",
       "category": "dumps",
       "posterUrl": "https://raw.githubusercontent.com/fthdgn-gh/Alembic/main/app/sce_sys/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/fthdgn-gh/Alembic/main/docs/screenshots/app.png",
@@ -4668,20 +4668,20 @@
       "downloadSource": "https://github.com/fthdgn-gh/Alembic",
       "downloadLinks": [
         {
-          "name": "alembic-app-v0.7.0.ffpkg (image)",
-          "url": "https://github.com/fthdgn-gh/Alembic/releases/download/v0.7.0/alembic-app-v0.7.0.ffpkg"
+          "name": "alembic-app-v0.7.1.ffpkg (image)",
+          "url": "https://github.com/fthdgn-gh/Alembic/releases/download/v0.7.1/alembic-app-v0.7.1.ffpkg"
         },
         {
-          "name": "alembic-app-v0.7.0.zip (app)",
-          "url": "https://github.com/fthdgn-gh/Alembic/releases/download/v0.7.0/alembic-app-v0.7.0.zip"
+          "name": "alembic-app-v0.7.1.zip (app)",
+          "url": "https://github.com/fthdgn-gh/Alembic/releases/download/v0.7.1/alembic-app-v0.7.1.zip"
         },
         {
-          "name": "alembic-v0.7.0.zip (archive-image)",
-          "url": "https://github.com/fthdgn-gh/Alembic/releases/download/v0.7.0/alembic-v0.7.0.zip"
+          "name": "alembic-v0.7.1.zip (archive-image)",
+          "url": "https://github.com/fthdgn-gh/Alembic/releases/download/v0.7.1/alembic-v0.7.1.zip"
         },
         {
-          "name": "alembic-v0.7.0.elf (payload)",
-          "url": "https://github.com/fthdgn-gh/Alembic/releases/download/v0.7.0/alembic-v0.7.0.elf"
+          "name": "alembic-v0.7.1.elf (payload)",
+          "url": "https://github.com/fthdgn-gh/Alembic/releases/download/v0.7.1/alembic-v0.7.1.elf"
         }
       ],
       "author": "fthdgn-gh",
@@ -5209,7 +5209,7 @@
     {
       "titleId": "HBPRESS5ELECTCRUX2",
       "title": "Crux2",
-      "version": "v1.0.22",
+      "version": "v1.0.23",
       "category": "emulators",
       "posterUrl": "https://raw.githubusercontent.com/Press5elect/Crux2/main/ps5/sce_sys/icon0.png",
       "originalPosterUrl": "https://github.com/user-attachments/assets/25fe5dd6-4552-4993-bc68-d25dc65e510d",
@@ -5217,8 +5217,8 @@
       "downloadSource": "https://github.com/Press5elect/Crux2",
       "downloadLinks": [
         {
-          "name": "Crux2-v1.0.22.zip (app)",
-          "url": "https://github.com/Press5elect/Crux2/releases/download/v1.0.22/Crux2-v1.0.22.zip"
+          "name": "Crux2-v1.0.23.zip (app)",
+          "url": "https://github.com/Press5elect/Crux2/releases/download/v1.0.23/Crux2-v1.0.23.zip"
         }
       ],
       "author": "Press5elect",
@@ -5510,20 +5510,20 @@
     {
       "titleId": "HBXXBNEUTZERNAMEXX",
       "title": "PS5 Cleanup",
-      "version": "v1.2",
+      "version": "v1.3",
       "category": "system",
-      "posterUrl": "https://raw.githubusercontent.com/xXBneutzerNameXx/PS5-Cleanup/main/1.1/probelauf/sce_sys/icon0.png",
+      "posterUrl": "https://raw.githubusercontent.com/xXBneutzerNameXx/PS5-Cleanup/main/1.3/probelauf/sce_sys/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/xXBneutzerNameXx/PS5-Cleanup/main/bilder/1.0.10/banner.jpg",
       "description": "Clean up a jailbroken PS5 like new, no reinstall.",
       "downloadSource": "https://github.com/xXBneutzerNameXx/PS5-Cleanup",
       "downloadLinks": [
         {
-          "name": "ps5cleanup_v1.2.elf (payload)",
-          "url": "https://github.com/xXBneutzerNameXx/PS5-Cleanup/releases/download/v1.2/ps5cleanup_v1.2.elf"
+          "name": "ps5cleanup_v1.3.elf (payload)",
+          "url": "https://github.com/xXBneutzerNameXx/PS5-Cleanup/releases/download/v1.3/ps5cleanup_v1.3.elf"
         },
         {
-          "name": "PS5-Cleanup-1.2.zip (archive-payload)",
-          "url": "https://github.com/xXBneutzerNameXx/PS5-Cleanup/releases/download/v1.2/PS5-Cleanup-1.2.zip"
+          "name": "PS5-Cleanup-1.3.zip (archive-payload)",
+          "url": "https://github.com/xXBneutzerNameXx/PS5-Cleanup/releases/download/v1.3/PS5-Cleanup-1.3.zip"
         }
       ],
       "author": "xXBneutzerNameXx",
@@ -6609,7 +6609,7 @@
     {
       "titleId": "HBSECONDCOATSECOND",
       "title": "Second Coat: London",
-      "version": "v0.4.2",
+      "version": "v0.5.0",
       "category": "system",
       "posterUrl": "https://raw.githubusercontent.com/SecondCoat/second-coat-london/main/sce_sys/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/SecondCoat/second-coat-london/main/sce_sys/icon0.png",
@@ -6618,7 +6618,7 @@
       "downloadLinks": [
         {
           "name": "getaway-ps5-PPSA99020.zip (app)",
-          "url": "https://github.com/SecondCoat/second-coat-london/releases/download/v0.4.2/getaway-ps5-PPSA99020.zip"
+          "url": "https://github.com/SecondCoat/second-coat-london/releases/download/v0.5.0/getaway-ps5-PPSA99020.zip"
         }
       ],
       "author": "SecondCoat",
@@ -7092,7 +7092,7 @@
     {
       "titleId": "HBSHABBYPENGUINPOK",
       "title": "PokeMMO-Prospero",
-      "version": "v1.0.2",
+      "version": "v1.0.5",
       "category": "system",
       "posterUrl": "https://raw.githubusercontent.com/Shabbypenguin/PokeMMO-Prospero/main/assets/branding/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/Shabbypenguin/PokeMMO-Prospero/main/assets/branding/icon0.png",
@@ -7101,11 +7101,11 @@
       "downloadLinks": [
         {
           "name": "PPSA98001.ffpfsc (image)",
-          "url": "https://github.com/Shabbypenguin/PokeMMO-Prospero/releases/download/v1.0.2/PPSA98001.ffpfsc"
+          "url": "https://github.com/Shabbypenguin/PokeMMO-Prospero/releases/download/v1.0.5/PPSA98001.ffpfsc"
         },
         {
           "name": "PPSA98001.zip (app)",
-          "url": "https://github.com/Shabbypenguin/PokeMMO-Prospero/releases/download/v1.0.2/PPSA98001.zip"
+          "url": "https://github.com/Shabbypenguin/PokeMMO-Prospero/releases/download/v1.0.5/PPSA98001.zip"
         }
       ],
       "author": "Shabbypenguin",
@@ -7416,7 +7416,7 @@
     {
       "titleId": "HBPAPYSZOOPHOTOSPL",
       "title": "Photo Splat VR",
-      "version": "v0.6.0",
+      "version": "v0.6.1",
       "category": "system",
       "posterUrl": "https://raw.githubusercontent.com/Papyszoo/photo-splat-vr/main/sce_sys/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/Papyszoo/photo-splat-vr/main/sce_sys/icon0.png",
@@ -7424,8 +7424,8 @@
       "downloadSource": "https://github.com/Papyszoo/photo-splat-vr",
       "downloadLinks": [
         {
-          "name": "photo-splat-vr-v0.6.0.zip (app)",
-          "url": "https://github.com/Papyszoo/photo-splat-vr/releases/download/v0.6.0/photo-splat-vr-v0.6.0.zip"
+          "name": "photo-splat-vr-v0.6.1.zip (app)",
+          "url": "https://github.com/Papyszoo/photo-splat-vr/releases/download/v0.6.1/photo-splat-vr-v0.6.1.zip"
         }
       ],
       "author": "Papyszoo",
@@ -7435,7 +7435,7 @@
     {
       "titleId": "HBDARKATEK7PS5SD",
       "title": "PS5SD",
-      "version": "v1.8.2",
+      "version": "v1.8.5",
       "category": "system",
       "posterUrl": "https://raw.githubusercontent.com/Darkatek7/PS5SD/main/ps5/app/sce_sys/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/Darkatek7/PS5SD/main/docs/images/webui-pc-create.jpg",
@@ -7444,7 +7444,7 @@
       "downloadLinks": [
         {
           "name": "PPSA99576.zip (app)",
-          "url": "https://github.com/Darkatek7/PS5SD/releases/download/v1.8.2/PPSA99576.zip"
+          "url": "https://github.com/Darkatek7/PS5SD/releases/download/v1.8.5/PPSA99576.zip"
         }
       ],
       "author": "Darkatek7",
