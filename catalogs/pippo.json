@@ -3,6 +3,106 @@
   "version": 1,
   "packages": [
     {
+      "titleId": "PPSA24326",
+      "title": "The Legend of Heroes Trails through Daybreak 2 Ultimate Edition",
+      "createdAt": "2026-11-23T13:49:59.089Z",
+      "version": "v01.002",
+      "category": "game",
+      "posterUrl": "https://pegasus-dl.dev/api/posters/7d1a7548346b2ae4a561f98853adb64ad1ce66198649ff6e3d0980d9f2cd2c39",
+      "originalPosterUrl": "https://pegasus-dl.dev/api/posters/7d1a7548346b2ae4a561f98853adb64ad1ce66198649ff6e3d0980d9f2cd2c39",
+      "description": "Builds: Dump, Fpkg\nTags: PPSA24326, v01.002, USA, DLCs Merged, 4.xx BackPort\nSize: 47GB\nCredits: Files: DUPLEX; Backport: DecKerr97 GUI; DLC: DUPLEX\nHow to play: FPKG atm is only working up to 11.60, use Dump if you are above. About Dump: SDK is 5.xx, separated BackPort Folder included. About FPKG: BackPort already included on Base, separated Original Files PKG included, optional.",
+      "downloadSource": "https://pippo26442999.github.io/.exFAT/exFAT.json?v=1780302680008",
+      "downloadLinks": [
+        {
+          "name": "Dump - DataNodes",
+          "url": "https://link-vault.org/c/sAswQB_4#DataNodes"
+        },
+        {
+          "name": "Dump - FileKeeper",
+          "url": "https://link-vault.org/c/sAswQB_4#FileKeeper"
+        },
+        {
+          "name": "Dump - DataVaults",
+          "url": "https://link-vault.org/c/sAswQB_4#DataVaults"
+        },
+        {
+          "name": "Dump - VikingFile",
+          "url": "https://link-vault.org/c/sAswQB_4#VikingFile"
+        },
+        {
+          "name": "Fpkg - DataVaults",
+          "url": "https://link-vault.org/c/yRzkSTe4#DataVaults"
+        },
+        {
+          "name": "Fpkg - VikingFile",
+          "url": "https://link-vault.org/c/yRzkSTe4#VikingFile"
+        },
+        {
+          "name": "Fpkg - DataNodes",
+          "url": "https://link-vault.org/c/yRzkSTe4#DataNodes"
+        },
+        {
+          "name": "Fpkg - FileKeeper",
+          "url": "https://link-vault.org/c/yRzkSTe4#FileKeeper"
+        }
+      ],
+      "sizeBytes": 50465865728
+    },
+    {
+      "titleId": "PPSA35314",
+      "title": "MudRunner American Wilds Edition",
+      "createdAt": "2026-11-23T13:49:59.089Z",
+      "version": "v01.000",
+      "category": "game",
+      "posterUrl": "https://pegasus-dl.dev/api/posters/eb8cbe2807967c0c62f595948d67cb7dc7b6b5e66f2db287afb510f39fdedbaf",
+      "originalPosterUrl": "https://pegasus-dl.dev/api/posters/abe387520cdbc92e6730a59f38d5fcc0ea4a8d832ff47bf79fef093c6b6f5f60",
+      "description": "Builds: DLC, Dump, Fpkg\nTags: PPSA35314, v01.000, USA, 4.xx BackPort\nSize: 2GB\nCredits: Files: Zhengpai Yanba; Backport: DecKerr97 GUI; DLC: Pippo &amp; Zhengpai Yanba\nHow to play: Note: Own ZSTD Extractor. FPKG atm is only working up to 11.60, use Dump if you are above. About Dump: SDK is 12.xx, separated BackPort Folder included. About FPKG: BackPort already included on Base, separated Original Files PKG included, optional.",
+      "downloadSource": "https://pippo26442999.github.io/.exFAT/exFAT.json?v=1780302680008",
+      "downloadLinks": [
+        {
+          "name": "DLC - DataNodes",
+          "url": "https://link-vault.org/c/sTeQjokA#DataNodes"
+        },
+        {
+          "name": "DLC - DataVaults",
+          "url": "https://link-vault.org/c/sTeQjokA#DataVaults"
+        },
+        {
+          "name": "Dump - DataNodes",
+          "url": "https://link-vault.org/c/h8MDTohe#DataNodes"
+        },
+        {
+          "name": "Dump - FileKeeper",
+          "url": "https://link-vault.org/c/h8MDTohe#FileKeeper"
+        },
+        {
+          "name": "Dump - DataVaults",
+          "url": "https://link-vault.org/c/h8MDTohe#DataVaults"
+        },
+        {
+          "name": "Dump - VikingFile",
+          "url": "https://link-vault.org/c/h8MDTohe#VikingFile"
+        },
+        {
+          "name": "Fpkg - DataVaults",
+          "url": "https://link-vault.org/c/TUybB52w#DataVaults"
+        },
+        {
+          "name": "Fpkg - VikingFile",
+          "url": "https://link-vault.org/c/TUybB52w#VikingFile"
+        },
+        {
+          "name": "Fpkg - DataNodes",
+          "url": "https://link-vault.org/c/TUybB52w#DataNodes"
+        },
+        {
+          "name": "Fpkg - FileKeeper",
+          "url": "https://link-vault.org/c/TUybB52w#FileKeeper"
+        }
+      ],
+      "sizeBytes": 2147483648
+    },
+    {
       "titleId": "PPSA28769",
       "title": "Cairn Deluxe Edition",
       "createdAt": "2026-11-22T11:22:26.196Z",
