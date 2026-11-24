@@ -3,6 +3,54 @@
   "version": 1,
   "packages": [
     {
+      "titleId": "PPSA12508",
+      "title": "Drums Rock",
+      "createdAt": "2026-11-23T21:53:00.117Z",
+      "version": "1.400",
+      "category": "game",
+      "posterUrl": "https://pegasus-dl.dev/api/posters/38e28db8f9a3804bd73327075e155dff98ef5994ef374c5cd36fb3d1a00f359d",
+      "originalPosterUrl": "https://pegasus-dl.dev/api/posters/d33a253e7983c5a0fd376fe631564c76c4c3e9dbc18663dcd18ce0350f3dab42",
+      "description": "Format: psvr2\nPlay the drums like a rock hero, and survive in hell fighting against demons and their boss! Characteristics: -Real Rock! Hard rock, heavy metal, Nu metal, among others. A wide variety of rock, with original music or hit groups! -Stylish and crazy graphics, with a brutal finishing level -TRUE Drums Set! A drums set that you will have to play and you can customize! -More than 4h of only CAMPAIGN! Plus all the extras! -Dozens of unlockables! Drumsticks, drums, songs... -Intuitive gameplay for everyone. No dizziness. Play in a chair. - Feel the rock n roll with advanced levels, make flourishes with the sticks and master the drums. -PHASE enemies and boss, special levels and different worlds to discover. -Online Ranking! Compete against your friends and beat their scores. -Musical versions of other videogames!! Watch out! -4 levels of difficulty! For all levels and with a fair progression!\nRegion: EUR\nFirmware: 11.xx+\nAPR: apr-emu-v0.4.2.1\nNotes: PSVR2 Required\nCredits: Thank you, @b0mba1992 for the dump! I, Desesperado3, unlocked the DLCs\nUpdated: 2026-11-23T21:26:43.646Z",
+      "downloadSource": "https://catalog.gfs-dlps.workers.dev/api/packages",
+      "downloadLinks": [
+        {
+          "name": "psvr2 · Data",
+          "url": "https://datanodes.to/wez1ch82y3sf"
+        },
+        {
+          "name": "psvr2 · Viki",
+          "url": "https://vikingfile.com/f/Y54dc0tOgi"
+        }
+      ],
+      "sizeBytes": 6957847020
+    },
+    {
+      "titleId": "CUSA53994",
+      "title": "Stasis",
+      "createdAt": "2026-11-23T21:53:00.117Z",
+      "version": "1.02",
+      "category": "game",
+      "posterUrl": "https://pegasus-dl.dev/api/posters/a5eb50325c8f6c6a37eb619d531671ba3d5f3b623daac7e5d6a7724492fa7fbe",
+      "originalPosterUrl": "https://pegasus-dl.dev/api/posters/a5eb50325c8f6c6a37eb619d531671ba3d5f3b623daac7e5d6a7724492fa7fbe",
+      "description": "Format: ps4\nThe 2015 critically acclaimed sci-fi horror masterpiece is coming to Playstation Store. In the distant future, aboard a seemingly abandoned spacecraft, John Maracheck awakes from stasis. He must push himself to new limits to unravel the mysteries around him. STASIS is an isometric, point-and-click, sci-fi horror adventure game. It intertwines a gruesome narrative with retro adventure gameplay. Combine items, interact with computers and solve puzzles while experiencing the gritty atmosphere. FEATURES: ▪ LOSE YOURSELF IN SOUND - experience cinematic AAA music composed by the legendary Mark Morgan, ▪ A BLAST FROM THE PAST - a retro adventure gameplay mixed with a gruesome narrative, ▪ WANDER AROUND THE GROOMLAKE - click, read and interact to explore the dark corners of your surroundings. Gather items and clues that will help you solve the puzzles, ▪ THE VOICES ARE GETTING LOUDER - unfold the story with professional voice acting that brings depth to every character. REVIEWS: ▪ “Stasis is not a game with any big ideas: it’s blessedly stripped-down, grub horror that will tear your soul apart. | 9.5/10” - FORBES ▪ “The game’s atmosphere is thick with tension, but it’s not trying to make you sweat the whole time, so the few moments it breaks things up and hits you with something shocking, it really works.” - KOTAKU ▪ “It's more than just \"good for an indie game\", it's a mandatory experience for fans of sci-fi horror. | 9/10 [AMAZING]” - IGN\nRegion: USA to EUR Langs\nFirmware: 12.xx+\nNotes: FW 12.50+ If you like Fallout 1 and 2, I think you will like this game :D\nCredits: Thank you, Xan!!\nUpdated: 2026-11-23T21:16:55.206Z",
+      "downloadSource": "https://catalog.gfs-dlps.workers.dev/api/packages",
+      "downloadLinks": [
+        {
+          "name": "ps4 · Viki",
+          "url": "https://vikingfile.com/f/jKlEgi7B5K"
+        },
+        {
+          "name": "ps4 · Data",
+          "url": "https://datanodes.to/avjhunijo9cv"
+        },
+        {
+          "name": "ps4 · Viki",
+          "url": "https://vikingfile.com/f/O2QHDiwWrm"
+        }
+      ],
+      "sizeBytes": 2609192632
+    },
+    {
       "titleId": "PPSA20153",
       "title": "Slime Rancher 2",
       "createdAt": "2026-11-23T17:51:06.026Z",
@@ -10,7 +58,7 @@
       "category": "game",
       "posterUrl": "https://pegasus-dl.dev/api/posters/453dbe55eecef21a9362363d53dc2313bdff5d711145237926ab2767cc3e69cb",
       "originalPosterUrl": "https://pegasus-dl.dev/api/posters/453dbe55eecef21a9362363d53dc2313bdff5d711145237926ab2767cc3e69cb",
-      "description": "Format: Folder\nSlime Rancher 2 is a sequel to the award-winning, smash-hit original that has been enjoyed by over 15 million fans worldwide. Continue the adventures of Beatrix LeBeau as she journeys to Rainbow Island, a mysterious land brimming with ancient technology, unknown natural resources, and an avalanche of wiggling, jiggling, new slimes to discover. As Beatrix attempts to unravel the island’s secrets and uncover its true purpose, she’ll build, ranch, and farm within a beautiful conservatory, whose sparkling glass walls give her full view of the prismatic paradise she now calls home. Features: Explore a Vibrant New World Continue the slime ranching adventures of Beatrix LeBeau as she journeys to a mysterious rainbow-hued island. Discover Wiggly New Slimes Collect slimes never seen before on the Far, Far Range, like the bouncy cotton slime or the aquatic angler slime. Build a Conservatory on Rainbow Island Earn newbucks from slime plorts and collect resources on Rainbow Island to upgrade your vacpack, build new gadgets, and expand your conservatory. All purchases include a PlayStation®5-exclusive Slime Toy that can be used in game! This game is currently in early access. This means that it still under development with features (including PlayStation Trophies) to be added at full launch at a later date.\nRegion: EUR\nFirmware: 11.xx+\nAPR: apr-emu-v0.4.2.1\nCredits: I honestly don't know who dumped this, but to whoever did, thank you very much!!\nUpdated: 2026-11-23T17:50:14.095Z",
+      "description": "Format: Folder\nSlime Rancher 2 is a sequel to the award-winning, smash-hit original that has been enjoyed by over 15 million fans worldwide. Continue the adventures of Beatrix LeBeau as she journeys to Rainbow Island, a mysterious land brimming with ancient technology, unknown natural resources, and an avalanche of wiggling, jiggling, new slimes to discover. As Beatrix attempts to unravel the island’s secrets and uncover its true purpose, she’ll build, ranch, and farm within a beautiful conservatory, whose sparkling glass walls give her full view of the prismatic paradise she now calls home. Features: Explore a Vibrant New World Continue the slime ranching adventures of Beatrix LeBeau as she journeys to a mysterious rainbow-hued island. Discover Wiggly New Slimes Collect slimes never seen before on the Far, Far Range, like the bouncy cotton slime or the aquatic angler slime. Build a Conservatory on Rainbow Island Earn newbucks from slime plorts and collect resources on Rainbow Island to upgrade your vacpack, build new gadgets, and expand your conservatory. All purchases include a PlayStation®5-exclusive Slime Toy that can be used in game! This game is currently in early access. This means that it still under development with features (including PlayStation Trophies) to be added at full launch at a later date.\nRegion: EUR\nFirmware: 11.xx+\nAPR: apr-emu-v0.4.2.1\nCredits: Thank you, Barquillo!\nUpdated: 2026-11-23T17:50:14.095Z",
       "downloadSource": "https://catalog.gfs-dlps.workers.dev/api/packages",
       "downloadLinks": [
         {
@@ -11988,7 +12036,7 @@
       "downloadLinks": [
         {
           "name": "Arabic FPKG · Viki (+Arabic Lang)",
-          "url": "https://vikingfile.com/f/C96izBPiaz"
+          "url": "https://vikingfile.com/f/dvGM4KJXZI"
         }
       ],
       "sizeBytes": 49209587794

@@ -3,15 +3,15 @@
   "version": "1.0.0",
   "kind": "games",
   "consumer": "ps5-library",
-  "generatedAt": "2026-11-23T20:55:56Z",
+  "generatedAt": "2026-11-24T05:11:02Z",
   "rawBase": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs",
   "sources": [
     {
       "id": "dlpsgame",
       "name": "DLPSGame",
       "url": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs/dlps.json",
-      "items": 2003,
-      "sha256": "95869a419232b13c295d106a06cceb7c7c6c7e3d8dfe4ec0161ab3c3934620bc",
+      "items": 2022,
+      "sha256": "b95f983d8df0165d8b13c800e8b3cca50da919c8121b45c7664fd0dad917fd21",
       "upstream": "https://pegasus-dl.dev/catalogs/dlps.json"
     },
     {
@@ -34,8 +34,8 @@
       "id": "pfs-catalog",
       "name": "PFS Direct Rips",
       "url": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs/pfs.json",
-      "items": 1096,
-      "sha256": "f490ffe03424f9618c1ca72230d96023f95d88c36e5264eba6bcf9f6472098a3",
+      "items": 1098,
+      "sha256": "bd5a8253eb28417c670a253640741b2820dd74f7ac1f04825c820b3d7f561224",
       "upstream": "https://pegasus-dl.dev/catalogs/pfs.json"
     },
     {

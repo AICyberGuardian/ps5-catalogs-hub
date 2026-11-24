@@ -1,7 +1,7 @@
 {
   "name": "Jobee'sLair Homebrew (adapted)",
   "version": "1.0.0",
-  "generatedAt": "2026-11-23T08:39:26Z",
+  "generatedAt": "2026-11-24T05:11:02Z",
   "source": "https://raw.githubusercontent.com/JVK3R/JobeesLair-Homebrew/main/index.json",
   "packages": [
     {
@@ -1141,7 +1141,7 @@
     {
       "titleId": "HBSWORDPDFPS5SX2",
       "title": "PS5SX2",
-      "version": "vk-285-321",
+      "version": "vk-285-329",
       "category": "emulators",
       "posterUrl": "https://raw.githubusercontent.com/Swordpdf/PS5SX2/main/ps5/sce_sys/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/Swordpdf/PS5SX2/main/ps5/docs/banner.png",
@@ -1149,20 +1149,20 @@
       "downloadSource": "https://github.com/Swordpdf/PS5SX2",
       "downloadLinks": [
         {
-          "name": "PS5SX2-vk-285-321.zip (app)",
-          "url": "https://github.com/Swordpdf/PS5SX2/releases/download/vk-285-321/PS5SX2-vk-285-321.zip"
+          "name": "PS5SX2-vk-285-329.zip (app)",
+          "url": "https://github.com/Swordpdf/PS5SX2/releases/download/vk-285-329/PS5SX2-vk-285-329.zip"
         },
         {
           "name": "PS5SX2Installer.elf (payload)",
-          "url": "https://github.com/Swordpdf/PS5SX2/releases/download/vk-285-321/PS5SX2Installer.elf"
+          "url": "https://github.com/Swordpdf/PS5SX2/releases/download/vk-285-329/PS5SX2Installer.elf"
         },
         {
           "name": "PS5SXHelper-no-data-mount.elf (payload)",
-          "url": "https://github.com/Swordpdf/PS5SX2/releases/download/vk-285-321/PS5SXHelper-no-data-mount.elf"
+          "url": "https://github.com/Swordpdf/PS5SX2/releases/download/vk-285-329/PS5SXHelper-no-data-mount.elf"
         },
         {
           "name": "PS5SXHelper.elf (payload)",
-          "url": "https://github.com/Swordpdf/PS5SX2/releases/download/vk-285-321/PS5SXHelper.elf"
+          "url": "https://github.com/Swordpdf/PS5SX2/releases/download/vk-285-329/PS5SXHelper.elf"
         }
       ],
       "author": "Swordpdf",
@@ -1637,7 +1637,7 @@
     {
       "titleId": "HBPHANTOMPTRPS5UPL",
       "title": "ps5upload",
-      "version": "v12.6.23",
+      "version": "v12.6.25",
       "category": "files",
       "posterUrl": "https://raw.githubusercontent.com/phantomptr/ps5upload/main/branding/png/icon-1024.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/phantomptr/ps5upload/main/logo.png",
@@ -1645,8 +1645,8 @@
       "downloadSource": "https://github.com/phantomptr/ps5upload",
       "downloadLinks": [
         {
-          "name": "ps5upload-12.6.23.elf (payload)",
-          "url": "https://github.com/phantomptr/ps5upload/releases/download/v12.6.23/ps5upload-12.6.23.elf"
+          "name": "ps5upload-12.6.25.elf (payload)",
+          "url": "https://github.com/phantomptr/ps5upload/releases/download/v12.6.25/ps5upload-12.6.25.elf"
         }
       ],
       "author": "phantomptr",
@@ -2535,7 +2535,7 @@
     {
       "titleId": "HBHANDSHAKEHACKINN",
       "title": "Nuvio Max'd",
-      "version": "v1.0.0.26-native",
+      "version": "v1.0.1.0-native",
       "category": "media",
       "posterUrl": "https://raw.githubusercontent.com/HandshakeHackin/Nuvio-maxd-releases/main/sce_sys/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/HandshakeHackin/Nuvio-maxd-releases/main/sce_sys/icon0.png",
@@ -2543,12 +2543,12 @@
       "downloadSource": "https://github.com/HandshakeHackin/Nuvio-maxd-releases",
       "downloadLinks": [
         {
-          "name": "NuvioMaxd-1.0.0.26-native.ffpfsc (image)",
-          "url": "https://github.com/HandshakeHackin/Nuvio-maxd-releases/releases/download/v1.0.0.26-native/NuvioMaxd-1.0.0.26-native.ffpfsc"
+          "name": "NuvioMaxd-1.0.1.0-native.ffpfsc (image)",
+          "url": "https://github.com/HandshakeHackin/Nuvio-maxd-releases/releases/download/v1.0.1.0-native/NuvioMaxd-1.0.1.0-native.ffpfsc"
         },
         {
           "name": "PPSA99288.zip (app)",
-          "url": "https://github.com/HandshakeHackin/Nuvio-maxd-releases/releases/download/v1.0.0.26-native/PPSA99288.zip"
+          "url": "https://github.com/HandshakeHackin/Nuvio-maxd-releases/releases/download/v1.0.1.0-native/PPSA99288.zip"
         }
       ],
       "author": "HandshakeHackin",
@@ -3390,7 +3390,7 @@
     {
       "titleId": "HBSAAWANT12ORBITST",
       "title": "Orbit Store (Beta)",
-      "version": "v1.9.6",
+      "version": "v1.9.7",
       "category": "stores",
       "posterUrl": "",
       "originalPosterUrl": "https://raw.githubusercontent.com/saawant12/orbit-store-ps5/main/assets/1.5.0/native-crossbar-discover.jpg",
@@ -3399,11 +3399,15 @@
       "downloadLinks": [
         {
           "name": "PPSA99177.ffpkg (image)",
-          "url": "https://github.com/saawant12/orbit-store-ps5/releases/download/v1.9.6/PPSA99177.ffpkg"
+          "url": "https://github.com/saawant12/orbit-store-ps5/releases/download/v1.9.7/PPSA99177.ffpkg"
+        },
+        {
+          "name": "PPSA99177.zip (app)",
+          "url": "https://github.com/saawant12/orbit-store-ps5/releases/download/v1.9.7/PPSA99177.zip"
         },
         {
           "name": "orbit_store.elf (payload)",
-          "url": "https://github.com/saawant12/orbit-store-ps5/releases/download/v1.9.6/orbit_store.elf"
+          "url": "https://github.com/saawant12/orbit-store-ps5/releases/download/v1.9.7/orbit_store.elf"
         }
       ],
       "author": "saawant12",
@@ -3565,7 +3569,7 @@
     {
       "titleId": "HBS0LITONROMMPS",
       "title": "RommPS",
-      "version": "v1.4.3",
+      "version": "v1.4.4",
       "category": "streaming",
       "posterUrl": "https://raw.githubusercontent.com/s0liton/RommPS/main/platform/ps5/app/rommps/ps5/sce_sys/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/s0liton/RommPS/main/assets/library.png",
@@ -3574,11 +3578,11 @@
       "downloadLinks": [
         {
           "name": "PPSA76677.zip (app)",
-          "url": "https://github.com/s0liton/RommPS/releases/download/v1.4.3/PPSA76677.zip"
+          "url": "https://github.com/s0liton/RommPS/releases/download/v1.4.4/PPSA76677.zip"
         },
         {
           "name": "romm-sync.elf (payload)",
-          "url": "https://github.com/s0liton/RommPS/releases/download/v1.4.3/romm-sync.elf"
+          "url": "https://github.com/s0liton/RommPS/releases/download/v1.4.4/romm-sync.elf"
         }
       ],
       "author": "s0liton",
@@ -4100,7 +4104,7 @@
     {
       "titleId": "HBSTRONGT1MEPS5COO",
       "title": "PS5 Cooling & System Center - Pro",
-      "version": "v1.92.0",
+      "version": "v1.93.0",
       "category": "system",
       "posterUrl": "https://raw.githubusercontent.com/strongt1me/ps5-cooling-system-center-pro/main/tile/sce_sys/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/strongt1me/ps5-cooling-system-center-pro/main/starter/sce_sys/pic0.png",
@@ -4109,15 +4113,15 @@
       "downloadLinks": [
         {
           "name": "FAKE86921.zip (app)",
-          "url": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases/download/v1.92.0/FAKE86921.zip"
+          "url": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases/download/v1.93.0/FAKE86921.zip"
         },
         {
           "name": "FAKE86922.zip (app)",
-          "url": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases/download/v1.92.0/FAKE86922.zip"
+          "url": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases/download/v1.93.0/FAKE86922.zip"
         },
         {
-          "name": "PS5_Cooling_System_Center_v1.92.0.elf (payload)",
-          "url": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases/download/v1.92.0/PS5_Cooling_System_Center_v1.92.0.elf"
+          "name": "PS5_Cooling_System_Center_v1.93.0.elf (payload)",
+          "url": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases/download/v1.93.0/PS5_Cooling_System_Center_v1.93.0.elf"
         }
       ],
       "author": "strongt1me",
@@ -4443,16 +4447,16 @@
     {
       "titleId": "HBBRINZA666MOVIANP",
       "title": "Movian",
-      "version": "playback-test-v53",
+      "version": "playback-test-v60",
       "category": "media",
       "posterUrl": "https://raw.githubusercontent.com/brinza666/movian_ps5/main/app/sce_sys/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/brinza666/movian_ps5/main/app/sce_sys/icon0.png",
-      "description": "Native PS5 port of Movian. ShadowMountPlus title PPSA99455, following VLC for PS5. Alternate plugin feed: https://bit.ly/mprepo",
+      "description": "Native C++20 Movian media center for PS5: hardware playback, SMB2/FTP, plugins and STPP remote-control development. ShadowMountPlus test title PPSA99456.",
       "downloadSource": "https://github.com/brinza666/movian_ps5",
       "downloadLinks": [
         {
-          "name": "PPSA99456-v53.zip (app)",
-          "url": "https://github.com/brinza666/movian_ps5/releases/download/playback-test-v53/PPSA99456-v53.zip"
+          "name": "PPSA99456-v60.zip (app)",
+          "url": "https://github.com/brinza666/movian_ps5/releases/download/playback-test-v60/PPSA99456-v60.zip"
         }
       ],
       "author": "brinza666",
@@ -5453,7 +5457,7 @@
     {
       "titleId": "HBVIVALAVENTPS5BAZ",
       "title": "PS5 Bazzite Deck",
-      "version": "v3.0.1",
+      "version": "v3.0.4",
       "category": "linux",
       "posterUrl": "https://avatars.githubusercontent.com/u/62951130?s=256&v=4",
       "originalPosterUrl": "https://avatars.githubusercontent.com/u/62951130?s=256&v=4",
@@ -5461,8 +5465,8 @@
       "downloadSource": "https://github.com/VivaLaVent/ps5-bazzite-deck",
       "downloadLinks": [
         {
-          "name": "bazzite-bootc-loader-v3.0.1.elf (payload)",
-          "url": "https://github.com/VivaLaVent/ps5-bazzite-deck/releases/download/v3.0.1/bazzite-bootc-loader-v3.0.1.elf"
+          "name": "bazzite-bootc-loader-v3.0.4.elf (payload)",
+          "url": "https://github.com/VivaLaVent/ps5-bazzite-deck/releases/download/v3.0.4/bazzite-bootc-loader-v3.0.4.elf"
         }
       ],
       "author": "VivaLaVent",
@@ -6083,7 +6087,7 @@
     {
       "titleId": "HBDARKATEK7PROSPER",
       "title": "ProsperoSunshine",
-      "version": "v0.6.7-beta.2",
+      "version": "v0.6.7-beta.3",
       "category": "streaming",
       "posterUrl": "https://raw.githubusercontent.com/Darkatek7/ProsperoSunshine/main/app/sce_sys/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/Darkatek7/ProsperoSunshine/main/app/sce_sys/pic0.png",
@@ -6092,19 +6096,19 @@
       "downloadLinks": [
         {
           "name": "PPSA47989-debug.zip (app)",
-          "url": "https://github.com/Darkatek7/ProsperoSunshine/releases/download/v0.6.7-beta.2/PPSA47989-debug.zip"
+          "url": "https://github.com/Darkatek7/ProsperoSunshine/releases/download/v0.6.7-beta.3/PPSA47989-debug.zip"
         },
         {
           "name": "PPSA47989.zip (app)",
-          "url": "https://github.com/Darkatek7/ProsperoSunshine/releases/download/v0.6.7-beta.2/PPSA47989.zip"
+          "url": "https://github.com/Darkatek7/ProsperoSunshine/releases/download/v0.6.7-beta.3/PPSA47989.zip"
         },
         {
-          "name": "prosperosunshine-0.6.7-beta.2-debug.tar.gz (archive-payload)",
-          "url": "https://github.com/Darkatek7/ProsperoSunshine/releases/download/v0.6.7-beta.2/prosperosunshine-0.6.7-beta.2-debug.tar.gz"
+          "name": "prosperosunshine-0.6.7-beta.3-debug.tar.gz (archive-payload)",
+          "url": "https://github.com/Darkatek7/ProsperoSunshine/releases/download/v0.6.7-beta.3/prosperosunshine-0.6.7-beta.3-debug.tar.gz"
         },
         {
-          "name": "prosperosunshine-0.6.7-beta.2.tar.gz (archive-payload)",
-          "url": "https://github.com/Darkatek7/ProsperoSunshine/releases/download/v0.6.7-beta.2/prosperosunshine-0.6.7-beta.2.tar.gz"
+          "name": "prosperosunshine-0.6.7-beta.3.tar.gz (archive-payload)",
+          "url": "https://github.com/Darkatek7/ProsperoSunshine/releases/download/v0.6.7-beta.3/prosperosunshine-0.6.7-beta.3.tar.gz"
         }
       ],
       "author": "Darkatek7",
@@ -7073,7 +7077,7 @@
     {
       "titleId": "HBMATEOCOGEANUPROS",
       "title": "ProsperoCraft",
-      "version": "01.000.288",
+      "version": "01.000.300",
       "category": "system",
       "posterUrl": "https://raw.githubusercontent.com/mateo-cogeanu/ProsperoCraft/main/assets/branding/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/mateo-cogeanu/ProsperoCraft/main/assets/branding/icon0.png",
@@ -7082,7 +7086,7 @@
       "downloadLinks": [
         {
           "name": "PPSA99874.zip (app)",
-          "url": "https://github.com/mateo-cogeanu/ProsperoCraft/releases/download/01.000.288/PPSA99874.zip"
+          "url": "https://github.com/mateo-cogeanu/ProsperoCraft/releases/download/01.000.300/PPSA99874.zip"
         }
       ],
       "author": "mateo-cogeanu",
@@ -7092,7 +7096,7 @@
     {
       "titleId": "HBSHABBYPENGUINPOK",
       "title": "PokeMMO-Prospero",
-      "version": "v1.0.5",
+      "version": "v1.0.6",
       "category": "system",
       "posterUrl": "https://raw.githubusercontent.com/Shabbypenguin/PokeMMO-Prospero/main/assets/branding/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/Shabbypenguin/PokeMMO-Prospero/main/assets/branding/icon0.png",
@@ -7101,11 +7105,11 @@
       "downloadLinks": [
         {
           "name": "PPSA98001.ffpfsc (image)",
-          "url": "https://github.com/Shabbypenguin/PokeMMO-Prospero/releases/download/v1.0.5/PPSA98001.ffpfsc"
+          "url": "https://github.com/Shabbypenguin/PokeMMO-Prospero/releases/download/v1.0.6/PPSA98001.ffpfsc"
         },
         {
           "name": "PPSA98001.zip (app)",
-          "url": "https://github.com/Shabbypenguin/PokeMMO-Prospero/releases/download/v1.0.5/PPSA98001.zip"
+          "url": "https://github.com/Shabbypenguin/PokeMMO-Prospero/releases/download/v1.0.6/PPSA98001.zip"
         }
       ],
       "author": "Shabbypenguin",
@@ -7416,7 +7420,7 @@
     {
       "titleId": "HBPAPYSZOOPHOTOSPL",
       "title": "Photo Splat VR",
-      "version": "v0.6.1",
+      "version": "v0.7.0",
       "category": "system",
       "posterUrl": "https://raw.githubusercontent.com/Papyszoo/photo-splat-vr/main/sce_sys/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/Papyszoo/photo-splat-vr/main/sce_sys/icon0.png",
@@ -7424,8 +7428,8 @@
       "downloadSource": "https://github.com/Papyszoo/photo-splat-vr",
       "downloadLinks": [
         {
-          "name": "photo-splat-vr-v0.6.1.zip (app)",
-          "url": "https://github.com/Papyszoo/photo-splat-vr/releases/download/v0.6.1/photo-splat-vr-v0.6.1.zip"
+          "name": "photo-splat-vr-v0.7.0.zip (app)",
+          "url": "https://github.com/Papyszoo/photo-splat-vr/releases/download/v0.7.0/photo-splat-vr-v0.7.0.zip"
         }
       ],
       "author": "Papyszoo",
