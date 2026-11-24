@@ -151157,6 +151157,64 @@
       ]
     },
     {
+      "titleId": "PPSA13896",
+      "title": "[exFAT] Shadow Gambit The Cursed Crew Complete Edition",
+      "createdAt": "2026-11-24T14:43:15.101Z",
+      "version": "01.002.004",
+      "category": "game",
+      "posterUrl": "https://pegasus-dl.dev/api/posters/3a3f6ebf8b7d5450e7f97b4680b320f555132c82aa3b0da2054f7305a9f23e9f",
+      "originalPosterUrl": "https://pegasus-dl.dev/api/posters/b4c3d0075af02fa0eb5d69dfba5edde1eafc9d3704446d2f572f6b58149c4bd4",
+      "description": "Region: ASIA\nRelease note: exFAT format — FW 01.002.004 — 4.xx BackPort\nContributor: pippo",
+      "downloadSource": "https://pub-d5f4def955404492b20262ad2a0dc12a.r2.dev/games_ps5_cache.json",
+      "downloadLinks": [
+        {
+          "name": "ASIA exFAT 01.002.004 Base - DATA (exFAT)",
+          "url": "https://link-vault.org/c/2czeAJOJ#DataNodes"
+        },
+        {
+          "name": "ASIA exFAT 01.002.004 Base - FileK (exFAT)",
+          "url": "https://link-vault.org/c/2czeAJOJ#FileKeeper"
+        },
+        {
+          "name": "ASIA exFAT 01.002.004 Base - AKIA (exFAT)",
+          "url": "https://link-vault.org/c/2czeAJOJ#AkiraBox"
+        },
+        {
+          "name": "ASIA exFAT 01.002.004 Base - VIKI (exFAT)",
+          "url": "https://link-vault.org/c/2czeAJOJ#VikingFile"
+        }
+      ]
+    },
+    {
+      "titleId": "PPSA08069",
+      "title": "[exFAT] Sherlock Holmes The Awakened Deluxe Edition",
+      "createdAt": "2026-11-24T14:43:15.101Z",
+      "version": "01.002",
+      "category": "game",
+      "posterUrl": "https://pegasus-dl.dev/api/posters/344bbc774b0d5e2ac88f424e36acdc71bf1f7e8798536e472b9bc92a5d4cffcc",
+      "originalPosterUrl": "https://pegasus-dl.dev/api/posters/baf5ec3fddf8cc645b6b36ff8ea5bc83198bb36c13129af5477d7563bf584818",
+      "description": "Region: EUR\nRelease note: exFAT format — FW 01.002 — 4.xx BackPort\nContributor: pippo",
+      "downloadSource": "https://pub-d5f4def955404492b20262ad2a0dc12a.r2.dev/games_ps5_cache.json",
+      "downloadLinks": [
+        {
+          "name": "EUR exFAT 01.002 Base - DATA (exFAT)",
+          "url": "https://link-vault.org/c/dsHi4q_c#DataNodes"
+        },
+        {
+          "name": "EUR exFAT 01.002 Base - FileK (exFAT)",
+          "url": "https://link-vault.org/c/dsHi4q_c#FileKeeper"
+        },
+        {
+          "name": "EUR exFAT 01.002 Base - AKIA (exFAT)",
+          "url": "https://link-vault.org/c/dsHi4q_c#AkiraBox"
+        },
+        {
+          "name": "EUR exFAT 01.002 Base - VIKI (exFAT)",
+          "url": "https://link-vault.org/c/dsHi4q_c#VikingFile"
+        }
+      ]
+    },
+    {
       "titleId": "PPSA24326",
       "title": "[exFAT] The Legend of Heroes Trails through Daybreak 2 Ultimate Edition",
       "createdAt": "2026-11-23T14:13:24.961Z",

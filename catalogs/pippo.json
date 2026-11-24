@@ -3,6 +3,114 @@
   "version": 1,
   "packages": [
     {
+      "titleId": "PPSA13896",
+      "title": "Shadow Gambit The Cursed Crew Complete Edition",
+      "createdAt": "2026-11-24T12:05:32.078Z",
+      "version": "v01.002.004",
+      "category": "game",
+      "posterUrl": "https://pegasus-dl.dev/api/posters/3a3f6ebf8b7d5450e7f97b4680b320f555132c82aa3b0da2054f7305a9f23e9f",
+      "originalPosterUrl": "https://pegasus-dl.dev/api/posters/b4c3d0075af02fa0eb5d69dfba5edde1eafc9d3704446d2f572f6b58149c4bd4",
+      "description": "Builds: DLC, Dump, Fpkg\nTags: PPSA13896, v01.002.004, ASIA, 4.xx BackPort\nSize: 27GB\nCredits: Files: Zhengpai Yanba; Backport: DecKerr97 GUI; DLC: Pippo &amp; Zhengpai Yanba\nHow to play: FPKG atm is only working up to 11.60, use Dump if you are above. About Dump: SDK is 7.xx, separated BackPort Folder included. About FPKG: BackPort already included on Base, separated Original Files PKG included, optional.",
+      "downloadSource": "https://pippo26442999.github.io/.exFAT/exFAT.json?v=1780302680008",
+      "downloadLinks": [
+        {
+          "name": "DLC - DataNodes",
+          "url": "https://link-vault.org/c/ZRkWI5DX#DataNodes"
+        },
+        {
+          "name": "DLC - DataVaults",
+          "url": "https://link-vault.org/c/ZRkWI5DX#DataVaults"
+        },
+        {
+          "name": "Dump - DataNodes",
+          "url": "https://link-vault.org/c/2czeAJOJ#DataNodes"
+        },
+        {
+          "name": "Dump - FileKeeper",
+          "url": "https://link-vault.org/c/2czeAJOJ#FileKeeper"
+        },
+        {
+          "name": "Dump - AkiraBox",
+          "url": "https://link-vault.org/c/2czeAJOJ#AkiraBox"
+        },
+        {
+          "name": "Dump - VikingFile",
+          "url": "https://link-vault.org/c/2czeAJOJ#VikingFile"
+        },
+        {
+          "name": "Fpkg - AkiraBox",
+          "url": "https://link-vault.org/c/7zy9jfgB#AkiraBox"
+        },
+        {
+          "name": "Fpkg - VikingFile",
+          "url": "https://link-vault.org/c/7zy9jfgB#VikingFile"
+        },
+        {
+          "name": "Fpkg - DataNodes",
+          "url": "https://link-vault.org/c/7zy9jfgB#DataNodes"
+        },
+        {
+          "name": "Fpkg - FileKeeper",
+          "url": "https://link-vault.org/c/7zy9jfgB#FileKeeper"
+        }
+      ],
+      "sizeBytes": 28991029248
+    },
+    {
+      "titleId": "PPSA08069",
+      "title": "Sherlock Holmes The Awakened Deluxe Edition",
+      "createdAt": "2026-11-24T12:05:32.078Z",
+      "version": "v01.002",
+      "category": "game",
+      "posterUrl": "https://pegasus-dl.dev/api/posters/344bbc774b0d5e2ac88f424e36acdc71bf1f7e8798536e472b9bc92a5d4cffcc",
+      "originalPosterUrl": "https://pegasus-dl.dev/api/posters/baf5ec3fddf8cc645b6b36ff8ea5bc83198bb36c13129af5477d7563bf584818",
+      "description": "Builds: DLC, Dump, Fpkg\nTags: PPSA08069, v01.002, EUR, 4.xx BackPort\nSize: 40GB\nCredits: Files: Zhengpai Yanba; Backport: DecKerr97 GUI; DLC: Pippo &amp; Zhengpai Yanba\nHow to play: FPKG atm is only working up to 11.60, use Dump if you are above. About Dump: SDK is 6.xx, separated BackPort Folder included. About FPKG: BackPort already included on Base, separated Original Files PKG included, optional.",
+      "downloadSource": "https://pippo26442999.github.io/.exFAT/exFAT.json?v=1780302680008",
+      "downloadLinks": [
+        {
+          "name": "DLC - DataNodes",
+          "url": "https://link-vault.org/c/QDWuJWxQ#DataNodes"
+        },
+        {
+          "name": "DLC - DataVaults",
+          "url": "https://link-vault.org/c/QDWuJWxQ#DataVaults"
+        },
+        {
+          "name": "Dump - DataNodes",
+          "url": "https://link-vault.org/c/dsHi4q_c#DataNodes"
+        },
+        {
+          "name": "Dump - FileKeeper",
+          "url": "https://link-vault.org/c/dsHi4q_c#FileKeeper"
+        },
+        {
+          "name": "Dump - AkiraBox",
+          "url": "https://link-vault.org/c/dsHi4q_c#AkiraBox"
+        },
+        {
+          "name": "Dump - VikingFile",
+          "url": "https://link-vault.org/c/dsHi4q_c#VikingFile"
+        },
+        {
+          "name": "Fpkg - AkiraBox",
+          "url": "https://link-vault.org/c/Vu6XDbbY#AkiraBox"
+        },
+        {
+          "name": "Fpkg - VikingFile",
+          "url": "https://link-vault.org/c/Vu6XDbbY#VikingFile"
+        },
+        {
+          "name": "Fpkg - DataNodes",
+          "url": "https://link-vault.org/c/Vu6XDbbY#DataNodes"
+        },
+        {
+          "name": "Fpkg - FileKeeper",
+          "url": "https://link-vault.org/c/Vu6XDbbY#FileKeeper"
+        }
+      ],
+      "sizeBytes": 42949672960
+    },
+    {
       "titleId": "PPSA24326",
       "title": "The Legend of Heroes Trails through Daybreak 2 Ultimate Edition",
       "createdAt": "2026-11-23T13:49:59.089Z",

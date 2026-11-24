@@ -1,7 +1,7 @@
 {
   "name": "Jobee'sLair Homebrew (adapted)",
   "version": "1.0.0",
-  "generatedAt": "2026-11-24T05:11:02Z",
+  "generatedAt": "2026-11-24T17:06:26Z",
   "source": "https://raw.githubusercontent.com/JVK3R/JobeesLair-Homebrew/main/index.json",
   "packages": [
     {
@@ -359,7 +359,7 @@
     {
       "titleId": "HBSEREGONWARPSXTER",
       "title": "PSXTerm",
-      "version": "nightly-20261005-gc7279a7-r37241418154",
+      "version": "nightly-20261124-g75643a5-r45331343568",
       "category": "dev",
       "posterUrl": "https://avatars.githubusercontent.com/u/109359355?s=256&v=4",
       "originalPosterUrl": "https://avatars.githubusercontent.com/u/109359355?s=256&v=4",
@@ -368,11 +368,11 @@
       "downloadLinks": [
         {
           "name": "psxtermd-ps5.elf (payload)",
-          "url": "https://github.com/seregonwar/PSXTERM/releases/download/nightly-20261005-gc7279a7-r37241418154/psxtermd-ps5.elf"
+          "url": "https://github.com/seregonwar/PSXTERM/releases/download/nightly-20261124-g75643a5-r45331343568/psxtermd-ps5.elf"
         },
         {
-          "name": "psxterm-nightly-20261005-gc7279a7-r37241418154-ps5.tar.gz (archive-payload)",
-          "url": "https://github.com/seregonwar/PSXTERM/releases/download/nightly-20261005-gc7279a7-r37241418154/psxterm-nightly-20261005-gc7279a7-r37241418154-ps5.tar.gz"
+          "name": "psxterm-nightly-20261124-g75643a5-r45331343568-ps5.tar.gz (archive-payload)",
+          "url": "https://github.com/seregonwar/PSXTERM/releases/download/nightly-20261124-g75643a5-r45331343568/psxterm-nightly-20261124-g75643a5-r45331343568-ps5.tar.gz"
         }
       ],
       "author": "seregonwar",
@@ -1637,7 +1637,7 @@
     {
       "titleId": "HBPHANTOMPTRPS5UPL",
       "title": "ps5upload",
-      "version": "v12.6.25",
+      "version": "v12.6.26",
       "category": "files",
       "posterUrl": "https://raw.githubusercontent.com/phantomptr/ps5upload/main/branding/png/icon-1024.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/phantomptr/ps5upload/main/logo.png",
@@ -1645,8 +1645,8 @@
       "downloadSource": "https://github.com/phantomptr/ps5upload",
       "downloadLinks": [
         {
-          "name": "ps5upload-12.6.25.elf (payload)",
-          "url": "https://github.com/phantomptr/ps5upload/releases/download/v12.6.25/ps5upload-12.6.25.elf"
+          "name": "ps5upload-12.6.26.elf (payload)",
+          "url": "https://github.com/phantomptr/ps5upload/releases/download/v12.6.26/ps5upload-12.6.26.elf"
         }
       ],
       "author": "phantomptr",
@@ -2214,29 +2214,6 @@
       "author": "naye1120",
       "repo": "naye1120/NayePlmTools",
       "upstreamId": "naye1120/nayeplmtools"
-    },
-    {
-      "titleId": "HBNOOKIEAIKURA",
-      "title": "Kura",
-      "version": "v1.6.60",
-      "category": "jailbreak",
-      "posterUrl": "https://avatars.githubusercontent.com/u/188130079?s=256&v=4",
-      "originalPosterUrl": "https://github.com/user-attachments/assets/c968fd95-c186-406b-ab30-50a64275a304",
-      "description": "Scan, identify, organize, and transfer your PS1-PS5 & Vita game library (Windows, macOS, Linux), with a bundled PS5 payload for installs, cheats, saves, and fan control",
-      "downloadSource": "https://github.com/NookieAI/kura",
-      "downloadLinks": [
-        {
-          "name": "kura-loader.elf (payload)",
-          "url": "https://github.com/NookieAI/kura/releases/download/v1.6.60/kura-loader.elf"
-        },
-        {
-          "name": "kura-loader-ps5.elf (payload)",
-          "url": "https://github.com/NookieAI/kura/releases/download/v1.6.60/kura-loader-ps5.elf"
-        }
-      ],
-      "author": "NookieAI",
-      "repo": "NookieAI/kura",
-      "upstreamId": "nookieai/kura"
     },
     {
       "titleId": "HBNOTMAJ0RPROSPERO",
@@ -3615,7 +3592,7 @@
     {
       "titleId": "HBTERTIUMNDATURPS5",
       "title": "Cloud Play",
-      "version": "v1.0.0",
+      "version": "v1.0.1",
       "category": "streaming",
       "posterUrl": "https://raw.githubusercontent.com/tertiumndatur/ps5-cloud-play/main/sce_sys/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/tertiumndatur/ps5-cloud-play/main/sce_sys/icon0.png",
@@ -3624,15 +3601,15 @@
       "downloadLinks": [
         {
           "name": "CloudPlay-PS5.ffpkg (image)",
-          "url": "https://github.com/tertiumndatur/ps5-cloud-play/releases/download/v1.0.0/CloudPlay-PS5.ffpkg"
+          "url": "https://github.com/tertiumndatur/ps5-cloud-play/releases/download/v1.0.1/CloudPlay-PS5.ffpkg"
         },
         {
           "name": "CloudPlay-PS5.ffpfsc (image)",
-          "url": "https://github.com/tertiumndatur/ps5-cloud-play/releases/download/v1.0.0/CloudPlay-PS5.ffpfsc"
+          "url": "https://github.com/tertiumndatur/ps5-cloud-play/releases/download/v1.0.1/CloudPlay-PS5.ffpfsc"
         },
         {
           "name": "CloudPlay-PS5.zip (app)",
-          "url": "https://github.com/tertiumndatur/ps5-cloud-play/releases/download/v1.0.0/CloudPlay-PS5.zip"
+          "url": "https://github.com/tertiumndatur/ps5-cloud-play/releases/download/v1.0.1/CloudPlay-PS5.zip"
         }
       ],
       "author": "tertiumndatur",
@@ -4104,7 +4081,7 @@
     {
       "titleId": "HBSTRONGT1MEPS5COO",
       "title": "PS5 Cooling & System Center - Pro",
-      "version": "v1.93.0",
+      "version": "v1.94.0",
       "category": "system",
       "posterUrl": "https://raw.githubusercontent.com/strongt1me/ps5-cooling-system-center-pro/main/tile/sce_sys/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/strongt1me/ps5-cooling-system-center-pro/main/starter/sce_sys/pic0.png",
@@ -4113,15 +4090,15 @@
       "downloadLinks": [
         {
           "name": "FAKE86921.zip (app)",
-          "url": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases/download/v1.93.0/FAKE86921.zip"
+          "url": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases/download/v1.94.0/FAKE86921.zip"
         },
         {
           "name": "FAKE86922.zip (app)",
-          "url": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases/download/v1.93.0/FAKE86922.zip"
+          "url": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases/download/v1.94.0/FAKE86922.zip"
         },
         {
-          "name": "PS5_Cooling_System_Center_v1.93.0.elf (payload)",
-          "url": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases/download/v1.93.0/PS5_Cooling_System_Center_v1.93.0.elf"
+          "name": "PS5_Cooling_System_Center_v1.94.0.elf (payload)",
+          "url": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases/download/v1.94.0/PS5_Cooling_System_Center_v1.94.0.elf"
         }
       ],
       "author": "strongt1me",
@@ -5800,7 +5777,7 @@
     {
       "titleId": "HBHEYDEMOURAEGLANT",
       "title": "EglantinePS5",
-      "version": "v1.000.003",
+      "version": "v1.000.004",
       "category": "emulators",
       "posterUrl": "https://raw.githubusercontent.com/heydemoura/EglantinePS5/main/sce_sys/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/heydemoura/EglantinePS5/main/sce_sys/icon0.png",
@@ -5808,8 +5785,8 @@
       "downloadSource": "https://github.com/heydemoura/EglantinePS5",
       "downloadLinks": [
         {
-          "name": "EglantinePS5-v1.000.003.zip (app)",
-          "url": "https://github.com/heydemoura/EglantinePS5/releases/download/v1.000.003/EglantinePS5-v1.000.003.zip"
+          "name": "EglantinePS5-v1.000.004.zip (app)",
+          "url": "https://github.com/heydemoura/EglantinePS5/releases/download/v1.000.004/EglantinePS5-v1.000.004.zip"
         }
       ],
       "author": "heydemoura",
