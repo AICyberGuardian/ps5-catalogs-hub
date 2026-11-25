@@ -1,7 +1,7 @@
 {
   "name": "AICyberGuardian PS5 Catalogs Hub",
   "version": "1.1.0",
-  "generatedAt": "2026-11-25T11:07:28Z",
+  "generatedAt": "2026-11-25T21:13:15Z",
   "rawBase": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "name": "DLPSGame",
       "url": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs/dlps.json",
       "items": 2024,
-      "sha256": "51e7cc6fa510840a2ffa7d733e2d08f6469e840c212e144c6d903193737b7a78",
+      "sha256": "44c83b04b62d8b248a4b94133dd7630a298b0848557b069f83d6a7678b180a05",
       "upstream": "https://pegasus-dl.dev/catalogs/dlps.json"
     },
     {
@@ -25,7 +25,7 @@
       "name": "Pippo .exFAT",
       "url": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs/pippo.json",
       "items": 977,
-      "sha256": "4e08cf7a7ed354fca7799be59dcc70676b85480c2c6f1ba6ece1c7d5a0566161",
+      "sha256": "d59090008d11f6cba9ba616027e9bc682262d9f76ab3109179d6693608bb9e2c",
       "upstream": "https://pegasus-dl.dev/catalogs/pippo.json"
     },
     {
@@ -66,8 +66,8 @@
       "id": "prosperostore",
       "name": "ProsperoStore",
       "url": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs/prosperostore.json",
-      "items": 220,
-      "sha256": "0acb70bbdcea23dc229a1f7944039181c6733f1fabfc24b74f951691f8442c27",
+      "items": 222,
+      "sha256": "5acf02747c70250a7a0a4552e4c63834397140308b67e1d26acfd44eead5c7e6",
       "upstream": "https://prosperostore.net/catalog/v1.json",
       "consumer": "prospero-native"
     },
