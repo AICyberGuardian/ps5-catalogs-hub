@@ -1,7 +1,7 @@
 {
   "name": "Jobee'sLair Homebrew (adapted)",
   "version": "1.0.0",
-  "generatedAt": "2026-11-25T01:58:08Z",
+  "generatedAt": "2026-11-25T11:07:28Z",
   "source": "https://raw.githubusercontent.com/JVK3R/JobeesLair-Homebrew/main/index.json",
   "packages": [
     {
@@ -1141,7 +1141,7 @@
     {
       "titleId": "HBSWORDPDFPS5SX2",
       "title": "PS5SX2",
-      "version": "vk-285-329",
+      "version": "vk-285-345",
       "category": "emulators",
       "posterUrl": "https://raw.githubusercontent.com/Swordpdf/PS5SX2/main/ps5/sce_sys/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/Swordpdf/PS5SX2/main/ps5/docs/banner.png",
@@ -1149,20 +1149,20 @@
       "downloadSource": "https://github.com/Swordpdf/PS5SX2",
       "downloadLinks": [
         {
-          "name": "PS5SX2-vk-285-329.zip (app)",
-          "url": "https://github.com/Swordpdf/PS5SX2/releases/download/vk-285-329/PS5SX2-vk-285-329.zip"
+          "name": "PS5SX2-vk-285-345.zip (app)",
+          "url": "https://github.com/Swordpdf/PS5SX2/releases/download/vk-285-345/PS5SX2-vk-285-345.zip"
         },
         {
           "name": "PS5SX2Installer.elf (payload)",
-          "url": "https://github.com/Swordpdf/PS5SX2/releases/download/vk-285-329/PS5SX2Installer.elf"
+          "url": "https://github.com/Swordpdf/PS5SX2/releases/download/vk-285-345/PS5SX2Installer.elf"
         },
         {
           "name": "PS5SXHelper-no-data-mount.elf (payload)",
-          "url": "https://github.com/Swordpdf/PS5SX2/releases/download/vk-285-329/PS5SXHelper-no-data-mount.elf"
+          "url": "https://github.com/Swordpdf/PS5SX2/releases/download/vk-285-345/PS5SXHelper-no-data-mount.elf"
         },
         {
           "name": "PS5SXHelper.elf (payload)",
-          "url": "https://github.com/Swordpdf/PS5SX2/releases/download/vk-285-329/PS5SXHelper.elf"
+          "url": "https://github.com/Swordpdf/PS5SX2/releases/download/vk-285-345/PS5SXHelper.elf"
         }
       ],
       "author": "Swordpdf",
@@ -1637,7 +1637,7 @@
     {
       "titleId": "HBPHANTOMPTRPS5UPL",
       "title": "ps5upload",
-      "version": "v12.6.26",
+      "version": "v12.6.28",
       "category": "files",
       "posterUrl": "https://raw.githubusercontent.com/phantomptr/ps5upload/main/branding/png/icon-1024.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/phantomptr/ps5upload/main/logo.png",
@@ -1645,8 +1645,8 @@
       "downloadSource": "https://github.com/phantomptr/ps5upload",
       "downloadLinks": [
         {
-          "name": "ps5upload-12.6.26.elf (payload)",
-          "url": "https://github.com/phantomptr/ps5upload/releases/download/v12.6.26/ps5upload-12.6.26.elf"
+          "name": "ps5upload-12.6.28.elf (payload)",
+          "url": "https://github.com/phantomptr/ps5upload/releases/download/v12.6.28/ps5upload-12.6.28.elf"
         }
       ],
       "author": "phantomptr",
@@ -4260,7 +4260,7 @@
     {
       "titleId": "HBABASOWONIXHUB",
       "title": "ONIX HUB",
-      "version": "v16",
+      "version": "v17",
       "category": "dumps",
       "posterUrl": "https://avatars.githubusercontent.com/u/122549710?s=256&v=4",
       "originalPosterUrl": "https://raw.githubusercontent.com/abasow/onix-hub/main/screenshots/history.jpg",
@@ -4269,11 +4269,11 @@
       "downloadLinks": [
         {
           "name": "PPSA01959.zip (app)",
-          "url": "https://github.com/abasow/onix-hub/releases/download/v16/PPSA01959.zip"
+          "url": "https://github.com/abasow/onix-hub/releases/download/v17/PPSA01959.zip"
         },
         {
           "name": "onix-hub.elf (payload)",
-          "url": "https://github.com/abasow/onix-hub/releases/download/v16/onix-hub.elf"
+          "url": "https://github.com/abasow/onix-hub/releases/download/v17/onix-hub.elf"
         }
       ],
       "author": "abasow",
@@ -4302,6 +4302,25 @@
       "author": "abcde6543",
       "repo": "abcde6543/PS5-NTFS-BROWSER",
       "upstreamId": "abcde6543/ps5-ntfs-browser"
+    },
+    {
+      "titleId": "HBABROCOMAPS5CACHY",
+      "title": "CachyOS on PS5",
+      "version": "image-2026-11-25",
+      "category": "linux",
+      "posterUrl": "",
+      "originalPosterUrl": "https://raw.githubusercontent.com/abrocoma/PS5-CachyOS/main/images/gaming-mode.jpg",
+      "description": "Ready-to-flash CachyOS image for jailbroken PS5: SteamOS-style Gaming Mode, 1440p 144 Hz, HDR, FreeSync",
+      "downloadSource": "https://github.com/abrocoma/PS5-CachyOS",
+      "downloadLinks": [
+        {
+          "name": "ps5-linux-loader-badfe48.elf (payload)",
+          "url": "https://github.com/abrocoma/PS5-CachyOS/releases/download/image-2026-11-25/ps5-linux-loader-badfe48.elf"
+        }
+      ],
+      "author": "abrocoma",
+      "repo": "abrocoma/PS5-CachyOS",
+      "upstreamId": "abrocoma/ps5-cachyos"
     },
     {
       "titleId": "HBANIME0T4KUPROSPE",
@@ -4843,7 +4862,7 @@
     {
       "titleId": "HBLEOLOBATOPLAYDEN",
       "title": "Playden for PS5",
-      "version": "v0.12.0-beta.4",
+      "version": "v0.12.0-beta.5",
       "category": "emulators",
       "posterUrl": "https://raw.githubusercontent.com/leolobato/playden-ps5/main/sce_sys/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/leolobato/playden-ps5/main/docs/images/library.jpg",
@@ -4851,12 +4870,12 @@
       "downloadSource": "https://github.com/leolobato/playden-ps5",
       "downloadLinks": [
         {
-          "name": "playden-kit-0.35.zip (app)",
-          "url": "https://github.com/leolobato/playden-ps5/releases/download/v0.12.0-beta.4/playden-kit-0.35.zip"
+          "name": "playden-kit-0.36.zip (app)",
+          "url": "https://github.com/leolobato/playden-ps5/releases/download/v0.12.0-beta.5/playden-kit-0.36.zip"
         },
         {
-          "name": "playden-ps5-0.12.0-beta.4.zip (app)",
-          "url": "https://github.com/leolobato/playden-ps5/releases/download/v0.12.0-beta.4/playden-ps5-0.12.0-beta.4.zip"
+          "name": "playden-ps5-0.12.0-beta.5.zip (app)",
+          "url": "https://github.com/leolobato/playden-ps5/releases/download/v0.12.0-beta.5/playden-ps5-0.12.0-beta.5.zip"
         }
       ],
       "author": "leolobato",
@@ -7206,7 +7225,7 @@
     {
       "titleId": "HBSASCHB2BMEGAMANB",
       "title": "Cyberworld Endless",
-      "version": "v0.23.0",
+      "version": "v0.24.0",
       "category": "system",
       "posterUrl": "https://raw.githubusercontent.com/saschb2b/Mega-Man-Battle-Network-Cyberworld-Endless/main/ps4/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/saschb2b/Mega-Man-Battle-Network-Cyberworld-Endless/main/docs/clips/trailer-play.png",
@@ -7215,15 +7234,15 @@
       "downloadLinks": [
         {
           "name": "cyberworld-endless-ps5.zip (app)",
-          "url": "https://github.com/saschb2b/Mega-Man-Battle-Network-Cyberworld-Endless/releases/download/v0.23.0/cyberworld-endless-ps5.zip"
+          "url": "https://github.com/saschb2b/Mega-Man-Battle-Network-Cyberworld-Endless/releases/download/v0.24.0/cyberworld-endless-ps5.zip"
         },
         {
           "name": "update-pictures.bin (payload)",
-          "url": "https://github.com/saschb2b/Mega-Man-Battle-Network-Cyberworld-Endless/releases/download/v0.23.0/update-pictures.bin"
+          "url": "https://github.com/saschb2b/Mega-Man-Battle-Network-Cyberworld-Endless/releases/download/v0.24.0/update-pictures.bin"
         },
         {
           "name": "cyberworld-endless.pkg (pkg)",
-          "url": "https://github.com/saschb2b/Mega-Man-Battle-Network-Cyberworld-Endless/releases/download/v0.23.0/cyberworld-endless.pkg"
+          "url": "https://github.com/saschb2b/Mega-Man-Battle-Network-Cyberworld-Endless/releases/download/v0.24.0/cyberworld-endless.pkg"
         }
       ],
       "author": "saschb2b",

@@ -1,7 +1,7 @@
 {
   "name": "AICyberGuardian PS5 Catalogs Hub",
   "version": "1.1.0",
-  "generatedAt": "2026-11-25T01:58:08Z",
+  "generatedAt": "2026-11-25T11:07:28Z",
   "rawBase": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs",
   "sources": [
     {
@@ -48,8 +48,8 @@
       "id": "phoenix-dl-ps5",
       "name": "Phoenix DL PS5 (Jamzi94)",
       "url": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs/jamzi94-ps5.json",
-      "items": 1478,
-      "sha256": "037c8ed584da3d020df2e0f4b35b99119d0a600d357402bbe66ee97189e24ac1",
+      "items": 1482,
+      "sha256": "3e1c06fc1e7a8ce18cc6c8d07ab1b9ef3e11d017587fad25408c788d7732a6c8",
       "upstream": "https://raw.githubusercontent.com/Jamzi94/catalog-V2/main/ps5-catalog.json"
     },
     {
@@ -67,7 +67,7 @@
       "name": "ProsperoStore",
       "url": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs/prosperostore.json",
       "items": 220,
-      "sha256": "bd6b0279ef20c20c30a7c347c697161b155597a80ab74a37ec48024326ccc202",
+      "sha256": "0acb70bbdcea23dc229a1f7944039181c6733f1fabfc24b74f951691f8442c27",
       "upstream": "https://prosperostore.net/catalog/v1.json",
       "consumer": "prospero-native"
     },
@@ -75,8 +75,8 @@
       "id": "jobeeslair-homebrew",
       "name": "Jobee'sLair Homebrew (adapted)",
       "url": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs/jobeeslair-homebrew.json",
-      "items": 362,
-      "sha256": "931e4de0efe40ac9dabccd2aaaf5d6a83b5306244eb36e149d5b5aeffcd0d0dc",
+      "items": 363,
+      "sha256": "20911070463bcf87fab7d1d3e905b749ae3fc297fa6bc037f7cf88a22f19bde2",
       "upstream": "https://raw.githubusercontent.com/JVK3R/JobeesLair-Homebrew/main/index.json",
       "consumer": "jobee-native"
     }
