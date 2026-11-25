@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "kind": "games",
   "consumer": "ps5-library",
-  "generatedAt": "2026-11-24T17:06:26Z",
+  "generatedAt": "2026-11-25T01:58:08Z",
   "rawBase": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs",
   "sources": [
     {
@@ -34,8 +34,8 @@
       "id": "pfs-catalog",
       "name": "PFS Direct Rips",
       "url": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs/pfs.json",
-      "items": 1102,
-      "sha256": "87d7b57130a33358b2b0f4f2aa704c522c6b423a67479f0dc0e031d7a6b2584f",
+      "items": 1107,
+      "sha256": "7576908525b2da86d378fcc6302a6a6da2275da1ce4c3016801d85d1e9078571",
       "upstream": "https://pegasus-dl.dev/catalogs/pfs.json"
     },
     {
