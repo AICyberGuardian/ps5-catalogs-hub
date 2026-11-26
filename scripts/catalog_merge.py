@@ -281,17 +281,23 @@ def previous_by_source(prev_pkgs: Iterable[Json], source_id: str) -> list[Json]:
 
 
 def merge_homebrew(ordered: Iterable[tuple[str, list[Json]]], name: str) -> tuple[Json, Json]:
-    """One entry per GitHub repo (first source in priority order wins); extra sources are recorded."""
+    """One entry per GitHub repo or download URL (first source in priority order wins)."""
     by_key: dict[str, Json] = {}
+    by_url: dict[str, str] = {}
     order: list[str] = []
     dup = 0
+    url_dup = 0
     for sid, pkgs in ordered:
         for pkg in pkgs:
             slug = repo_slug(pkg.get("repo") or pkg.get("downloadSource"))
             key = f"repo:{slug}" if slug else f"id:{str(pkg.get('titleId') or '').lower()}:{str(pkg.get('title') or '').lower()}"
-            if key in by_key:
+            urls = [str(l["url"]).strip() for l in _links(pkg)]
+            matched_key = key if key in by_key else next((by_url[u] for u in urls if u in by_url), None)
+            if matched_key is not None:
                 dup += 1
-                srcs = by_key[key].setdefault("sources", [])
+                if key not in by_key:
+                    url_dup += 1
+                srcs = by_key[matched_key].setdefault("sources", [])
                 if sid not in srcs:
                     srcs.append(sid)
                 continue
@@ -299,11 +305,17 @@ def merge_homebrew(ordered: Iterable[tuple[str, list[Json]]], name: str) -> tupl
             q["sources"] = [sid]
             by_key[key] = q
             order.append(key)
+            for u in urls:
+                by_url.setdefault(u, key)
     packages = sorted(
         (by_key[k] for k in order),
         key=lambda p: (str(p.get("title") or "").lower(), str(p.get("titleId") or "")),
     )
-    stats = {"packages_out": len(packages), "repo_duplicates_merged": dup}
+    stats = {
+        "packages_out": len(packages),
+        "repo_duplicates_merged": dup,
+        "url_duplicates_merged": url_dup,
+    }
     return {"name": name, "version": 1, "packages": packages}, stats
 
 

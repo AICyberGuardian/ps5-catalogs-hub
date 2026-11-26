@@ -1,7 +1,7 @@
 {
   "name": "AICyberGuardian PS5 Catalogs Hub",
   "version": "1.1.0",
-  "generatedAt": "2026-11-26T17:58:14Z",
+  "generatedAt": "2026-11-26T18:12:56Z",
   "rawBase": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs",
   "sources": [
     {
@@ -83,6 +83,8 @@
   ],
   "manifests": {
     "games": "sources-games.json",
-    "homebrew": "sources-homebrew.json"
+    "homebrew": "sources-homebrew.json",
+    "merged": "sources-merged.json",
+    "payloads": "sources-payloads.json"
   }
 }

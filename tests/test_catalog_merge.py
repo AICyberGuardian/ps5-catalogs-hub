@@ -115,6 +115,19 @@ class HomebrewTests(unittest.TestCase):
         self.assertEqual(z["sources"], ["prospero", "jobee"])
         self.assertEqual(st["repo_duplicates_merged"], 1)
 
+    def test_merge_homebrew_dedupes_identical_url_across_moved_repos(self):
+        prospero = [{"titleId": "PPSA99004", "title": "ProsperoAI", "repo": "quatrixone/prosperoai",
+                     "downloadSource": "https://github.com/quatrixone/prosperoai",
+                     "downloadLinks": [{"url": "https://github.com/quatrixone/ProsperoAI/releases/download/01.007.000/PPSA99004.zip"}]}]
+        anchor = [{"titleId": "HBOLD", "title": "ProsperoAI", "repo": "blackbearreloaded/prosperoai",
+                   "downloadSource": "https://github.com/blackbearreloaded/prosperoai",
+                   "downloadLinks": [{"url": "https://github.com/quatrixone/ProsperoAI/releases/download/01.007.000/PPSA99004.zip"}]}]
+        doc, st = cm.merge_homebrew([("prosperostore", prospero), ("anchorps5", anchor)], "m")
+        self.assertEqual(len(doc["packages"]), 1)
+        self.assertEqual(doc["packages"][0]["repo"], "quatrixone/prosperoai")
+        self.assertEqual(doc["packages"][0]["sources"], ["prosperostore", "anchorps5"])
+        self.assertEqual(st["repo_duplicates_merged"], 1)
+
     def test_carry_over_for_failed_source(self):
         prev = [{"title": "A", "repo": "o/a", "sources": ["prospero", "recompstore"], "downloadLinks": [{"url": "u"}]},
                 {"title": "B", "repo": "o/b", "sources": ["jobeeslair"], "downloadLinks": [{"url": "v"}]}]

@@ -1,0 +1,8 @@
+*.py text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.md text eol=lf
+*.toml text eol=lf
+.gitattributes text eol=lf
+sources*.json text eol=lf
+catalogs/*.json -text

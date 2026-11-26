@@ -2,7 +2,7 @@
   "name": "AICyberGuardian PS5 Catalogs Hub - Merged (concise single-URL catalogs)",
   "version": "1.0.0",
   "note": "Use ONE of: the 7 individual game feeds in sources-games.json OR games-merged.json. Using both re-ingests the same data. homebrew-merged is a mirror (not a PS5 Library source).",
-  "generatedAt": "2026-11-26T17:58:14Z",
+  "generatedAt": "2026-11-26T18:12:56Z",
   "rawBase": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs",
   "sources": [
     {
@@ -27,9 +27,9 @@
       "id": "homebrew-merged",
       "name": "Homebrew merged (one entry per repo)",
       "url": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs/homebrew-merged.json",
-      "items": 475,
-      "bytes": 361699,
-      "sha256": "81ab011cf7e14b57e4e006424a4503cffdde245b5d6a52da14903ca1dfc78e00",
+      "items": 472,
+      "bytes": 359521,
+      "sha256": "525aabe664828e986a5a16e2b31536c94545db2591d5f5af1a373efbf10dd6b1",
       "consumer": "mirror-only",
       "replaces": [
         "prosperostore",

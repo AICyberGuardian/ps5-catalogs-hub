@@ -356,6 +356,12 @@ def write_manifests(rows: list[dict[str, Any]]) -> bool:
 
     compat_sources = game_sources
     compat_homebrew = homebrew_sources
+    expected_manifests = {
+        "games": "sources-games.json",
+        "homebrew": "sources-homebrew.json",
+        "merged": "sources-merged.json",
+        "payloads": "sources-payloads.json",
+    }
     compat_gen = None
     if SOURCES_MANIFEST.exists():
         try:
@@ -363,6 +369,7 @@ def write_manifests(rows: list[dict[str, Any]]) -> bool:
             if (
                 existing.get("sources") == compat_sources
                 and existing.get("homebrewMirrors") == compat_homebrew
+                and existing.get("manifests") == expected_manifests
                 and existing.get("generatedAt")
             ):
                 compat_gen = existing["generatedAt"]
@@ -376,10 +383,7 @@ def write_manifests(rows: list[dict[str, Any]]) -> bool:
         "rawBase": RAW_BASE,
         "sources": compat_sources,
         "homebrewMirrors": compat_homebrew,
-        "manifests": {
-            "games": "sources-games.json",
-            "homebrew": "sources-homebrew.json",
-        },
+        "manifests": expected_manifests,
     }
 
     changed = False
