@@ -1,7 +1,7 @@
 {
   "name": "Jobee'sLair Homebrew (adapted)",
   "version": "1.0.0",
-  "generatedAt": "2026-11-26T03:59:38Z",
+  "generatedAt": "2026-11-26T13:45:45Z",
   "source": "https://raw.githubusercontent.com/JVK3R/JobeesLair-Homebrew/main/index.json",
   "packages": [
     {
@@ -1637,7 +1637,7 @@
     {
       "titleId": "HBPHANTOMPTRPS5UPL",
       "title": "ps5upload",
-      "version": "v12.6.30",
+      "version": "v12.6.31",
       "category": "files",
       "posterUrl": "https://raw.githubusercontent.com/phantomptr/ps5upload/main/branding/png/icon-1024.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/phantomptr/ps5upload/main/logo.png",
@@ -1645,8 +1645,8 @@
       "downloadSource": "https://github.com/phantomptr/ps5upload",
       "downloadLinks": [
         {
-          "name": "ps5upload-12.6.30.elf (payload)",
-          "url": "https://github.com/phantomptr/ps5upload/releases/download/v12.6.30/ps5upload-12.6.30.elf"
+          "name": "ps5upload-12.6.31.elf (payload)",
+          "url": "https://github.com/phantomptr/ps5upload/releases/download/v12.6.31/ps5upload-12.6.31.elf"
         }
       ],
       "author": "phantomptr",
@@ -2455,7 +2455,7 @@
     {
       "titleId": "HBBORNARADUSINEMBY",
       "title": "Emby5",
-      "version": "1.3.5",
+      "version": "1.3.6",
       "category": "media",
       "posterUrl": "https://raw.githubusercontent.com/bornaradusin/Emby5/main/app/sce_sys/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/bornaradusin/Emby5/main/app/sce_sys/pic0.png",
@@ -2463,8 +2463,8 @@
       "downloadSource": "https://github.com/bornaradusin/Emby5",
       "downloadLinks": [
         {
-          "name": "Emby5-1.3.5.zip (app)",
-          "url": "https://github.com/bornaradusin/Emby5/releases/download/1.3.5/Emby5-1.3.5.zip"
+          "name": "Emby5-1.3.6.zip (app)",
+          "url": "https://github.com/bornaradusin/Emby5/releases/download/1.3.6/Emby5-1.3.6.zip"
         }
       ],
       "author": "bornaradusin",
@@ -4382,7 +4382,7 @@
     {
       "titleId": "HBBORNARADUSINPC5",
       "title": "PC5",
-      "version": "v2.4.9",
+      "version": "v2.5.0",
       "category": "emulators",
       "posterUrl": "https://raw.githubusercontent.com/bornaradusin/PC5/main/art/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/bornaradusin/PC5/main/art/pic0.png",
@@ -4391,11 +4391,11 @@
       "downloadLinks": [
         {
           "name": "PPSA11018-update.zip (app)",
-          "url": "https://github.com/bornaradusin/PC5/releases/download/v2.4.9/PPSA11018-update.zip"
+          "url": "https://github.com/bornaradusin/PC5/releases/download/v2.5.0/PPSA11018-update.zip"
         },
         {
           "name": "PPSA11018.zip (app)",
-          "url": "https://github.com/bornaradusin/PC5/releases/download/v2.4.9/PPSA11018.zip"
+          "url": "https://github.com/bornaradusin/PC5/releases/download/v2.5.0/PPSA11018.zip"
         }
       ],
       "author": "bornaradusin",
@@ -5390,23 +5390,23 @@
       "upstreamId": "sunnyqeen/autokstuff"
     },
     {
-      "titleId": "HBTHEREALREXOPS5LI",
+      "titleId": "HBTHEREALREXOPS5MU",
       "title": "ps5-linux-loader (fork)",
-      "version": "v1.0.0",
+      "version": "v1.0.1",
       "category": "linux",
       "posterUrl": "https://avatars.githubusercontent.com/u/189953641?s=256&v=4",
       "originalPosterUrl": "https://avatars.githubusercontent.com/u/189953641?s=256&v=4",
-      "description": "A ps5-linux-loader payload for Jailbroken PS5(s): Boots Linux on rest-mode resume, with a built-in WebUI server.",
-      "downloadSource": "https://github.com/TheRealRexo/PS5-Linux-Loader",
+      "description": "ps5-linux-loader boots Linux on a jailbroken PS5 (rest-mode resume) by defeating the hypervisor. Powered by 8 CPU cores (16 threads) at 3.5 GHz and a GPU at 2.23 GHz, it turns your PS5 Phat, Slim or Pro running 13.00, 13.20, 13.40, 13.42, or 13.60 into a capable desktop PC for Steam games and emulators.\n\nThis repository is TheRealRexo's fork of the upstream ps5-linux/ps5-linux-loader. It adds a built-in WebUI + anonymous FTP server, M.2 install tools that store the OS as a single .img file, and USB-less boot.\n\nSupport for 1.xx / 2.xx may come later. You cannot downgrade firmware.",
+      "downloadSource": "https://github.com/TheRealRexo/PS5-MultiBoot",
       "downloadLinks": [
         {
           "name": "ps5-linux-loader.elf (payload)",
-          "url": "https://github.com/TheRealRexo/PS5-Linux-Loader/releases/download/v1.0.0/ps5-linux-loader.elf"
+          "url": "https://github.com/TheRealRexo/PS5-MultiBoot/releases/download/v1.0.1/ps5-linux-loader.elf"
         }
       ],
       "author": "TheRealRexo",
-      "repo": "TheRealRexo/PS5-Linux-Loader",
-      "upstreamId": "therealrexo/ps5-linux-loader"
+      "repo": "TheRealRexo/PS5-MultiBoot",
+      "upstreamId": "therealrexo/ps5-multiboot"
     },
     {
       "titleId": "HBVENEZUELANBIGGIE",
@@ -6060,7 +6060,7 @@
     {
       "titleId": "HBDARKATEK7PROSPER",
       "title": "ProsperoSunshine",
-      "version": "v0.6.7",
+      "version": "v0.6.8",
       "category": "streaming",
       "posterUrl": "https://raw.githubusercontent.com/Darkatek7/ProsperoSunshine/main/app/sce_sys/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/Darkatek7/ProsperoSunshine/main/app/sce_sys/pic0.png",
@@ -6069,19 +6069,19 @@
       "downloadLinks": [
         {
           "name": "PPSA47989-debug.zip (app)",
-          "url": "https://github.com/Darkatek7/ProsperoSunshine/releases/download/v0.6.7/PPSA47989-debug.zip"
+          "url": "https://github.com/Darkatek7/ProsperoSunshine/releases/download/v0.6.8/PPSA47989-debug.zip"
         },
         {
           "name": "PPSA47989.zip (app)",
-          "url": "https://github.com/Darkatek7/ProsperoSunshine/releases/download/v0.6.7/PPSA47989.zip"
+          "url": "https://github.com/Darkatek7/ProsperoSunshine/releases/download/v0.6.8/PPSA47989.zip"
         },
         {
-          "name": "prosperosunshine-0.6.7-debug.tar.gz (archive-payload)",
-          "url": "https://github.com/Darkatek7/ProsperoSunshine/releases/download/v0.6.7/prosperosunshine-0.6.7-debug.tar.gz"
+          "name": "prosperosunshine-0.6.8-debug.tar.gz (archive-payload)",
+          "url": "https://github.com/Darkatek7/ProsperoSunshine/releases/download/v0.6.8/prosperosunshine-0.6.8-debug.tar.gz"
         },
         {
-          "name": "prosperosunshine-0.6.7.tar.gz (archive-payload)",
-          "url": "https://github.com/Darkatek7/ProsperoSunshine/releases/download/v0.6.7/prosperosunshine-0.6.7.tar.gz"
+          "name": "prosperosunshine-0.6.8.tar.gz (archive-payload)",
+          "url": "https://github.com/Darkatek7/ProsperoSunshine/releases/download/v0.6.8/prosperosunshine-0.6.8.tar.gz"
         }
       ],
       "author": "Darkatek7",
@@ -6415,7 +6415,7 @@
     {
       "titleId": "HBGUMMIBRIPARASITE",
       "title": "Parasite Eve — PS5 Beta",
-      "version": "v1.2.1",
+      "version": "v1.3.0b",
       "category": "system",
       "posterUrl": "https://avatars.githubusercontent.com/u/101441739?s=256&v=4",
       "originalPosterUrl": "https://raw.githubusercontent.com/GUMMIBRI/parasite-eve-ps5/main/docs/images/gameplay.png",
@@ -6423,8 +6423,8 @@
       "downloadSource": "https://github.com/GUMMIBRI/parasite-eve-ps5",
       "downloadLinks": [
         {
-          "name": "Parasite-Eve-PS5-v1.2.1-Build21.zip (app)",
-          "url": "https://github.com/GUMMIBRI/parasite-eve-ps5/releases/download/v1.2.1/Parasite-Eve-PS5-v1.2.1-Build21.zip"
+          "name": "Parasite-Eve-PS5-v1.3.0b.zip (app)",
+          "url": "https://github.com/GUMMIBRI/parasite-eve-ps5/releases/download/v1.3.0b/Parasite-Eve-PS5-v1.3.0b.zip"
         }
       ],
       "author": "GUMMIBRI",
@@ -6491,7 +6491,7 @@
     {
       "titleId": "HBBYSTRITSKIYREUND",
       "title": "reUndr",
-      "version": "01.001.000",
+      "version": "01.002.001",
       "category": "system",
       "posterUrl": "https://raw.githubusercontent.com/bystritskiy/reUndr-ps5/main/ps5/sce_sys/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/bystritskiy/reUndr-ps5/main/ps5/sce_sys/pic1.png",
@@ -6499,8 +6499,8 @@
       "downloadSource": "https://github.com/bystritskiy/reUndr-ps5",
       "downloadLinks": [
         {
-          "name": "PPSA99025-01.001.000.zip (app)",
-          "url": "https://github.com/bystritskiy/reUndr-ps5/releases/download/01.001.000/PPSA99025-01.001.000.zip"
+          "name": "PPSA99025-01.002.001.zip (app)",
+          "url": "https://github.com/bystritskiy/reUndr-ps5/releases/download/01.002.001/PPSA99025-01.002.001.zip"
         }
       ],
       "author": "bystritskiy",
@@ -7069,7 +7069,7 @@
     {
       "titleId": "HBSHABBYPENGUINPOK",
       "title": "PokeMMO-Prospero",
-      "version": "v1.0.6",
+      "version": "v1.0.7",
       "category": "system",
       "posterUrl": "https://raw.githubusercontent.com/Shabbypenguin/PokeMMO-Prospero/main/assets/branding/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/Shabbypenguin/PokeMMO-Prospero/main/assets/branding/icon0.png",
@@ -7078,11 +7078,15 @@
       "downloadLinks": [
         {
           "name": "PPSA98001.ffpfsc (image)",
-          "url": "https://github.com/Shabbypenguin/PokeMMO-Prospero/releases/download/v1.0.6/PPSA98001.ffpfsc"
+          "url": "https://github.com/Shabbypenguin/PokeMMO-Prospero/releases/download/v1.0.7/PPSA98001.ffpfsc"
         },
         {
           "name": "PPSA98001.zip (app)",
-          "url": "https://github.com/Shabbypenguin/PokeMMO-Prospero/releases/download/v1.0.6/PPSA98001.zip"
+          "url": "https://github.com/Shabbypenguin/PokeMMO-Prospero/releases/download/v1.0.7/PPSA98001.zip"
+        },
+        {
+          "name": "PPSA98001.pkg (pkg)",
+          "url": "https://github.com/Shabbypenguin/PokeMMO-Prospero/releases/download/v1.0.7/PPSA98001.pkg"
         }
       ],
       "author": "Shabbypenguin",

@@ -1,15 +1,15 @@
 {
   "name": "AICyberGuardian PS5 Catalogs Hub",
   "version": "1.1.0",
-  "generatedAt": "2026-11-26T03:59:38Z",
+  "generatedAt": "2026-11-26T13:45:45Z",
   "rawBase": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs",
   "sources": [
     {
       "id": "dlpsgame",
       "name": "DLPSGame",
       "url": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs/dlps.json",
-      "items": 2031,
-      "sha256": "f23e8691011f39d02b79c5b0c170d391e94cc7b07b241b2d628aa28fde157226",
+      "items": 2033,
+      "sha256": "0416b5732dcb57cbc114c4f215e383fa18b9ef9808117f50b28db56af824773e",
       "upstream": "https://pegasus-dl.dev/catalogs/dlps.json"
     },
     {
@@ -66,8 +66,8 @@
       "id": "prosperostore",
       "name": "ProsperoStore",
       "url": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs/prosperostore.json",
-      "items": 226,
-      "sha256": "9bfd51af0800d660f0d6353e4bdeccbb9032cf6aa2ebb48aa7ab47f98d0b141d",
+      "items": 227,
+      "sha256": "1f48fde2ffe3f58e20f323851879ac9e290f0dbdc4bbb5d423d5ce23abbcd576",
       "upstream": "https://prosperostore.net/catalog/v1.json",
       "consumer": "prospero-native"
     },
@@ -76,7 +76,7 @@
       "name": "Jobee'sLair Homebrew (adapted)",
       "url": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs/jobeeslair-homebrew.json",
       "items": 363,
-      "sha256": "d35d264739151b09f1fe7a364ee36bad3b77b054a9b70352296bf94aecb49c6b",
+      "sha256": "dae722ff9ad8d9eee0e2b6049b6bd887ac2f7b0e3ebb8d18dc9d70479ee520e9",
       "upstream": "https://raw.githubusercontent.com/JVK3R/JobeesLair-Homebrew/main/index.json",
       "consumer": "jobee-native"
     }
