@@ -3,6 +3,30 @@
   "version": 1,
   "packages": [
     {
+      "titleId": "PPSA04114",
+      "title": "Shantae and The Seven Sirens",
+      "createdAt": "2026-11-26T21:21:11.335Z",
+      "category": "game",
+      "posterUrl": "https://pegasus-dl.dev/api/posters/51025d4e777ad3dc5224c489b2eef0a7557c89196ced4eddfd979972ba2b8bad",
+      "originalPosterUrl": "https://pegasus-dl.dev/api/posters/6bf0c0536b35fc887fec603432fa15675a1e1ed6b24fa24acd85db2367fb29ab",
+      "description": "Region: USA\nRelease note: Works on 4.xx and higher",
+      "downloadSource": "https://dlpsgame.com/shantae-and-the-seven-sirens-ps5/",
+      "downloadLinks": [
+        {
+          "name": "USA 4.xx Base - Akirabox",
+          "url": "https://akirabox.to/0JgG7Awxl3oY/file"
+        },
+        {
+          "name": "USA 4.xx Base - Rootz",
+          "url": "https://www.rootz.so/d/7tAo4"
+        },
+        {
+          "name": "USA 4.xx Base - Vikingfile",
+          "url": "https://vikingfile.com/f/lecnEhlCfp"
+        }
+      ]
+    },
+    {
       "titleId": "PPSA06139",
       "title": "F1 Manager 2022",
       "createdAt": "2026-11-26T01:22:08.944Z",
@@ -552,59 +576,6 @@
       ]
     },
     {
-      "titleId": "PPSA08035",
-      "title": "Monster Hunter Rise (DLC)",
-      "createdAt": "2026-11-23T22:17:20.841Z",
-      "version": "DLC",
-      "category": "dlc",
-      "posterUrl": "https://pegasus-dl.dev/api/posters/08bf8c69d7ccc8b033d0a557e02b3d2ef9c9fb64acecdf78c62a3eccce4624f0",
-      "originalPosterUrl": "https://pegasus-dl.dev/api/posters/08bf8c69d7ccc8b033d0a557e02b3d2ef9c9fb64acecdf78c62a3eccce4624f0",
-      "description": "Region: EUR\nRelease note: Works on 5.xx and higher\nContributor: @Barquillo",
-      "downloadSource": "https://dlpsgame.com/monster-hunter-rise-ps5/",
-      "downloadLinks": [
-        {
-          "name": "EUR 5.xx Game (v16.000.002) (DLC) - Akirabox part 1",
-          "url": "https://akirabox.to/obj3jKkp2zDx/file"
-        },
-        {
-          "name": "EUR 5.xx Game (v16.000.002) (DLC) - Akirabox part 2",
-          "url": "https://akirabox.to/Pbe3PkeY2mlX/file"
-        },
-        {
-          "name": "EUR 5.xx Game (v16.000.002) (DLC) - Akirabox part 3",
-          "url": "https://akirabox.to/0KezkK0PpzD1/file"
-        },
-        {
-          "name": "EUR 5.xx Game (v16.000.002) (DLC) - Akirabox part 4",
-          "url": "https://akirabox.to/0JgG7AaEl3oY/file"
-        },
-        {
-          "name": "EUR 5.xx Game (v16.000.002) (DLC) - Rootz part 1",
-          "url": "https://www.rootz.so/d/2EzQG"
-        },
-        {
-          "name": "EUR 5.xx Game (v16.000.002) (DLC) - Rootz part 2",
-          "url": "https://www.rootz.so/d/1Ix4z2"
-        },
-        {
-          "name": "EUR 5.xx Game (v16.000.002) (DLC) - Rootz part 3",
-          "url": "https://www.rootz.so/d/1EvEBc"
-        },
-        {
-          "name": "EUR 5.xx Game (v16.000.002) (DLC) - Vikingfile part 1",
-          "url": "https://vikingfile.com/f/tThvJ1osUP"
-        },
-        {
-          "name": "EUR 5.xx Game (v16.000.002) (DLC) - Vikingfile part 2",
-          "url": "https://vikingfile.com/f/Z8pFm45vbq"
-        },
-        {
-          "name": "EUR 5.xx Game (v16.000.002) (DLC) - Vikingfile part 3",
-          "url": "https://vikingfile.com/f/aUB7DZxPXj"
-        }
-      ]
-    },
-    {
       "titleId": "PPSA31885",
       "title": "WinX Club The Magic is Back",
       "createdAt": "2026-11-23T22:17:20.841Z",
@@ -1043,6 +1014,59 @@
         {
           "name": "JPN 9.xx Base - Vikingfile",
           "url": "https://vikingfile.com/f/EGACQwrBjn"
+        }
+      ]
+    },
+    {
+      "titleId": "PPSA08035",
+      "title": "Monster Hunter Rise (DLC)",
+      "createdAt": "2026-11-23T22:17:20.841Z",
+      "version": "DLC",
+      "category": "dlc",
+      "posterUrl": "https://pegasus-dl.dev/api/posters/08bf8c69d7ccc8b033d0a557e02b3d2ef9c9fb64acecdf78c62a3eccce4624f0",
+      "originalPosterUrl": "https://pegasus-dl.dev/api/posters/08bf8c69d7ccc8b033d0a557e02b3d2ef9c9fb64acecdf78c62a3eccce4624f0",
+      "description": "Region: EUR\nRelease note: Works on 5.xx and higher\nContributor: @Barquillo",
+      "downloadSource": "https://dlpsgame.com/monster-hunter-rise-ps5/",
+      "downloadLinks": [
+        {
+          "name": "EUR 5.xx Game (v16.000.002) (DLC) - Akirabox part 1",
+          "url": "https://akirabox.to/obj3jKkp2zDx/file"
+        },
+        {
+          "name": "EUR 5.xx Game (v16.000.002) (DLC) - Akirabox part 2",
+          "url": "https://akirabox.to/Pbe3PkeY2mlX/file"
+        },
+        {
+          "name": "EUR 5.xx Game (v16.000.002) (DLC) - Akirabox part 3",
+          "url": "https://akirabox.to/0KezkK0PpzD1/file"
+        },
+        {
+          "name": "EUR 5.xx Game (v16.000.002) (DLC) - Akirabox part 4",
+          "url": "https://akirabox.to/0JgG7AaEl3oY/file"
+        },
+        {
+          "name": "EUR 5.xx Game (v16.000.002) (DLC) - Rootz part 1",
+          "url": "https://www.rootz.so/d/2EzQG"
+        },
+        {
+          "name": "EUR 5.xx Game (v16.000.002) (DLC) - Rootz part 2",
+          "url": "https://www.rootz.so/d/1Ix4z2"
+        },
+        {
+          "name": "EUR 5.xx Game (v16.000.002) (DLC) - Rootz part 3",
+          "url": "https://www.rootz.so/d/1EvEBc"
+        },
+        {
+          "name": "EUR 5.xx Game (v16.000.002) (DLC) - Vikingfile part 1",
+          "url": "https://vikingfile.com/f/tThvJ1osUP"
+        },
+        {
+          "name": "EUR 5.xx Game (v16.000.002) (DLC) - Vikingfile part 2",
+          "url": "https://vikingfile.com/f/Z8pFm45vbq"
+        },
+        {
+          "name": "EUR 5.xx Game (v16.000.002) (DLC) - Vikingfile part 3",
+          "url": "https://vikingfile.com/f/aUB7DZxPXj"
         }
       ]
     },

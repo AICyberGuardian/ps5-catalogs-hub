@@ -1,7 +1,7 @@
 {
   "name": "Jobee'sLair Homebrew (adapted)",
   "version": "1.0.0",
-  "generatedAt": "2026-11-26T13:45:45Z",
+  "generatedAt": "2026-11-26T22:51:08Z",
   "source": "https://raw.githubusercontent.com/JVK3R/JobeesLair-Homebrew/main/index.json",
   "packages": [
     {
@@ -668,7 +668,7 @@
     {
       "titleId": "HBQUER3QPS5DUMPFOR",
       "title": "ps5 dump forge",
-      "version": "v0.5.7",
+      "version": "v0.6.0",
       "category": "dumps",
       "posterUrl": "https://raw.githubusercontent.com/quer3q/ps5-dump-forge/main/ps5/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/quer3q/ps5-dump-forge/main/ps5/icon0.png",
@@ -676,8 +676,8 @@
       "downloadSource": "https://github.com/quer3q/ps5-dump-forge",
       "downloadLinks": [
         {
-          "name": "ps5-dump-forge-0.5.7-ps5.elf (payload)",
-          "url": "https://github.com/quer3q/ps5-dump-forge/releases/download/v0.5.7/ps5-dump-forge-0.5.7-ps5.elf"
+          "name": "ps5-dump-forge-0.6.0-ps5.elf (payload)",
+          "url": "https://github.com/quer3q/ps5-dump-forge/releases/download/v0.6.0/ps5-dump-forge-0.6.0-ps5.elf"
         }
       ],
       "author": "quer3q",
@@ -1614,7 +1614,7 @@
     {
       "titleId": "HBOWENDSWANGPS5WEB",
       "title": "PS5 Web File Manager",
-      "version": "v1.14",
+      "version": "v1.15",
       "category": "files",
       "posterUrl": "https://raw.githubusercontent.com/owendswang/ps5-web-file-manager/main/assets/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/owendswang/ps5-web-file-manager/main/docs/screenshots/20260617_231827.376.jpg",
@@ -1622,12 +1622,12 @@
       "downloadSource": "https://github.com/owendswang/ps5-web-file-manager",
       "downloadLinks": [
         {
-          "name": "web-file-mgr-v1.14.elf (payload)",
-          "url": "https://github.com/owendswang/ps5-web-file-manager/releases/download/v1.14/web-file-mgr-v1.14.elf"
+          "name": "web-file-mgr-v1.15.elf (payload)",
+          "url": "https://github.com/owendswang/ps5-web-file-manager/releases/download/v1.15/web-file-mgr-v1.15.elf"
         },
         {
           "name": "wfm-7zip-helper.elf (payload)",
-          "url": "https://github.com/owendswang/ps5-web-file-manager/releases/download/v1.14/wfm-7zip-helper.elf"
+          "url": "https://github.com/owendswang/ps5-web-file-manager/releases/download/v1.15/wfm-7zip-helper.elf"
         }
       ],
       "author": "owendswang",
@@ -1637,7 +1637,7 @@
     {
       "titleId": "HBPHANTOMPTRPS5UPL",
       "title": "ps5upload",
-      "version": "v12.6.31",
+      "version": "v12.6.33",
       "category": "files",
       "posterUrl": "https://raw.githubusercontent.com/phantomptr/ps5upload/main/branding/png/icon-1024.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/phantomptr/ps5upload/main/logo.png",
@@ -1645,8 +1645,8 @@
       "downloadSource": "https://github.com/phantomptr/ps5upload",
       "downloadLinks": [
         {
-          "name": "ps5upload-12.6.31.elf (payload)",
-          "url": "https://github.com/phantomptr/ps5upload/releases/download/v12.6.31/ps5upload-12.6.31.elf"
+          "name": "ps5upload-12.6.33.elf (payload)",
+          "url": "https://github.com/phantomptr/ps5upload/releases/download/v12.6.33/ps5upload-12.6.33.elf"
         }
       ],
       "author": "phantomptr",
@@ -2744,17 +2744,21 @@
     },
     {
       "titleId": "HBPLAYKARAOKEPS5PL",
-      "title": "PlayKaraoke for PS5",
-      "version": "v0.1.0-beta",
+      "title": "PlayKaraoke",
+      "version": "v0.3.0",
       "category": "media",
-      "posterUrl": "https://raw.githubusercontent.com/PlayKaraoke/PS5-PlayKaraoke-Player/main/assets/icon0.png",
-      "originalPosterUrl": "https://raw.githubusercontent.com/PlayKaraoke/PS5-PlayKaraoke-Player/main/docs/screenshots/tv-home.png",
+      "posterUrl": "https://raw.githubusercontent.com/PlayKaraoke/PS5-PlayKaraoke-Player/main/sce_sys/icon0.png",
+      "originalPosterUrl": "https://raw.githubusercontent.com/PlayKaraoke/PS5-PlayKaraoke-Player/main/docs/screenshots/tv-home.jpg",
       "description": "Karaoke player for jailbroken PS5: CDG and MP4, real-time key change, singer rotation and song requests from phones via QR code.",
       "downloadSource": "https://github.com/PlayKaraoke/PS5-PlayKaraoke-Player",
       "downloadLinks": [
         {
+          "name": "PLKR00001.zip (app)",
+          "url": "https://github.com/PlayKaraoke/PS5-PlayKaraoke-Player/releases/download/v0.3.0/PLKR00001.zip"
+        },
+        {
           "name": "playkaraoke.elf (payload)",
-          "url": "https://github.com/PlayKaraoke/PS5-PlayKaraoke-Player/releases/download/v0.1.0-beta/playkaraoke.elf"
+          "url": "https://github.com/PlayKaraoke/PS5-PlayKaraoke-Player/releases/download/v0.3.0/playkaraoke.elf"
         }
       ],
       "author": "PlayKaraoke",
@@ -4382,7 +4386,7 @@
     {
       "titleId": "HBBORNARADUSINPC5",
       "title": "PC5",
-      "version": "v2.5.0",
+      "version": "v2.5.2",
       "category": "emulators",
       "posterUrl": "https://raw.githubusercontent.com/bornaradusin/PC5/main/art/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/bornaradusin/PC5/main/art/pic0.png",
@@ -4391,11 +4395,11 @@
       "downloadLinks": [
         {
           "name": "PPSA11018-update.zip (app)",
-          "url": "https://github.com/bornaradusin/PC5/releases/download/v2.5.0/PPSA11018-update.zip"
+          "url": "https://github.com/bornaradusin/PC5/releases/download/v2.5.2/PPSA11018-update.zip"
         },
         {
           "name": "PPSA11018.zip (app)",
-          "url": "https://github.com/bornaradusin/PC5/releases/download/v2.5.0/PPSA11018.zip"
+          "url": "https://github.com/bornaradusin/PC5/releases/download/v2.5.2/PPSA11018.zip"
         }
       ],
       "author": "bornaradusin",
@@ -5391,17 +5395,17 @@
     },
     {
       "titleId": "HBTHEREALREXOPS5MU",
-      "title": "ps5-linux-loader (fork)",
-      "version": "v1.0.1",
+      "title": "PS5-MultiBoot (fork)",
+      "version": "v1.0.0",
       "category": "linux",
       "posterUrl": "https://avatars.githubusercontent.com/u/189953641?s=256&v=4",
       "originalPosterUrl": "https://avatars.githubusercontent.com/u/189953641?s=256&v=4",
-      "description": "ps5-linux-loader boots Linux on a jailbroken PS5 (rest-mode resume) by defeating the hypervisor. Powered by 8 CPU cores (16 threads) at 3.5 GHz and a GPU at 2.23 GHz, it turns your PS5 Phat, Slim or Pro running 13.00, 13.20, 13.40, 13.42, or 13.60 into a capable desktop PC for Steam games and emulators.\n\nThis repository is TheRealRexo's fork of the upstream ps5-linux/ps5-linux-loader. It adds a built-in WebUI + anonymous FTP server, M.2 install tools that store the OS as a single .img file, and USB-less boot.\n\nSupport for 1.xx / 2.xx may come later. You cannot downgrade firmware.",
+      "description": "PS5-MultiBoot boots Linux on a jailbroken PS5 (rest-mode resume) by defeating the hypervisor. Powered by 8 CPU cores (16 threads) at 3.5 GHz and a GPU at 2.23 GHz, it turns your PS5 Phat, Slim or Pro running 13.00, 13.20, 13.40, 13.42, or 13.60 into a capable desktop PC for Steam games and emulators",
       "downloadSource": "https://github.com/TheRealRexo/PS5-MultiBoot",
       "downloadLinks": [
         {
           "name": "ps5-linux-loader.elf (payload)",
-          "url": "https://github.com/TheRealRexo/PS5-MultiBoot/releases/download/v1.0.1/ps5-linux-loader.elf"
+          "url": "https://github.com/TheRealRexo/PS5-MultiBoot/releases/download/v1.0.0/ps5-linux-loader.elf"
         }
       ],
       "author": "TheRealRexo",
@@ -6491,7 +6495,7 @@
     {
       "titleId": "HBBYSTRITSKIYREUND",
       "title": "reUndr",
-      "version": "01.002.001",
+      "version": "01.003.000",
       "category": "system",
       "posterUrl": "https://raw.githubusercontent.com/bystritskiy/reUndr-ps5/main/ps5/sce_sys/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/bystritskiy/reUndr-ps5/main/ps5/sce_sys/pic1.png",
@@ -6499,8 +6503,8 @@
       "downloadSource": "https://github.com/bystritskiy/reUndr-ps5",
       "downloadLinks": [
         {
-          "name": "PPSA99025-01.002.001.zip (app)",
-          "url": "https://github.com/bystritskiy/reUndr-ps5/releases/download/01.002.001/PPSA99025-01.002.001.zip"
+          "name": "PPSA99025-01.003.000.zip (app)",
+          "url": "https://github.com/bystritskiy/reUndr-ps5/releases/download/01.003.000/PPSA99025-01.003.000.zip"
         }
       ],
       "author": "bystritskiy",
