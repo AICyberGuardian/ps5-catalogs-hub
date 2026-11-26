@@ -1,0 +1,57 @@
+{
+  "name": "AICyberGuardian PS5 Catalogs Hub - Merged (concise single-URL catalogs)",
+  "version": "1.0.0",
+  "note": "Use ONE of: the 7 individual game feeds in sources-games.json OR games-merged.json. Using both re-ingests the same data. homebrew-merged is a mirror (not a PS5 Library source).",
+  "generatedAt": "2026-11-26T17:58:14Z",
+  "rawBase": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs",
+  "sources": [
+    {
+      "id": "games-merged",
+      "name": "Games merged (exact-URL deduped)",
+      "url": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs/games-merged.json",
+      "items": 6054,
+      "bytes": 10902082,
+      "sha256": "5daf27e49e4898b09d484080e9141a67973330c0fb807750d1e8809cf2da3cfd",
+      "consumer": "ps5-library",
+      "replaces": [
+        "pfs-catalog",
+        "pippo-exfat",
+        "zer0game",
+        "dlpsgame",
+        "evox-blackbox",
+        "phoenix-dl-ps5",
+        "ps4-fpkg-collection-catalog"
+      ]
+    },
+    {
+      "id": "homebrew-merged",
+      "name": "Homebrew merged (one entry per repo)",
+      "url": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs/homebrew-merged.json",
+      "items": 475,
+      "bytes": 361699,
+      "sha256": "81ab011cf7e14b57e4e006424a4503cffdde245b5d6a52da14903ca1dfc78e00",
+      "consumer": "mirror-only",
+      "replaces": [
+        "prosperostore",
+        "solanum",
+        "recompstore",
+        "anchorps5",
+        "jobeeslair"
+      ]
+    },
+    {
+      "id": "payloads-merged",
+      "name": "Payloads merged (Payload Manager format)",
+      "url": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs/payloads-merged.json",
+      "items": 133,
+      "bytes": 78742,
+      "sha256": "81fe26b759c8abd58056e6ee442c0e0b3ea0225f1ae13552a0abe0a763bc34fe",
+      "consumer": "payload-manager",
+      "replaces": [
+        "ps5-payloads-atlas",
+        "pldmgr-json",
+        "ps5-payloads-mirror"
+      ]
+    }
+  ]
+}

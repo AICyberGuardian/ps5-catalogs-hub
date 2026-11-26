@@ -1,0 +1,39 @@
+{
+  "name": "AICyberGuardian PS5 Catalogs Hub - Payloads",
+  "version": "1.0.0",
+  "kind": "payloads",
+  "consumer": "payload-manager",
+  "note": "Add the merged URL in Payload Manager (:8084) -> Settings -> Manage Sources. Browse/on-demand only.",
+  "generatedAt": "2026-11-26T17:55:39Z",
+  "rawBase": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs",
+  "sources": [
+    {
+      "id": "payloads-merged",
+      "name": "Payloads merged (Payload Manager format)",
+      "url": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs/payloads-merged.json",
+      "items": 133,
+      "bytes": 78742,
+      "sha256": "81fe26b759c8abd58056e6ee442c0e0b3ea0225f1ae13552a0abe0a763bc34fe",
+      "consumer": "payload-manager",
+      "replaces": [
+        "ps5-payloads-atlas",
+        "pldmgr-json",
+        "ps5-payloads-mirror"
+      ]
+    }
+  ],
+  "upstreams": [
+    {
+      "id": "ps5-payloads-atlas",
+      "url": "https://lucaszhongsj.github.io/ps5-payloads-atlas/payloads.json"
+    },
+    {
+      "id": "pldmgr-json",
+      "url": "https://raw.githubusercontent.com/RDX-Sci01/PLDMGR_JSON/main/payloads.json"
+    },
+    {
+      "id": "ps5-payloads-mirror",
+      "url": "https://raw.githubusercontent.com/siko15006-bot/ps5-payloads-mirror/main/payloads_v3.json"
+    }
+  ]
+}

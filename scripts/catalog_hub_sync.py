@@ -12,6 +12,9 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import catalog_merge  # noqa: E402
+
 ROOT = Path(__file__).resolve().parents[1]
 CATALOGS = ROOT / "catalogs"
 SOURCES_MANIFEST = ROOT / "sources.json"
@@ -417,16 +420,223 @@ def write_report(rows: list[dict[str, Any]], force: bool = False) -> None:
     REPORT.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
+# ---------------------------------------------------------------------------
+# Merged / concise catalogs (single URL each; deduped; min-JSON) + payload feeds
+# ---------------------------------------------------------------------------
+
+SOURCES_MERGED = ROOT / "sources-merged.json"
+SOURCES_PAYLOADS = ROOT / "sources-payloads.json"
+
+# Priority order only decides which copy of an EXACT duplicate URL survives.
+GAME_MERGE_ORDER: tuple[tuple[str, str], ...] = (
+    ("pfs.json", "pfs-catalog"),
+    ("pippo.json", "pippo-exfat"),
+    ("zer0.json", "zer0game"),
+    ("dlps.json", "dlpsgame"),
+    ("blackbox_catalog.json", "evox-blackbox"),
+    ("jamzi94-ps5.json", "phoenix-dl-ps5"),
+    ("pegasus-ps4-catalog.json", "ps4-fpkg-collection-catalog"),
+)
+
+RECOMPSTORE_URL = "https://recompstore.com/catalog.json"
+SOLANUM_URL = "https://raw.githubusercontent.com/Oliv3rmoon/Solanum-Catalog/main/catalog.json"
+SOLANUM_RAW_BASE = "https://raw.githubusercontent.com/Oliv3rmoon/Solanum-Catalog/main"
+ANCHOR_CATALOG_URL = "https://raw.githubusercontent.com/Kuroge/AnchorPS5-catalog/main/catalog.json"
+ANCHOR_RELEASES_URL = "https://raw.githubusercontent.com/Kuroge/AnchorPS5-catalog/main/releases.json"
+
+PAYLOAD_SOURCES: tuple[tuple[str, str], ...] = (
+    ("ps5-payloads-atlas", "https://lucaszhongsj.github.io/ps5-payloads-atlas/payloads.json"),
+    ("pldmgr-json", "https://raw.githubusercontent.com/RDX-Sci01/PLDMGR_JSON/main/payloads.json"),
+    ("ps5-payloads-mirror", "https://raw.githubusercontent.com/siko15006-bot/ps5-payloads-mirror/main/payloads_v3.json"),
+)
+
+
+def _dump_compact(doc: Any) -> bytes:
+    return (json.dumps(doc, separators=(",", ":"), ensure_ascii=False) + "\n").encode("utf-8")
+
+
+def _load_json(path: Path) -> Any:
+    try:
+        return json.loads(path.read_text(encoding="utf-8-sig"))
+    except Exception:  # noqa: BLE001
+        return None
+
+
+def fetch_json_optional(url: str) -> Any:
+    for attempt in (1, 2):
+        try:
+            return json.loads(fetch_bytes(url).decode("utf-8-sig"))
+        except Exception as exc:  # noqa: BLE001
+            print(f"[WARN] {url} attempt {attempt}: {exc}")
+    return None
+
+
+def _merged_row(
+    rid: str, name: str, filename: str, kind: str, items: int, raw: bytes, upstream: str, changed: bool
+) -> dict[str, Any]:
+    return {
+        "id": rid,
+        "name": name,
+        "filename": filename,
+        "kind": kind,
+        "items": items,
+        "bytes": len(raw),
+        "sha256": sha256_hex(raw),
+        "upstream": upstream,
+        "changed": changed,
+        "ok": True,
+        "error": "",
+    }
+
+
+def build_merged_games() -> dict[str, Any] | None:
+    docs = []
+    for filename, sid in GAME_MERGE_ORDER:
+        doc = _load_json(CATALOGS / filename)
+        if isinstance(doc, dict) and doc.get("packages"):
+            docs.append((sid, doc))
+    if not docs:
+        return None
+    merged, stats = catalog_merge.merge_game_catalogs(docs, "AICyberGuardian PS5 Games (merged, deduped)")
+    raw = _dump_compact(merged)
+    changed = write_if_changed(CATALOGS / "games-merged.json", raw)
+    print(f"[{'UPDT' if changed else 'SAME'}] games-merged.json {stats} bytes={len(raw)}")
+    row = _merged_row(
+        "games-merged", "Games merged (exact-URL deduped)", "games-merged.json", "merged-games",
+        stats["packages_out"], raw, "merge of " + ",".join(s for s, _ in docs), changed,
+    )
+    row["replaces"] = [s for s, _ in docs]
+    return row
+
+
+def build_merged_homebrew() -> dict[str, Any]:
+    prev = (_load_json(CATALOGS / "homebrew-merged.json") or {}).get("packages", [])
+    lists: dict[str, list[dict[str, Any]]] = {}
+
+    prospero = _load_json(CATALOGS / "prosperostore.json")
+    lists["prosperostore"] = catalog_merge.adapt_prospero(prospero) if isinstance(prospero, dict) else []
+    jobee = _load_json(CATALOGS / "jobeeslair-homebrew.json")
+    lists["jobeeslair"] = catalog_merge.adapt_jobee(jobee) if isinstance(jobee, dict) else []
+
+    solanum = fetch_json_optional(SOLANUM_URL)
+    lists["solanum"] = catalog_merge.adapt_solanum(solanum, SOLANUM_RAW_BASE) if isinstance(solanum, dict) else None
+    recomp = fetch_json_optional(RECOMPSTORE_URL)
+    lists["recompstore"] = catalog_merge.adapt_recompstore(recomp) if isinstance(recomp, dict) else None
+    a_cat, a_rel = fetch_json_optional(ANCHOR_CATALOG_URL), fetch_json_optional(ANCHOR_RELEASES_URL)
+    lists["anchorps5"] = (
+        catalog_merge.adapt_anchorps5(a_cat, a_rel) if isinstance(a_cat, dict) and isinstance(a_rel, dict) else None
+    )
+
+    fallbacks = []
+    for sid in ("prosperostore", "solanum", "recompstore", "anchorps5", "jobeeslair"):
+        if lists.get(sid) is None or (sid in ("prosperostore", "jobeeslair") and not lists[sid]):
+            lists[sid] = catalog_merge.previous_by_source(prev, sid)
+            fallbacks.append(sid)
+    ordered = [(sid, lists[sid]) for sid in ("prosperostore", "solanum", "recompstore", "anchorps5", "jobeeslair")]
+    merged, stats = catalog_merge.merge_homebrew(ordered, "AICyberGuardian PS5 Homebrew (merged, one entry per repo)")
+    stats["per_source_in"] = {sid: len(v) for sid, v in ordered}
+    stats["carried_over"] = fallbacks
+    raw = _dump_compact(merged)
+    changed = write_if_changed(CATALOGS / "homebrew-merged.json", raw)
+    print(f"[{'UPDT' if changed else 'SAME'}] homebrew-merged.json {stats} bytes={len(raw)}")
+    row = _merged_row(
+        "homebrew-merged", "Homebrew merged (one entry per repo)", "homebrew-merged.json", "merged-homebrew",
+        stats["packages_out"], raw, "merge of " + ",".join(s for s, _ in ordered), changed,
+    )
+    row["replaces"] = [s for s, _ in ordered]
+    return row
+
+
+def build_merged_payloads() -> dict[str, Any]:
+    prev = (_load_json(CATALOGS / "payloads-merged.json") or {}).get("payloads", [])
+    ordered = []
+    fallbacks = []
+    for sid, url in PAYLOAD_SOURCES:
+        doc = fetch_json_optional(url)
+        items = doc.get("payloads") if isinstance(doc, dict) else None
+        if not isinstance(items, list) or not items:
+            items = catalog_merge.previous_by_source(prev, sid)
+            fallbacks.append(sid)
+        ordered.append((sid, items))
+    merged, stats = catalog_merge.merge_payloads(ordered, "AICyberGuardian PS5 Payloads (merged, deduped)")
+    stats["per_source_in"] = {sid: len(v) for sid, v in ordered}
+    stats["carried_over"] = fallbacks
+    raw = _dump_compact(merged)
+    changed = write_if_changed(CATALOGS / "payloads-merged.json", raw)
+    print(f"[{'UPDT' if changed else 'SAME'}] payloads-merged.json {stats} bytes={len(raw)}")
+    row = _merged_row(
+        "payloads-merged", "Payloads merged (Payload Manager format)", "payloads-merged.json", "merged-payloads",
+        stats["payloads_out"], raw, "merge of " + ",".join(s for s, _ in ordered), changed,
+    )
+    row["replaces"] = [s for s, _ in ordered]
+    return row
+
+
+def write_merged_manifests(rows: list[dict[str, Any]]) -> bool:
+    by_id = {r["id"]: r for r in rows if r.get("ok")}
+
+    def entry(r: dict[str, Any], consumer: str) -> dict[str, Any]:
+        return {
+            "id": r["id"],
+            "name": r["name"],
+            "url": f"{RAW_BASE}/{r['filename']}",
+            "items": r["items"],
+            "bytes": r["bytes"],
+            "sha256": r["sha256"],
+            "consumer": consumer,
+            "replaces": r.get("replaces", []),
+        }
+
+    merged_sources = [
+        entry(by_id[i], c)
+        for i, c in (("games-merged", "ps5-library"), ("homebrew-merged", "mirror-only"), ("payloads-merged", "payload-manager"))
+        if i in by_id
+    ]
+    payload_sources = [entry(by_id["payloads-merged"], "payload-manager")] if "payloads-merged" in by_id else []
+    now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    merged_doc = {
+        "name": "AICyberGuardian PS5 Catalogs Hub - Merged (concise single-URL catalogs)",
+        "version": "1.0.0",
+        "note": (
+            "Use ONE of: the 7 individual game feeds in sources-games.json OR games-merged.json. "
+            "Using both re-ingests the same data. homebrew-merged is a mirror (not a PS5 Library source)."
+        ),
+        "generatedAt": _preserve_generated_at(SOURCES_MERGED, "sources", merged_sources) or now,
+        "rawBase": RAW_BASE,
+        "sources": merged_sources,
+    }
+    payload_doc = {
+        "name": "AICyberGuardian PS5 Catalogs Hub - Payloads",
+        "version": "1.0.0",
+        "kind": "payloads",
+        "consumer": "payload-manager",
+        "note": "Add the merged URL in Payload Manager (:8084) -> Settings -> Manage Sources. Browse/on-demand only.",
+        "generatedAt": _preserve_generated_at(SOURCES_PAYLOADS, "sources", payload_sources) or now,
+        "rawBase": RAW_BASE,
+        "sources": payload_sources,
+        "upstreams": [{"id": sid, "url": url} for sid, url in PAYLOAD_SOURCES],
+    }
+    changed = write_if_changed(SOURCES_MERGED, (json.dumps(merged_doc, indent=2, ensure_ascii=False) + "\n").encode("utf-8"))
+    changed |= write_if_changed(SOURCES_PAYLOADS, (json.dumps(payload_doc, indent=2, ensure_ascii=False) + "\n").encode("utf-8"))
+    return changed
+
+
 def main() -> int:
     CATALOGS.mkdir(parents=True, exist_ok=True)
     rows = sync_direct_feeds()
     rows.append(sync_jobee())
+    merged_rows = []
+    for builder in (build_merged_games, build_merged_homebrew, build_merged_payloads):
+        row = builder()
+        if row:
+            merged_rows.append(row)
     write_manifests(rows)
-    write_report(rows)
+    write_merged_manifests(merged_rows)
+    write_report(rows + merged_rows)
     failures = sum(1 for r in rows if not r["ok"])
     print(
-        f"manifests={SOURCES_GAMES.name},{SOURCES_HOMEBREW.name},{SOURCES_MANIFEST.name} "
-        f"failures={failures}"
+        f"manifests={SOURCES_GAMES.name},{SOURCES_HOMEBREW.name},{SOURCES_MANIFEST.name},"
+        f"{SOURCES_MERGED.name},{SOURCES_PAYLOADS.name} failures={failures}"
     )
     return 1 if failures else 0
 
