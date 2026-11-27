@@ -4,16 +4,16 @@
   "kind": "payloads",
   "consumer": "payload-manager",
   "note": "Add the merged URL in Payload Manager (:8084) -> Settings -> Manage Sources. Browse/on-demand only.",
-  "generatedAt": "2026-11-26T22:51:10Z",
+  "generatedAt": "2026-11-27T04:50:29Z",
   "rawBase": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs",
   "sources": [
     {
       "id": "payloads-merged",
       "name": "Payloads merged (Payload Manager format)",
       "url": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs/payloads-merged.json",
-      "items": 138,
-      "bytes": 81939,
-      "sha256": "9c8fc95b4facdd4d5df19df039e072ebecace919ee0dd23e8e2e2b9ad3ac29e3",
+      "items": 137,
+      "bytes": 80777,
+      "sha256": "fc68475fcb03b1149920a0d56119f8b03ce91f0f94adcaf9b49565bb6f1d73fe",
       "consumer": "payload-manager",
       "replaces": [
         "ps5-payloads-atlas",

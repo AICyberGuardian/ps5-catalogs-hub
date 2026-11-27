@@ -3,6 +3,396 @@
   "version": 1,
   "packages": [
     {
+      "titleId": "CUSA10521",
+      "title": "Spooky's Jump Scare Mansion HD Renovation",
+      "createdAt": "2026-11-27T03:29:47.049Z",
+      "version": "1.03",
+      "category": "game",
+      "posterUrl": "https://pegasus-dl.dev/api/posters/e97d57e1eed9cbf2a907e29636f699272aaf5e62a697e92f1abe8c49785058a1",
+      "originalPosterUrl": "https://pegasus-dl.dev/api/posters/e97d57e1eed9cbf2a907e29636f699272aaf5e62a697e92f1abe8c49785058a1",
+      "description": "Format: psvrps4\nCan you survive 1000 rooms of cute terror? Or will you break once the cuteness starts to fade off and you're running for your life from the unspeakable hideous beings that shake and writhe in bowels of this house? They wait for you, they wait and hunger for meeting you.\nRegion: US\nFirmware: 8.xx+\nNotes: FW 8.50+ PSVR NOT required, although I fucking heavily recommend it!!\nCredits: THANK YOU SOOO MUCH, XAN!!!! I LOVE IT\nUpdated: 2026-11-26T23:48:21.980Z",
+      "downloadSource": "https://catalog.gfs-dlps.workers.dev/api/packages",
+      "downloadLinks": [
+        {
+          "name": "psvrps4 · Viki",
+          "url": "https://vikingfile.com/f/B7mEfPVGiX"
+        },
+        {
+          "name": "psvrps4 · Data",
+          "url": "https://datanodes.to/cy266hzty6qb"
+        },
+        {
+          "name": "psvrps4 · Viki",
+          "url": "https://vikingfile.com/f/yALlEC6Ulp"
+        }
+      ],
+      "sizeBytes": 858993459
+    },
+    {
+      "titleId": "CUSA41662",
+      "title": "Kill it with Fire VR",
+      "createdAt": "2026-11-27T03:29:47.049Z",
+      "version": "1.09",
+      "category": "game",
+      "posterUrl": "https://pegasus-dl.dev/api/posters/befa784304887359cdd6bce8ab9d20a5ed47f743793a085ee3378fc100338409",
+      "originalPosterUrl": "https://pegasus-dl.dev/api/posters/befa784304887359cdd6bce8ab9d20a5ed47f743793a085ee3378fc100338409",
+      "description": "Format: psvrps4\nThe good news: The VR version of Kill It With fire means the ultimate freedom to hunt and destroy mankind’s most ancient and deadly nemesis. You'll have more control than ever over how you take down the eight-legged menace. The bad news: It's SPIDERS. In VR. Don't say we didn't warn you. Look, we don't need to complicate things, here. There's somewhat of a \"\"spider problem\"\" in town, and as a licensed Kill It With Fire exterminator, YOU are the solution. But you're not going in alone. You've got a huge arsenal of weapons and technology to help you do a little bit of population control. And if there’s a little collatoral damage caused along the way? Well, it’s best to be SURE they're dead. Features: - Tons of unique weapons and equipment - Eight different spider species - “Realistic” fire simulation system - Gratuitous chaos and destruction - Dozens of optional objectives - Loads of hidden upgrades - Battle in the Arachno-Gauntlet! - A secret ending?!?! (...shh!)\nRegion: EUR\nFirmware: 10.xx+\nNotes: FW 10.50+ PSVR Required\nCredits: Me, Desesperado3!\nUpdated: 2026-11-26T23:45:50.719Z",
+      "downloadSource": "https://catalog.gfs-dlps.workers.dev/api/packages",
+      "downloadLinks": [
+        {
+          "name": "psvrps4 · Data",
+          "url": "https://datanodes.to/6fcjbb13agx8"
+        },
+        {
+          "name": "psvrps4 · Viki",
+          "url": "https://vikingfile.com/f/dIejJrQosh"
+        }
+      ],
+      "sizeBytes": 11811160064
+    },
+    {
+      "titleId": "CUSA34720",
+      "title": "Dropship Commander",
+      "createdAt": "2026-11-27T03:29:47.049Z",
+      "version": "1.02",
+      "category": "game",
+      "posterUrl": "https://pegasus-dl.dev/api/posters/54f2d170eba46bd1eeefe17dd429872521c5d666f9e3b0f65f8f4287081ed51f",
+      "originalPosterUrl": "https://pegasus-dl.dev/api/posters/54f2d170eba46bd1eeefe17dd429872521c5d666f9e3b0f65f8f4287081ed51f",
+      "description": "Format: psvrps4\nLand your dropship on settlements across the galaxy to bring much needed supplies to colonists and miners. Your job is to navigate through some of the harshest environments and successfully land on drop pads spread throughout each location. Each landing earns you points with the more difficult the drop, the more points you earn to take your spot on the leaderboards. You'll start off with some easy landings on the moon and then progress through the caves of Mars, the meteor zone of Mercury, the volcanic wasteland of Venus, the ice caves of Pluto and then on to the hazardous asteroid cluster GC-12.\nRegion: EUR\nFirmware: 8.xx+\nNotes: PSVR NOT required, although it looks cool!\nCredits: Me, Desesperado3!\nUpdated: 2026-11-26T23:44:03.211Z",
+      "downloadSource": "https://catalog.gfs-dlps.workers.dev/api/packages",
+      "downloadLinks": [
+        {
+          "name": "psvrps4 · Data",
+          "url": "https://datanodes.to/ockxxwg68791"
+        },
+        {
+          "name": "psvrps4 · Viki",
+          "url": "https://vikingfile.com/f/uXF8e9I5Ac"
+        }
+      ],
+      "sizeBytes": 8267812045
+    },
+    {
+      "titleId": "CUSA14068",
+      "title": "Cave Digger: Riches",
+      "createdAt": "2026-11-27T03:29:47.049Z",
+      "version": "1.11",
+      "category": "game",
+      "posterUrl": "https://pegasus-dl.dev/api/posters/dc0c9bed07040d976fe9f1a02dc754f5d43d621231d8a591bc610d54d9a28e69",
+      "originalPosterUrl": "https://pegasus-dl.dev/api/posters/dc0c9bed07040d976fe9f1a02dc754f5d43d621231d8a591bc610d54d9a28e69",
+      "description": "Format: psvrps4\nCave Digger is a mining adventure game, which takes place in a small town of an alternative Western universe full of mystery, dark humor and full of experimental tools for the brave miners! Outside of the saloon, a town in ruin awaits its savior! Fix the train to enter the mines and dig deeper than any miner before you. Features: -Explore the elevator shaft and four massive train levels full of mysteries, riches and strange happenings. Some fishy higher power seems to engulf the Frontier! -Build up the way to the mines by gearing up and upgrading your vehicle. But beware, the adventure can end in eight different ways depending on the actions and choices taken. -Meet a companion to help to carry the weight on your shoulders. -Go on a treasure hunt for hidden magical loot. -Item upgrades – technology advances in unimaginable ways, making mining more profitable! -28 achievements How much riches will be enough? Will you be able to stop? The answers to these questions will be found as you dig deeper! This product supports the following languages: English\nRegion: EUR\nFirmware: 6.xx+\nNotes: VR version of Cave Digger FW 6.50+ PSVR Required\nCredits: Me, Desesperado3!\nUpdated: 2026-11-26T23:41:16.342Z",
+      "downloadSource": "https://catalog.gfs-dlps.workers.dev/api/packages",
+      "downloadLinks": [
+        {
+          "name": "psvrps4 · Data",
+          "url": "https://datanodes.to/6eb0hmszv9e9"
+        },
+        {
+          "name": "psvrps4 · Viki",
+          "url": "https://vikingfile.com/f/citahMkDUf"
+        }
+      ],
+      "sizeBytes": 1610612736
+    },
+    {
+      "titleId": "CUSA01866",
+      "title": "Need for Speed 2015",
+      "createdAt": "2026-11-27T03:29:47.049Z",
+      "version": "1.08",
+      "category": "game",
+      "posterUrl": "https://pegasus-dl.dev/api/posters/1a972e4b96e560081a4eb3147ca48b85191132c561468229f80cf88f75a404c2",
+      "originalPosterUrl": "https://pegasus-dl.dev/api/posters/1a972e4b96e560081a4eb3147ca48b85191132c561468229f80cf88f75a404c2",
+      "description": "Format: ps4\nBecome the ultimate icon of today’s urban car culture in Need for Speed™, featuring Five Ways to Play and a huge open world to race and explore from dusk ‘till dawn. • FIVE WAYS TO PLAY – Earn reputation and master all Five Ways to Play - Speed, Style, Build, Crew and Outlaw - to win your own way. • RICH, AUTHENTIC CUSTOMIZATION – Customize your car and express your style with extensive visual modifications, performance upgrades and handling tuned to your specification. • REAL WORLD ICONS - Get inspired by the icons of today's urban car scene - Magnus Walker, Ken Block, Nakai-San, Risky Devil and Morohoshi-San. Need for Speed… Tonight We Ride. Need For Speed is an online game. An Internet connection speed of 192 Kbps or higher is required.\nRegion: EUR\nFirmware: 2.xx+\nNotes: This game cannot be played offline. Even though it currently doesn't have a patch, I still want to let out the game for anybody who wants to develop such patch, or directly a replicated \"EA server\" of some sorts\nCredits: Thank you, Doctor003!\nUpdated: 2026-11-26T23:37:26.469Z",
+      "downloadSource": "https://catalog.gfs-dlps.workers.dev/api/packages",
+      "downloadLinks": [
+        {
+          "name": "ps4 · Data",
+          "url": "https://datanodes.to/zkjmtfh95dlq"
+        },
+        {
+          "name": "ps4 · Viki",
+          "url": "https://vikingfile.com/f/O3VeahkO7D"
+        }
+      ],
+      "sizeBytes": 22548578304
+    },
+    {
+      "titleId": "CUSA06505",
+      "title": "Industry Giant 2",
+      "createdAt": "2026-11-27T03:29:47.049Z",
+      "version": "1.02",
+      "category": "game",
+      "posterUrl": "https://pegasus-dl.dev/api/posters/6f9b327d4cb5c52565d3263b89cbca57678af4fb6399d57f7d6612a13b28cc08",
+      "originalPosterUrl": "https://pegasus-dl.dev/api/posters/6f9b327d4cb5c52565d3263b89cbca57678af4fb6399d57f7d6612a13b28cc08",
+      "description": "Format: ps4\nEconomic booms, stock market crashes, oil crises, upswings, triumphs... Now you can become the greatest power in industry! Begin in the year 1900 with little money but large ambitions and through skillful decision-making you can build up an enormous business empire. Make critical decisions which products you should manufacture, where to gather the best raw materials, where to sell them and how to effectively transport them there. It's your choice whether you start out as a small-time fruit-growing farmer with a little orchard and retire as the owner of the biggest foodstuff empire around, or end up owning a multinational conglomerate with a vast portfolio of products. Features • Simple creation of factories and transport routes • Over 150 real products from the 20th century • More than 50 different vehicles • Historical happenings like the magazine boom or prohibition • Intelligent city growth – from small village to a huge town • Campaign mode with 14 missions for beginners and pros Additional hardware required for Remote Play. 1 player 2GB minimum save size DUALSHOCK®4 Remote Play Software subject to license (us.playstation.com/softwarelicense). Online features require an account and are subject to terms of service and applicable privacy policy (playstationnetwork.com/terms-of-service &amp; playstationnetwork.com/privacy-policy). One-time license fee for play on account’s designated primary PS4™ system and other PS4™ systems when signed in with that account. Industry Giant 2 ©2016 UIG Entertainment GmbH. Published by UIG Entertainment. Developed by Reactor Games. All Rights Reserved.\nRegion: EU\nFirmware: 3.xx+\nNotes: Make sure you install the game first and then the DLC!\nCredits: Thank you, Xan!\nUpdated: 2026-11-26T23:34:47.949Z",
+      "downloadSource": "https://catalog.gfs-dlps.workers.dev/api/packages",
+      "downloadLinks": [
+        {
+          "name": "ps4 · Viki",
+          "url": "https://vikingfile.com/f/o5Ex1kZ49k"
+        },
+        {
+          "name": "ps4 · Data",
+          "url": "https://datanodes.to/ul34fkto29mf"
+        },
+        {
+          "name": "ps4 · Viki",
+          "url": "https://vikingfile.com/f/HIs9h5M7c5"
+        }
+      ],
+      "sizeBytes": 1127428915
+    },
+    {
+      "titleId": "CUSA37189",
+      "title": "Save Room",
+      "createdAt": "2026-11-27T03:29:47.049Z",
+      "version": "1.0",
+      "category": "game",
+      "posterUrl": "https://pegasus-dl.dev/api/posters/4bbcf628a21d9fa8de8e24efae8570c7d95f18ae49bf7039a82e93c8c1cddbcc",
+      "originalPosterUrl": "https://pegasus-dl.dev/api/posters/4bbcf628a21d9fa8de8e24efae8570c7d95f18ae49bf7039a82e93c8c1cddbcc",
+      "description": "Format: ps4\nWhen you enter a Save Room you know you are safe, no danger can come to you, you can relax. Take advantage of this short period of time to organize your inventory, heal your wounds and reload your weapons. Can you make all the items fit in your inventory? Save Room is an organizational puzzle about arranging your inventory of weapons, ammo, and other items to fit in your inventory. FEATURES * Inventory management puzzle * Limited space for weapons and items * 40 different puzzles If you already own the PS4™ version of this game, you can get the PS5™ digital version at no extra cost and you do not need to purchase this product. Owners of a PS4™ disc copy must insert it into the PS5™ every time they want to download or play the PS5™ digital version. PS4™ game disc owners who buy the PS5™ Digital Edition disc-free console will not be able to get the PS5™ version at no extra cost.\nRegion: EUR\nFirmware: 9.xx+\nNotes: FW 9.50+\nCredits: Me, Desesperado3!\nUpdated: 2026-11-26T23:32:15.479Z",
+      "downloadSource": "https://catalog.gfs-dlps.workers.dev/api/packages",
+      "downloadLinks": [
+        {
+          "name": "ps4 · Data",
+          "url": "https://datanodes.to/diwuz5p7hv50"
+        },
+        {
+          "name": "ps4 · Viki",
+          "url": "https://vikingfile.com/f/BXBdPYPoPd"
+        }
+      ],
+      "sizeBytes": 597000454
+    },
+    {
+      "titleId": "CUSA34949",
+      "title": "Unusual Findings",
+      "createdAt": "2026-11-27T03:29:47.049Z",
+      "version": "1.06",
+      "category": "game",
+      "posterUrl": "https://pegasus-dl.dev/api/posters/b9279f6d2c1eb75e0c390714eded1a9b26fd74eb320a4bdf4fe5dc0808d03b13",
+      "originalPosterUrl": "https://pegasus-dl.dev/api/posters/b9279f6d2c1eb75e0c390714eded1a9b26fd74eb320a4bdf4fe5dc0808d03b13",
+      "description": "Format: ps4\nIt’s the 80s and the Christmas is coming, Vinny, Nick and Tony are young and their new cable signal descrambler just arrived. That same night while trying to decrypt a pay per view adult channel, they pick up the distress signal of an alien spaceship crash-landing in the woods near their town… Things only get weirder as they realize that the towering alien is killing very specific members of their community! Explore the world oozing with nostalgia, check the Video Buster Store for clues, challenge other kids at the Laser Llamas Arcades, go learn a new trick at The Emerald Sword comic store, try to get along with the punk looking Lost Guys at their hideout or even dare to ask THE BULL, the quintessential 80s Action hero, for some help! Follow the story that pays tribute to 80s classics like The Goonies, The Explorers, Monster Squad, The Lost Boys, They Live, Terminator, and Aliens among others and a gameplay that combines mechanics of Point and Click masterpieces like Full Throttle with its own unique twist and more. Your decisions do matter, and the way you make these three friends interact with each other increasingly affects their friendship and the whole story, changing the way they solve the game puzzles, the locations they visit, the answers they find, the story, everything. Uncover the truth hidden behind the alien invasion… well sort of. Why here? Why is it killing locals? How can the boys stop it? Will they tune in the adult channel after all? The answers to these and other questions… in Unusual Findings. Key Features: Follow the Sci-Fi coming-of-age story. Three friends fighting together against the unknown… things (maybe against some known things too). Classic Point and Click Mechanics. See, Grab and Talk action tokens, an inventory to use and combine items and your wits it’s all you need to play. Choices and consequences. The decisions you make affect the relations between characters and thus the puzzles, the game progression and the story. All the flavors of the 80s in a single game, go back to a simpler time where mix tapes where a thing, Commodore 64 was a king, kids could play outside late at night and the only thing to worry about was THE GIANT KILLER ALIEN TRYING TO GET YOU AND YOUR FRIENDS. The most radical music a synthesizer can play. Cool popular Synthwave Music alongside catchy tunes made exclusively for the game to power up the 80s vibes. Stylized Pixel Art. All the charm of pixel art of the past with more colors and the new effects of the future. Some pixels look so real they can almost jump out of the screen* *The pixels do not actually jump out of the screen, In case you actually see a pixel jumping out the screen please visit an ophthalmologist... or/and look for psychological help.\nRegion: EUR\nFirmware: 12.xx+\nNotes: FW 12.50+\nCredits: Thank you, Doctor003!\nUpdated: 2026-11-26T23:29:07.053Z",
+      "downloadSource": "https://catalog.gfs-dlps.workers.dev/api/packages",
+      "downloadLinks": [
+        {
+          "name": "ps4 · Data",
+          "url": "https://datanodes.to/47hnd40rvzqn"
+        },
+        {
+          "name": "ps4 · Viki",
+          "url": "https://vikingfile.com/f/MepT0Xtvgk"
+        }
+      ],
+      "sizeBytes": 3221225472
+    },
+    {
+      "titleId": "CUSA26218",
+      "title": "Baobabs Mausoleum Grindhouse Edition",
+      "createdAt": "2026-11-27T03:29:47.049Z",
+      "version": "1.03",
+      "category": "game",
+      "posterUrl": "https://pegasus-dl.dev/api/posters/222709fd0f36e10290f79c25a1547c682d41c7276399a7a5e94757f27cd9c7a3",
+      "originalPosterUrl": "https://pegasus-dl.dev/api/posters/222709fd0f36e10290f79c25a1547c682d41c7276399a7a5e94757f27cd9c7a3",
+      "description": "Format: ps4\nFollow Watracio Walpurgis, our fresh eggplant FBI agent, in this arc of three chapters that unifies the universe of Celery Emblem’s Jacob Jazz on the ultimate Baobabs Masoleum Grindhouse Edition. Go crazy in this 8-bit retro adventure set in Flamingo's Creek, a ghost town that only appears every 25 years on the Albatro’s Road and immerse yourself in the most out-of-touch, alienated neighborhood community you will ever know. Steal, fight, negotiate, solve puzzles... Anything goes to find Daphne and get out of that cursed town that will be kept, forever, inside your brain as one of the selected nightmares ever created.\nRegion: US\nFirmware: 8.xx+\nCredits: Thank you, Xan!\nUpdated: 2026-11-26T23:24:29.018Z",
+      "downloadSource": "https://catalog.gfs-dlps.workers.dev/api/packages",
+      "downloadLinks": [
+        {
+          "name": "ps4 · Viki",
+          "url": "https://vikingfile.com/f/T6wxCq9lQ6"
+        },
+        {
+          "name": "ps4 · Data",
+          "url": "https://datanodes.to/iiakp8lbtxmz"
+        },
+        {
+          "name": "ps4 · Viki",
+          "url": "https://vikingfile.com/f/hYrq66V3zB"
+        }
+      ],
+      "sizeBytes": 794568950
+    },
+    {
+      "titleId": "CUSA06510",
+      "title": "The Little Acre",
+      "createdAt": "2026-11-27T03:29:47.049Z",
+      "version": "1.01",
+      "category": "game",
+      "posterUrl": "https://pegasus-dl.dev/api/posters/d867cf390da3c8530e5b36453223d50381f684b2238b448b7568384ab3080406",
+      "originalPosterUrl": "https://pegasus-dl.dev/api/posters/d867cf390da3c8530e5b36453223d50381f684b2238b448b7568384ab3080406",
+      "description": "Format: ps4\nThe Little Acre follows the story of Aidan and his daughter, Lily, set in 1950’s Ireland. After discovering clues as to the whereabouts of his missing father, Aidan begins investigating until he inadvertently finds himself transported to a strange new world. Ever the hero, Lily sets off after him, encountering her own perils along the way. Featuring full voice-acting and hand-drawn animation, The Little Acre is a memorable, lovingly crafted adventure game. Features: • Two playable characters • Traditional hand-drawn animation • Unique perspective transitions • Beautiful original score • Fully voice acted Additional hardware required for Remote Play.\nRegion: EUR\nFirmware: 3.xx+\nCredits: Thank you, Doctor003!\nUpdated: 2026-11-26T23:19:05.741Z",
+      "downloadSource": "https://catalog.gfs-dlps.workers.dev/api/packages",
+      "downloadLinks": [
+        {
+          "name": "ps4 · Data",
+          "url": "https://datanodes.to/criibqabg84m"
+        },
+        {
+          "name": "ps4 · Viki",
+          "url": "https://vikingfile.com/f/M1u37Bgsm5"
+        }
+      ],
+      "sizeBytes": 5368709120
+    },
+    {
+      "titleId": "CUSA29629",
+      "title": "Castle on the Coast",
+      "createdAt": "2026-11-27T03:29:47.049Z",
+      "version": "1.01",
+      "category": "game",
+      "posterUrl": "https://pegasus-dl.dev/api/posters/a005da879369fc91c7ccbf0e9649bb6138a8afb779529cd5a1e2aed2c1910ea8",
+      "originalPosterUrl": "https://pegasus-dl.dev/api/posters/a005da879369fc91c7ccbf0e9649bb6138a8afb779529cd5a1e2aed2c1910ea8",
+      "description": "Format: ps4\nCastle on the Coast is a bedazzling collectathon arcade platformer. George, a friendly giraffe, parkours through challenging levels full of crystal caverns, stone-laden halls, and trippy alternate dimensions, trying to bring together a family of the two powerful, conflicted wizards. In the co-op mode, he can use help from his squirrel friend called Swirlz. Thanks to cooperation mode, even the youngest gamers will be able to enjoy George’s adventures, playing together with their friends or their sitters. Besides all the arcade fun, Castle on the Coast offers a more serious, moral angle. It will touch upon dealing with loss, conflict, and loving your enemies. VALLEY CHILDREN’S HOSPITAL George the Giraffe is the official mascot of Valley Children’s Hospital in California. George has symbolized the love and care found at Valley Children’s there for nearly seven decades. “Adopted” as the hospital’s mascot by its five founding mothers, a giraffe was chosen because they have the largest heart of any land mammal. And that heart is present in the care provided at Valley Children’s every single day. Now, thanks to the cooperation between Valley Children’s, Big Heart Productions, and Klabater, the beloved giraffe will debut in a video game! A magic castle entrenched in conflict. Help George explore the magical Castle on the Coast, home to crystal caverns, stone-laden halls, and trippy alternate dimensions. Seamlessly wander from level to level with no loading screens in a large, interconnected world. All is not well in this land, however. Two powerful wizards bear a grudge against their fellow orphans. Can George bring this family back together again, or will he just get in the way? A cute giraffe with XTREME PARKOUR POWERS!? This giraffe can get anywhere, anytime! String together wall runs, wall jumps, spins, dives, rolls, and more with responsive controls. Carve new paths through levels in a quest to frustrate level designers. When cool moves aren't enough, don a jetpack or a rocket-powered car to reach new heights. A 3D collectathon Shove a plethora of goodies down your pockets as you explore! Flowers unlock new costumes, star keys open doors, and keystones... those unlock the looming central tower... A nutty sidekick joins the mix. Player 2 can control George's sidekick: Swirlz, the flying squirrel! Create helpful springy flowers, blast enemies with magic, or become a living parachute to show George's descent. When George and Swirlz work together, nothing is impossible!\nRegion: EUR\nFirmware: 8.xx+\nNotes: FW 8.50+\nCredits: Me, Desesperado3!\nUpdated: 2026-11-26T23:12:09.341Z",
+      "downloadSource": "https://catalog.gfs-dlps.workers.dev/api/packages",
+      "downloadLinks": [
+        {
+          "name": "ps4 · Data",
+          "url": "https://datanodes.to/ig3fh3enh5bq"
+        },
+        {
+          "name": "ps4 · Viki",
+          "url": "https://vikingfile.com/f/gxZTTKaYqC"
+        }
+      ],
+      "sizeBytes": 1610612736
+    },
+    {
+      "titleId": "CUSA31225",
+      "title": "Whiskey Mafia: Leo's Family",
+      "createdAt": "2026-11-27T03:29:47.049Z",
+      "version": "1.02",
+      "category": "game",
+      "posterUrl": "https://pegasus-dl.dev/api/posters/24e298c090967f528cea22de29ca03e25afa87aab8e1a8e23bcd46fd85a4ebc7",
+      "originalPosterUrl": "https://pegasus-dl.dev/api/posters/24e298c090967f528cea22de29ca03e25afa87aab8e1a8e23bcd46fd85a4ebc7",
+      "description": "Format: ps4\nWhiskey, mafia and jazz — these are the key ingredients of a cocktail named Whiskey Mafia: Leo’s Family. This game serves as a prequel to Whiskey Mafia: Frank's Story and tells a story of Leo’s criminal group who takes part in different illegal activities. A humble guy named Christopher, the son of a port worker, finds himself as the newest mafia member. Can he make his American dream come true? This is not just another mafia game — it’s a huge story inspired by the popular cult movies and mafia dramas. You’ll get the feeling of what it is to be a gangster in the 1920s who was to do different criminal stuff: from carjacking to bootlegging. There’s also some nostalgic feeling of the 20’s to be found within the game — great mafia setting guaranteed!\nRegion: EUR\nFirmware: 8.xx+\nNotes: FW 8.50+\nCredits: Thank you, Doctor003!\nUpdated: 2026-11-26T23:07:38.567Z",
+      "downloadSource": "https://catalog.gfs-dlps.workers.dev/api/packages",
+      "downloadLinks": [
+        {
+          "name": "ps4 · Data",
+          "url": "https://datanodes.to/ttyrfsh5ozs4"
+        },
+        {
+          "name": "ps4 · Viki",
+          "url": "https://vikingfile.com/f/shbt03KLcK"
+        }
+      ],
+      "sizeBytes": 536870912
+    },
+    {
+      "titleId": "CUSA53327",
+      "title": "Kawaii Puzzle Quest",
+      "createdAt": "2026-11-27T03:29:47.049Z",
+      "version": "1.05",
+      "category": "game",
+      "posterUrl": "https://pegasus-dl.dev/api/posters/4f00e465e247fa21502c6534282f68e18e9afe71107fa650b7faee5826b07945",
+      "originalPosterUrl": "https://pegasus-dl.dev/api/posters/4f00e465e247fa21502c6534282f68e18e9afe71107fa650b7faee5826b07945",
+      "description": "Format: ps4\nStep into the enchanting world of Kawaii Puzzle Quest and discover more than just a challenge at each level—unveil stunning anime-style visuals! In this grid-based puzzle game, you must strategically paint areas to reveal beautiful images featuring anime girls and unique scenes. Progress through six exciting chapters, each with its own distinctive theme, and conquer increasingly difficult levels. As you navigate the intricate grids, use your wits to avoid deadly traps, outmaneuver randomly moving enemies, escape foes that follow specific paths, and defeat bosses that reopen the areas you’ve closed. Be mindful of hazardous zones blocking your path and slow-moving areas that can hinder your progress. To aid your strategy, you’ll have access to three powerful boosters: extra lives, speed boosts, and enemy slow-downs. Using these wisely is key to overcoming challenges and advancing through the game. Quick thinking and precise moves are essential to unlocking every anime-style visual, making every moment of the game addictive and enjoyable. Dodging enemy traps and maneuvering through dangerous areas are just a few of the thrilling adventures awaiting you in Kawaii Puzzle Quest. With gorgeous anime art, strategic gameplay, and endless fun, this game delivers an unforgettable puzzle experience!\nRegion: USA\nFirmware: 12.xx+\nNotes: Gotta include DLCs\nCredits: Thank you, Xan!\nUpdated: 2026-11-26T23:04:14.818Z",
+      "downloadSource": "https://catalog.gfs-dlps.workers.dev/api/packages",
+      "downloadLinks": [
+        {
+          "name": "ps4 · Viki",
+          "url": "https://vikingfile.com/f/v4zS4AodKs"
+        },
+        {
+          "name": "ps4 · Data",
+          "url": "https://datanodes.to/x3ub3wpo08wx"
+        },
+        {
+          "name": "ps4 · Viki",
+          "url": "https://vikingfile.com/f/WFQ6859Pa5"
+        }
+      ],
+      "sizeBytes": 2287070085
+    },
+    {
+      "titleId": "CUSA46874",
+      "title": "Froggy Bouncing Adventures",
+      "createdAt": "2026-11-27T03:29:47.049Z",
+      "version": "1.0",
+      "category": "game",
+      "posterUrl": "https://pegasus-dl.dev/api/posters/752eb153f7647e4fa6fc1060fcaa12f64d98c56994a00447b9c3a22f2c329a86",
+      "originalPosterUrl": "https://pegasus-dl.dev/api/posters/752eb153f7647e4fa6fc1060fcaa12f64d98c56994a00447b9c3a22f2c329a86",
+      "description": "Format: ps4\nFroggy Bouncing Adventures is a cute, miniature puzzle platformer starring the eponymous Froggy the Frog. When Froggy’s buddy, Buzzy, disappears through a mysterious portal, it’s up to our amphibian hero to come to his friend’s rescue. Get ready for 60 levels of jumping and dashing, accompanied by a cozy aesthetic with colorful pixel art and relaxing music. Froggy will need to travel four different biomes with your help! Can you brave through each level and rescue Buzzy? How many hats can you unlock? Features: * 60 levels split in 4 different biomes * Pick coins and unlock up to 20 hats for Froggy * Two difficulty modes, includes checkpoints for easy mode * Mix of 2D and 3D pixel art aesthetic * 2D puzzle platformer gameplay If you already own the PS4® version of this game, you can get the PS5® digital version at no extra cost and you do not need to purchase this product. Owners of a PS4® disc copy must insert it into the PS5® every time they want to download or play the PS5® digital version. PS4® game disc owners who buy the PS5® Digital Edition disc-free console will not be able to get the PS5® version at no extra cost.\nRegion: EUR\nFirmware: 11.xx+\nCredits: Me, Desesperado3!\nUpdated: 2026-11-26T22:57:53.685Z",
+      "downloadSource": "https://catalog.gfs-dlps.workers.dev/api/packages",
+      "downloadLinks": [
+        {
+          "name": "ps4 · Data",
+          "url": "https://datanodes.to/7sa0xi90i5lg"
+        },
+        {
+          "name": "ps4 · Viki",
+          "url": "https://vikingfile.com/f/ysQ79MaCwd"
+        }
+      ],
+      "sizeBytes": 119185342
+    },
+    {
+      "titleId": "CUSA55014",
+      "title": "Frame Cat",
+      "createdAt": "2026-11-27T03:29:47.049Z",
+      "version": "1.0",
+      "category": "game",
+      "posterUrl": "https://pegasus-dl.dev/api/posters/9916c3aa5d181d967614022184737055ec91ceaf9a02273fe5345e1fbc23ff9d",
+      "originalPosterUrl": "https://pegasus-dl.dev/api/posters/9916c3aa5d181d967614022184737055ec91ceaf9a02273fe5345e1fbc23ff9d",
+      "description": "Format: ps4\nIn this retro-style platformer, play as Catherine, a witch and tomb raider caught in a cursed dimension after stealing a forbidden artifact. Blast enemies with magic fireballs, solve puzzles, and escape the clutches of the Cat Demon across 15 pixel-perfect levels inspired by ‘90s classics. This product entitles you to download both the digital PS4® version and the digital PS5® version of this game. If you already own the PS4® version of this game, you can get the PS5® digital version at no extra cost and you do not need to purchase this product. Owners of a PS4® disc copy must insert it into the PS5® every time they want to download or play the PS5® digital version. PS4® game disc owners who buy the PS5® Digital Edition disc-free console will not be able to get the PS5® version at no extra cost.\nRegion: EUR\nFirmware: 12.xx+\nCredits: Me, Desesperado3!\nUpdated: 2026-11-26T22:55:45.892Z",
+      "downloadSource": "https://catalog.gfs-dlps.workers.dev/api/packages",
+      "downloadLinks": [
+        {
+          "name": "ps4 · Data",
+          "url": "https://datanodes.to/wulg0zoo4f3u"
+        },
+        {
+          "name": "ps4 · Viki",
+          "url": "https://vikingfile.com/f/PhbwrQfHOW"
+        }
+      ],
+      "sizeBytes": 42949673
+    },
+    {
+      "titleId": "CUSA02650",
+      "title": "Goosebumps: The Game",
+      "createdAt": "2026-11-27T03:29:47.049Z",
+      "version": "1.02",
+      "category": "game",
+      "posterUrl": "https://pegasus-dl.dev/api/posters/7276c8580247e3a4ff00bf45d0391a3f9c1d09ce404de6f864034d84da5cf4eb",
+      "originalPosterUrl": "https://pegasus-dl.dev/api/posters/47aa37e8de6a1d8f6dbc7b14a2db48909c45150941034d0c7075e897a301c6f3",
+      "description": "Format: ps4\nToday's walk home is going to be spookier than usual... Your quiet neighborhood is infested with monsters! Werewolves prowl the woods, gnomes wander the streets, and scarecrows walk the streets at midnight. But these aren't ordinary monsters... they're R. L. Stine's famous monsters, unleashed from their books and intent on causing chaos. You'll have to use your wits to investigate the surrounding area, find clues, and outsmart the monsters before it's too late. Survive a long journey through the neighborhood. Solve the mysteries of the Haunted House and sneak into the mall at night; only then can you confront Slappy and stop his plans for revenge!\nRegion: EUR\nFirmware: 2.xx+\nCredits: Thank you, Doctor003!\nUpdated: 2026-11-26T22:52:40.345Z",
+      "downloadSource": "https://catalog.gfs-dlps.workers.dev/api/packages",
+      "downloadLinks": [
+        {
+          "name": "ps4 · Data",
+          "url": "https://datanodes.to/fg3447p9bnis"
+        },
+        {
+          "name": "ps4 · Viki",
+          "url": "https://vikingfile.com/f/iM0gmo9cgM"
+        }
+      ],
+      "sizeBytes": 483183821
+    },
+    {
+      "titleId": "CUSA29136",
+      "title": "Freddy Spaghetti 2",
+      "createdAt": "2026-11-27T03:29:47.049Z",
+      "version": "1.0",
+      "category": "game",
+      "posterUrl": "https://pegasus-dl.dev/api/posters/6f435cac618f06aa3d617eeab2a9bd43f734e6f43110b70f555c987d66cee86b",
+      "originalPosterUrl": "https://pegasus-dl.dev/api/posters/6f435cac618f06aa3d617eeab2a9bd43f734e6f43110b70f555c987d66cee86b",
+      "description": "Format: ps4\nFreddy 2.0 is here! Freddy is spaghetti. Oh, and conscious. Freddy 2.0 has got a job! The story starts as you plunge headfirst into the workplace. Overcome the environment, master your spaghetti and run to the coffee machine! Don’t be late on your first day! Freddy Spaghetti uses rope physics to simulate a squishy, stretchy, ropey character. Features * Fun and Easy Controls * Physics all over the place * Unique Levels * Hilarious and Captivating Story * Professional Narration * Heaps of Personality If you already own the PS4™ version of this game, you can get the PS5™ digital version at no extra cost and you do not need to purchase this product. Owners of a PS4™ disc copy must insert it into the PS5™ every time they want to download or play the PS5™ digital version. PS4™ game disc owners who buy the PS5™ Digital Edition disc-free console will not be able to get the PS5™ version at no extra cost.\nRegion: EUR\nFirmware: 8.xx+\nCredits: Thank you, Doctor003!\nUpdated: 2026-11-26T22:49:09.740Z",
+      "downloadSource": "https://catalog.gfs-dlps.workers.dev/api/packages",
+      "downloadLinks": [
+        {
+          "name": "ps4 · Data",
+          "url": "https://datanodes.to/nrcczjgab0xp"
+        },
+        {
+          "name": "ps4 · Viki",
+          "url": "https://vikingfile.com/f/zs5qWojfn6"
+        }
+      ],
+      "sizeBytes": 406948151
+    },
+    {
       "titleId": "PPSA09518",
       "title": "WUCHANG: Fallen Feathers",
       "createdAt": "2026-11-26T02:39:45.783Z",
@@ -7362,7 +7752,7 @@
       "createdAt": "2026-10-30T22:38:21.178Z",
       "version": "01.000",
       "category": "game",
-      "posterUrl": "https://cdn.prosperopatches.com/titles/PPSA24249_16f6978ace1bb1247be8ebd750ee6f0ef9cb2c4f9b76cb0a25d9033cd5700ca2/icon0.webp",
+      "posterUrl": "https://pegasus-dl.dev/api/posters/7e261f62ff6faa4135f22d7a1b6e7181f536dbc13a5ffb210ebe6b7f2d5329bd",
       "description": "Format: FPKG\nBrave the harsh realities of the Italian late medieval period through the eyes of a courageous noble whose life is about to change fundamentally. Follow Aeta (Alby Baldwin), a young knight errant, on a brutal journey through Italy to find and save her closest one, Bianca (Jennifer English). 1348 Ex Voto is a thrilling 3rd-person action-adventure game inspired by classics of the genre and chivalric story tropes. 1348, a tumultuous Medieval Italy Discover a 14th-century-inspired Italy, a cradle of political strife and rural exodus. Banditry, mercenaries, and religious zealots run amok while pestilence festers in the countryside and cities. Inspired by Historical European Martial Arts Experience thrilling sword fighting in cinematic combat inspired by Historical European Martial Arts and animated with the help of trained Performance Capture actors. Use Aeta’s martial knowledge to surprise and overcome your enemies by strategically choosing between 2 different combat stances, one and two-handed. Find skill books throughout your adventure to unlock new combos and personalize Aeta’s swordplay with different weapon parts. A ravaged yet magnificent Italy From medieval villages to castles and the beautiful grassy mountainside of the Appennino to the remnants of classical Rome, explore a magnificent 14th-century Italy through the eyes of a knight-errant. Search your surroundings to stumble upon trinkets &amp; treasures to complete your collection. “Bianca, you are all that is left to me… I shall save you. This, I vow.”\nRegion: EUR\nFirmware: 4.xx+\nUpdated: 2026-10-30T22:00:04.304Z",
       "downloadSource": "https://catalog.gfs-dlps.workers.dev/api/packages",
       "downloadLinks": [
@@ -8358,7 +8748,7 @@
       "createdAt": "2026-10-30T18:34:32.791Z",
       "version": "01.000",
       "category": "game",
-      "posterUrl": "https://cdn.prosperopatches.com/titles/PPSA20928_b580eea605ca37c02abb039703d222f71d140302fcb98a906a48aeef10441acb/icon0.webp",
+      "posterUrl": "https://pegasus-dl.dev/api/posters/0e4bdca6f536b40e14f779d97f0b9662a413c4a0829693fe6006fd5b4e90f749",
       "description": "Format: FPKG\nExperience Jak and Daxter™: The Precursor Legacy originally released on the PlayStation®2 console, enhanced with up-rendering, rewind, quick save, and custom video filters. Enter a world of magic, adventure, exploration, and discovery where enormous vistas and endearing characters lead you to places beyond your imagination. Test your wits and your skills as you embark on a journey to reverse your best friend’s transformation into a furry Ottsel, even as he entangles you in his amusing antics. Discover twisted corruption and battle the sinister minds behind this chilling plot. Light Eco. Precursor Technology. Power Cells. Dark Eco. What does it all mean? Only one person holds the secret behind the power of the mysterious Eco. Together you must now take on these endeavors.\nRegion: USA\nFirmware: 4.xx+\nUpdated: 2026-10-30T18:23:49.931Z",
       "downloadSource": "https://catalog.gfs-dlps.workers.dev/api/packages",
       "downloadLinks": [

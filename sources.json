@@ -1,7 +1,7 @@
 {
   "name": "AICyberGuardian PS5 Catalogs Hub",
   "version": "1.1.0",
-  "generatedAt": "2026-11-26T22:51:10Z",
+  "generatedAt": "2026-11-27T04:50:29Z",
   "rawBase": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "name": "DLPSGame",
       "url": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs/dlps.json",
       "items": 2034,
-      "sha256": "29646793c9b5c755d9a1598c1116b7a736d97289437695685165aa32266237a7",
+      "sha256": "0e4fb880b0b5bb49e81460d0e3fa700bfa7e6e29ab9ee9d6910a727969dbba64",
       "upstream": "https://pegasus-dl.dev/catalogs/dlps.json"
     },
     {
@@ -25,15 +25,15 @@
       "name": "Pippo .exFAT",
       "url": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs/pippo.json",
       "items": 978,
-      "sha256": "e704252192abe8cb5866378448a6c6ed15ce90b4c6321b9653dc7a9af57ade18",
+      "sha256": "4595fd89debab0750c053cab6088e2064df5aaebaf822a75ac0ef3a76c190e9a",
       "upstream": "https://pegasus-dl.dev/catalogs/pippo.json"
     },
     {
       "id": "pfs-catalog",
       "name": "PFS Direct Rips",
       "url": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs/pfs.json",
-      "items": 1114,
-      "sha256": "df67b2ccb774dc02ffe3c04cb9c911771b88fff8ed347a529c8279eb718f82a2",
+      "items": 1131,
+      "sha256": "3e9e36f648c56fc0a18fa6e72ed8133860031bfe885f661e66ea432fe93a9e48",
       "upstream": "https://pegasus-dl.dev/catalogs/pfs.json"
     },
     {
@@ -66,8 +66,8 @@
       "id": "prosperostore",
       "name": "ProsperoStore",
       "url": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs/prosperostore.json",
-      "items": 231,
-      "sha256": "270737f063f0088d26b972612acd4a647e7bf243d2f7f0c72a8d22d511eba1bd",
+      "items": 232,
+      "sha256": "ebab2bc262131358af72c5c9a70d5f0d76e3e88054f795ac650c36d77b3dc96d",
       "upstream": "https://prosperostore.net/catalog/v1.json",
       "consumer": "prospero-native"
     },
