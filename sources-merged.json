@@ -2,7 +2,7 @@
   "name": "AICyberGuardian PS5 Catalogs Hub - Merged (concise single-URL catalogs)",
   "version": "1.0.0",
   "note": "Use ONE of: the 7 individual game feeds in sources-games.json OR games-merged.json. Using both re-ingests the same data. homebrew-merged is a mirror (not a PS5 Library source).",
-  "generatedAt": "2026-11-27T14:46:03Z",
+  "generatedAt": "2026-11-27T23:15:27Z",
   "rawBase": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs",
   "sources": [
     {
@@ -27,9 +27,9 @@
       "id": "homebrew-merged",
       "name": "Homebrew merged (one entry per repo)",
       "url": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs/homebrew-merged.json",
-      "items": 477,
-      "bytes": 362897,
-      "sha256": "73bdb9b38b9de793e3b295c342a2f6e5258ba26b6602d269b02e61927fbefc8c",
+      "items": 478,
+      "bytes": 363809,
+      "sha256": "d034594f3d8b790eac0adda1ee638e860f95aba984b301700fd489dd8de59084",
       "consumer": "mirror-only",
       "replaces": [
         "prosperostore",
@@ -43,9 +43,9 @@
       "id": "payloads-merged",
       "name": "Payloads merged (Payload Manager format)",
       "url": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs/payloads-merged.json",
-      "items": 141,
-      "bytes": 83408,
-      "sha256": "d5a62d8e1368171bcf54c8e150361f931d0b6171d38045e989631dd715248afe",
+      "items": 140,
+      "bytes": 82987,
+      "sha256": "a8bf6fd3bdeeee818f34c2eb630b6fe0d0bf3252c634eff794ab7913da9feb15",
       "consumer": "payload-manager",
       "replaces": [
         "ps5-payloads-atlas",

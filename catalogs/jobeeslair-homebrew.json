@@ -1,7 +1,7 @@
 {
   "name": "Jobee'sLair Homebrew (adapted)",
   "version": "1.0.0",
-  "generatedAt": "2026-11-27T14:46:01Z",
+  "generatedAt": "2026-11-27T23:15:25Z",
   "source": "https://raw.githubusercontent.com/JVK3R/JobeesLair-Homebrew/main/index.json",
   "packages": [
     {
@@ -137,20 +137,20 @@
     {
       "titleId": "HBSUB0X00001OCTET",
       "title": "octet",
-      "version": "v2.1.0-rc1",
+      "version": "v2.1.0",
       "category": "controllers",
       "posterUrl": "",
       "originalPosterUrl": "",
-      "description": "8BitDo Ultimate 2C and 8BitDo USB Wireless Adapter 2 as extra DualSense pads on a jailbroken PS5 (tested on 13.60). Also any Bluetooth pad through the adapter (DualSense, Switch Pro, GameSir G8...), wired XInput and Switch Pro on USB. Rumble in PS4 games, up to 4 pads, settings page. Formerly padbri",
+      "description": "8BitDo Ultimate 2C and 8BitDo USB Wireless Adapter 2 as extra DualSense pads on a jailbroken PS5 (tested on 13.60). Also any Bluetooth pad through the adapter (DualSense, Switch Pro, GameSir G8...), Xbox 360 Wireless Receiver (pad or wheel), wired XInput and Switch Pro on USB. Rumble in PS4 games, u",
       "downloadSource": "https://github.com/sub0x00001/octet",
       "downloadLinks": [
         {
           "name": "octet-2.1.0.elf (payload)",
-          "url": "https://github.com/sub0x00001/octet/releases/download/v2.1.0-rc1/octet-2.1.0.elf"
+          "url": "https://github.com/sub0x00001/octet/releases/download/v2.1.0/octet-2.1.0.elf"
         },
         {
           "name": "octet-probe.elf (payload)",
-          "url": "https://github.com/sub0x00001/octet/releases/download/v2.1.0-rc1/octet-probe.elf"
+          "url": "https://github.com/sub0x00001/octet/releases/download/v2.1.0/octet-probe.elf"
         }
       ],
       "author": "sub0x00001",
@@ -1637,7 +1637,7 @@
     {
       "titleId": "HBPHANTOMPTRPS5UPL",
       "title": "ps5upload",
-      "version": "v12.6.38",
+      "version": "v12.6.43",
       "category": "files",
       "posterUrl": "https://raw.githubusercontent.com/phantomptr/ps5upload/main/branding/png/icon-1024.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/phantomptr/ps5upload/main/logo.png",
@@ -1645,8 +1645,8 @@
       "downloadSource": "https://github.com/phantomptr/ps5upload",
       "downloadLinks": [
         {
-          "name": "ps5upload-12.6.38.elf (payload)",
-          "url": "https://github.com/phantomptr/ps5upload/releases/download/v12.6.38/ps5upload-12.6.38.elf"
+          "name": "ps5upload-12.6.43.elf (payload)",
+          "url": "https://github.com/phantomptr/ps5upload/releases/download/v12.6.43/ps5upload-12.6.43.elf"
         }
       ],
       "author": "phantomptr",
@@ -1780,7 +1780,7 @@
     {
       "titleId": "HBSEREGONWARZFTPD",
       "title": "zftpd",
-      "version": "v1.7.0",
+      "version": "v1.7.1",
       "category": "files",
       "posterUrl": "",
       "originalPosterUrl": "",
@@ -1788,20 +1788,20 @@
       "downloadSource": "https://github.com/seregonwar/zftpd",
       "downloadLinks": [
         {
-          "name": "zftpd-ps5-v1.7.0.bin (payload)",
-          "url": "https://github.com/seregonwar/zftpd/releases/download/v1.7.0/zftpd-ps5-v1.7.0.bin"
+          "name": "zftpd-ps5-v1.7.1.bin (payload)",
+          "url": "https://github.com/seregonwar/zftpd/releases/download/v1.7.1/zftpd-ps5-v1.7.1.bin"
         },
         {
-          "name": "zftpd-ps5-v1.7.0.elf (payload)",
-          "url": "https://github.com/seregonwar/zftpd/releases/download/v1.7.0/zftpd-ps5-v1.7.0.elf"
+          "name": "zftpd-ps5-v1.7.1.elf (payload)",
+          "url": "https://github.com/seregonwar/zftpd/releases/download/v1.7.1/zftpd-ps5-v1.7.1.elf"
         },
         {
-          "name": "zftpd-ps5-zhttp-v1.7.0.bin (payload)",
-          "url": "https://github.com/seregonwar/zftpd/releases/download/v1.7.0/zftpd-ps5-zhttp-v1.7.0.bin"
+          "name": "zftpd-ps5-zhttp-v1.7.1.bin (payload)",
+          "url": "https://github.com/seregonwar/zftpd/releases/download/v1.7.1/zftpd-ps5-zhttp-v1.7.1.bin"
         },
         {
-          "name": "zftpd-ps5-zhttp-v1.7.0.elf (payload)",
-          "url": "https://github.com/seregonwar/zftpd/releases/download/v1.7.0/zftpd-ps5-zhttp-v1.7.0.elf"
+          "name": "zftpd-ps5-zhttp-v1.7.1.elf (payload)",
+          "url": "https://github.com/seregonwar/zftpd/releases/download/v1.7.1/zftpd-ps5-zhttp-v1.7.1.elf"
         }
       ],
       "author": "seregonwar",
@@ -3329,7 +3329,7 @@
     {
       "titleId": "HBRDIOL12PS5LIBRAR",
       "title": "PS5Library",
-      "version": "v0.2.91",
+      "version": "v0.2.92",
       "category": "stores",
       "posterUrl": "https://raw.githubusercontent.com/rdiol12/PS5Library/main/ps5/assets/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/rdiol12/PS5Library/main/docs/screenshots/dashboard-library.jpg",
@@ -3337,12 +3337,12 @@
       "downloadSource": "https://github.com/rdiol12/PS5Library",
       "downloadLinks": [
         {
-          "name": "PS5Library-0.2.91.pkg (pkg)",
-          "url": "https://github.com/rdiol12/PS5Library/releases/download/v0.2.91/PS5Library-0.2.91.pkg"
+          "name": "PS5Library.fpkg (pkg)",
+          "url": "https://github.com/rdiol12/PS5Library/releases/download/v0.2.92/PS5Library.fpkg"
         },
         {
           "name": "ps5library-agent.elf (payload)",
-          "url": "https://github.com/rdiol12/PS5Library/releases/download/v0.2.91/ps5library-agent.elf"
+          "url": "https://github.com/rdiol12/PS5Library/releases/download/v0.2.92/ps5library-agent.elf"
         }
       ],
       "author": "rdiol12",
@@ -4386,7 +4386,7 @@
     {
       "titleId": "HBBORNARADUSINPC5",
       "title": "PC5",
-      "version": "v2.5.2",
+      "version": "v2.5.5",
       "category": "emulators",
       "posterUrl": "https://raw.githubusercontent.com/bornaradusin/PC5/main/art/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/bornaradusin/PC5/main/art/pic0.png",
@@ -4395,11 +4395,11 @@
       "downloadLinks": [
         {
           "name": "PPSA11018-update.zip (app)",
-          "url": "https://github.com/bornaradusin/PC5/releases/download/v2.5.2/PPSA11018-update.zip"
+          "url": "https://github.com/bornaradusin/PC5/releases/download/v2.5.5/PPSA11018-update.zip"
         },
         {
           "name": "PPSA11018.zip (app)",
-          "url": "https://github.com/bornaradusin/PC5/releases/download/v2.5.2/PPSA11018.zip"
+          "url": "https://github.com/bornaradusin/PC5/releases/download/v2.5.5/PPSA11018.zip"
         }
       ],
       "author": "bornaradusin",
@@ -4645,7 +4645,7 @@
     {
       "titleId": "HBFTHDGNGHALEMBIC",
       "title": "Alembic",
-      "version": "v0.7.1",
+      "version": "v0.7.2",
       "category": "dumps",
       "posterUrl": "https://raw.githubusercontent.com/fthdgn-gh/Alembic/main/app/sce_sys/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/fthdgn-gh/Alembic/main/docs/screenshots/app.png",
@@ -4653,20 +4653,20 @@
       "downloadSource": "https://github.com/fthdgn-gh/Alembic",
       "downloadLinks": [
         {
-          "name": "alembic-app-v0.7.1.ffpkg (image)",
-          "url": "https://github.com/fthdgn-gh/Alembic/releases/download/v0.7.1/alembic-app-v0.7.1.ffpkg"
+          "name": "alembic-app-v0.7.2.ffpkg (image)",
+          "url": "https://github.com/fthdgn-gh/Alembic/releases/download/v0.7.2/alembic-app-v0.7.2.ffpkg"
         },
         {
-          "name": "alembic-app-v0.7.1.zip (app)",
-          "url": "https://github.com/fthdgn-gh/Alembic/releases/download/v0.7.1/alembic-app-v0.7.1.zip"
+          "name": "alembic-app-v0.7.2.zip (app)",
+          "url": "https://github.com/fthdgn-gh/Alembic/releases/download/v0.7.2/alembic-app-v0.7.2.zip"
         },
         {
-          "name": "alembic-v0.7.1.zip (archive-image)",
-          "url": "https://github.com/fthdgn-gh/Alembic/releases/download/v0.7.1/alembic-v0.7.1.zip"
+          "name": "alembic-v0.7.2.zip (archive-image)",
+          "url": "https://github.com/fthdgn-gh/Alembic/releases/download/v0.7.2/alembic-v0.7.2.zip"
         },
         {
-          "name": "alembic-v0.7.1.elf (payload)",
-          "url": "https://github.com/fthdgn-gh/Alembic/releases/download/v0.7.1/alembic-v0.7.1.elf"
+          "name": "alembic-v0.7.2.elf (payload)",
+          "url": "https://github.com/fthdgn-gh/Alembic/releases/download/v0.7.2/alembic-v0.7.2.elf"
         }
       ],
       "author": "fthdgn-gh",
@@ -4866,7 +4866,7 @@
     {
       "titleId": "HBLEOLOBATOPLAYDEN",
       "title": "Playden for PS5",
-      "version": "v0.12.0-beta.5",
+      "version": "v0.12.0",
       "category": "emulators",
       "posterUrl": "https://raw.githubusercontent.com/leolobato/playden-ps5/main/sce_sys/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/leolobato/playden-ps5/main/docs/images/library.jpg",
@@ -4875,11 +4875,11 @@
       "downloadLinks": [
         {
           "name": "playden-kit-0.36.zip (app)",
-          "url": "https://github.com/leolobato/playden-ps5/releases/download/v0.12.0-beta.5/playden-kit-0.36.zip"
+          "url": "https://github.com/leolobato/playden-ps5/releases/download/v0.12.0/playden-kit-0.36.zip"
         },
         {
-          "name": "playden-ps5-0.12.0-beta.5.zip (app)",
-          "url": "https://github.com/leolobato/playden-ps5/releases/download/v0.12.0-beta.5/playden-ps5-0.12.0-beta.5.zip"
+          "name": "playden-ps5-0.12.0.zip (app)",
+          "url": "https://github.com/leolobato/playden-ps5/releases/download/v0.12.0/playden-ps5-0.12.0.zip"
         }
       ],
       "author": "leolobato",
@@ -5007,7 +5007,7 @@
     {
       "titleId": "HBMIHAWK99PS5MIHAW",
       "title": "MihawkOS",
-      "version": "v9.0.0-alpha-9",
+      "version": "v10.0.0-alpha-10",
       "category": "emulators",
       "posterUrl": "https://raw.githubusercontent.com/mihawk-99/PS5_MihawkOS/main/ps5/sce_sys/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/mihawk-99/PS5_MihawkOS/main/ps5/sce_sys/icon0.png",
@@ -5015,8 +5015,8 @@
       "downloadSource": "https://github.com/mihawk-99/PS5_MihawkOS",
       "downloadLinks": [
         {
-          "name": "PS5_MihawkOS-v9.0.0-alpha-9.zip (app)",
-          "url": "https://github.com/mihawk-99/PS5_MihawkOS/releases/download/v9.0.0-alpha-9/PS5_MihawkOS-v9.0.0-alpha-9.zip"
+          "name": "PS5_MihawkOS-v10.0.0-alpha-10.zip (app)",
+          "url": "https://github.com/mihawk-99/PS5_MihawkOS/releases/download/v10.0.0-alpha-10/PS5_MihawkOS-v10.0.0-alpha-10.zip"
         }
       ],
       "author": "mihawk-99",
@@ -5394,25 +5394,6 @@
       "upstreamId": "sunnyqeen/autokstuff"
     },
     {
-      "titleId": "HBTHEREALREXOPS5MU",
-      "title": "PS5-MultiBoot (fork)",
-      "version": "v1.0.0",
-      "category": "linux",
-      "posterUrl": "https://avatars.githubusercontent.com/u/189953641?s=256&v=4",
-      "originalPosterUrl": "https://avatars.githubusercontent.com/u/189953641?s=256&v=4",
-      "description": "PS5-MultiBoot boots Linux on a jailbroken PS5 (rest-mode resume) by defeating the hypervisor. Powered by 8 CPU cores (16 threads) at 3.5 GHz and a GPU at 2.23 GHz, it turns your PS5 Phat, Slim or Pro running 13.00, 13.20, 13.40, 13.42, or 13.60 into a capable desktop PC for Steam games and emulators",
-      "downloadSource": "https://github.com/TheRealRexo/PS5-MultiBoot",
-      "downloadLinks": [
-        {
-          "name": "ps5-linux-loader.elf (payload)",
-          "url": "https://github.com/TheRealRexo/PS5-MultiBoot/releases/download/v1.0.0/ps5-linux-loader.elf"
-        }
-      ],
-      "author": "TheRealRexo",
-      "repo": "TheRealRexo/PS5-MultiBoot",
-      "upstreamId": "therealrexo/ps5-multiboot"
-    },
-    {
       "titleId": "HBVENEZUELANBIGGIE",
       "title": "MacheteSaveGameManager",
       "version": "v1.3.17",
@@ -5731,7 +5712,7 @@
     {
       "titleId": "HBCORU182PS5KBMBRI",
       "title": "PS5 KBM Bridge",
-      "version": "v0.15",
+      "version": "v0.15.1",
       "category": "controllers",
       "posterUrl": "https://raw.githubusercontent.com/coru182/PS5-KBM-Bridge/main/launcher/sce_sys/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/coru182/PS5-KBM-Bridge/main/launcher/sce_sys/icon0.png",
@@ -5739,16 +5720,16 @@
       "downloadSource": "https://github.com/coru182/PS5-KBM-Bridge",
       "downloadLinks": [
         {
-          "name": "PS5-KBM-Bridge-v0.15.zip (app)",
-          "url": "https://github.com/coru182/PS5-KBM-Bridge/releases/download/v0.15/PS5-KBM-Bridge-v0.15.zip"
+          "name": "PS5-KBM-Bridge-v0.15.1.zip (app)",
+          "url": "https://github.com/coru182/PS5-KBM-Bridge/releases/download/v0.15.1/PS5-KBM-Bridge-v0.15.1.zip"
         },
         {
-          "name": "ps5-kbm-diag-v015.elf (payload)",
-          "url": "https://github.com/coru182/PS5-KBM-Bridge/releases/download/v0.15/ps5-kbm-diag-v015.elf"
+          "name": "ps5-kbm-diag-v0151.elf (payload)",
+          "url": "https://github.com/coru182/PS5-KBM-Bridge/releases/download/v0.15.1/ps5-kbm-diag-v0151.elf"
         },
         {
-          "name": "ps5-kbm-bridge-v015.elf (payload)",
-          "url": "https://github.com/coru182/PS5-KBM-Bridge/releases/download/v0.15/ps5-kbm-bridge-v015.elf"
+          "name": "ps5-kbm-bridge-v0151.elf (payload)",
+          "url": "https://github.com/coru182/PS5-KBM-Bridge/releases/download/v0.15.1/ps5-kbm-bridge-v0151.elf"
         }
       ],
       "author": "coru182",
@@ -5892,25 +5873,6 @@
       "author": "Wigglez-sudo",
       "repo": "Wigglez-sudo/12.xx-linux-loader-pro-beta",
       "upstreamId": "wigglez-sudo/12.xx-linux-loader-pro-beta"
-    },
-    {
-      "titleId": "HBSONICISO1PS5LINU",
-      "title": "ps5-linux",
-      "version": "v2026.11.03-all10-13-pro",
-      "category": "linux",
-      "posterUrl": "https://avatars.githubusercontent.com/u/77558781?s=256&v=4",
-      "originalPosterUrl": "https://avatars.githubusercontent.com/u/77558781?s=256&v=4",
-      "description": "Run Linux on PS5 - with 13.60 support including PS5 Pro (fork of ps5-linux/ps5-linux-loader)",
-      "downloadSource": "https://github.com/soniciso1/ps5-linux-loader",
-      "downloadLinks": [
-        {
-          "name": "ps5-linux-loader-all10-13-20261103-pro.elf (payload)",
-          "url": "https://github.com/soniciso1/ps5-linux-loader/releases/download/v2026.11.03-all10-13-pro/ps5-linux-loader-all10-13-20261103-pro.elf"
-        }
-      ],
-      "author": "soniciso1",
-      "repo": "soniciso1/ps5-linux-loader",
-      "upstreamId": "soniciso1/ps5-linux-loader"
     },
     {
       "titleId": "HBTHERADZIUPS5BDCL",
