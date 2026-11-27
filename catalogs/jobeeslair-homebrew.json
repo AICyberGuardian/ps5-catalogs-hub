@@ -1,7 +1,7 @@
 {
   "name": "Jobee'sLair Homebrew (adapted)",
   "version": "1.0.0",
-  "generatedAt": "2026-11-26T22:51:08Z",
+  "generatedAt": "2026-11-27T14:46:01Z",
   "source": "https://raw.githubusercontent.com/JVK3R/JobeesLair-Homebrew/main/index.json",
   "packages": [
     {
@@ -424,7 +424,7 @@
     {
       "titleId": "HBEARTHONIONGARLIC",
       "title": "Garlic SaveMgr for PS5",
-      "version": "v2.0",
+      "version": "v2.0.2",
       "category": "dumps",
       "posterUrl": "https://avatars.githubusercontent.com/u/3332298?s=256&v=4",
       "originalPosterUrl": "https://avatars.githubusercontent.com/u/3332298?s=256&v=4",
@@ -433,7 +433,7 @@
       "downloadLinks": [
         {
           "name": "garlic-savemgr.elf (payload)",
-          "url": "https://github.com/earthonion/garlic-savemgr/releases/download/v2.0/garlic-savemgr.elf"
+          "url": "https://github.com/earthonion/garlic-savemgr/releases/download/v2.0.2/garlic-savemgr.elf"
         }
       ],
       "author": "earthonion",
@@ -689,8 +689,8 @@
       "title": "savemnt-offset-dumper",
       "version": "1.0.0",
       "category": "dumps",
-      "posterUrl": "https://avatars.githubusercontent.com/u/16449821?s=256&v=4",
-      "originalPosterUrl": "https://avatars.githubusercontent.com/u/16449821?s=256&v=4",
+      "posterUrl": "",
+      "originalPosterUrl": "",
       "description": "payload for the PlayStation 5 that resolves a set of firmware-specific offsets",
       "downloadSource": "https://github.com/StonedModder/savemnt-offset-dumper",
       "downloadLinks": [
@@ -1121,7 +1121,7 @@
       "version": "v1.0.0",
       "category": "emulators",
       "posterUrl": "https://raw.githubusercontent.com/StonedModder/VITA5/main/sce_sys/icon0.png",
-      "originalPosterUrl": "https://raw.githubusercontent.com/StonedModder/VITA5/main/sce_sys/icon0.png",
+      "originalPosterUrl": "https://raw.githubusercontent.com/StonedModder/unleashedapi/main/assets/banner.png",
       "description": "Play a PS Vita on the PS5 over one USB cable.",
       "downloadSource": "https://github.com/StonedModder/VITA5",
       "downloadLinks": [
@@ -1637,7 +1637,7 @@
     {
       "titleId": "HBPHANTOMPTRPS5UPL",
       "title": "ps5upload",
-      "version": "v12.6.33",
+      "version": "v12.6.38",
       "category": "files",
       "posterUrl": "https://raw.githubusercontent.com/phantomptr/ps5upload/main/branding/png/icon-1024.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/phantomptr/ps5upload/main/logo.png",
@@ -1645,8 +1645,8 @@
       "downloadSource": "https://github.com/phantomptr/ps5upload",
       "downloadLinks": [
         {
-          "name": "ps5upload-12.6.33.elf (payload)",
-          "url": "https://github.com/phantomptr/ps5upload/releases/download/v12.6.33/ps5upload-12.6.33.elf"
+          "name": "ps5upload-12.6.38.elf (payload)",
+          "url": "https://github.com/phantomptr/ps5upload/releases/download/v12.6.38/ps5upload-12.6.38.elf"
         }
       ],
       "author": "phantomptr",
@@ -3331,8 +3331,8 @@
       "title": "PS5Library",
       "version": "v0.2.91",
       "category": "stores",
-      "posterUrl": "https://raw.githubusercontent.com/rdiol12/PS5Library/main/frontend/ps5/assets/icon0.png",
-      "originalPosterUrl": "https://raw.githubusercontent.com/rdiol12/PS5Library/main/frontend/ps5/assets/icon0.png",
+      "posterUrl": "https://raw.githubusercontent.com/rdiol12/PS5Library/main/ps5/assets/icon0.png",
+      "originalPosterUrl": "https://raw.githubusercontent.com/rdiol12/PS5Library/main/docs/screenshots/dashboard-library.jpg",
       "description": "Native PS5Library console storefront. Frontend source and automated ELF builds.",
       "downloadSource": "https://github.com/rdiol12/PS5Library",
       "downloadLinks": [
@@ -3576,7 +3576,7 @@
       "version": "v2.0",
       "category": "streaming",
       "posterUrl": "https://avatars.githubusercontent.com/u/16449821?s=256&v=4",
-      "originalPosterUrl": "https://avatars.githubusercontent.com/u/16449821?s=256&v=4",
+      "originalPosterUrl": "https://raw.githubusercontent.com/StonedModder/unleashedapi/main/assets/banner-slim.png",
       "description": "Updated for FW 13.x - ActRemoteLink is a utility suite for PS5 workflows. It enables offline local account activation and Chiaki/Remote Play. Key features include changing account IDs offline, generating Remote Play PINs via system notifications, and monitoring successful pairing using a Python send",
       "downloadSource": "https://github.com/StonedModder/ActRemoteLink-13.x",
       "downloadLinks": [
@@ -4011,8 +4011,8 @@
       "title": "ChronicLoader",
       "version": "0.1",
       "category": "system",
-      "posterUrl": "https://avatars.githubusercontent.com/u/16449821?s=256&v=4",
-      "originalPosterUrl": "https://avatars.githubusercontent.com/u/16449821?s=256&v=4",
+      "posterUrl": "",
+      "originalPosterUrl": "",
       "description": "Payload Updater & autoload.txt manager",
       "downloadSource": "https://github.com/StonedModder/ChronicLoader-PS5-Payload",
       "downloadLinks": [
@@ -4030,8 +4030,8 @@
       "title": "PS-DiscordPresence",
       "version": "v0.01",
       "category": "system",
-      "posterUrl": "https://avatars.githubusercontent.com/u/16449821?s=256&v=4",
-      "originalPosterUrl": "https://avatars.githubusercontent.com/u/16449821?s=256&v=4",
+      "posterUrl": "",
+      "originalPosterUrl": "",
       "description": "PS5 game activity service with a local status endpoint and a Python Discord RPC bridge.\n\nThe bridge reads http://:9878/api/status and publishes the active title, official PlayStation Store cover art, and firmware line through the local Discord desktop client.",
       "downloadSource": "https://github.com/StonedModder/PS-DiscordPresence",
       "downloadLinks": [
@@ -4049,8 +4049,8 @@
       "title": "PS Game State Lib",
       "version": "v0.1",
       "category": "system",
-      "posterUrl": "https://avatars.githubusercontent.com/u/16449821?s=256&v=4",
-      "originalPosterUrl": "https://avatars.githubusercontent.com/u/16449821?s=256&v=4",
+      "posterUrl": "",
+      "originalPosterUrl": "",
       "description": "Standalone PS5 game-state detection payload, C library, and desktop GUI",
       "downloadSource": "https://github.com/StonedModder/ps-game-state-lib",
       "downloadLinks": [
@@ -4069,7 +4069,7 @@
       "version": "1.0",
       "category": "system",
       "posterUrl": "https://raw.githubusercontent.com/StonedModder/PShare/main/sce_sys/icon0.png",
-      "originalPosterUrl": "https://raw.githubusercontent.com/StonedModder/PShare/main/docs/banner.png",
+      "originalPosterUrl": "https://raw.githubusercontent.com/StonedModder/unleashedapi/main/assets/banner-slim.png",
       "description": "Native PS5 homebrew app that sends media gallery items to Discord, Telegram, catbox.moe, a USB drive, a shared folder on your PC or a dozen other places, automatically",
       "downloadSource": "https://github.com/StonedModder/PShare",
       "downloadLinks": [
@@ -4085,7 +4085,7 @@
     {
       "titleId": "HBSTRONGT1MEPS5COO",
       "title": "PS5 Cooling & System Center - Pro",
-      "version": "v1.96.1",
+      "version": "v1.97.0",
       "category": "system",
       "posterUrl": "https://raw.githubusercontent.com/strongt1me/ps5-cooling-system-center-pro/main/tile/sce_sys/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/strongt1me/ps5-cooling-system-center-pro/main/starter/sce_sys/pic0.png",
@@ -4094,15 +4094,15 @@
       "downloadLinks": [
         {
           "name": "FAKE86921.zip (app)",
-          "url": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases/download/v1.96.1/FAKE86921.zip"
+          "url": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases/download/v1.97.0/FAKE86921.zip"
         },
         {
           "name": "FAKE86922.zip (app)",
-          "url": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases/download/v1.96.1/FAKE86922.zip"
+          "url": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases/download/v1.97.0/FAKE86922.zip"
         },
         {
-          "name": "PS5_Cooling_System_Center_v1.96.1.elf (payload)",
-          "url": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases/download/v1.96.1/PS5_Cooling_System_Center_v1.96.1.elf"
+          "name": "PS5_Cooling_System_Center_v1.97.0.elf (payload)",
+          "url": "https://github.com/strongt1me/ps5-cooling-system-center-pro/releases/download/v1.97.0/PS5_Cooling_System_Center_v1.97.0.elf"
         }
       ],
       "author": "strongt1me",
@@ -5007,7 +5007,7 @@
     {
       "titleId": "HBMIHAWK99PS5MIHAW",
       "title": "MihawkOS",
-      "version": "v8.2.0-alpha-8",
+      "version": "v9.0.0-alpha-9",
       "category": "emulators",
       "posterUrl": "https://raw.githubusercontent.com/mihawk-99/PS5_MihawkOS/main/ps5/sce_sys/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/mihawk-99/PS5_MihawkOS/main/ps5/sce_sys/icon0.png",
@@ -5015,8 +5015,8 @@
       "downloadSource": "https://github.com/mihawk-99/PS5_MihawkOS",
       "downloadLinks": [
         {
-          "name": "PS5_MihawkOS-v8.2.0-alpha-8.zip (app)",
-          "url": "https://github.com/mihawk-99/PS5_MihawkOS/releases/download/v8.2.0-alpha-8/PS5_MihawkOS-v8.2.0-alpha-8.zip"
+          "name": "PS5_MihawkOS-v9.0.0-alpha-9.zip (app)",
+          "url": "https://github.com/mihawk-99/PS5_MihawkOS/releases/download/v9.0.0-alpha-9/PS5_MihawkOS-v9.0.0-alpha-9.zip"
         }
       ],
       "author": "mihawk-99",
@@ -5498,7 +5498,7 @@
       "version": "v1.3",
       "category": "system",
       "posterUrl": "https://raw.githubusercontent.com/xXBneutzerNameXx/PS5-Cleanup/main/1.3/probelauf/sce_sys/icon0.png",
-      "originalPosterUrl": "https://raw.githubusercontent.com/xXBneutzerNameXx/PS5-Cleanup/main/bilder/1.0.10/banner.jpg",
+      "originalPosterUrl": "https://raw.githubusercontent.com/xXBneutzerNameXx/PS5-Cleanup/main/bilder/1.4/banner.jpg",
       "description": "Clean up a jailbroken PS5 like new, no reinstall.",
       "downloadSource": "https://github.com/xXBneutzerNameXx/PS5-Cleanup",
       "downloadLinks": [
@@ -6064,7 +6064,7 @@
     {
       "titleId": "HBDARKATEK7PROSPER",
       "title": "ProsperoSunshine",
-      "version": "v0.6.8",
+      "version": "v0.6.9",
       "category": "streaming",
       "posterUrl": "https://raw.githubusercontent.com/Darkatek7/ProsperoSunshine/main/app/sce_sys/icon0.png",
       "originalPosterUrl": "https://raw.githubusercontent.com/Darkatek7/ProsperoSunshine/main/app/sce_sys/pic0.png",
@@ -6073,19 +6073,19 @@
       "downloadLinks": [
         {
           "name": "PPSA47989-debug.zip (app)",
-          "url": "https://github.com/Darkatek7/ProsperoSunshine/releases/download/v0.6.8/PPSA47989-debug.zip"
+          "url": "https://github.com/Darkatek7/ProsperoSunshine/releases/download/v0.6.9/PPSA47989-debug.zip"
         },
         {
           "name": "PPSA47989.zip (app)",
-          "url": "https://github.com/Darkatek7/ProsperoSunshine/releases/download/v0.6.8/PPSA47989.zip"
+          "url": "https://github.com/Darkatek7/ProsperoSunshine/releases/download/v0.6.9/PPSA47989.zip"
         },
         {
-          "name": "prosperosunshine-0.6.8-debug.tar.gz (archive-payload)",
-          "url": "https://github.com/Darkatek7/ProsperoSunshine/releases/download/v0.6.8/prosperosunshine-0.6.8-debug.tar.gz"
+          "name": "prosperosunshine-0.6.9-debug.tar.gz (archive-payload)",
+          "url": "https://github.com/Darkatek7/ProsperoSunshine/releases/download/v0.6.9/prosperosunshine-0.6.9-debug.tar.gz"
         },
         {
-          "name": "prosperosunshine-0.6.8.tar.gz (archive-payload)",
-          "url": "https://github.com/Darkatek7/ProsperoSunshine/releases/download/v0.6.8/prosperosunshine-0.6.8.tar.gz"
+          "name": "prosperosunshine-0.6.9.tar.gz (archive-payload)",
+          "url": "https://github.com/Darkatek7/ProsperoSunshine/releases/download/v0.6.9/prosperosunshine-0.6.9.tar.gz"
         }
       ],
       "author": "Darkatek7",
