@@ -1,7 +1,7 @@
 # DLPSGame In-Place Edits Watchlist
 
-Generated: 2026-11-28T05:31:23Z
-Tracked recent edits: 50 (`NEEDS_MANUAL`: 23, `PARTIAL`: 0, `AUTO_ADDED`: 0, `OVERRIDDEN`: 0)
+Generated: 2026-11-28T15:59:10Z
+Tracked recent edits: 50 (`NEEDS_MANUAL`: 24, `PARTIAL`: 0, `AUTO_ADDED`: 0, `OVERRIDDEN`: 0)
 
 Posts modified after initial publication on `dlpsgame.com`, checked against all 8 synced game feeds.
 Net-new direct file-hoster links are auto-captured into `catalogs/dlps-edits.json` and merged into
@@ -10,6 +10,8 @@ behind `downloadgameps3.net` — resolve in your browser and add via `python scr
 
 | Modified | Published | Title ID(s) | Title | Latest Version | Auto Direct (+new) | Gated Redirects | Status | Post |
 | --- | --- | --- | --- | --- | ---: | ---: | --- | --- |
+| 2026-11-28 | 2026-03-26 | `PPSA20560` | DOOM The Dark Ages | `01.016.000` | 0 | 5 | `NEEDS_MANUAL` | [dlps](https://dlpsgame.com/doom-the-dark-ages-ps5/) |
+| 2026-11-28 | 2024-12-27 | `PPSA01342`, `PPSA01341` | Demons Souls | `1.007.000` | 0 | 5 | `NEEDS_MANUAL` | [dlps](https://dlpsgame.com/demons-souls-free-ps5/) |
 | 2026-11-28 | 2026-01-09 | `PPSA03974`, `PPSA04029`, `PPSA04027` | Cyberpunk 2077 Ultimate Edition | `02.310.100` | 0 | 7 | `NEEDS_MANUAL` | [dlps](https://dlpsgame.com/cyberpunk-2077-ps5/) |
 | 2026-11-28 | 2025-12-28 | `PPSA21564`, `PPSA21567` | ASTRO BOT | `01.019.000` | 0 | 5 | `NEEDS_MANUAL` | [dlps](https://dlpsgame.com/astro-bot-free-ps5/) |
 | 2026-11-27 | 2025-12-26 | `PPSA04933` | Who Wants To Be A Millionaire | `01.008` | 0 | 2 | `COVERED` | [dlps](https://dlpsgame.com/who-wants-to-be-a-millionaire-ps5/) |
@@ -58,5 +60,3 @@ behind `downloadgameps3.net` — resolve in your browser and add via `python scr
 | 2026-11-24 | 2026-11-23 | `PPSA05173` | Axiom Verge 2 | `1.001.000` | 0 | 1 | `NEEDS_MANUAL` | [dlps](https://dlpsgame.com/axiom-verge-2-ps5/) |
 | 2026-11-23 | 2026-11-10 | `PPSA24326` | The Legend of Heroes Trails through Daybreak 2 | `01.002.000` | 0 | 7 | `COVERED` | [dlps](https://dlpsgame.com/the-legend-of-heroes-trails-through-daybreak-2-ps5/) |
 | 2026-11-23 | 2026-04-27 | `PPSA28617` | Spirit of The North 2 | `01.000.019` | 0 | 5 | `COVERED` | [dlps](https://dlpsgame.com/spirit-of-the-north-2-ps5/) |
-| 2026-11-23 | 2026-09-23 | `PPSA14319` | Secret Agent Clank | `01.000.003` | 0 | 1 | `COVERED` | [dlps](https://dlpsgame.com/secret-agent-clank-ps5/) |
-| 2026-11-23 | 2026-11-20 | `PPSA35314` | MudRunner | `01.000.000` | 0 | 2 | `NEEDS_MANUAL` | [dlps](https://dlpsgame.com/mudrunner-ps5/) |
