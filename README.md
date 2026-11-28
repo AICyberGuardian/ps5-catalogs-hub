@@ -23,7 +23,7 @@ Do **not** add homebrew mirrors from `sources-homebrew.json` into PS5 Library.
 
 ```text
 catalogs/                 # Published JSON catalogs (stable flat raw GitHub URLs)
-sources-games.json        # PS5 Library - 7 individual game feeds
+sources-games.json        # PS5 Library - 8 individual game feeds
 sources-merged.json       # Single-URL merged catalogs (games / homebrew / payloads)
 sources-payloads.json     # Payload Manager (:8084) feed (merged) + upstream list
 sources-homebrew.json     # Prospero + Jobee mirrors (not Library sources)
@@ -38,19 +38,19 @@ docs/superpowers/         # Spec + implementation plan
 
 All built hourly by `scripts/catalog_hub_sync.py`, minified JSON, content-idempotent (no churn commits).
 
-| File | What it is | Measured (2026-11-26) |
+| File | What it is | Measured (2026-11-28) |
 |---|---|---|
-| `catalogs/games-merged.json` | The 7 game feeds in one URL. **Only exact duplicate URLs for the same titleId are dropped** (title-ID overlap is never treated as redundancy; mirrors on other hosts stay). Lossless: every `(titleId,url)` pair is preserved. | 20.31 MB -> 10.90 MB; 63,862 -> 46,092 links; 0 pairs lost |
-| `catalogs/homebrew-merged.json` | ProsperoStore + Solanum + RecompStore + AnchorPS5 + Jobee'sLair Homebrew, **one entry per GitHub repo or download URL** (priority in that order; `sources` lists every feed carrying it). AnchorPS5 entries without a live release are pruned. Mirror only - not a PS5 Library source. | 472 entries, 0.36 MB |
-| `catalogs/payloads-merged.json` | ps5-payloads-atlas + PLDMGR_JSON + ps5-payloads-mirror in Payload Manager format, deduped by URL then (name, version). Browse / on-demand only. | 133 payloads, 0.08 MB |
+| `catalogs/games-merged.json` | The 8 game feeds in one URL (including Padrino Store). **Only exact duplicate URLs for the same titleId are dropped** (title-ID overlap is never treated as redundancy; mirrors on other hosts stay). Lossless: every `(titleId,url)` pair is preserved. | 23.13 MB -> 11.11 MB; 70,828 -> 46,220 links; 0 pairs lost |
+| `catalogs/homebrew-merged.json` | ProsperoStore + Solanum + RecompStore + AnchorPS5 + Jobee'sLair Homebrew, **one entry per GitHub repo or download URL** (priority in that order; `sources` lists every feed carrying it). AnchorPS5 entries without a live release are pruned. Mirror only - not a PS5 Library source. | 478 entries, 0.36 MB |
+| `catalogs/payloads-merged.json` | ps5-payloads-atlas + PLDMGR_JSON + ps5-payloads-mirror in Payload Manager format, deduped by URL then (name, version). Browse / on-demand only. | 141 payloads, 0.08 MB |
 
-**Use ONE of:** the 7 individual game URLs from `sources-games.json` **or** `games-merged.json` in PS5 Library. Using both re-ingests the same data. Switch helper (dry-run default): `PS5-JB/scripts/migrate_ps5_library_to_merged_games.py`.
+**Use ONE of:** the 8 individual game URLs from `sources-games.json` **or** `games-merged.json` in PS5 Library. Using both re-ingests the same data. Switch helper (dry-run default): `PS5-JB/scripts/migrate_ps5_library_to_merged_games.py`.
 
 Payload Manager: Settings -> Manage Sources -> Add Source -> `https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs/payloads-merged.json`.
 
 ## Console usage
 
-1. In PS5 Library (`http://<console>:9999/` → Settings → Catalogs), add **only** the single `games-merged.json` URL from `sources-merged.json` **or** the 7 URLs from `sources-games.json` (never both).
+1. In PS5 Library (`http://<console>:9999/` → Settings → Catalogs), add **only** the single `games-merged.json` URL from `sources-merged.json` **or** the 8 URLs from `sources-games.json` (never both).
 2. Install/update official homebrew via the ProsperoStore app (not Library).
 3. Use Jobee'sLair for complementary scene homebrew.
 

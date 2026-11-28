@@ -8,6 +8,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 
+import catalog_hub_sync as chs  # noqa: E402
 import catalog_merge as cm  # noqa: E402
 
 
@@ -147,6 +148,16 @@ class PayloadTests(unittest.TestCase):
         self.assertEqual([p["name"] for p in doc["payloads"]], ["elfldr", "etaHEN"])
         self.assertEqual(st["duplicates_dropped"], 2)
         self.assertEqual(doc["payloads"][0]["sources"], ["atlas"])
+
+
+class HubConfigTests(unittest.TestCase):
+    def test_game_feeds_and_merge_order_stay_in_sync(self):
+        game_feeds = {(f.filename, f.source_id) for f in chs.FEEDS if f.kind == "game"}
+        homebrew_feeds = {(f.filename, f.source_id) for f in chs.FEEDS if f.kind == "homebrew"}
+        merge_feeds = set(chs.GAME_MERGE_ORDER)
+        self.assertEqual(game_feeds, merge_feeds)
+        self.assertTrue(homebrew_feeds.isdisjoint(merge_feeds))
+        self.assertIn(("padrino-store.json", "padrino-store"), merge_feeds)
 
 
 if __name__ == "__main__":

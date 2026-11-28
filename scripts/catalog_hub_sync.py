@@ -105,6 +105,14 @@ FEEDS: tuple[Feed, ...] = (
         "game",
     ),
     Feed(
+        "padrino-store.json",
+        "padrino-store",
+        "Padrino Store",
+        ("https://pegasus-dl.dev/catalogs/padrino-store.json",),
+        "ZSTD / VikingFile / Archive.org PS5 mirrors",
+        "game",
+    ),
+    Feed(
         "pegasus-ps4-catalog.json",
         "ps4-fpkg-collection-catalog",
         "PS4 FPKG Collection",
@@ -439,6 +447,7 @@ GAME_MERGE_ORDER: tuple[tuple[str, str], ...] = (
     ("dlps.json", "dlpsgame"),
     ("blackbox_catalog.json", "evox-blackbox"),
     ("jamzi94-ps5.json", "phoenix-dl-ps5"),
+    ("padrino-store.json", "padrino-store"),
     ("pegasus-ps4-catalog.json", "ps4-fpkg-collection-catalog"),
 )
 
@@ -602,7 +611,7 @@ def write_merged_manifests(rows: list[dict[str, Any]]) -> bool:
         "name": "AICyberGuardian PS5 Catalogs Hub - Merged (concise single-URL catalogs)",
         "version": "1.0.0",
         "note": (
-            "Use ONE of: the 7 individual game feeds in sources-games.json OR games-merged.json. "
+            "Use ONE of: the individual game feeds in sources-games.json OR games-merged.json. "
             "Using both re-ingests the same data. homebrew-merged is a mirror (not a PS5 Library source)."
         ),
         "generatedAt": _preserve_generated_at(SOURCES_MERGED, "sources", merged_sources) or now,

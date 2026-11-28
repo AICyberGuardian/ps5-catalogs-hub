@@ -1,17 +1,17 @@
 {
   "name": "AICyberGuardian PS5 Catalogs Hub - Merged (concise single-URL catalogs)",
   "version": "1.0.0",
-  "note": "Use ONE of: the 7 individual game feeds in sources-games.json OR games-merged.json. Using both re-ingests the same data. homebrew-merged is a mirror (not a PS5 Library source).",
-  "generatedAt": "2026-11-27T23:15:27Z",
+  "note": "Use ONE of: the individual game feeds in sources-games.json OR games-merged.json. Using both re-ingests the same data. homebrew-merged is a mirror (not a PS5 Library source).",
+  "generatedAt": "2026-11-28T04:13:49Z",
   "rawBase": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs",
   "sources": [
     {
       "id": "games-merged",
       "name": "Games merged (exact-URL deduped)",
       "url": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs/games-merged.json",
-      "items": 6001,
-      "bytes": 10808443,
-      "sha256": "4dbd1deb607fd414f7d503f077d1d893e03e08af3e877ad2f00e24b53f382502",
+      "items": 6202,
+      "bytes": 11110806,
+      "sha256": "049f84d09ef1d66003e500c52262b47f81a001e665e4c8e103c29f6d6daef8aa",
       "consumer": "ps5-library",
       "replaces": [
         "pfs-catalog",
@@ -20,6 +20,7 @@
         "dlpsgame",
         "evox-blackbox",
         "phoenix-dl-ps5",
+        "padrino-store",
         "ps4-fpkg-collection-catalog"
       ]
     },
@@ -28,8 +29,8 @@
       "name": "Homebrew merged (one entry per repo)",
       "url": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs/homebrew-merged.json",
       "items": 478,
-      "bytes": 363809,
-      "sha256": "d034594f3d8b790eac0adda1ee638e860f95aba984b301700fd489dd8de59084",
+      "bytes": 363823,
+      "sha256": "99ecbc5e1f9ba606d0787c8bd7a794b54136b84f32c4c3b131a76e84d29e291e",
       "consumer": "mirror-only",
       "replaces": [
         "prosperostore",
@@ -43,9 +44,9 @@
       "id": "payloads-merged",
       "name": "Payloads merged (Payload Manager format)",
       "url": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs/payloads-merged.json",
-      "items": 140,
-      "bytes": 82987,
-      "sha256": "a8bf6fd3bdeeee818f34c2eb630b6fe0d0bf3252c634eff794ab7913da9feb15",
+      "items": 141,
+      "bytes": 83589,
+      "sha256": "5ba7c7460cf35f29dd09309141599a6886329ae6146cce8099a3a636ccee5512",
       "consumer": "payload-manager",
       "replaces": [
         "ps5-payloads-atlas",

@@ -1,7 +1,7 @@
 {
   "name": "AICyberGuardian PS5 Catalogs Hub",
   "version": "1.1.0",
-  "generatedAt": "2026-11-27T23:15:27Z",
+  "generatedAt": "2026-11-28T04:13:49Z",
   "rawBase": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs",
   "sources": [
     {
@@ -32,8 +32,8 @@
       "id": "pfs-catalog",
       "name": "PFS Direct Rips",
       "url": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs/pfs.json",
-      "items": 1060,
-      "sha256": "df408500cc29cd0d8c1ee90d74bddd3310a56c089e411968c70fdd28cf156b59",
+      "items": 1063,
+      "sha256": "97882faf98bba69cfd53e7607ba30b84be93ff4f6eebb61eddbdcd62804bdd2d",
       "upstream": "https://pegasus-dl.dev/catalogs/pfs.json"
     },
     {
@@ -53,6 +53,14 @@
       "upstream": "https://raw.githubusercontent.com/Jamzi94/catalog-V2/main/ps5-catalog.json"
     },
     {
+      "id": "padrino-store",
+      "name": "Padrino Store",
+      "url": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs/padrino-store.json",
+      "items": 1528,
+      "sha256": "c9292120fe0363a39d24a0028ac2a4d5a7e06ba943bdb8c693693fc4a9c449f9",
+      "upstream": "https://pegasus-dl.dev/catalogs/padrino-store.json"
+    },
+    {
       "id": "ps4-fpkg-collection-catalog",
       "name": "PS4 FPKG Collection",
       "url": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs/pegasus-ps4-catalog.json",
@@ -67,7 +75,7 @@
       "name": "ProsperoStore",
       "url": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs/prosperostore.json",
       "items": 238,
-      "sha256": "ec37a1520d4f204777f21e1741a04aaa2beb0771bb435c5e422bb37e65e89f73",
+      "sha256": "d5e3117f45708f9198d5f73804f494f398e7a6fe8ce87e56425c8d0e92c46fda",
       "upstream": "https://prosperostore.net/catalog/v1.json",
       "consumer": "prospero-native"
     },
