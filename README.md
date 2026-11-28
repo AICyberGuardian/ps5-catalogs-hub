@@ -23,14 +23,17 @@ Do **not** add homebrew mirrors from `sources-homebrew.json` into PS5 Library.
 
 ```text
 catalogs/                 # Published JSON catalogs (stable flat raw GitHub URLs)
-sources-games.json        # PS5 Library - 8 individual game feeds
+  dlps-edits.json         # Auto delta overlay: net-new direct hoster links from edited dlpsgame posts
+  manual-overrides.json   # Curated browser-resolved links (highest merge priority in games-merged)
+sources-games.json        # PS5 Library - 8 individual external game feeds
 sources-merged.json       # Single-URL merged catalogs (games / homebrew / payloads)
 sources-payloads.json     # Payload Manager (:8084) feed (merged) + upstream list
 sources-homebrew.json     # Prospero + Jobee mirrors (not Library sources)
 sources.json              # Compatibility: games in sources + homebrewMirrors
-scripts/                  # Sync + adapter + merge tooling (catalog_merge.py is pure/unit-tested)
+DLPS_EDITS.md             # Watchlist of recent in-place dlpsgame.com edits (NEEDS_MANUAL / AUTO_ADDED)
+scripts/                  # Sync + adapter + merge + dlps_edits + manual override CLI
 tests/                    # Offline unit tests: python -m unittest discover -s tests -v
-docs/superpowers/         # Spec + implementation plan
+docs/superpowers/         # Specs + implementation plans
 .github/workflows/        # Hourly GitHub Actions sync
 ```
 
@@ -40,11 +43,11 @@ All built hourly by `scripts/catalog_hub_sync.py`, minified JSON, content-idempo
 
 | File | What it is | Measured (2026-11-28) |
 |---|---|---|
-| `catalogs/games-merged.json` | The 8 game feeds in one URL (including Padrino Store). **Only exact duplicate URLs for the same titleId are dropped** (title-ID overlap is never treated as redundancy; mirrors on other hosts stay). Lossless: every `(titleId,url)` pair is preserved. | 23.13 MB -> 11.11 MB; 70,828 -> 46,220 links; 0 pairs lost |
+| `catalogs/games-merged.json` | The 8 game feeds + `manual-overrides.json` (first) + `dlps-edits.json` (direct-link delta overlay from edited `dlpsgame.com` posts) in one URL. **Only exact duplicate URLs for the same titleId are dropped** (title-ID overlap is never treated as redundancy; mirrors on other hosts stay). Lossless: every `(titleId,url)` pair is preserved. | 23.13 MB -> 11.11 MB; 70,833 -> 46,225 links; 6,204 pkgs; 0 pairs lost |
 | `catalogs/homebrew-merged.json` | ProsperoStore + Solanum + RecompStore + AnchorPS5 + Jobee'sLair Homebrew, **one entry per GitHub repo or download URL** (priority in that order; `sources` lists every feed carrying it). AnchorPS5 entries without a live release are pruned. Mirror only - not a PS5 Library source. | 478 entries, 0.36 MB |
 | `catalogs/payloads-merged.json` | ps5-payloads-atlas + PLDMGR_JSON + ps5-payloads-mirror in Payload Manager format, deduped by URL then (name, version). Browse / on-demand only. | 141 payloads, 0.08 MB |
 
-**Use ONE of:** the 8 individual game URLs from `sources-games.json` **or** `games-merged.json` in PS5 Library. Using both re-ingests the same data. Switch helper (dry-run default): `PS5-JB/scripts/migrate_ps5_library_to_merged_games.py`.
+**Use ONE of:** `games-merged.json` (recommended — includes `manual-overrides.json` and `dlps-edits.json` automatically) **or** the 8 individual game URLs from `sources-games.json` (external feeds only; does **not** receive overlays). Using both re-ingests the same data. Switch helper (dry-run default): `PS5-JB/scripts/migrate_ps5_library_to_merged_games.py`.
 
 Payload Manager: Settings -> Manage Sources -> Add Source -> `https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs/payloads-merged.json`.
 
@@ -56,9 +59,23 @@ Payload Manager: Settings -> Manage Sources -> Add Source -> `https://raw.github
 
 Prefer these hub game URLs over ephemeral `file:` snapshots and over direct upstream raw links that can vanish.
 
-## Local sync
+## Local sync & manual overrides
 
 ```powershell
+python scripts/catalog_hub_sync.py
+```
+
+Check [`DLPS_EDITS.md`](DLPS_EDITS.md) for recent in-place edits on `dlpsgame.com` marked `NEEDS_MANUAL` (redirector-gated releases). After resolving hoster links in your browser, add them to `catalogs/manual-overrides.json` and rebuild `games-merged.json`:
+
+```powershell
+python scripts/add_manual_override.py add `
+  --title-id PPSA02572 `
+  --title "Alan Wake 2 Deluxe Edition" `
+  --version 01.200.009 `
+  --region EUR `
+  --password DLPSGAME.COM `
+  --link "Akia=https://akirabox.com/.../file" `
+  --link "Viki=https://vikingfile.com/f/..."
 python scripts/catalog_hub_sync.py
 ```
 

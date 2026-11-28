@@ -159,6 +159,26 @@ class HubConfigTests(unittest.TestCase):
         self.assertTrue(homebrew_feeds.isdisjoint(merge_feeds))
         self.assertIn(("padrino-store.json", "padrino-store"), merge_feeds)
 
+    def test_game_overlays_and_watchlist_wired(self):
+        self.assertEqual(chs.GAME_OVERLAY_PREFIX, (("manual-overrides.json", "manual-overrides"),))
+        self.assertEqual(chs.GAME_OVERLAY_SUFFIX, (("dlps-edits.json", "dlps-edits"),))
+        self.assertEqual(chs.DLPS_EDITS_REPORT.name, "DLPS_EDITS.md")
+        self.assertTrue(hasattr(chs, "build_dlps_edits_and_watchlist"))
+        sample_row = {
+            "id": "games-merged",
+            "name": "Games merged",
+            "filename": "games-merged.json",
+            "items": 10,
+            "bytes": 100,
+            "sha256": "abc",
+            "replaces": [sid for _, sid in chs.GAME_MERGE_ORDER],
+            "overlays": [sid for _, sid in chs.GAME_OVERLAY_PREFIX + chs.GAME_OVERLAY_SUFFIX],
+        }
+        entry = chs._merged_manifest_entry(sample_row, "ps5-library")
+        self.assertEqual(entry["overlays"], ["manual-overrides", "dlps-edits"])
+        self.assertNotIn("dlps-edits", entry["replaces"])
+        self.assertNotIn("manual-overrides", entry["replaces"])
+
 
 if __name__ == "__main__":
     unittest.main()

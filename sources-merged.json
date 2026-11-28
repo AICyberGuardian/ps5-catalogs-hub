@@ -2,16 +2,16 @@
   "name": "AICyberGuardian PS5 Catalogs Hub - Merged (concise single-URL catalogs)",
   "version": "1.0.0",
   "note": "Use ONE of: the individual game feeds in sources-games.json OR games-merged.json. Using both re-ingests the same data. homebrew-merged is a mirror (not a PS5 Library source).",
-  "generatedAt": "2026-11-28T04:13:49Z",
+  "generatedAt": "2026-11-28T05:31:24Z",
   "rawBase": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs",
   "sources": [
     {
       "id": "games-merged",
       "name": "Games merged (exact-URL deduped)",
       "url": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs/games-merged.json",
-      "items": 6202,
-      "bytes": 11110806,
-      "sha256": "049f84d09ef1d66003e500c52262b47f81a001e665e4c8e103c29f6d6daef8aa",
+      "items": 6204,
+      "bytes": 11112003,
+      "sha256": "6949c9faf47d4cde36a1391bd77e1c77cf80b446222700a6660fc24648467fe3",
       "consumer": "ps5-library",
       "replaces": [
         "pfs-catalog",
@@ -22,6 +22,10 @@
         "phoenix-dl-ps5",
         "padrino-store",
         "ps4-fpkg-collection-catalog"
+      ],
+      "overlays": [
+        "manual-overrides",
+        "dlps-edits"
       ]
     },
     {
@@ -46,7 +50,7 @@
       "url": "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs/payloads-merged.json",
       "items": 141,
       "bytes": 83589,
-      "sha256": "5ba7c7460cf35f29dd09309141599a6886329ae6146cce8099a3a636ccee5512",
+      "sha256": "e6884838aa6b837678a776b4d1ab24b4e3de6a04a862a760b5bc305656e2b85c",
       "consumer": "payload-manager",
       "replaces": [
         "ps5-payloads-atlas",

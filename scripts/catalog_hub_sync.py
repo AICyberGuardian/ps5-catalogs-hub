@@ -14,6 +14,7 @@ from typing import Any
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import catalog_merge  # noqa: E402
+import dlps_edits  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
 CATALOGS = ROOT / "catalogs"
@@ -21,6 +22,7 @@ SOURCES_MANIFEST = ROOT / "sources.json"
 SOURCES_GAMES = ROOT / "sources-games.json"
 SOURCES_HOMEBREW = ROOT / "sources-homebrew.json"
 REPORT = ROOT / "SYNC_REPORT.md"
+DLPS_EDITS_REPORT = ROOT / "DLPS_EDITS.md"
 USER_AGENT = "ps5-catalogs-hub/1.0 (+https://github.com/AICyberGuardian/ps5-catalogs-hub)"
 RAW_BASE = "https://raw.githubusercontent.com/AICyberGuardian/ps5-catalogs-hub/main/catalogs"
 
@@ -451,6 +453,11 @@ GAME_MERGE_ORDER: tuple[tuple[str, str], ...] = (
     ("pegasus-ps4-catalog.json", "ps4-fpkg-collection-catalog"),
 )
 
+# Overlays merged into games-merged.json (not external sources-games.json feeds):
+# manual-overrides first so curated labels/versions win; dlps-edits last for net-new direct links.
+GAME_OVERLAY_PREFIX: tuple[tuple[str, str], ...] = (("manual-overrides.json", "manual-overrides"),)
+GAME_OVERLAY_SUFFIX: tuple[tuple[str, str], ...] = (("dlps-edits.json", "dlps-edits"),)
+
 RECOMPSTORE_URL = "https://recompstore.com/catalog.json"
 SOLANUM_URL = "https://raw.githubusercontent.com/Oliv3rmoon/Solanum-Catalog/main/catalog.json"
 SOLANUM_RAW_BASE = "https://raw.githubusercontent.com/Oliv3rmoon/Solanum-Catalog/main"
@@ -502,9 +509,63 @@ def _merged_row(
     }
 
 
+def build_dlps_edits_and_watchlist() -> dict[str, Any]:
+    """Poll open dlpsgame WP REST API (orderby=modified) for net-new direct links + watchlist."""
+    dest = CATALOGS / "dlps-edits.json"
+    baseline_docs = [_load_json(CATALOGS / fn) for fn, _ in GAME_MERGE_ORDER]
+    overrides = _load_json(CATALOGS / "manual-overrides.json")
+    try:
+        posts = dlps_edits.fetch_modified_ps5_posts(pages=2, per_page=100, user_agent=USER_AGENT)
+        overlay, watch_rows, stats = dlps_edits.build_dlps_edits(posts, baseline_docs, overrides)
+        raw = _dump_compact(overlay)
+        changed = write_if_changed(dest, raw)
+
+        now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+        watch_md = dlps_edits.render_watchlist_markdown(watch_rows, generated_at=now)
+        watch_changed = True
+        if DLPS_EDITS_REPORT.exists():
+            existing_md = DLPS_EDITS_REPORT.read_text(encoding="utf-8")
+            if dlps_edits.watchlist_body_equal(existing_md, watch_md):
+                watch_changed = False
+        if watch_changed:
+            write_if_changed(DLPS_EDITS_REPORT, watch_md.encode("utf-8"))
+
+        print(
+            f"[{'UPDT' if changed else 'SAME'}] dlps-edits.json {stats} "
+            f"bytes={len(raw)} watchlist={'UPDT' if watch_changed else 'SAME'}"
+        )
+        return _merged_row(
+            "dlps-edits",
+            "DLPSGame in-place edits (direct hosters overlay)",
+            "dlps-edits.json",
+            "overlay-games",
+            stats["packages_out"],
+            raw,
+            f"{dlps_edits.WP_API_BASE}?categories={dlps_edits.PS5_CATEGORY_ID}&orderby=modified",
+            changed or watch_changed,
+        )
+    except Exception as exc:  # noqa: BLE001 - fail-soft overlay; preserve prior snapshot
+        print(f"[WARN] dlps-edits.json carry-over after WP API error: {exc}")
+        prev_bytes = dest.read_bytes() if dest.exists() else _dump_compact({"name": "DLPSGame In-Place Edits", "version": 1, "packages": []})
+        if not dest.exists():
+            write_if_changed(dest, prev_bytes)
+        prev_doc = _load_json(dest)
+        return _merged_row(
+            "dlps-edits",
+            "DLPSGame in-place edits (direct hosters overlay, carried over)",
+            "dlps-edits.json",
+            "overlay-games",
+            count_items(prev_doc),
+            prev_bytes,
+            f"{dlps_edits.WP_API_BASE}?categories={dlps_edits.PS5_CATEGORY_ID}&orderby=modified",
+            False,
+        )
+
+
 def build_merged_games() -> dict[str, Any] | None:
     docs = []
-    for filename, sid in GAME_MERGE_ORDER:
+    external_ids = {sid for _, sid in GAME_MERGE_ORDER}
+    for filename, sid in GAME_OVERLAY_PREFIX + GAME_MERGE_ORDER + GAME_OVERLAY_SUFFIX:
         doc = _load_json(CATALOGS / filename)
         if isinstance(doc, dict) and doc.get("packages"):
             docs.append((sid, doc))
@@ -518,7 +579,8 @@ def build_merged_games() -> dict[str, Any] | None:
         "games-merged", "Games merged (exact-URL deduped)", "games-merged.json", "merged-games",
         stats["packages_out"], raw, "merge of " + ",".join(s for s, _ in docs), changed,
     )
-    row["replaces"] = [s for s, _ in docs]
+    row["replaces"] = [s for s, _ in docs if s in external_ids]
+    row["overlays"] = [sid for _, sid in GAME_OVERLAY_PREFIX + GAME_OVERLAY_SUFFIX]
     return row
 
 
@@ -585,27 +647,31 @@ def build_merged_payloads() -> dict[str, Any]:
     return row
 
 
+def _merged_manifest_entry(r: dict[str, Any], consumer: str) -> dict[str, Any]:
+    out: dict[str, Any] = {
+        "id": r["id"],
+        "name": r["name"],
+        "url": f"{RAW_BASE}/{r['filename']}",
+        "items": r["items"],
+        "bytes": r["bytes"],
+        "sha256": r["sha256"],
+        "consumer": consumer,
+        "replaces": r.get("replaces", []),
+    }
+    if r.get("overlays"):
+        out["overlays"] = r["overlays"]
+    return out
+
+
 def write_merged_manifests(rows: list[dict[str, Any]]) -> bool:
     by_id = {r["id"]: r for r in rows if r.get("ok")}
 
-    def entry(r: dict[str, Any], consumer: str) -> dict[str, Any]:
-        return {
-            "id": r["id"],
-            "name": r["name"],
-            "url": f"{RAW_BASE}/{r['filename']}",
-            "items": r["items"],
-            "bytes": r["bytes"],
-            "sha256": r["sha256"],
-            "consumer": consumer,
-            "replaces": r.get("replaces", []),
-        }
-
     merged_sources = [
-        entry(by_id[i], c)
+        _merged_manifest_entry(by_id[i], c)
         for i, c in (("games-merged", "ps5-library"), ("homebrew-merged", "mirror-only"), ("payloads-merged", "payload-manager"))
         if i in by_id
     ]
-    payload_sources = [entry(by_id["payloads-merged"], "payload-manager")] if "payloads-merged" in by_id else []
+    payload_sources = [_merged_manifest_entry(by_id["payloads-merged"], "payload-manager")] if "payloads-merged" in by_id else []
     now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     merged_doc = {
         "name": "AICyberGuardian PS5 Catalogs Hub - Merged (concise single-URL catalogs)",
@@ -639,7 +705,7 @@ def main() -> int:
     rows = sync_direct_feeds()
     rows.append(sync_jobee())
     merged_rows = []
-    for builder in (build_merged_games, build_merged_homebrew, build_merged_payloads):
+    for builder in (build_dlps_edits_and_watchlist, build_merged_games, build_merged_homebrew, build_merged_payloads):
         row = builder()
         if row:
             merged_rows.append(row)
